@@ -43,8 +43,8 @@
    <td>A</td>
    </tr>
    <tr>
-   <td>ALUMNO 2</td>
-   <td>A</td>
+   <td>Solis Campos, Estefano Sebastian</td>
+   <td>U202314354</td>
    </tr>
    <tr>
    <td>ALUMNO 3</td>
