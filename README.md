@@ -283,11 +283,6 @@ Este mapa de recorrido está vinculado al User Persona Mariela Vargas.
 En una sesión colaborativa, el equipo mapeó los eventos clave del dominio agrícola desde la perspectiva del agricultor para visualizar el flujo de trabajo completo e identificar los puntos de dolor y las oportunidades de intervención.
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> a89a883019bca5e7da9814d4131a9f32915719f7
 Este ejercicio visual confirmó que el ciclo de detección de necesidad de riego y ejecución es un subdominio crítico, repetitivo y lleno de incertidumbre, validando que es el punto de partida ideal para la solución CultivApp.
 
 ## 2.5. Ubiquitous Language
