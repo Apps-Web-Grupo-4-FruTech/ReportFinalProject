@@ -123,7 +123,7 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
    2.4. [Big Picture Event Storming](#24-big-picture-event-storming)<br>
    2.5. [Ubiquitous Language](#25-ubiquitous-language)<br>
 3. [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)<br>
-   3.1. [User Stories](#31-user-stories)<br>
+   3.1. [To-Be Scenario Mapping](#31-to-be-scenario-mapping)<br>
    3.2. [User Stories](#32-user-stories)<br>
    3.3. [Impact Mapping](#33-impact-mapping)<br>
    3.4. [Product Backlog](#34-product-backlog)<br>
