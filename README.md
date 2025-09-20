@@ -55,8 +55,8 @@
    <td>U202313403</td>
    </tr>
    <tr>
-   <td>ALUMNO 5</td>
-   <td>A</td>
+   <td>Bonifacio Jaramillo, Samuel Jesus</td>
+   <td>U202317269</td>
    </tr>
 
    </table>
