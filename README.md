@@ -284,6 +284,7 @@ En una sesión colaborativa, el equipo mapeó los eventos clave del dominio agr�
 
 
 
+
 Este ejercicio visual confirmó que el ciclo de detección de necesidad de riego y ejecución es un subdominio crítico, repetitivo y lleno de incertidumbre, validando que es el punto de partida ideal para la solución CultivApp.
 
 ## 2.5. Ubiquitous Language
