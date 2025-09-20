@@ -16,7 +16,7 @@ El producto insignia de la startup, CultivApp, es una plataforma integral de sof
 
 | Foto de integrantes | Nombre y Apellidos | Código de estudiante | Conocimiento técnicos y habilidades |
 |---------------------|--------------------|----------------------|-------------------------------------|
-|                     |                    |                      |                                     |
+|  ![xxxe](assets/integrantes/Sergio-Landa.jpeg)    |    Landa Ortiz, Sergio Javier                |        u202311086              |                                     |
 |                     |                    |                      |                                     |
 |                     |                    |                      |                                     |
 |                     |                    |                      |                                     |
