@@ -16,10 +16,12 @@ El producto insignia de la startup, CultivApp, es una plataforma integral de sof
 
 | Foto de integrantes | Nombre y Apellidos | Código de estudiante | Conocimiento técnicos y habilidades |
 |---------------------|--------------------|----------------------|-------------------------------------|
-|  ![xxxe](assets/integrantes/Sergio-Landa.jpeg)    |    Landa Ortiz, Sergio Javier                |        u202311086              |                                     |
+|  ![xxxe](assets/integrantes/Sergio-Landa.jpeg)    |    Landa Ortiz, Sergio Javier                |        u202311086              |   Soy un estudiante de software, cursando actualmente el 5to ciclo, la carrera me interesa mucho ya que siempre aprendo cosas nuevas cada dia, las tecnologias son tantas que nunca te aburres, me considero una persona responsable y me gusta trabajar en equipo.                                  |
+|  ![xxxe](assets/integrantes/Estefano-Solis.jpeg)                   |    Solis Campos, Estefano Sebastian                |      u202314354                |       Soy un estudiante apasionado de la carrera de Ingeniería de Software, actualmente en el quinto ciclo. Me entusiasma aplicar mis conocimientos en el desarrollo de soluciones innovadoras y estoy siempre buscando nuevas oportunidades para aprender y crecer en el mundo de la tecnología.                              |
 |                     |                    |                      |                                     |
 |                     |                    |                      |                                     |
 |                     |                    |                      |                                     |
+
 
 ## 1.2. Solution Profile
 
