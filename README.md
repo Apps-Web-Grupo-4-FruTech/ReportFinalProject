@@ -283,8 +283,112 @@ Este mapa de recorrido está vinculado al User Persona Mariela Vargas.
 En una sesión colaborativa, el equipo mapeó los eventos clave del dominio agrícola desde la perspectiva del agricultor para visualizar el flujo de trabajo completo e identificar los puntos de dolor y las oportunidades de intervención.
 
 
-Este ejercicio visual confirmó que el ciclo de detección de necesidad de riego y ejecución es un subdominio crítico, repetitivo y lleno de incertidumbre, validando que es el punto de partida ideal para la solución CultivApp.
+Este ejercicio visual confirmó que el ciclo de detección de necesidad de riego y ejecución es un subdominio crítico, repetitivo y lleno de incertidumbre, validando que es el punto de partida ideal para la solución CultiConection.
+
+<img src="assets/Event storming.jpg" alt="Big Picture Event Sotrming">
 
 ## 2.5. Ubiquitous Language
 
 Para asegurar una comunicación clara y sin ambigüedades entre los desarrolladores, los stakeholders y, eventualmente, los usuarios, se establece el siguiente glosario de términos del dominio.
+
+<table>
+  <thead>
+    <tr>
+      <th> Término (Ingles)</th>
+      <th> Término (Español)</th>
+      <th> Descripción (Español)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th> Farmers</th>
+      <th> Agricultores </th>
+      <th> Persona que se dedica o trabaja en el ambito de plantar, cuidar y cultivar alimentos </th>
+    </tr>
+    <tr>
+      <th> Crop</th>
+      <th> Cultivo </th>
+      <th> Area de trabajo de los agricultores donde realizan su labor de plantar y cosechar sus alimentos </th>
+    </tr>
+    <tr>
+      <th> Cultivation cycle</th>
+      <th> Ciclo de Cultivo </th>
+      <th> Eventos durante del proceso de un cultivo desde la siembra hasta la cosecha de este mismo </th>
+    </tr>
+    <tr>
+      <th> Organizations</th>
+      <th> Organizaciones </th>
+      <th> Empresas interesadas en brindar sus servicios dentro de la aplicacion teniendo una paga de por medio. </th>
+    </tr>
+    <tr>
+      <th> Harvest</th>
+      <th> Cosecha </th>
+      <th> Producto de extraccion de un cultivo en el momento indicado. </th>
+    </tr>
+    <tr>
+      <th> Sustainability</th>
+      <th> Sostenibilidad </th>
+      <th> Capacidad de gastar menos recursos de los que se generan para el bien ambiental del cultivo. </th>
+    </tr>
+    <tr>
+      <th> Cultivation history</th>
+      <th> Historial de cultivo </th>
+      <th> Registro actualizado que guarda la informacion de los estados y cuidados del cultivo. </th>
+    </tr>
+    <tr>
+      <th> Adviser</th>
+      <th> Asesor </th>
+      <th> Persona enviada por la empresa a evaluar los cultivos registrado en el momento que es necesario. </th>
+    </tr>
+    <tr>
+      <th> Payment gateway</th>
+      <th> Pasarela de pago </th>
+      <th> Proceso de verificacion que presta su servicio para transacciones dentro de la aplicacion. </th>
+    </tr>
+    <tr>
+      <th> Platform</th>
+      <th> Plataforma </th>
+      <th> Sistema digital donde los agricultores y asesores interactúan y  comparten información. </th>
+    </tr>
+    <tr>
+      <th> Alert system</th>
+      <th> Sistema de alertas </th>
+      <th> Mecanismo digital de notificaciones que recuerdan el estado y necesidades del cultivo. </th>
+    </tr>
+    <tr>
+      <th> Cultivation status</th>
+      <th> Estado de cultivo </th>
+      <th> Mecanismo digital de notificaciones que recuerdan el estado y necesidades del cultivo. </th>
+    </tr>
+    <tr>
+      <th> Resources</th>
+      <th> Recursos </th>
+      <th> Medios fisicos que sirven para el mantenimiento correcto de un cultivo. </th>
+    </tr>
+    <tr>
+      <th> Crop evaluation</th>
+      <th> Evaluacion de cultivo </th>
+      <th> Evaluacion de expertos que muestra el estado del cultivo y si es necesario modificar sus caracteristicas. </th>
+    </tr>
+    <tr>
+      <th> Irrigation schedule</th>
+      <th> Calendario de riego </th>
+      <th> Recordatorio apropiado de la cantidad de dias que faltan para que un cultivo sea regado. </th>
+    </tr>
+    <tr>
+      <th> Cultivation area </th>
+      <th> Area de cultivo </th>
+      <th> Limites medidos del cultivo para su evaluacion y delimitacion.</th>
+    </tr>
+    <tr>
+      <th> Performance reports</th>
+      <th> Reportes de rendimiento</th>
+      <th> Analisis documentados de todo la cosecha del cultivo y como puede mejorar. </th>
+    </tr>
+    <tr>
+      <th> Digital Profile</th>
+      <th> Perfil digital</th>
+      <th> Perfil publico en la aplicacion con la informacion del agricultor, caracteristicas, fotos, cultivos registrados visibles para los usuarios. </th>
+    </tr>
+  </tbody>
+</table>
