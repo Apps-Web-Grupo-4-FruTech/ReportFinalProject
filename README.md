@@ -39,8 +39,8 @@
    <th>Código</th>
    </tr>
    <tr>
-   <td>ALUMNO 1</td>
-   <td>A</td>
+   <td>Landa Ortiz, Sergio Javier</td>
+   <td>U202311086</td>
    </tr>
    <tr>
    <td>Solis Campos, Estefano Sebastian</td>
