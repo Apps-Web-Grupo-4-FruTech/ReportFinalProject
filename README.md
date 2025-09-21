@@ -183,6 +183,55 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
 
 ### 4.1.1. General Style Guidelines.
 
+<h3>Branding</h3>
+
+El logo de CultivApp refleja de manera elegante y minimalista la propuesta de valor de la marca en el sector agrícola. Su diseño, basado en una tipografía negra sobre fondo blanco, transmite sobriedad, confianza y profesionalismo, garantizando una excelente legibilidad en cualquier soporte, ya sea digital o físico.
+
+En la parte superior, la figura estilizada de una planta representa la innovación y sostenibilidad, valores fundamentales de la experiencia que CultivApp busca ofrecer.
+
+La composición mantiene un equilibrio armonioso entre modernidad y simplicidad, ideal para una plataforma tecnológica orientada a conectar personas con soluciones agrícolas accesibles, rápidas y ecológicas. La elección de una paleta monocromática refuerza la seriedad de la propuesta.
+
+Con este logo, CultivApp se posiciona como una marca confiable, eficiente y comprometida con la transformación del sector agrícola, adaptándose a las necesidades de estudiantes, profesionales y empresas.
+
+***Logo original***
+
+<img src="/assets/CultivAppLogo.png" alt="CultivAppLogo" width="100" height="100">
+
+<h3>Typography</h3>
+
+La tipografía de nuestra app  refleja dinamismo, innovación y accesibilidad, alineándose con los valores de sostenibilidad y movilidad inteligente que representamos.
+
+La fuente principal será "Montserrat", que por su diseño minimalista y esbelto permite que los usuarios puedan consultar información rápida mientras se desplazan.
+
+Para lograr una jerarquía visual clara, los títulos y subtítulos tendrán un tamaño más prominente que el cuerpo del texto. Los títulos (H1, H2) enfatizan energía y movimiento, mientras que los textos secundarios mantienen un tono amigable y sencillo.
+
+El cuerpo del texto usará un tamaño base adaptable, que garantice lectura sin esfuerzo tanto en pantallas pequeñas (smartphones) como en tablets. Se mantendrá un interlineado aireado y márgenes equilibrados para no saturar la interfaz.
+
+El lenguaje será directo y motivador, usando un tono casual que inspire confianza y fomente la adopción de alternativas de transporte sostenible.
+
+<h3>Colors</h3>
+
+La paleta de colores de nuestra app de micromovilidad eléctrica fue diseñada para reforzar el impacto visual del logo y proyectar dinamismo, sostenibilidad y confianza. El blanco se mantiene como base, representando simplicidad, limpieza y espacios abiertos, facilitando que los elementos clave destaquen sin saturar la vista.
+
+El negro profundo del logo se utiliza en tipografía principal y elementos estructurales, comunicando seriedad y profesionalismo. Para transmitir energía y movimiento, incorporamos un verde lima brillante (#18FA3A) como color de acento, ideal para botones de acción (reservar, iniciar viaje) y mensajes de confirmación. Este tono evoca sostenibilidad y vitalidad, conectando con la misión de promover transporte limpio.
+
+Un gris color (#EEEEEE) complementa la paleta y refuerza la percepción tecnológica de la plataforma, utilizado en íconos interactivos y estados activos. Además, tonos gris claro (#EAEAEA) y gris oscuro (#4F4F4F) equilibran la interfaz, mejorando la legibilidad y jerarquizando la información.
+
+En conjunto, esta paleta crea una identidad moderna, ágil y ecológica, que motiva a los usuarios a adoptar la movilidad eléctrica como su primera opción dentro y fuera del campus.
+
+---
+
+#### Paleta de colores - WeRide
+
+| **Color**        | **Uso**                                                                 | **Código Hex** |
+|------------------|-------------------------------------------------------------------------|---------------|
+| Blanco           | Fondo principal de la interfaz, espacios vacíos, sensación de limpieza y orden. | `#FFFFFF`     |
+| Negro profundo   | Logo, textos principales, íconos y elementos estructurales.              | `#000000`     |
+| Verde energía    | Botones de acción (reservar, iniciar viaje), confirmaciones y mensajes de éxito. | `#18FA3A`     |
+| Gris claro       | Fondos secundarios, separadores, tarjetas de información.                | `#D9D9D9`     |
+| Gris medio       | Texto secundario, íconos inactivos, descripciones y estados deshabilitados. | `#A6A6A6`     |
+
+
 ### 4.1.2. Web Style Guidelines.
 
 ## 4.2. Information Architecture.
@@ -195,13 +244,89 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
 
 ### 4.2.4. Searching Systems.
 
+El sistema integral de CultivApp contará con un **módulo de búsqueda y localización en tiempo real**, que permitirá a los usuarios identificar la ubicación y el estado de sus cultivos, parcelas y recursos agrícolas de manera eficiente. Este sistema se basa en las siguientes características:
+
+**Geolocalización en tiempo real:**  
+Cada parcela o cultivo podrá estar asociada a dispositivos GPS o sensores IoT, que enviarán información actualizada sobre su ubicación y condiciones directamente a la plataforma central.
+
+**Mapa interactivo en la aplicación web y móvil:**  
+La aplicación mostrará un mapa donde los usuarios podrán visualizar la ubicación exacta de sus cultivos, áreas de riego, sensores y otros recursos, diferenciados por tipo y estado.
+
+**Filtros de búsqueda avanzada:**  
+Los usuarios podrán buscar y filtrar información según:
+
+- Tipo de cultivo o recurso.
+- Estado de crecimiento o condición del cultivo.
+- Ubicación geográfica dentro del terreno.
+- Necesidades específicas (riego, fertilización, cosecha, etc.).
+
+**Acciones inmediatas:**  
+Una vez identificado un cultivo o recurso, el usuario podrá acceder rápidamente a su ficha técnica, registrar actividades (riego, fertilización, monitoreo), o programar alertas y recordatorios.
+
+**Optimización para asociaciones y empresas agrícolas:**  
+En el caso de usuarios corporativos, el sistema de búsqueda permitirá visualizar y gestionar múltiples parcelas o cultivos distribuidos en diferentes ubicaciones, facilitando la supervisión y toma de decisiones a gran escala.
+
+Con este enfoque, el sistema de búsqueda de CultivApp se convierte en un **componente esencial para la experiencia del usuario**, asegurando eficiencia en la gestión agrícola y optimizando el uso de los recursos disponibles.
+
 ### 4.2.5. Navigation Systems.
+
+El sistema integral de CultivApp contará con un **módulo de navegación inteligente** que facilitará a los usuarios la gestión y supervisión de sus cultivos, parcelas y recursos agrícolas, optimizando el monitoreo y la toma de decisiones en campo. Este módulo se estructura en las siguientes funciones:
+
+**Guía hacia la parcela o recurso seleccionado:**  
+Una vez seleccionado un cultivo, parcela o recurso en la aplicación, el sistema mostrará la ruta más eficiente desde la ubicación actual del usuario hasta el destino dentro del terreno agrícola, utilizando mapas interactivos en tiempo real.
+
+**Navegación durante el recorrido:**  
+El sistema proporcionará indicaciones para que el usuario se desplace de manera eficiente dentro de la finca o campo, evitando zonas restringidas o de difícil acceso. Para ello, se integrarán APIs de mapas inteligentes como ***Google Maps o Mapbox***, adaptadas a entornos agrícolas.
+
+**Seguridad y recomendaciones en la navegación:**  
+- Alertas sobre zonas de riesgo, áreas en mantenimiento o condiciones adversas (por ejemplo, inundaciones o suelos inestables).
+- Recomendaciones de rutas seguras y óptimas para maquinaria agrícola, personal o vehículos de campo.
+- Opciones de personalización (ruta más corta, más segura o que pase por puntos de interés como sensores o estaciones de riego).
+
+**Gestión de puntos clave y recursos:**  
+La navegación incluirá la localización de puntos estratégicos como almacenes, estaciones de riego, sensores IoT, áreas de carga y descarga, o zonas de acopio, facilitando la logística y el control de recursos.
+
+**Soporte para asociaciones y empresas agrícolas:**  
+En el caso de usuarios corporativos, el sistema de navegación permitirá sugerir rutas entre diferentes parcelas, campos o instalaciones, optimizando la supervisión y el desplazamiento del personal.
+
+En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real, sino que también optimiza la experiencia de gestión agrícola, mejorando la seguridad y eficiencia de las operaciones en campo y reduciendo la incertidumbre en la toma de decisiones.
 
 ## 4.3. Landing Page UI Design.
 
 ### 4.3.1. Landing Page Wireframe.
 
+- Navbar  
+![Navbar](/assets/LandingPage/wireframes/Navbar.png)
+- Hero  
+![Hero](/assets/LandingPage/wireframes/Hero.png)
+- About Us Section.  
+![About](/assets/LandingPage/wireframes/AboutUs.png)
+- Features Section.  
+![Features](/assets/LandingPage/wireframes/Features.png)
+- Pricing Section.
+![Pricing](/assets/LandingPage/wireframes/Pricing.png)
+- Sponsors Section.
+![Sponsors](/assets/LandingPage/wireframes/Sponsors.png)
+- Footer Section.  
+![Footer](/assets/LandingPage/wireframes/Footer.png)
+  
+
 ### 4.3.2. Landing Page Mock-up.
+
+- Navbar  
+![Navbar](/assets/LandingPage/mockups/Navbar.png)
+- Hero  
+![Hero](/assets/LandingPage/mockups/Hero.png)
+- About Us Section.  
+![About](/assets/LandingPage/mockups/AboutUs.png)
+- Features Section.  
+![Features](/assets/LandingPage/mockups/Features.png)
+- Pricing Section.
+![Pricing](/assets/LandingPage/mockups/Pricing.png)
+- Sponsors Section.
+![Sponsors](/assets/LandingPage/mockups/Sponsors.png)
+- Footer Section.  
+![Footer](/assets/LandingPage/mockups/Footer.png)
 
 ## 4.4. Web Applications UX/UI Design.
 
@@ -214,6 +339,8 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 ## 4.5. Web Applications Prototyping.
+
+Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de bocetos visuales o modelos preliminares de una aplicación antes de su implementación completa. 
 
 ## 4.6. Domain-Driven Software Architecture.
 
