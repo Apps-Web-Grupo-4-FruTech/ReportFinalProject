@@ -47,16 +47,16 @@
    <td>U202314354</td>
    </tr>
    <tr>
-   <td>ALUMNO 3</td>
-   <td>A</td>
+   <td>Castro Pariona, Jefferson Ernesto</td>
+   <td>u201822823</td>
    </tr>
    <tr>
    <td>Via Luna, Bruce </td>
    <td>U202313403</td>
    </tr>
    <tr>
-   <td>ALUMNO 5</td>
-   <td>A</td>
+   <td>Bonifacio Jaramillo, Samuel Jesus</td>
+   <td>u202317269</td>
    </tr>
 
    </table>
@@ -72,8 +72,18 @@
 
 <div>
 
-| Version | Fecha | Autor | Descripción de modificación |
-| ------- | ----- | ----- | --------------------------- |
+### Registro de Versiones del Informe
+
+| Versión | Fecha      | Autores                                                                                         | Descripción de modificación                                                                                              |
+| :------ | :--------- | :---------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
+| 1.0     | 14/09/2025 | Estefano-Solis-C                                                                                | Creación del repositorio y estructura inicial del documento.                                                             |
+| 1.1     | 20/09/2025 | Shukaritas, Serkekes2006, samuelbonifacio015, Gaftherman, Estefano-Solis-C                        | Desarrollo de secciones iniciales de los Capítulos II, III y IV (Análisis, Diseño UX/UI y diagramas).                    |
+| 1.2     | 21/09/2025 | Estefano-Solis-C, JeffersonCastroPariona, Serkekes2006                                            | Integración del **Capítulo II: Requirements Elicitation & Analysis**, incluyendo Needfinding y Event Storming.          |
+| 1.3     | 21/09/2025 | Estefano-Solis-C, Serkekes2006                                                                  | Integración del **Capítulo I: Introducción**, detallando Startup Profile, Solution Profile y Lean UX Process.            |
+| 1.4     | 21/09/2025 | Estefano-Solis-C, Shukaritas                                                                    | Integración del **Capítulo III: Requirements Specification**, incluyendo User Stories, Impact Mapping y Product Backlog. |
+| 1.5     | 21/09/2025 | Estefano-Solis-C, samuelbonifacio015                                                              | Integración del **Capítulo IV: Product Design**, abarcando Arquitectura de Información, Diseño UX/UI y prototipado.     |
+| 1.6     | 21/09/2025 | Estefano-Solis-C, samuelbonifacio015                                                              | Integración del **Capítulo V: Product Implementation**, con el desarrollo y evidencias del Sprint 1.                   |
+| 1.7     | 21/09/2025 | Estefano-Solis-C                                                                                | Adición de **Capítulos VI, VII y VIII**: Conclusiones, Bibliografía y Anexos. Actualizaciones finales de diagramas.      |
 
 </div>
 
@@ -85,14 +95,37 @@ URL del repositorio para el proyecto: https://github.com/AgroApp-UPC/Project-Rep
 
 Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrantes         | Tareas Asignadas |
-| ------------------- | ---------------- |
-|          |                  |
-|        |                  |
-|   |                  |
-|             |                  |
-|           |                  |
 
+<table>
+  <thead>
+    <tr>
+      <th> Integrantes</th>
+      <th> Tarea Asignada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th> Landa Ortiz, Sergio Javier</th>
+      <th> Capitulo I, asignacion de 2 entrevistas</th>
+    </tr>
+    <tr>
+      <th> Solis Campos, Estefano Sebastian</th>
+      <th> Capitulo II, asignacion de 2 entrevistas</th>
+    </tr>
+    <tr>
+      <th> Via Luna, Bruce</th>
+      <th> Capitulo III, asignacion de 2 entrevistas, diagrmas C4, diagramas de clase y diagrama de base de datos</th>
+    </tr>
+    <tr>
+      <th> Castro Pariona, Jefferson Ernesto</th>
+      <th> Capitulo IV y V</th>
+    </tr>
+    <tr>
+      <th> Bonifacio Jaramillo, Samuel Jesus</th>
+      <th> Capitulo IV y V</th>
+    </tr>
+  </tbody>
+</table>
 # Contenido
 
 1. [Capítulo I: Introducción](#capítulo-i-introducción)<br>
@@ -176,6 +209,53 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
    6.1 [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)<br>
 7. [Bibliografía](#bibliografía)<br>
 8. [Anexos](#anexos)<br>
+
+# Student Outcome
+
+<table>
+  <thead>
+    <tr>
+      <th> Criterio específico</th>
+      <th> Acciones realizadas</th>
+      <th> Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>5.c1. Trabaja en equipo para proporcionar
+        liderazgo en forma conjunta</th>
+      <th> Landa Ortiz, Sergio Javier:<br>
+            TB1: Realizo el capitulo 21, liderando y señalando la ruta tanto de pensamiento como de desarrollo a la que ira dirigida el proyecto<br><br>
+            Solis Campos, Estefano Sebastian<br>
+            TB1: Desarrollo el capitulo 2, definiendo el orden y sentido de las entrevistas, ademas de la forma de acercarnos a nuestros segmentos objetivos<br><br>
+            Via Luna, Bruce<br>
+            TB1: Desarrollo el capitulo 3, liderando la direccion mediante las user stories, llevando por la guia correcta al cumplimiento de estas en los siguientes capitulos<BR><br>
+            Castro Pariona, Jefferson Ernesto<br>
+            TB1: Realizo el capitulo 4, creando lo direccion y guia visual de la landing page, vital para el desarrollo futuro del proyecto<br><br>
+            Bonifacio Jaramillo, Samuel Jesus<br>
+            TB1: Desarrollo del landing page, forma de direccionar el proyecto al frontend y backend da futuro<br><br>
+      </th>
+      <th> TB1: Como equipo, fortalecimos nuestra comunicación oral adaptándola a distintos contextos y audiencias. Desde la presentación de análisis competitivos y la explicación técnica de procesos, hasta la realización de entrevistas con segmentos objetivos, logramos transmitir ideas con claridad y generar confianza. Esto nos permitió obtener información valiosa, validar la propuesta de CultivApp y asegurar que cada integrante aportara a la construcción de un mensaje efectivo y comprensible para públicos diversos.</th>
+    </tr>
+    <tr>
+      <th> 5.c2. Crea un entorno colaborativo e
+            inclusivo, establece metas, planifica tareas
+            y cumple objetivos</th>
+      <th> Landa Ortiz, Sergio Javier:<br>
+            TB1: Establecia la primera fecha de entregable en el trabajo al ser la parte introductoria, enfocada en la direccion incial del proyecto<br><br>
+            Solis Campos, Estefano Sebastian<br>
+            TB1: Se dedico a crear un ambiente optimo y agil para desarrollar entrevistas, brindando las herramientas para estas<br><br>
+            Via Luna, Bruce<br>
+            TB1: La creacion del product backlog establece una meta para la planificacion de las user stories en el desarrollo del landing page a futuro<BR><br>
+            Castro Pariona, Jefferson Ernesto<br>
+            TB1: Creo un entorno figma y brindo una guia para que colaboremos en el desarrollo creativo de el diseño de la aplicacion<br><br>
+            Bonifacio Jaramillo, Samuel Jesus<br>
+            TB1: Uso el repositorio para permitirnos aportar ideas o codigo bruto al desarrollo del landing page<br><br>
+      </th>
+      <th> TB1: Como grupo, demostramos efectividad en la comunicación escrita al producir documentos claros y estructurados que se adaptaron a distintos públicos. Desde análisis competitivos, needfinding y documentación técnica, hasta perfiles y diseños persuasivos, logramos transmitir tanto aspectos académicos como prácticos. Esto permitió al equipo organizar la información, dejar evidencia de los procesos y presentar CultivApp de manera comprensible y convincente para diversas audiencias.</th>
+    </tr>
+  </tbody>
+</table>
 
 # Capítulo I: Introducción
 
@@ -1880,6 +1960,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 
 ## Conclusiones
 
+- El desarrollo del Trabajo Final 1 para el proyecto FruTech ha permitido establecer una base sólida y bien fundamentada para la creación de una solución AgriTech con un alto potencial de impacto en el sector agrícola peruano. A través de una rigurosa aplicación de metodologías como Lean UX y un profundo análisis del contexto, se ha validado que existe una necesidad crítica y desatendida en el segmento de pequeños y medianos agricultores, quienes carecen de herramientas accesibles para una gestión eficiente del riego.
+
 - El desarrollo del proyecto CultivApp ha permitido establecer una base sólida para la implementación, validación y despliegue de la aplicación de gestión de alquiler de vehículos. A través de este proceso, se han logrado los siguientes resultados clave:
 
 - La configuración del entorno de desarrollo ha sido fundamental para el éxito del proyecto. La implementación de GitHub como plataforma principal de gestión de código fuente, junto con herramientas complementarias como Trello para la gestión de tareas y Figma para el diseño UX/UI, ha facilitado la colaboración efectiva entre los miembros del equipo. La adopción de tecnologías web estándar (HTML, CSS, JavaScript, Vue.js) y Node.js ha proporcionado una base tecnológica robusta y escalable.
@@ -1888,8 +1970,50 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 
 - La matriz de liderazgo y colaboración (LACX) ha sido instrumental en la organización del equipo, permitiendo una distribución clara de responsabilidades mientras se mantiene la colaboración entre todos los miembros. 
 
+- La investigación de la problemática y el análisis competitivo han sido determinantes para definir una estrategia de diferenciación clara: en un mercado de soluciones complejas y costosas, CultivApp se posicionará a través de la simplicidad radical y la asequibilidad. Esta decisión estratégica ha guiado todo el proceso de diseño, desde la arquitectura de la información hasta el diseño de la interfaz de usuario, priorizando siempre la facilidad de uso para un público con limitada familiaridad tecnológica.
+
+- Los artefactos generados, como los User Personas, User Journey Maps y el Product Backlog, aseguran que el desarrollo futuro se mantenga centrado en el usuario y enfocado en resolver los puntos de dolor más significativos. Finalmente, la definición de una arquitectura de software moderna y escalable, utilizando patrones como Domain-Driven Design y el modelo C4, garantiza que la solución no solo será funcional, sino también robusta, mantenible y preparada para crecer en el futuro. El siguiente paso será llevar los prototipos a una fase de validación con agricultores reales para iterar sobre el diseño y comenzar el desarrollo del producto mínimo viable.
 
 ## Bibliografía
+
+### Bibliografía
+
+* [Agricultura peruana: Desafíos para el 2023 | Conexión ESAN](https://www.esan.edu.pe/conexion-esan/agricultura-peruana-desafios-para-el-2023)
+* [¿Qué apoyo recibirán los más de 4 millones de agricultores peruanos en el 2024?](https://www.youtube.com/watch?v=onY0uXgKj20)
+* [El 45% de agua se pierde por canales de riego en mal estado - Infobae](https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/)
+* [Pequeña agricultura comercial: dinámica y retos en el Perú - GRADE](https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/LIBROGRADE_PEQUENAAGRICULTURACOMERCIAL.pdf)
+* [32 de cada 100 productores agropecuarios son mujeres - Noticias](https://www.gob.pe/es/institucion/inei/noticias/1190624-32-out-of-100-agricultural-producers-are-women)
+* [La crisis hídrica: un desafío creciente para la agricultura en Perú - Aquafondo](https://aquafondo.org.pe/la-crisis-hidrica-un-desafio-creciente-para-la-agricultura-en-peru/)
+* [La brecha de infraestructura de riego en el sector agropecuario | Conexión ESAN](https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario)
+* [Desafíos actuales de la sostenibilidad agrícola a pequeña escala - Agrotendencia.tv](https://agrotendencia.tv/agricultura/desafios-actuales-de-la-sostenibilidad-agricola-a-pequena-escala/)
+* [La investigación social sobre el manejo del agua de riego en el Perú: una mirada a conceptos y estudios empíricos - GRADE](https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/EZ-Manejo%20del%20agua%20de%20riego.pdf)
+* [5 Innovaciones Tecnológicas que Están Revolucionando la Agricultura en Perú](https://pev.com.pe/5-innovaciones-tecnologicas-que-estan-revolucionando-la-agricultura-en-peru/)
+* [Análisis espacial de la adopción de tecnologías agrarias en el Perú: una mirada desde el Censo Nacional Agropecuario 2012 - Consorcio de Investigación Económica y Social](https://cies.org.pe/publicaciones/analisis-espacial-de-la-adopcion-de-tecnologias-agrarias-en-el-peru-una-mirada-desde-el-censo-nacional-agropecuario-2012/)
+* [Tecnología en agricultura - El Peruano](https://www.elperuano.pe/noticia/159901-tecnologia-en-agricultura)
+* [La mediana y pequeña agricultura | Lampadia](https://www.lampadia.com/analisis/desarrollo/la-mediana-y-pequena-agricultura/)
+* [Desafíos del desarrollo rural en el Perú - Consorcio de Investigación Económica y Social](https://cies.org.pe/wp-content/uploads/2016/07/dyp-02.pdf)
+* [SpaceAG | Te Acompañamos en la Digitalización de la Agricultura](https://www.spaceag.co/)
+* [Leading the Digitalization of Agriculture - SpaceAG](https://www.spaceag.co/en/home)
+* [SIMA - Sistema Integrado de Monitoreo Agrícola](https://sima.ag/)
+* [Integrated Agricultural Monitoring System - SIMA](https://sima.ag/en)
+* [Chilean-developed virtual assistant makes farming operations more efficient](https://www.agwatersummit.com/chilean-developed-virtual-assistant-makes-farming-operations-more-efficient/?lang=en)
+* [Orgullo nacional: Revolucionaria startup chilena Instacrops brilla entre las 200 startups más prometedoras del mundo - La Tercera](https://www.latercera.com/emprendimiento/noticia/orgullo-nacional-revolucionaria-startup-chilena-instacrops-brilla-entre-las-200-startups-mas-prometedoras-del-mundo/)
+* [Space AG, the Peruvian agricultural startup coming to Chile in 2022 - InvestChile Blog](https://blog.investchile.gob.cl/space-ag-the-peruvian-agricultural-startup-coming-to-chile-in-2022)
+* [SIMA (Sistema Integrado de Monitoreo Agricola) - ASAP](https://climateasap.org/directory/sima-sistema-integrado-de-monitoreo-agricola/)
+* [Smart Agricultural Solutions - Instacrops.AI](https://www.instacrops.com/instadrop)
+* [SpaceAG partners with Netafim to develop software that helps high-value crop growers optimize their drip-irrigation systems in Peru](https://www.spaceag.co/blog/spaceag-netafim-peru-drip-irrigation-systems)
+* [View From the Sky Helps Predict Crop Yields | NASA Spinoff](https://spinoff.nasa.gov/View_From_the_Sky_Helps_Predict_Crop_Yields)
+* [Instacrops.AI - Smart Agricultural Solutions](https://www.instacrops.com/)
+* [Producción nacional agropecuaria creció 4.47% entre enero y noviembre de 2024](https://agraria.pe/noticias/produccion-nacional-agropecuaria-crecio-4-47-entre-enero-y-n-38328)
+* [El 34.4% de los productores agropecuarios en Perú se concentran en el rango de edad de entre 50 y 64 años - Agraria.pe](https://agraria.pe/noticias/el-34-4-de-los-productores-agropecuarios-en-peru-se-concentr-39858)
+* [Tecnología - Agroideas-Midagri](https://agroideas.gob.pe/project/tecnologia/)
+* [Advierten fallas en canal de riego destinado a 30 mil agricultores de tres distritos de Moyobamba - Noticias - Contraloría General de la República - Plataforma del Estado Peruano](https://www.gob.pe/institucion/contraloria/noticias/1108057-advierten-fallas-en-canal-de-riego-destinado-a-30-mil-agricultores-de-tres-distritos-de-moyobamba)
+* [Acceder al Incentivo de Adopción de Tecnología del Programa de Compensaciones para la Competividad](https://www.gob.pe/11091-acceder-al-incentivo-de-adopcion-de-tecnologia-del-programa-de-compensaciones-para-la-competividad)
+* [Abril 2024 - Instituto Nacional de Estadística e Informática - INEI](https://m.inei.gob.pe/media/MenuRecursivo/boletines/06-informe-tecnico-produccion-nacional-abril-2024.pdf)
+* [Julio 2024 - Instituto Nacional de Estadística e Informática - INEI](https://www.inei.gob.pe/media/MenuRecursivo/boletines/informe-de-producion.pdf)
+* [Empresas nativas digitales impulsan agro basado en datos e IA en Latinoamérica](https://news.microsoft.com/es-xl/empresas-nativas-digitales-impulsan-un-agro-basado-en-datos-e-ia-en-latinoamerica/)
+* [Las apps más útiles para el desarrollo de la agricultura - Mundoagro](https://mundoagro.io/cl/las-apps-mas-utiles-para-el-desarrollo-de-la-agricultura/)
+* [Agricultura peruana: Desafíos para el 2023 - Tecfresh](https://tecfresh.com/agricultura-peruana-desafios-para-el-2023/)
 
 ### Herramientas y Tecnologías
 
@@ -1921,3 +2045,5 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 [Repositorio de LandingPage](https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page)
 
 [Canvas](https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+[Enlace link exposición](sigma)
