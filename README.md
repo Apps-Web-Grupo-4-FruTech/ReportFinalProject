@@ -388,6 +388,10 @@ Servicios de la aplicación.
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
+These are diagrams that visually represent the path a user takes within a web application — from the first interaction to completing a specific goal (for example, signing up, purchasing, or submitting a form).
+
+![FlowUsersDiagram](/assets/WebApplication/UserFlows/Frame%206.png)
+
 ## 4.5. Web Applications Prototyping.
 
 Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de bocetos visuales o modelos preliminares de una aplicación antes de su implementación completa. 
