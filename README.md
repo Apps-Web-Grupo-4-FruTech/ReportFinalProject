@@ -392,6 +392,8 @@ Servicios de la aplicación.
 
 Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de bocetos visuales o modelos preliminares de una aplicación antes de su implementación completa. 
 
+[Ver video de Landing Page en Google Drive](https://drive.google.com/file/d/1qCTM9e2YOJkWyPt9eAu8up6ohTb8QGHl/view?usp=sharing)
+
 ## 4.6. Domain-Driven Software Architecture.
 
 Esta parte se expone la arquitectura de software del proyecto CultiConection. La propuesta fue elaborada con un enfoque orientado al dominio, de manera que los elementos más relevantes de la plataforma estén correctamente representados y respondan a los requerimientos de los usuarios. Seguidamente, se incluyen diagramas esenciales que ilustran la interacción entre los distintos componentes del sistema y los actores externos.
