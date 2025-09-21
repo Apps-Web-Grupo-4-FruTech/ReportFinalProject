@@ -189,11 +189,31 @@ Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos d
 
 ---
 
-
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+El objetivo del primer Sprint fue el desarrollo e implementación de la Landing Page. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el
+siguiente:
+
+1. Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page ![GithubOrg](/assets/organization.png)
+2. Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images. ![Commits-example](/assets/commits-example.png)
+3. Finalmente, se implementó GitHub Pages en el repositorio de GitHub y se desplegó la Landing Page, la que se puede visitar en el siguiente link: https://apps-web-grupo-4-frutech.github.io/Landing-Page/
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
+
+- Insight Landing Page:
+![InsightLP](/assets/insightLP.png)
+
+- Insight Report
+![InsightR](/assets/insightR.png)
+
 ## Conclusiones
 ## Bibliografía
 ## Anexos.
