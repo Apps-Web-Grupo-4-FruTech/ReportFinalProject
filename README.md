@@ -79,10 +79,10 @@ Para validar nuestras suposiciones y profundizar en las necesidades reales de nu
 - *Segmento Objetivo:* Agricultores de pequeña escala
 - *Edad:* 25
 - *Distrito:* Pueblo Libre, Perú
-- *Inicio de la entrevista:* ----
-- *Duración:* ---
-- *Screenshot del cuadro de video:* ![Entrevista1](assets/entrevista1s1.png)
-- *URL del video (Microsoft Stream):* _[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314354_upc_edu_pe/EZPHJxrTayJNhK0ds8zmIkIBPOFTdLdbcGc0kOlsAPzgdw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Kh3XFY)\_
+- *Inicio de la entrevista:* 0:15 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista1](assets/interviews_screenshots/Interview_1.1.png)
+- *URL del video (Microsoft Stream):* [Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
 
 *Resumen:*
 
@@ -94,14 +94,30 @@ Para validar nuestras suposiciones y profundizar en las necesidades reales de nu
 - *Segmento Objetivo:* Agricultores de pequeña escala
 - *Edad:* 28 años
 - *Distrito:* Cercado de Lima, Perú
-- *Inicio de la entrevista:* ----
-- *Duración:* ----
-- *Screenshot del cuadro de video:* ![Entrevista3](resources/entrevista3s1.png)
-- *URL del video (Microsoft Stream):* _[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/EeafUKILLfdHpZwk0nw2p34BgPkvxITk_-EUY3ugoWZoDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJ4UUe)\_
+- *Inicio de la entrevista:* 3:37 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista2](assets/interviews_screenshots/Interview_2.1.png)
+- *URL del video (Microsoft Stream):* [Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
 
 *Resumen:*
 
 - Carmen Díaz, de 28 años, cuenta como quiere mejorar su salud incluyendo alimentos cultivados por ella misma a su dieta diaria. Mencionacomo mucha de la informacion que usa es de internet pero que no esta segura si se adapta al entorno de su ciudad. Nunca antes habia practicado la agricultura, pensando que solo era a gran escala en cultivos de hectarias de longitud, le interesa que la aplicacion le proporcione ayudas como fechas de regado o cambios de productos para un mejor cuidado y una cosecha mas productiva a futuro.
+
+##### Datos del Entrevistado #3
+
+- *Nombre completo:* Alejandro Jacinto
+- *Segmento Objetivo:* Agricultores de pequeña escala
+- *Edad:* 25 años
+- *Distrito:* Puente Piedra, Lima
+- *Inicio de la entrevista:* 8:14 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista3](assets/interviews_screenshots/Interview_3.1.png)
+- *URL del video (Microsoft Stream):* [Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+
+*Resumen:*
+
+Alejandro, un joven aficionado a la agricultura y residente cerca de Lima, comentó que cultiva principalmente maíz, papa y algunas hortalizas como lechuga y tomate para el consumo familiar. Explicó que el riego lo realiza de forma intuitiva, observando la tierra y el estado de las hojas, mientras que la fertilización la maneja con compost casero preparado con restos de comida y hojas secas, aplicándolo de manera esporádica. Entre las principales dificultades que enfrenta mencionó la falta de agua y la presencia de plagas como pulgones y hormigas. Mostró interés en una aplicación que le brinde recomendaciones basadas en datos como tipo de suelo, agua o luz solar, además de recibir alertas prácticas sobre riego o nutrientes y recordatorios, ya que suele olvidar algunas tareas de cuidado. Finalmente, señaló que aunque no es experto en tecnología, se siente cómodo usando aplicaciones sencillas como WhatsApp, Facebook o Instagram, y que estaría dispuesto a dedicar solo unos minutos al día para registrar información sobre sus cultivos.
+
 
 ### Segmento objetivo #2: Agricultores de mediana escala (producción comercial local y regional)
 
@@ -111,21 +127,54 @@ Para validar nuestras suposiciones y profundizar en las necesidades reales de nu
 - *Segmento Objetivo:* Agricultor de mediana escala
 - *Edad:* 52 años
 - *Distrito:* Caraz, Ancash, Perú
-- *Inicio de la entrevista:* ----
-- *Duración:* ----
-- *Screenshot del cuadro de video:* ![Entrevista1](resources/entrevista1s2.png)
-- *URL del video (Microsoft Stream):* _[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/EeafUKILLfdHpZwk0nw2p34BgPkvxITk_-EUY3ugoWZoDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJ4UUe)\_
+- *Inicio de la entrevista:* 12:03 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista1](assets/interviews_screenshots/Interview_1.2.png)
+- *URL del video (Microsoft Stream):* [Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
 
 *Resumen:*
 
 - Walter Sanchez, de 52 años, ingeniero agronomo al cuidado de diferentes cultivos de diferentes empresas, principalmente productoras de arandanos y sugar pees, menciona como su mayor problema es que mantener un registro de los diferentes cultivos en diferentes fechas resulta complicado debido a que no se suele manejar registros organizados, siendo muchas veces registros porco ortodoxos o informales lo cual desemboca en cosechas menos productivas. Sobre todo menciona como quisiera que esta posible aplicacion sea facil e intuitiva de usar para los agricultores, ya que un problema de trabajar en provincia, en sus palabras, es que la automatizacion resulta dificil debido a la falta de profesionales.
 
+##### Datos del Entrevistado #2
+
+- *Nombre completo:* Georgette Revolledo
+- *Segmento Objetivo:* Agricultor de mediana escala
+- *Edad:* 35 años
+- *Distrito:* Caraz, Ancash, Perú
+- *Inicio de la entrevista:* 18:35 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista2](assets/interviews_screenshots/Interview_2.2.png)
+- *URL del video (Microsoft Stream):* [Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+
+*Resumen:* Georgette Revolledo, de 35 años, administradora de las parcelas agrícolas de su familia, cultiva hortalizas de ciclo corto como lechugas, espinacas y fresas. Explica que el riego en sus parcelas es completamente manual y se decide basado en la experiencia y la observación directa en el campo, siendo su mayor costo operativo la mano de obra necesaria para esta supervisión. Considera que una solución para automatizar el riego le permitiría optimizar costos y tiempo, y le parece fundamental poder recibir alertas de humedad en su celular. En lugar de una gran inversión inicial, ve el modelo de suscripción mensual como una opción "mucho más adecuada y moderna".
+
+
+##### Datos del Entrevistado #3
+
+- *Nombre completo:* Javier Leon
+- *Segmento Objetivo:* Agricultor de mediana escala
+- *Edad:* 50 años
+- *Distrito:* Caraz, Ancash, Perú
+- *Inicio de la entrevista:* 23:30
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista3](assets/interviews_screenshots/Interview_3_2.png)
+- *URL del video (Microsoft Stream):* [Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+
+*Resumen:* Javier León, un agricultor de 50 años dedicado a la producción comercial en una extensión de aproximadamente 3,000 metros cuadrados en la que cultiva yuca, plátano, manzana, palta y algunos cítricos, explicó que actualmente controla el riego y los nutrientes basándose en la memoria, ajustando la frecuencia según el clima, y utilizando fertilizantes o abono cada 15 días o un mes. Para registrar la información recurre únicamente a su memoria o a una pizarra en el campo, lo que en ocasiones le genera problemas al olvidar fechas importantes de riego o fertilización. Entre las principales dificultades señaló la falta de un sistema confiable para llevar el control de sus labores agrícolas. Manifestó que le sería de gran utilidad recibir recomendaciones clasificadas por riesgo, generar reportes básicos de consumo de agua o rendimiento esperado, y contar con alertas preventivas que le recuerden tareas como riego, fertilización o fumigación. Indicó que estaría dispuesto a ingresar datos en la aplicación de forma interdiaria, valorando especialmente la inclusión de un calendario de tareas agrícolas. Finalmente, expresó que consideraría pagar una suscripción para acceder a reportes y recomendaciones avanzadas, ya que la tecnología le permitiría estar más ordenado y planificar mejor el manejo de sus cultivos.
+
+
 ### 2.2.3. Análisis de entrevistas
 
 **Análisis del Segmento 1 (Pequeña Escala):**
+
+**Hallazgos:**
+
 El 100% de los entrevistados basa sus decisiones de riego en métodos visuales y tradicionales, mostrando una alta dependencia de factores externos incontrolables (clima, turnos de agua). El principal punto de dolor es el riesgo de pérdida de cosecha y los costos directos (combustible, agua comprada). Existe un 100% de escepticismo inicial hacia la tecnología, combinado con curiosidad. La barrera principal es el costo percibido y la durabilidad del equipo. La simplicidad no es un deseo, es un requisito indispensable. La propuesta de valor más resonante es la reducción del riesgo y el ahorro directo.
 
 **Análisis del Segmento 2 (Mediana Escala):**
+
+**Hallazgos:**s
 El 100% de los entrevistados ya utiliza alguna forma de riego tecnificado, pero carece de herramientas de monitoreo y automatización de datos. Los puntos de dolor clave son la optimización de costos (mano de obra, energía) y la mejora de la calidad del producto final para cumplir con los estándares del mercado. Hay un 100% de apertura a la tecnología como una inversión estratégica. Valoran los datos, los reportes y la capacidad de gestionar la operación de forma más eficiente y remota. La propuesta de valor más atractiva es la optimización de la rentabilidad y la eficiencia operativa. El modelo de suscripción es bien recibido.
 
 ## 2.3. Needfinding
