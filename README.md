@@ -223,7 +223,7 @@ En esta sección se elaboran los User Journey Maps para cada User Persona defini
 Este mapa de recorrido está vinculado al User Persona Javier Quispe.
 **Escenario:** "Enfrentando una semana sin lluvia"
 
-![User Journey Map Javier Quispe](assets/user-journey-javier/user-journey-javier.png)
+![User Journey Map Javier Quispe](assets/user-journey-map/user-journey-map-javier-quispe.png)
 
 **Resumen del Recorrido:**
 -   **Fases:** El viaje de Javier se divide en cinco fases emocionales y de acción: Preocupación, Verificación Manual, Decisión Difícil, Riego Costoso e Incertidumbre.
@@ -237,7 +237,8 @@ Este mapa de recorrido está vinculado al User Persona Javier Quispe.
 Este mapa de recorrido está vinculado al User Persona Mariela Vargas.
 **Escenario:** "Programando el riego semanal"
 
-![User Journey Map Mariela Vargas](assets/user-journey-mariela/user-journey-mariela.png)
+![User Journey Map Mariela Vargas](assets/user-journey-map/user-journey-map-mariela-vargas.png)
+
 
 **Resumen del Recorrido:**
 -   **Fases:** El recorrido de Mariela es un ciclo de gestión: Planificación, Delegación, Supervisión, Verificación y Ajuste.
@@ -250,82 +251,11 @@ Este mapa de recorrido está vinculado al User Persona Mariela Vargas.
 
 #### Empathy Map: Javier Quispe
 
-![Empathy Map Javier Quispe](assets/empathy-map-javier/empathy-map-javier.png)
-
--   **1. WHO ARE WE EMPATHIZING WITH?**
-    Javier, 45, agricultor de subsistencia en Ayacucho. Heredó 3 hectáreas para cultivar papas nativas. Su ingreso es modesto y variable, y busca asegurar el sustento de su familia.
--   **2. WHAT DO THEY NEED TO DO?**
-    -   Asegurar la cosecha del año para alimentar a su familia.
-    -   Reducir los costos de riego para obtener algo de ganancia.
-    -   Evitar que las plantas mueran por sequía o exceso de agua.
--   **3. WHAT DO THEY SEE?**
-    -   El cielo sin nubes y la tierra cada vez más seca.
-    -   Los precios de los insumos (combustible, etc.) subiendo en el mercado.
-    -   Otros agricultores en la misma situación de incertidumbre.
--   **4. WHAT DO THEY SAY?**
-    "La tierra no miente", "Ojalá llueva pronto", "Está muy caro todo".
--   **5. WHAT DO THEY DO?**
-    -   Trabaja en el campo de sol a sol.
-    -   Camina hasta su parcela solo para verificar la humedad de la tierra.
-    -   Conversa con otros agricultores para compartir experiencias.
--   **6. WHAT DO THEY HEAR?**
-    -   El pronóstico del tiempo en la radio, que a menudo no es preciso.
-    -   Quejas de otros agricultores sobre la falta de agua y los altos costos.
-    -   Consejos tradicionales de sus vecinos sobre cómo regar.
--   **7. WHAT DO THEY THINK & FEEL?**
-    -   **Piensa:** "¿Y si se malogra mi cosecha? ¿Cómo pagaré la escuela de mis hijos? Mis padres sabían cuándo regar mirando las nubes, yo ya no."
-    -   **Siente:** Preocupación, orgullo por su trabajo, cansancio físico y desconfianza hacia la tecnología.
--   **PAINS**
-    -   Miedo a la sequía y pérdida de cosecha.
-    -   Alto costo de los insumos (agua, combustible).
-    -   Falta de control sobre su producción.
-    -   Incertidumbre y estrés constante.
--   **GAINS**
-    -   La seguridad de tener comida para su familia.
-    -   Un poco de dinero extra de la venta de excedentes.
-    -   El respeto de su comunidad.
-    -   Tener tranquilidad y menos preocupaciones.
+![Empathy Map Javier Quispe](assets/empathy-map/empathy-map-javier-quispe.png)
 
 #### Empathy Map: Mariela Vargas
 
-![Empathy Map Mariela Vargas](assets/empathy-map-mariela/empathy-map-mariela.png)
-
--   **1. WHO ARE WE EMPATHIZING WITH?**
-    Mariela, 38, ingeniera agrónoma que gestiona la finca familiar de 15 hectáreas en Ica. Cultiva palta Hass para exportación y está orientada a la eficiencia y la tecnología.
--   **2. WHAT DO THEY NEED TO DO?**
-    -   Maximizar el rendimiento por hectárea para ser competitiva.
-    -   Cumplir con los exigentes estándares de calidad de exportación.
-    -   Optimizar y reducir los costos operativos (agua, energía).
--   **3. WHAT DO THEY SEE?**
-    -   Reportes y dashboards de producción en su laptop.
-    -   Personal que comete errores en el riego por falta de datos.
-    -   La calidad (o falta de ella) en la fruta al momento de la cosecha.
-    -   Nuevas tecnologías en las fincas de sus competidores.
--   **4. WHAT DO THEY SAY?**
-    "Necesito optimizar cada recurso", "Los datos son clave para competir", "No podemos permitirnos errores de calidad".
--   **5. WHAT DO THEY DO?**
-    -   Usa apps de banca y software de gestión.
-    -   Lee informes del sector y asiste a ferias internacionales.
-    -   Capacita constantemente a su personal.
-    -   Supervisa manualmente las parcelas para verificar el riego.
--   **6. WHAT DO THEY HEAR?**
-    -   Exigencias de los compradores sobre la calidad y el calibre de la palta.
-    -   Recomendaciones de expertos en ferias agrícolas.
-    -   Feedback de su personal sobre dificultades en el campo.
-    -   Noticias sobre nuevas tendencias en AgriTech.
--   **7. WHAT DO THEY THINK & FEEL?**
-    -   **Piensa:** "¿Cómo puedo hacer la operación más eficiente? ¿Estoy tomando las decisiones correctas? Necesito ver todo mi campo en un solo lugar."
-    -   **Siente:** Presión por los resultados, motivación, frustración por las ineficiencias y pasión por la agronomía.
--   **PAINS**
-    -   Perder tiempo en tareas operativas repetitivas.
-    -   Falta de datos integrados para el análisis.
-    -   Dependencia de personal clave para el riego.
-    -   Riesgo de no cumplir con la calidad de exportación.
--   **GAINS**
-    -   Mejorar la rentabilidad del negocio.
-    -   Tener más tiempo para la estrategia y el crecimiento.
-    -   Tomar decisiones basadas en datos con confianza.
-    -   Ser reconocida como una productora innovadora.
+![Empathy Map Mariela Vargas](assets/empathy-map/empathy-map-mariela-vargas.png)
 
 ## 2.4. Big Picture EventStorming
 
