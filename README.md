@@ -238,9 +238,45 @@ En conjunto, esta paleta crea una identidad moderna, ágil y ecológica, que mot
 
 ### 4.2.1. Organization Systems.
 
+Para la **landing page** de CultivApp, se ha optado por una estructura jerárquica para ambos segmentos de usuarios, ya que se cuenta con una barra de navegación superior que dirige a diferentes secciones, cada una encapsulando información relevante y relacionada.
+
+Para el proceso de inicio de sesión o creación de cuenta, se utiliza una organización lineal, permitiendo que el usuario avance paso a paso a medida que completa los datos requeridos hasta finalizar el registro o acceso.
+
+Dentro de la aplicación principal, se mantiene una organización jerárquica para separar y encapsular las distintas funcionalidades, independientemente del tipo de usuario. Esto asegura que, aunque los usuarios tengan diferentes necesidades y accesos, la estructura de la aplicación sea coherente y fácil de navegar.
+
+#### Agricultor:
+Para los **agricultores**, la funcionalidad principal es la gestión de cultivos y parcelas. Por ello, la organización jerárquica permite agrupar subfuncionalidades como ***el registro de nuevos cultivos, monitoreo de parcelas, historial de actividades y notificaciones***, todas relacionadas con la gestión agrícola.
+
+#### Asociación o Empresa:
+En el caso de **asociaciones o empresas agrícolas**, también se emplea una organización jerárquica para gestionar múltiples parcelas, usuarios y reportes. Además, se pueden acceder a funcionalidades específicas como ***la supervisión de cultivos, generación de informes y administración de usuarios asociados***.
+
+Finalmente, para funcionalidades comunes como la edición de perfil, gestión de notificaciones o cierre de sesión, se mantiene la organización jerárquica, asegurando que todas estas opciones estén claramente segmentadas y accesibles para todos los usuarios.
+
 ### 4.2.2. Labeling Systems.
 
 ### 4.2.3. SEO Tags and Meta Tags
+
+**Titulo:**
+```html
+<title>CultivApp</title>
+```
+
+**Codificación de carácteres:**
+```html
+<meta charset="utf-8">
+```
+
+**Descripción:**
+```html
+<meta name="description" content="CultivApp is a web application focused on Advanced IoT technology for smart crop monitoring.">
+```
+
+**Autor y Derechos de Autor:**
+```html
+<meta name="author" content="CultiConection">
+<meta name="copyright" content="Copyright CultiConection team" />
+```
+
 
 ### 4.2.4. Searching Systems.
 
@@ -293,6 +329,8 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 
 ## 4.3. Landing Page UI Design.
 
+![LandingPageUI](/assets/LandingPageUI.png)
+
 ### 4.3.1. Landing Page Wireframe.
 
 - Navbar  
@@ -332,9 +370,23 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 
 ### 4.4.1. Web Applications Wireframes.
 
+Diseño para visualizar la edición de perfil y cuentas de usuario.
+![EditProfile](/assets/WebApplication/wireframes/EditProfile.png)
+![ChangePassword](/assets/WebApplication/wireframes/ChangePassword.png)
+
+Servicios de la aplicación.
+![Services](/assets/WebApplication/wireframes/Services.png)
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 ### 4.4.2. Web Applications Mock-ups.
+![Mockup1](/assets/WebApplication/mockups/US-01_%20Registro%20de%20cuenta.png)
+![Mockup2](/assets/WebApplication/mockups/US-02_%20Inicio%20de%20Sesión.png)
+![Mockup3](/assets/WebApplication/mockups/US-03_%20Recuperar%20Contraseña.png)
+![Mockup4](/assets/WebApplication/mockups/US-04_%20Editar%20perfil.png)
+![Mockup5](/assets/WebApplication/mockups/US05_%20Registrar%20cultivos.png)
+![Mockup6](/assets/WebApplication/mockups/US09_%20Recieving%20diagnostics%20cultivation.png)
+
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
