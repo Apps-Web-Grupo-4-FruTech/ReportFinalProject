@@ -135,35 +135,7 @@ Hemos observado que esta situación conduce a un ciclo vicioso: el riego inefici
 
 #### 1.2.2.4. Lean UX Canvas
 
-| 1. Business Problem                                                                 | 2. Business Outcomes                                                                 |
-|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Gestión ineficiente de recursos hídricos en la agricultura de pequeña escala en Perú. | Reducción del consumo de agua en al menos 25% por usuario.                           |
-| - Desperdicio de hasta un 45% de agua.                                              | Alcanzar 100 agricultores suscritos en los primeros 6 meses.                         |
-| - Baja productividad por riego inadecuado.                                          | Tasa de adopción del 90% y uso diario > 75% en el piloto.                            |
-| - Baja rentabilidad que impide inversión en tecnología.                             |                                                                                      |
-
-| 3. User & Customers                                                                 | 4. User Benefits                                                                     |
-|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| **Segmento 1:** Agricultores de pequeña escala (<5 ha). Buscan seguridad alimentaria. Baja alfabetización digital. | **Tranquilidad y Control:** Eliminar la incertidumbre de cuándo y cuánto regar.      |
-| **Segmento 2 (Inicial):** Agricultores de mediana escala (5-20 ha). Orientación a la rentabilidad y abiertas a la tecnología. | **Ahorro de Recursos:** Reducir costos de agua, energía y mano de obra.              |
-|                                                                                     | **Mejora de Cosechas:** Aumentar la calidad y rendimiento del producto final.        |
-
-| 5. Solutions                                                                        | 6. Hypotheses                                                                        |
-|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| **Hardware (Kit IoT):** Sensor de humedad y actuador de riego de fácil instalación y bajo costo. | **H1:** Creemos que al dar datos de humedad en tiempo real, lograremos que los agricultores reduzcan el consumo de agua en un 25%. |
-| **Software (App Web):**                                                                          | **H2:** Creemos que con un modelo de suscripción de bajo costo, superaremos la barrera económica y llegaremos a 100 agricultores en 6 meses. |
-| - Dashboard Visual: Interfaz simple con códigos de color para estados de humedad.                |                                                                                      |
-| - Control Remoto: Botón de un clic para activar/desactivar riego.                                |                                                                                      |
-| - Alertas Push: Notificaciones automáticas cuando se requiere riego.                             |                                                                                      |
-| - Historial: Registro simple de riegos.                                                          |                                                                                      |
-
-| 7. What's the most important thing we need to learn first?                          | 8. What's the least amount of work we need to do to learn the most important thing?  |
-|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| ¿Están los agricultores dispuestos a confiar y adoptar una solución tecnológica para una tarea tan crítica como el riego? | **Proyecto Piloto con MVP:**                                                         |
-| ¿Pueden confiar suficiente en la solución como para pagar una suscripción mensual recurrente? | - Construir un prototipo funcional (sensor + app básico).                            |
-|                                                                                     | - Seleccionar un grupo piloto (5-10 agricultores).                                   |
-|                                                                                     | - Implementar y probar de forma gratuita por 1-2 meses.                              |
-|                                                                                     | - Validar con encuestas y observar el uso para medir el valor percibido.             |
+![xxxe](assets/integrantes/Lean-UX.jpg)
 
 ## 1.3. Segmentos objetivo
 
