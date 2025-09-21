@@ -143,7 +143,8 @@ Los aspectos considerados en este Sprint incluyen: diseño de la landing page, d
 | Bonifacio, Samuel                     | samuelbonifacio015      | L                   | L                       | L                   | L                      |
 | Castro, Jefferson                      | JeffersonCastroPariona     | C                   | L                        | C                   | C                      |
 | Via, Bruce                             | Shukaritas            | C                   | C                        | L                   | C                      |                     |
-| Solis, Estefano                        | Serkekes2006       | C                   | C                        | C                   | C                      |
+| Solis, Estefano                        | Estefano-Solis-C       | C                   | C                        | C                   | C                      |
+| Landa, Sergio                        | Serkekes2006       | C                   | C                        | C                   | C                      |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
@@ -158,7 +159,7 @@ Esta organización permite una asignación clara de responsabilidades y fomenta 
 | US01 | Landing Page                 | Desarrollo e implementación de la estructura y estilos de la landing page. Debe ser responsive.  | 3                  | Samuel Bonifacio           | Done          |
 | US02 | Registro de Usuario          | Implementación del formulario y lógica para el registro de usuarios.                             | 3                  | Jefferson Castro           | Done          |
 | US03 | Inicio de Sesión             | Desarrollo del formulario y lógica para el inicio de sesión de usuarios.                         | 3                  | Jefferson Castro           | Done          |
-| US04 | Barra de Navegación          | Implementación de la barra de navegación principal, con enlaces a las secciones. Responsive.     | 2                  | Bruce Via                  | Done          |
+| US04 | Barra de Navegación          | Implementación de la barra de navegación principal, con enlaces a las secciones. Responsive.     | 2                  | Sergio Landa                  | Done          |
 | US05 | Footer y Redes Sociales      | Desarrollo del footer con enlaces de contacto y redes sociales. Responsive.                      | 2                  | Estefano Solis             | Done          |
 | US06 | Página de Información        | Sección informativa sobre CultivApp y sus beneficios.                                            | 2                  | Samuel Bonifacio           | Done          |
 | US07 | Validación de Formularios    | Validación de datos en los formularios de registro e inicio de sesión.                           | 2                  | Jefferson Castro           | Done          |
