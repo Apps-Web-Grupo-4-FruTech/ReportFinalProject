@@ -1653,6 +1653,271 @@ El diagrama de base de datos nos ayudara a la correcta definicion de entidades d
 
 <img src="assets/Data_base_diagram.JPG" alt="Data base diagram">
 
-# Bibliografía
+# Capítulo V: Product Implementation, Validation & Deployment.
+## 5.1. Software Configuration Management.
 
-# Anexos
+Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, mantenimiento y despliegue de la aplicación **CultivApp**, que gestiona el alquiler de vehículos. El objetivo es asegurar la coherencia, eficiencia y calidad a lo largo del ciclo de vida del proyecto.
+
+---
+
+### 5.1.1. Software Development Environment Configuration.
+
+<table border="1">
+
+  <tr>
+    <td>Project Management</td>
+    <td><h4>Github</h4>Plataforma en línea que permite almacenar código fuente en repositorios. Gracias a la tecnología de control de versiones de Git se puede organizar el código y llevar un mejor trabajo en conjunto.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>Whatsapp</h4>Red Social destinada a la comunicación donde se realizaron acuerdos y recordatorios de las reuniones.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>Trello</h4>Software de administración y gestión de proyectos que se utilizó para establecer y designar las tareas</td>
+  </tr>
+  <tr>
+    <td>Requirements Management</td>
+    <td><h4>Miro</h4>Plataforma en línea de gestión de requisitos que permite colaborar y organizar proyectos de forma visual y representativa.
+</td>
+  </tr>
+  <tr>
+    <td>Product UX/UI Design</td>
+    <td><h4>Figma</h4>Aplicación que permite el diseño libre de interfaces a través de las múltiples herramientas que ofrece. Permitiendo la creación de prototipos interactivos que simulan la experiencia de usuario.
+</td>
+  </tr>
+  <tr>
+    <td>Software Development</td>
+    <td><h4>Git</h4>Es un software de control de versiones para los trabajos en equipos y confiabilidad del desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>Node.js</h4>Node.js es un entorno de ejecución de JavaScript del lado del servidor, que permite desarrollar aplicaciones web escalables y de alto rendimiento fuera del navegador.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>HTML</h4>Lenguaje de etiquetas, utilizado para la estructuración y la presentación de contenido.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>CSS</h4>CSS es un lenguaje utilizado para estilizar y dar formato a documentos HTML.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>JavaScript</h4>JavaScript es un lenguaje de programación de alto nivel, interpretado y multi-paradigma, utilizado para crear interactividad en páginas web.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>VSCode</h4>Es un editor de código fuente con extensiones que ayudan al desarrollo.</td>
+  </tr>
+    <tr>
+    <td></td>
+    <td><h4>WebStorm</h4>Es un IDE centrado en el desarrollo frontend, por su variedad de herramientas que agilizan el proceso de desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>Vue.js</h4>Framework basado en Single Page Applications para el desarrollo de frontend</td>
+  </tr>
+  <tr>
+    <td>Software Deployment</td>
+    <td><h4>Github Pages</h4>Plataforma que nos permite realizar el despliegue de nuestro landing page.</td>
+  </tr>
+</table>
+
+---
+
+### 5.1.2. Source Code Management.
+
+Hemos optado por crear un repositorio en GitHub para nuestro proyecto, tanto para el informe como para la landing page. Esto facilitó la colaboración entre los miembros del equipo,aprovechando las herramientas útiles que esta plataforma ofrece para el manejo del código fuente y sus versiones.
+
+
+- URL del repositorio Report en GitHub: https://github.com/Apps-Web-Grupo-4-FruTech/ReportFinalProject
+- URL del repositorio Landing Page en GitHub: https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page
+
+### 5.1.3. Source Code Style Guide & Conventions.
+
+Para "**CultivApp**", hemos utilizado "**HTML y CSS**". Para estructurar el contenido usamos etiquetas de section y divisiones para contenido específico de cada una de las secciones. Además, hemos empleado atributos como ***HTML Style*** para personalizar el aspecto visual, definiendo propiedades como color, tamaño de fuente y tipo de letra.
+
+Para resaltar elementos importantes, hemos aplicado ***HTML Text Formatting***, incluyendo etiquetas como b para negrita, strong para resaltado y del para mostrar cambios de precios. En cuanto a la navegación, hemos implementado una barra de navegación horizontal utilizando **CSS** para mejorar la experiencia del usuario al explorar el contenido.
+
+Los formularios, creados con **CSS**, permiten a los usuarios ingresar información relevante, como detalles de inicio de sesión, información de pago y dirección de envío. Para añadir interactividad, hemos agregado botones con efectos hover utilizando CSS y paginación CSS para facilitar la navegación entre las diferentes páginas de productos.
+
+Finalmente, en el **footer**, hemos incluido enlaces a las redes sociales de la organización para brindar a los usuarios una forma adicional de conectarse y seguir nuestras actualizaciones.
+
+### 5.1.4. Software Deployment Configuration.
+
+Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subiremos los archivos esenciales (HTML, CSS, etc.) a un repositorio público en GitHub. De
+esta manera, nuestra página estará disponible en línea y accesible para todos los usuarios.
+
+![GithubReportRepo](/assets/github-repo.png)
+
+## 5.2. Landing Page, Services & Applications Implementation.
+### 5.2.1. Sprint 1
+#### 5.2.1.1. Sprint Planning 1.
+
+| Elemento                        | Detalle                                                                                       |
+|----------------------------------|----------------------------------------------------------------------------------------------|
+| **Sprint**                      | 1 - Implementación de funcionalidades básicas y diseño inicial de CultivApp                   |
+| **Sprint Planning Background**   |                                                                                              |
+| **Fecha**                       | 20/09/2025                                                                                   |
+| **Hora**                        | 20:00 horas (GMT-5)                                                                          |
+| **Lugar**                       | Reunión virtual mediante Discord                                                              |
+| **Preparado por**               | [FruTech]                                                       |
+| **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Bruce Via, Sergio Landa, Estefano Solis ]                                                             |
+| **Sprint n-1 Review**           | Se creó la organización de CultivApp en GitHub, se definieron ramas y se asignaron tareas iniciales como investigación de usuarios, wireframes y mockups. |
+| **Sprint n-1 Retrospective**    | Se implementó la estructura básica de la landing page utilizando HTML, CSS y JavaScript.      |
+| **Sprint Goal & User Stories**  |                                                                                              |
+| **Sprint 1 Velocity**           | 20 puntos                                                                                    |
+| **Sum of Story Points**         | 20 puntos                                                                                    |
+
+#### Objetivo del Sprint
+Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas de registro e inicio de sesión para los usuarios de CultivApp.
+
+#### User Stories seleccionadas para el Sprint 1
+
+| ID  | User Story                                                                                  | Puntos |
+|-----|---------------------------------------------------------------------------------------------|--------|
+| 1   | Como usuario, quiero poder registrarme en la plataforma para acceder a las funcionalidades.  |   5    |
+| 2   | Como usuario, quiero iniciar sesión para gestionar mis cultivos o recursos.                  |   5    |
+| 3   | Como visitante, quiero visualizar la landing page con información clara sobre CultivApp.     |   4    |
+| 4   | Como usuario, quiero navegar entre las secciones principales desde la barra de navegación.   |   3    |
+| 5   | Como usuario, quiero acceder a enlaces de contacto y redes sociales desde el footer.         |   3    |
+
+**Total de puntos:** 20
+
+---
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de liderazgo y colaboración (Leadership-and-Collaboration Matrix, LACX) para el Sprint 1 de CultivApp. Esta matriz identifica, para cada aspecto clave del Sprint, quién es el líder responsable y quiénes son los colaboradores, facilitando así la comunicación y la asignación de tareas dentro del equipo. 
+
+Los aspectos considerados en este Sprint incluyen: diseño de la landing page, desarrollo de funcionalidades de registro e inicio de sesión, implementación de la barra de navegación, y configuración del footer con enlaces de contacto y redes sociales.
+
+| Team Member (Apellido, Nombre)         | GitHub Username      | Landing Page Design | Registro/Inicio de Sesión | Barra de Navegación | Footer y Redes Sociales |
+|----------------------------------------|----------------------|---------------------|--------------------------|---------------------|------------------------|
+| Bonifacio, Samuel                     | samuelbonifacio015      | L                   | L                       | L                   | L                      |
+| Castro, Jefferson                      | JeffersonCastroPariona     | C                   | L                        | C                   | C                      |
+| Via, Bruce                             | Shukaritas            | C                   | C                        | L                   | C                      |                     |
+| Solis, Estefano                        | Estefano-Solis-C       | C                   | C                        | C                   | C                      |
+| Landa, Sergio                        | Serkekes2006       | C                   | C                        | C                   | C                      |
+
+**L:** Leader (Líder)  
+**C:** Collaborator (Colaborador)
+
+Esta organización permite una asignación clara de responsabilidades y fomenta la colaboración efectiva durante el desarrollo del Sprint.
+
+
+#### 5.2.1.3. Sprint Backlog 1
+
+| ID   | Title/Section                | Description                                                                                      | Estimation (Hours) | Assigned To                | Status         |
+|------|------------------------------|--------------------------------------------------------------------------------------------------|--------------------|----------------------------|---------------|
+| US01 | Landing Page                 | Desarrollo e implementación de la estructura y estilos de la landing page. Debe ser responsive.  | 3                  | Samuel Bonifacio           | Done          |
+| US02 | Registro de Usuario          | Implementación del formulario y lógica para el registro de usuarios.                             | 3                  | Jefferson Castro           | Done          |
+| US03 | Inicio de Sesión             | Desarrollo del formulario y lógica para el inicio de sesión de usuarios.                         | 3                  | Jefferson Castro           | Done          |
+| US04 | Barra de Navegación          | Implementación de la barra de navegación principal, con enlaces a las secciones. Responsive.     | 2                  | Sergio Landa                  | Done          |
+| US05 | Footer y Redes Sociales      | Desarrollo del footer con enlaces de contacto y redes sociales. Responsive.                      | 2                  | Estefano Solis             | Done          |
+| US06 | Página de Información        | Sección informativa sobre CultivApp y sus beneficios.                                            | 2                  | Samuel Bonifacio           | Done          |
+| US07 | Validación de Formularios    | Validación de datos en los formularios de registro e inicio de sesión.                           | 2                  | Jefferson Castro           | Done          |
+| US08 | Estilos Generales            | Definición y aplicación de estilos globales (colores, fuentes, espaciados, etc.).                | 1                  | Bruce Via                  | Done          |
+
+**Leyenda de Status:**  
+To-do / InProcess / ToReview / Done
+
+---
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint 1, el equipo de CultivApp realizó múltiples commits en el repositorio de GitHub, evidenciando el avance y cumplimiento de las tareas planificadas. A continuación, se presenta una tabla con los principales commits realizados, siguiendo el formato requerido:
+
+| Repository                                         | Branch | Commit Id | Commit Message                                 | Commit Message Body                                   | Committed on (Date)     |
+|----------------------------------------------------|--------|-----------|------------------------------------------------|-------------------------------------------------------|------------------------|
+| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 42af56e   | feat: add images folder and update index.html  | Se agregó la carpeta de imágenes y se actualizó index.html. | 20/09/2025             |
+| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 5eb6b3f   | feat: add images folder and update index.html  | Se agregó la carpeta de imágenes y se actualizó index.html. | 20/09/2025             |
+| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 457c4a0   | chore: SEO and Meta tags added                 | Se añadieron mejoras en SEO y meta etiquetas.          | 20/09/2025             |
+| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 626b448   | feat: merged sections & responsive             | Se fusionaron secciones y se mejoró la responsividad.  | 20/09/2025             |
+| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | c14157e   | chore: updated logo & index                    | Se actualizó el logo y la estructura principal.        | 20/09/2025             |
+| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 879b814   | feat: added features & purchase sections       | Se añadieron secciones de características y compras.   | 20/09/2025             |
+| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 6b06fef   | feat: added responsive hamburger menu          | Se implementó el menú hamburguesa responsive.          | 20/09/2025             |
+| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | c911dca   | feat: merged initial setup                     | Se realizó la configuración inicial y estructura básica de la landing page. | 19/09/2025             |
+| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 31de6c2   | feat: initial setup for landing page           | Configuración inicial para la landing page.            | 19/09/2025             |
+
+Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos del Sprint, asegurando la trazabilidad y transparencia en el desarrollo de CultivApp.
+
+**Reporte de commits:**
+![Commits](/assets/commits.png)
+
+---
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma de educación en línea. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios. 
+
+Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
+
+![NetworkGraph](/assets/networkgraph.png)
+
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+El objetivo del primer Sprint fue el desarrollo e implementación de la Landing Page. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:
+
+1. Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page ![GithubOrg](/assets/organization.png)
+2. Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images. ![Commits-example](/assets/commits-example.png)
+3. Finalmente, se implementó GitHub Pages en el repositorio de GitHub y se desplegó la Landing Page, la que se puede visitar en el siguiente link: https://apps-web-grupo-4-frutech.github.io/Landing-Page/
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
+
+- Insight Landing Page:
+![InsightLP](/assets/insightLP.png)
+
+- Insight Report
+![InsightR](/assets/insightR.png)
+
+## Conclusiones
+
+- El desarrollo del proyecto CultivApp ha permitido establecer una base sólida para la implementación, validación y despliegue de la aplicación de gestión de alquiler de vehículos. A través de este proceso, se han logrado los siguientes resultados clave:
+
+- La configuración del entorno de desarrollo ha sido fundamental para el éxito del proyecto. La implementación de GitHub como plataforma principal de gestión de código fuente, junto con herramientas complementarias como Trello para la gestión de tareas y Figma para el diseño UX/UI, ha facilitado la colaboración efectiva entre los miembros del equipo. La adopción de tecnologías web estándar (HTML, CSS, JavaScript, Vue.js) y Node.js ha proporcionado una base tecnológica robusta y escalable.
+
+- El Sprint 1 ha demostrado la efectividad de la metodología ágil en el desarrollo del proyecto. La implementación exitosa de la landing page con funcionalidades básicas de registro e inicio de sesión, navegación responsive y diseño atractivo, ha establecido una base sólida para el desarrollo futuro de la aplicación.
+
+- La matriz de liderazgo y colaboración (LACX) ha sido instrumental en la organización del equipo, permitiendo una distribución clara de responsabilidades mientras se mantiene la colaboración entre todos los miembros. 
+
+
+## Bibliografía
+
+### Herramientas y Tecnologías
+
+1. **GitHub Inc.** (2024). *GitHub: Where the world builds software*. Recuperado de https://github.com/
+
+2. **Node.js Foundation** (2024). *Node.js: JavaScript runtime built on Chrome's V8 JavaScript engine*. Recuperado de https://nodejs.org/
+
+3. **Vue.js Team** (2024). *Vue.js - The Progressive JavaScript Framework*. Recuperado de https://vuejs.org/
+
+4. **Microsoft Corporation** (2024). *Visual Studio Code: Code editing. Redefined*. Recuperado de https://code.visualstudio.com/
+
+5. **JetBrains s.r.o.** (2024). *WebStorm: The smartest JavaScript IDE*. Recuperado de https://www.jetbrains.com/webstorm/
+
+6. **Schwaber, K., & Sutherland, J.** (2020). *The Scrum Guide: The Definitive Guide to Scrum*. Recuperado de https://scrumguides.org/
+
+7. **Beck, K., et al.** (2001). *Manifesto for Agile Software Development*. Recuperado de https://agilemanifesto.org/
+
+8. **Atlassian Corporation** (2024). *Trello: Organize anything, together*. Recuperado de https://trello.com/
+
+9. **Figma Inc.** (2024). *Figma: The collaborative interface design tool*. Recuperado de https://www.figma.com/
+
+10. **Miro** (2024). *Miro: The visual workspace for innovation*. Recuperado de https://miro.com/
+
+
+## Anexos
+
+[Repositorio de Reporte](https://github.com/Apps-Web-Grupo-4-FruTech)
+
+[Repositorio de LandingPage](https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page)
+
+[Canvas](https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
