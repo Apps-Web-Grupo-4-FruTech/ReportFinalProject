@@ -327,7 +327,7 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 
 ## 4.3. Landing Page UI Design.
 
-![LandingPageUI](/assets/LandingPageUI.png)
+![LandingPageUI](/assets/Mockup%20-%20Desktop.png)
 
 ### 4.3.1. Landing Page Wireframe.
 
@@ -352,15 +352,15 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 - Navbar  
 ![Navbar](/assets/LandingPage/mockups/Navbar.png)
 - Hero  
-![Hero](/assets/LandingPage/mockups/Hero.png)
+![Hero](/assets/Hero.png)
 - About Us Section.  
-![About](/assets/LandingPage/mockups/AboutUs.png)
+![About](/assets/AboutUs.png)
 - Features Section.  
-![Features](/assets/LandingPage/mockups/Features.png)
+![Features](/assets/Features.png)
 - Pricing Section.
-![Pricing](/assets/LandingPage/mockups/Pricing.png)
+![Pricing](/assets/Pricing.png)
 - Sponsors Section.
-![Sponsors](/assets/LandingPage/mockups/Sponsors.png)
+![Sponsors](/assets/Sponsors.png)
 - Footer Section.  
 ![Footer](/assets/LandingPage/mockups/Footer.png)
 
