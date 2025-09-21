@@ -2046,4 +2046,4 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 
 [Canvas](https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-[Enlace link exposición](sigma)
+[Enlace link exposición](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202314354_upc_edu_pe/EkxPSpRnNExEuVgVVX7wpO4BCHyHym-DUTW_LHQiDJvDcg?e=zUbaOu)
