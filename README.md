@@ -22,7 +22,7 @@
    <center><b>Profesor:</b> Hugo Allan Mori Paiva </center>
 
    <br>
-   <center><b>Nombre del StartUp:</b>CultiConection</center>
+   <center><b>Nombre del StartUp:</b>CultivApp</center>
    <br>
 
    <center><b>Nombre del Producto:</b> Frutech</center>
@@ -624,7 +624,7 @@ Este mapa de recorrido está vinculado al User Persona Mariela Vargas.
 En una sesión colaborativa, el equipo mapeó los eventos clave del dominio agrícola desde la perspectiva del agricultor para visualizar el flujo de trabajo completo e identificar los puntos de dolor y las oportunidades de intervención.
 
 
-Este ejercicio visual confirmó que el ciclo de detección de necesidad de riego y ejecución es un subdominio crítico, repetitivo y lleno de incertidumbre, validando que es el punto de partida ideal para la solución CultiConection.
+Este ejercicio visual confirmó que el ciclo de detección de necesidad de riego y ejecución es un subdominio crítico, repetitivo y lleno de incertidumbre, validando que es el punto de partida ideal para la solución CultivApp.
 
 <img src="assets/Event storming.jpg" alt="Big Picture Event Sotrming">
 
@@ -748,7 +748,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
 
 ## 3.2. User Stories
 
-**Epicas para CultiConection**
+**Epicas para CultivApp**
 
 <table>
   <thead>
@@ -762,57 +762,57 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
     <tr>
       <th> 01</th>
       <th> Gestion de usuarios </th>
-      <th> Como usuario de CultiConection, quiero crear un perfil, modificarlo, abrir y cerrar sension en cualquier dispositivo y recuperar la contraseña de mi cuenta para crear mi identidad dentro de la aplicacion y acceder a sus funcionalidades. </th>
+      <th> Como usuario de CultivApp, quiero crear un perfil, modificarlo, abrir y cerrar sension en cualquier dispositivo y recuperar la contraseña de mi cuenta para crear mi identidad dentro de la aplicacion y acceder a sus funcionalidades. </th>
     </tr>
     <tr>
       <th> 02</th>
       <th> Publicacion de Cultivos </th>
-      <th> Como usuario de CultiConection, quier crear, eliminar y editar cultivos para tener un control de ellos en tiempo real y actualizado usando las funcionalidades de CultiConection.  </th>
+      <th> Como usuario de CultivApp, quier crear, eliminar y editar cultivos para tener un control de ellos en tiempo real y actualizado usando las funcionalidades de CultivApp.  </th>
     </tr>
     <tr>
       <th> 03</th>
       <th> Evaluaciones de cultivos </th>
-      <th> Como usuario a CultiConection, quiero pedir y recibir evaluaciones de los cultivos que sienta que puedan mejorar para evitar perdidas o una posible muerte de los cultivos por un mal cuidado del que no sepa. </th>
+      <th> Como usuario a CultivApp, quiero pedir y recibir evaluaciones de los cultivos que sienta que puedan mejorar para evitar perdidas o una posible muerte de los cultivos por un mal cuidado del que no sepa. </th>
     </tr>
     <tr>
       <th> 04</th>
       <th> Mantenimiento de cultivos </th>
-      <th> Como usuario de CultiConection, quiero señalar y recibir señales de datos que necesiten mantenimiento en mi cultivo para asi enfocarme en mejorar y revisar evitando perdidas. </th>
+      <th> Como usuario de CultivApp, quiero señalar y recibir señales de datos que necesiten mantenimiento en mi cultivo para asi enfocarme en mejorar y revisar evitando perdidas. </th>
     </tr>
     <tr>
       <th> 05</th>
       <th> Notificaciones de estado del cultivo</th>
-      <th> Como usuario de CultiConection, quiero recibir notificaciones personalizadas y adaptadas a mis cultivos para no olvidar los cuidados o si muchos de sus datos estan desactualizados antes de perdir una evaluacion. </th>
+      <th> Como usuario de CultivApp, quiero recibir notificaciones personalizadas y adaptadas a mis cultivos para no olvidar los cuidados o si muchos de sus datos estan desactualizados antes de perdir una evaluacion. </th>
     </tr>
     <tr>
       <th> 06</th>
       <th> Seguridad de informacion </th>
-      <th> Como administrador de CultiConection, quiero gestionar y cuidar el perfil de mis usuario, para asegurar su estadia dentro de la aplicacion y no sientan un riesgo de ssu datos al navegar dentro de ella. </th>
+      <th> Como administrador de CultivApp, quiero gestionar y cuidar el perfil de mis usuario, para asegurar su estadia dentro de la aplicacion y no sientan un riesgo de ssu datos al navegar dentro de ella. </th>
     </tr>
     <tr>
       <th> 07</th>
       <th> Historial de cultivo </th>
-      <th> Como usuario de CultiConection, quiero tener un historial actualizado de los cambios y modificaciones que pueda hacerle a mi cultivo, para saber en que paso pudo cambiar el rendimiento de mi cultivo. </th>
+      <th> Como usuario de CultivApp, quiero tener un historial actualizado de los cambios y modificaciones que pueda hacerle a mi cultivo, para saber en que paso pudo cambiar el rendimiento de mi cultivo. </th>
     </tr>
     <tr>
       <th> 08</th>
       <th> Verificacion de identidad </th>
-      <th> Como administrador de CultiConection, quiero un sistema de verificacion de identidades de mis usuarios, para asegurarme de que no existan cuentas duplicadas o falsificadores de identidad. </th>
+      <th> Como administrador de CultivApp, quiero un sistema de verificacion de identidades de mis usuarios, para asegurarme de que no existan cuentas duplicadas o falsificadores de identidad. </th>
     </tr>
     <tr>
       <th> 09</th>
       <th> Accesibilidad  </th>
-      <th> Como usuario de CultiConection, quiero funcionalidades que ayuden a que la aplicacion sea mas accesible en aspectos como color, configuracion y optimizacion para no tener problemas durante su uso. </th>
+      <th> Como usuario de CultivApp, quiero funcionalidades que ayuden a que la aplicacion sea mas accesible en aspectos como color, configuracion y optimizacion para no tener problemas durante su uso. </th>
     </tr>
     <tr>
       <th> 10</th>
       <th> User Experience en la Landing Page </th>
-      <th> Como usuario de CultiConection, quiero navegar por una Landing Page con una experiencia de usuario fluida y agil, para verificar y experimentar sus funcionalidades y el acceso a la informacion util del producto. </th>
+      <th> Como usuario de CultivApp, quiero navegar por una Landing Page con una experiencia de usuario fluida y agil, para verificar y experimentar sus funcionalidades y el acceso a la informacion util del producto. </th>
     </tr>
   </tbody>
 </table>
 
-**Historias de Usuario para CultiConection**
+**Historias de Usuario para CultivApp**
 
 
 <table>
@@ -1078,9 +1078,9 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> 20</th>
       <th> Visualizar página de inicio </th>
       <th> Como usuario, quiero visualizar una página de inicio clara para
-      comprender rápidamente de qué trata CultiConection. </th>
+      comprender rápidamente de qué trata CultivApp. </th>
       <th>Scenario 1: Acceso a la página principal<br>
-      Given  el usuario accede al landing page de CultiConection<br>
+      Given  el usuario accede al landing page de CultivApp<br>
       When el sistema cargue la página <br>
       Then el sistema mostrara el nombre del producto, una descripción
       breve y una pagina correctamente diseñada.<br>
@@ -1124,7 +1124,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> EP01</th>
       <th> Gestion de usuarios </th>
       <th></th>
-      <th>Como usuario de CultiConection, quiero crear un perfil, modificarlo, abrir y cerrar sension en cualquier dispositivo y recuperar la contraseña de mi cuenta para crear mi identidad dentro de la aplicacion y acceder a sus funcionalidades.</th>
+      <th>Como usuario de CultivApp, quiero crear un perfil, modificarlo, abrir y cerrar sension en cualquier dispositivo y recuperar la contraseña de mi cuenta para crear mi identidad dentro de la aplicacion y acceder a sus funcionalidades.</th>
       <th></th>
       <th>01</th>
     </tr>
@@ -1164,7 +1164,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> EP02</th>
       <th> Publicacion de Cultivos </th>
       <th></th>
-      <th> Como usuario de CultiConection, quier crear, eliminar y editar cultivos para tener un control de ellos en tiempo real y actualizado usando las funcionalidades de CultiConection.  </th>
+      <th> Como usuario de CultivApp, quier crear, eliminar y editar cultivos para tener un control de ellos en tiempo real y actualizado usando las funcionalidades de CultivApp.  </th>
       <th></th>
       <th>02</th>
     </tr>
@@ -1196,7 +1196,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> EP03</th>
       <th> Evaluaciones de cultivos </th>
       <th></th>
-      <th> Como usuario a CultiConection, quiero pedir y recibir evaluaciones de los cultivos que sienta que puedan mejorar para evitar perdidas o una posible muerte de los cultivos por un mal cuidado del que no sepa. </th>
+      <th> Como usuario a CultivApp, quiero pedir y recibir evaluaciones de los cultivos que sienta que puedan mejorar para evitar perdidas o una posible muerte de los cultivos por un mal cuidado del que no sepa. </th>
       <th></th>
       <th>03</th>
     </tr>
@@ -1228,7 +1228,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> EP04</th>
       <th> Mantenimiento de cultivos </th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero señalar y recibir señales de datos que necesiten mantenimiento en mi cultivo para asi enfocarme en mejorar y revisar evitando perdidas. </th>
+      <th> Como usuario de CultivApp, quiero señalar y recibir señales de datos que necesiten mantenimiento en mi cultivo para asi enfocarme en mejorar y revisar evitando perdidas. </th>
       <th></th>
       <th>04</th>
     </tr>
@@ -1251,7 +1251,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> EP05</th>
       <th> Notificaciones de estado del cultivo</th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero recibir notificaciones personalizadas y adaptadas a mis cultivos para no olvidar los cuidados o si muchos de sus datos estan desactualizados antes de perdir una evaluacion. </th>
+      <th> Como usuario de CultivApp, quiero recibir notificaciones personalizadas y adaptadas a mis cultivos para no olvidar los cuidados o si muchos de sus datos estan desactualizados antes de perdir una evaluacion. </th>
       <th></th>
       <th>05</th>
     </tr>
@@ -1275,7 +1275,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> EP06</th>
       <th> Seguridad de informacion </th>
       <th></th>
-      <th> Como administrador de CultiConection, quiero gestionar y cuidar el perfil de mis usuario, para asegurar su estadia dentro de la aplicacion y no sientan un riesgo de ssu datos al navegar dentro de ella. </th>
+      <th> Como administrador de CultivApp, quiero gestionar y cuidar el perfil de mis usuario, para asegurar su estadia dentro de la aplicacion y no sientan un riesgo de ssu datos al navegar dentro de ella. </th>
       <th></th>
       <th>06</th>
     </tr>
@@ -1299,7 +1299,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> EP07</th>
       <th> Historial de cultivo </th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero tener un historial actualizado de los cambios y modificaciones que pueda hacerle a mi cultivo, para saber en que paso pudo cambiar el rendimiento de mi cultivo. </th>
+      <th> Como usuario de CultivApp, quiero tener un historial actualizado de los cambios y modificaciones que pueda hacerle a mi cultivo, para saber en que paso pudo cambiar el rendimiento de mi cultivo. </th>
       <th></th>
       <th>07</th>
     </tr>
@@ -1315,7 +1315,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> EP09</th>
       <th> Accesibilidad  </th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero funcionalidades que ayuden a que la aplicacion sea mas accesible en aspectos como color, configuracion y optimizacion para no tener problemas durante su uso. </th>
+      <th> Como usuario de CultivApp, quiero funcionalidades que ayuden a que la aplicacion sea mas accesible en aspectos como color, configuracion y optimizacion para no tener problemas durante su uso. </th>
       <th></th>
       <th>09</th>
     </tr>
@@ -1342,7 +1342,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> EP10</th>
       <th> User Experience en la Landing Page </th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero navegar por una Landing Page con una experiencia de usuario fluida y agil, para verificar y experimentar sus funcionalidades y el acceso a la informacion util del producto. </th>
+      <th> Como usuario de CultivApp, quiero navegar por una Landing Page con una experiencia de usuario fluida y agil, para verificar y experimentar sus funcionalidades y el acceso a la informacion util del producto. </th>
       <th></th>
       <th>10</th>
     </tr>
@@ -1351,7 +1351,7 @@ Para asegurar una comunicación clara y sin ambigüedades entre los desarrollado
       <th> US20 </th>
       <th>Visualizar página de inicio</th>
       <th>Como usuario, quiero visualizar una página de inicio clara para
-      comprender rápidamente de qué trata CultiConection</th>
+      comprender rápidamente de qué trata CultivApp</th>
       <th>3</th>
       <th>10</th>
     </tr>
@@ -1461,8 +1461,8 @@ Finalmente, para funcionalidades comunes como la edición de perfil, gestión de
 
 **Autor y Derechos de Autor:**
 ```html
-<meta name="author" content="CultiConection">
-<meta name="copyright" content="Copyright CultiConection team" />
+<meta name="author" content="CultivApp">
+<meta name="copyright" content="Copyright CultivApp team" />
 ```
 
 
@@ -1590,11 +1590,11 @@ Web Applications Prototyping es una metodología esencial en el desarrollo de ap
 
 ## 4.6. Domain-Driven Software Architecture.
 
-Esta parte se expone la arquitectura de software del proyecto CultiConection. La propuesta fue elaborada con un enfoque orientado al dominio, de manera que los elementos más relevantes de la plataforma estén correctamente representados y respondan a los requerimientos de los usuarios. Seguidamente, se incluyen diagramas esenciales que ilustran la interacción entre los distintos componentes del sistema y los actores externos.
+Esta parte se expone la arquitectura de software del proyecto CultivApp. La propuesta fue elaborada con un enfoque orientado al dominio, de manera que los elementos más relevantes de la plataforma estén correctamente representados y respondan a los requerimientos de los usuarios. Seguidamente, se incluyen diagramas esenciales que ilustran la interacción entre los distintos componentes del sistema y los actores externos.
 
 ### 4.6.1. Design-Level Event Storming.
 
-En esta sección, presentamos el Design Level Event Storming desarrollado para nuestro proyecto CultiConection. Esta actividad nos permitió profundizar en los detalles del dominio, definiendo de manera clara los eventos, comandos, agregados y políticas que guían el comportamiento del sistema. El objetivo fue transformar la visión general en un diseño más estructurado, asegurando que los límites contextuales y las interacciones entre componentes quedaran bien definidos
+En esta sección, presentamos el Design Level Event Storming desarrollado para nuestro proyecto CultivApp. Esta actividad nos permitió profundizar en los detalles del dominio, definiendo de manera clara los eventos, comandos, agregados y políticas que guían el comportamiento del sistema. El objetivo fue transformar la visión general en un diseño más estructurado, asegurando que los límites contextuales y las interacciones entre componentes quedaran bien definidos
 
 - Bounded Context User Management 
 
@@ -1613,19 +1613,19 @@ En esta sección, presentamos el Design Level Event Storming desarrollado para n
 
 ### 4.6.2. Software Architecture Context Diagram.
 
-El diagrama de contexto de CultiConection ofrece una visión global de las interacciones principales entre el sistema central y los actores externos que lo rodean. La plataforma está orientada a simplificar la gestión y supervisión de cultivos por parte de los usuarios. En este nivel, se identifican actores clave como el Agricultor, encargado de registrar y administrar sus cultivos, y la Asociación, que envía las evaluaciones correspondientes. Asimismo, se muestran las integraciones externas más relevantes: la Pasarela de Pago para procesar transacciones con las asociaciones, el Servicio de Mapas para visualizar la ubicación de los cultivos y las Redes Sociales para compartir información de manera pública. Esta representación de alto nivel permite entender de manera clara cómo CultiConection se relaciona y coopera con su ecosistema digital y humano.
+El diagrama de contexto de CultivApp ofrece una visión global de las interacciones principales entre el sistema central y los actores externos que lo rodean. La plataforma está orientada a simplificar la gestión y supervisión de cultivos por parte de los usuarios. En este nivel, se identifican actores clave como el Agricultor, encargado de registrar y administrar sus cultivos, y la Asociación, que envía las evaluaciones correspondientes. Asimismo, se muestran las integraciones externas más relevantes: la Pasarela de Pago para procesar transacciones con las asociaciones, el Servicio de Mapas para visualizar la ubicación de los cultivos y las Redes Sociales para compartir información de manera pública. Esta representación de alto nivel permite entender de manera clara cómo CultivApp se relaciona y coopera con su ecosistema digital y humano.
 
 <img src="assets/context_diagram.jpg" alt="Software Architecture Context Diagram">
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
-El diagrama de contenedores detalla la organización interna de CultiConection, mostrando cómo los diferentes componentes de software trabajan en conjunto para brindar la funcionalidad de la plataforma. La Aplicación Web, implementada en React, sirve como punto de interacción donde los usuarios pueden registrar y gestionar sus cultivos. Esta interfaz se conecta con una API en Node.js, que cumple el rol de enlace entre la capa de presentación y los servicios del backend. La información esencial de usuarios, cultivos, registros, evaluaciones y pagos se almacena en una Base de Datos PostgreSQL. Asimismo, se integran contenedores adicionales como el Servicio de Mapas (basado en Google Maps API) para la visualización de ubicaciones y la Pasarela de Pago (Stripe), destinada a la gestión de transacciones. En conjunto, este nivel del modelo permite comprender cómo se estructuran y comunican las partes técnicas del sistema.
+El diagrama de contenedores detalla la organización interna de CultivApp, mostrando cómo los diferentes componentes de software trabajan en conjunto para brindar la funcionalidad de la plataforma. La Aplicación Web, implementada en React, sirve como punto de interacción donde los usuarios pueden registrar y gestionar sus cultivos. Esta interfaz se conecta con una API en Node.js, que cumple el rol de enlace entre la capa de presentación y los servicios del backend. La información esencial de usuarios, cultivos, registros, evaluaciones y pagos se almacena en una Base de Datos PostgreSQL. Asimismo, se integran contenedores adicionales como el Servicio de Mapas (basado en Google Maps API) para la visualización de ubicaciones y la Pasarela de Pago (Stripe), destinada a la gestión de transacciones. En conjunto, este nivel del modelo permite comprender cómo se estructuran y comunican las partes técnicas del sistema.
 
 <img src="assets/container_diagram.png" alt="Software Architecture Container Diagrams">
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
-El diagrama de componentes pone el foco en la arquitectura interna de la API de CultiConection, encargada de coordinar la lógica de negocio central de la plataforma. Esta API, desarrollada en Node.js, se organiza en distintos componentes especializados, cada uno orientado a un dominio concreto. El Componente de Gestión de Usuarios administra la autenticación y los perfiles; Gestión de Cultivos permite realizar operaciones sobre los cultivos registrados; Control de Cultivos abarca el ciclo completo de cuidado de cada cultivo; Ubicaciones y Terrenos gestiona la localización de los cultivos registrados; y Reporte de Evaluaciones procesa tanto los informes como los pagos asociados a dichas evaluaciones. La interacción entre estos módulos sigue un flujo funcional definido: los agricultores administran cultivos, estos se asocian a cuentas y pueden ser evaluados. Esta separación de responsabilidades refleja un diseño guiado por el dominio, donde cada componente encapsula una función específica y colabora con los demás para dar soporte integral a la plataforma junto a los Bounded Countext desarrollados que explicacion de forma aun mas detallada la funcionalidad de cada componente existente de la plataforma CultiConection.
+El diagrama de componentes pone el foco en la arquitectura interna de la API de CultivApp, encargada de coordinar la lógica de negocio central de la plataforma. Esta API, desarrollada en Node.js, se organiza en distintos componentes especializados, cada uno orientado a un dominio concreto. El Componente de Gestión de Usuarios administra la autenticación y los perfiles; Gestión de Cultivos permite realizar operaciones sobre los cultivos registrados; Control de Cultivos abarca el ciclo completo de cuidado de cada cultivo; Ubicaciones y Terrenos gestiona la localización de los cultivos registrados; y Reporte de Evaluaciones procesa tanto los informes como los pagos asociados a dichas evaluaciones. La interacción entre estos módulos sigue un flujo funcional definido: los agricultores administran cultivos, estos se asocian a cuentas y pueden ser evaluados. Esta separación de responsabilidades refleja un diseño guiado por el dominio, donde cada componente encapsula una función específica y colabora con los demás para dar soporte integral a la plataforma junto a los Bounded Countext desarrollados que explicacion de forma aun mas detallada la funcionalidad de cada componente existente de la plataforma CultivApp.
 
 <img src="assets/Components_diagram_API.png" alt="Software Architecture Container Diagrams API Management">
 
@@ -1639,7 +1639,7 @@ El diagrama de componentes pone el foco en la arquitectura interna de la API de 
 
 ## 4.7. Software Object-Oriented Design.
 
-El diagrama de clases nos ayuda a definir la funcionalidad de el producto de CultiConection mediante los atributos y funcionalidades de las clases de nuestras entidades relacionadas al funcionamiento del producto, desde interfaces, clases y atributos.
+El diagrama de clases nos ayuda a definir la funcionalidad de el producto de CultivApp mediante los atributos y funcionalidades de las clases de nuestras entidades relacionadas al funcionamiento del producto, desde interfaces, clases y atributos.
 
 ### 4.7.1. Class Diagrams.
 
@@ -1647,7 +1647,7 @@ El diagrama de clases nos ayuda a definir la funcionalidad de el producto de Cul
 
 ## 4.8. Database Design.
 
-El diagrama de base de datos nos ayudara a la correcta definicion de entidades dentro de la base de datos funcional de CultiConection, definiendo que entidades se vinculan mediante las id's principales para la correcta organizacion y manejo de informacion.
+El diagrama de base de datos nos ayudara a la correcta definicion de entidades dentro de la base de datos funcional de CultivApp, definiendo que entidades se vinculan mediante las id's principales para la correcta organizacion y manejo de informacion.
 
 ### 4.8.1. Database Diagrams.
 
