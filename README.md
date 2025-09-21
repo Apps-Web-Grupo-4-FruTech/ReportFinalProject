@@ -183,7 +183,7 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
 
 ### 1.1.1. Descripción de la Startup
 
-**FruTech es una startup de base tecnológica (AgriTech) de origen peruano, concebida para abordar los** desafíos estructurales que enfrenta el sector agrícola del país. Fundada por un equipo multidisciplinario de estudiantes universitarios, FruTech nace de la convicción de que la tecnología puede y debe ser un catalizador para el desarrollo sostenible, especialmente para los pequeños y medianos agricultores que constituyen la columna vertebral de la seguridad alimentaria nacional. La propuesta de valor de FruTech se centra en la democratización del acceso a herramientas de agricultura de precisión, transformando datos complejos en decisiones simples y accionables.
+**FruTech es una startup de base tecnológica (FruTech) de origen peruano, concebida para abordar los** desafíos estructurales que enfrenta el sector agrícola del país. Fundada por un equipo multidisciplinario de estudiantes universitarios, FruTech nace de la convicción de que la tecnología puede y debe ser un catalizador para el desarrollo sostenible, especialmente para los pequeños y medianos agricultores que constituyen la columna vertebral de la seguridad alimentaria nacional. La propuesta de valor de FruTech se centra en la democratización del acceso a herramientas de agricultura de precisión, transformando datos complejos en decisiones simples y accionables.
 
 El producto insignia de la startup, CultivApp, es una plataforma integral de software y hardware (IoT) diseñada para optimizar el manejo de cultivos. A través de sensores de humedad y actuadores de riego inteligentes, la aplicación web permite a los agricultores monitorear sus parcelas en tiempo real, automatizar el riego y acceder a recomendaciones personalizadas, todo desde un dispositivo móvil. Este enfoque no solo busca mejorar la eficiencia en el uso de recursos críticos como el agua, sino también aumentar la rentabilidad y resiliencia de las operaciones agrícolas frente a la incertidumbre climática y económica.
 
@@ -267,7 +267,7 @@ El problema se manifiesta cuando los agricultores, debido a la falta de informac
 
 Hemos observado que esta situación conduce a un ciclo vicioso: el riego ineficiente no solo desperdicia un recurso escaso y costoso como el agua, sino que también limita el potencial de rendimiento de los cultivos, afectando directamente los ingresos del agricultor. Esta baja rentabilidad, a su vez, les impide invertir en tecnologías que podrían romper dicho ciclo. Ante esta problemática, surge la pregunta: ¿Cómo podríamos proporcionar a los agricultores una forma sencilla y **económica de saber exactamente cuándo y cuánto regar, permitiéndoles tomar el control de uno de los factores más críticos para el éxito de su cosecha?**
 
-- **Domain:** Agricultura de Precisión (Precision Agriculture), AgriTech, Internet de las Cosas (IoT).
+- **Domain:** Agricultura de Precisión (Precision Agriculture), FruTech, Internet de las Cosas (IoT).
 - **Customer Segments:** Agricultores de pequeña y mediana escala en el Perú.
 - **Pain Points:** Desperdicio de agua, altos costos de energía para bombeo, baja productividad de cultivos, incertidumbre y estrés por factores climáticos, falta de acceso a tecnología.
 - **Gap:** No existe en el mercado peruano una solución integral de hardware y software para el monitoreo y automatización del riego que esté diseñada específicamente para ser accesible, asequible y fácil de usar por agricultores con recursos limitados y baja alfabetización digital.
@@ -358,13 +358,13 @@ Agricultores con terrenos entre 5 y 20 hectáreas que producen cultivos para aba
 - Buscan activamente optimizar el rendimiento de sus cultivos y reducir pérdidas para maximizar la rentabilidad.
 - Tienen más apertura al uso de aplicaciones y tecnología digital como una inversión para mejorar su negocio.
 - Interés en herramientas que les permitan organizar datos y tomar decisiones basadas en información precisa, no solo en la intuición.
-- **Uso tecnológico:** Mayor acceso a dispositivos móviles modernos y disposición a usar aplicaciones para mejorar la productividad. Existe una conciencia creciente sobre los beneficios de la AgriTech.
+- **Uso tecnológico:** Mayor acceso a dispositivos móviles modernos y disposición a usar aplicaciones para mejorar la productividad. Existe una conciencia creciente sobre los beneficios de la FruTech.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
-Para posicionar a FruTech y su producto CultivApp de manera efectiva, es imperativo realizar un análisis exhaustivo del entorno competitivo. Si bien el mercado de AgriTech en Perú para pequeños agricultores es incipiente, existen actores relevantes en Latinoamérica cuyas soluciones, estrategias y modelos de negocio ofrecen valiosas lecciones. El objetivo de este análisis es identificar un nicho de mercado desatendido y definir una propuesta de valor única y diferenciada.
+Para posicionar a FruTech y su producto CultivApp de manera efectiva, es imperativo realizar un análisis exhaustivo del entorno competitivo. Si bien el mercado de FruTech en Perú para pequeños agricultores es incipiente, existen actores relevantes en Latinoamérica cuyas soluciones, estrategias y modelos de negocio ofrecen valiosas lecciones. El objetivo de este análisis es identificar un nicho de mercado desatendido y definir una propuesta de valor única y diferenciada.
 
 ### 2.1.1. Análisis competitivo
 
