@@ -180,3 +180,377 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
 # Bibliografía
 
 # Anexos
+
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+
+Para posicionar a FruTech y su producto CultivApp de manera efectiva, es imperativo realizar un análisis exhaustivo del entorno competitivo. Si bien el mercado de AgriTech en Perú para pequeños agricultores es incipiente, existen actores relevantes en Latinoamérica cuyas soluciones, estrategias y modelos de negocio ofrecen valiosas lecciones. El objetivo de este análisis es identificar un nicho de mercado desatendido y definir una propuesta de valor única y diferenciada.
+
+### 2.1.1. Análisis competitivo
+
+Se ha desarrollado un "Competitive Analysis Landscape" para contrastar a CultivApp con tres competidores clave en la región: Space AG (Perú), SIMA (Argentina) y InstaCrops (Chile).
+
+| | FruTech (CultivApp) | Space AG (Perú) | SIMA (Argentina) | InstaCrops (Chile) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Overview** | Plataforma web y hardware IoT de bajo costo enfocada en el monitoreo y automatización del riego para pequeños y medianos agricultores en Perú. | Software modular para la digitalización de operaciones agrícolas en cultivos de alto valor, integrando datos de drones, sensores y satélites. | Sistema de agricultura inteligente que permite monitorear lotes, geolocalizar datos y generar órdenes de aplicación desde un smartphone. Fuerte enfoque en la recolección de datos en campo. | Asesor agrícola virtual que combina sensores IoT, IA y datos satelitales para dar recomendaciones en tiempo real sobre riego, nutrición y plagas. |
+| **Ventaja competitiva** | **Hiper-accesibilidad:** Modelo de negocio y tecnología diseñados para ser radicalmente asequibles y fáciles de usar por agricultores con bajos recursos y limitada alfabetización digital. | **Especialización en Agroexportación:** Soluciones robustas y personalizadas para grandes empresas agrícolas con cultivos de alto valor como arándanos y paltos. | **Comunidad y Datos en Campo:** Fuerte capacidad de recolección de datos offline y una comunidad de usuarios que genera inteligencia colectiva sobre adversidades en el campo. | **Inteligencia Artificial para Riego:** Potente asistente de IA (InstaDrop AI) que convierte datos complejos de sensores en recomendaciones de riego conversacionales y simples. |
+| **Mercado Objetivo** | Agricultores de pequeña y mediana escala en Perú (subsistencia y mercado local/regional). | Grandes empresas agroexportadoras en Latinoamérica, enfocadas en la optimización de operaciones complejas. | Productores y asesores agrícolas en Latinoamérica que buscan digitalizar el monitoreo de sus campos de manera detallada. | Agricultores tecnificados en Latinoamérica que buscan maximizar la eficiencia en el uso de agua y recursos a través de la IA. |
+| **Estrategias de Marketing**| Alianzas con cooperativas locales, programas gubernamentales (Agroideas) y marketing de base comunitaria. | Marketing B2B, casos de éxito con grandes corporaciones, alianzas estratégicas con empresas de tecnología (ej. Netafim). | Modelo freemium (10 lotes gratis), presencia en app stores, alianzas con empresas de insumos y software agrícola. | Fuerte presencia en medios, participación en eventos de startups (TechCrunch), marketing de contenidos enfocado en el ahorro y la eficiencia. |
+| **Productos & Servicios** | - Monitoreo de humedad del suelo.<br>- Control de riego remoto (manual/automático).<br>- Alertas y notificaciones.<br>- Historial de riego. | - Módulos de Fitosanidad, Riego, Trabajadores, Packing y Fenología.<br>- Digitalización de formularios en campo.<br>- Reportes automáticos y KPIs. | - Monitoreo de plagas/malezas.<br>- Geolocalización de datos (waypoints).<br>- Imágenes satelitales (NDVI).<br>- Control de siembra y cosecha.<br>- App con funcionalidad offline. | - Asistente de riego por IA (InstaDrop).<br>- Predicción de rendimiento (InstaYield).<br>- Monitoreo de frutas (FruitTracker).<br>- Plataforma integral de sensores. |
+| **Precios & Costos** | Modelo de suscripción mensual de bajo costo que subsidia el hardware inicial. | Cuota de implementación única + licencia mensual recurrente. El precio varía según módulos, hectáreas y usuarios. | Modelo freemium con 10 lotes gratis. Precios por licencia que incluye usuarios ilimitados, contactando a ventas para cotizar. | Modelo de suscripción. Ofrecen una prueba antes de suscribirse. El precio se basa en "zonas" de cultivo. |
+| **Análisis SWOT** | **F:** Enfoque de nicho, bajo costo, simplicidad.<br>**D:** Marca no reconocida, menor cantidad de funcionalidades.<br>**O:** Gran mercado desatendido en Perú, programas de apoyo gubernamental.<br>**T:** Desconfianza tecnológica, baja conectividad rural. | **F:** Fuerte posicionamiento en el mercado de exportación, tecnología robusta.<br>**D:** Alto costo, alta complejidad, no apto para pequeños productores.<br>**O:** Expansión a nuevos cultivos de alto valor.<br>**T:** Nuevos competidores con soluciones más ágiles. | **F:** Excelente app móvil, funcionalidad offline, comunidad.<br>**D:** Menor enfoque en la automatización de acciones (más monitoreo).<br>**O:** Integrar IA para recomendaciones proactivas.<br>**T:** Competidores que ofrecen soluciones más integrales (monitoreo + acción). | **F:** Liderazgo en IA para riego, interfaz conversacional innovadora.<br>**D:** Alta dependencia de la conectividad de sensores.<br>**O:** Expandir su IA a otras áreas como fertilización y control de plagas.<br>**T:** El costo de la IA puede ser una barrera para mercados menos tecnificados. |
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+El análisis competitivo revela una clara oportunidad de mercado: mientras los competidores se enfocan en la cúspide de la pirámide agrícola con soluciones complejas y costosas, la base compuesta por millones de pequeños y medianos agricultores permanece en gran medida desatendida. La estrategia de FruTech no será competir en funcionalidades, sino en accesibilidad y simplicidad.
+
+**Afrontando las fortalezas de los competidores:**
+
+-   **Fortalezas de competidores:** Tecnología avanzada (IA, drones), robustez de datos, fuerte posicionamiento en el segmento agroexportador.
+-   **Nuestras fortalezas:** Enfoque de nicho, diseño centrado en la simplicidad, modelo de negocio de bajo costo.
+-   **Estrategia:** Diferenciación por enfoque. En lugar de ofrecer una docena de módulos complejos, CultivApp se especializará en resolver un único problema de manera excepcional: el riego. Nos posicionaremos como la herramienta más fácil y rentable para empezar a digitalizar el campo.
+-   **Tácticas:**
+    1.  **Comunicación Directa:** El marketing no hablará de "KPIs" o "NDVI", sino de "ahorrar agua" y "no perder la cosecha".
+    2.  **Producto Mínimo Viable (MVP) Enfocado:** El desarrollo inicial se centrará exclusivamente en el monitoreo de humedad y el control del riego, asegurando que esta funcionalidad sea impecable y fácil de entender.
+
+**Aprovechando las debilidades de los competidores:**
+
+-   **Debilidades de competidores:** Alto costo de entrada, complejidad de uso que requiere capacitación, modelo de negocio no adaptado a la economía de la agricultura familiar.
+-   **Nuestras oportunidades:** El 66.3% de las unidades agrícolas en Perú son menores a 5 hectáreas, un mercado que los competidores actuales no pueden atender de manera rentable con su modelo actual.
+-   **Estrategia:** Liderazgo en costos y usabilidad. Romper la barrera de entrada económica y cognitiva que impide la adopción tecnológica en el segmento masivo.
+-   **Tácticas:**
+    1.  **Modelo Hardware-as-a-Service (HaaS):** Ofrecer el kit de sensores y actuadores sin costo inicial, integrando su valor en una suscripción mensual asequible. Esto elimina el principal obstáculo financiero para el agricultor.
+    2.  **Diseño Inclusivo:** Desarrollar una interfaz que pueda ser operada por personas con baja alfabetización digital, utilizando iconos universales, códigos de color y un mínimo de texto.
+    3.  **Canales de Distribución Locales:** Forjar alianzas con cooperativas agrarias y tiendas de insumos locales, que son canales de confianza para los agricultores, para la distribución y el soporte técnico de primer nivel. Esto aprovecha las redes existentes y genera confianza, un factor clave que la tecnología por sí sola no puede resolver.
+
+## 2.2. Entrevistas
+
+Para validar los supuestos y profundizar en las necesidades reales de los segmentos objetivo, se diseñó y ejecutó un proceso de entrevistas cualitativas.
+
+### 2.2.1. Diseño de entrevistas
+
+Para validar nuestras suposiciones y profundizar en las necesidades reales de nuestros segmentos objetivo, se diseñaron dos guiones de entrevista semi-estructurados.
+
+**Preguntas para el Segmento 1: Agricultores de pequeña escala**
+1.  Cuénteme sobre su chacra, ¿qué cultiva principalmente y desde cuándo se dedica a esto?
+2.  ¿Cómo decide cuándo es el momento de regar sus cultivos? ¿Qué señales busca en la tierra o en la planta?
+3.  ¿Cuál es el mayor desafío que enfrenta con el agua? ¿Le preocupa la falta de lluvia o el costo del riego?
+4.  ¿Alguna vez ha perdido parte de su cosecha por problemas con el riego (mucha o poca agua)?
+5.  ¿Usa un celular? ¿Para qué lo usa más en su día a día? (Llamadas, WhatsApp, Facebook, etc.)
+6.  Si existiera una aplicación en su celular que le mostrara con un color (verde, amarillo o rojo) si su tierra está húmeda o seca, ¿le parecería útil? ¿Por qué?
+7.  ¿Qué pensaría si con esa misma aplicación pudiera abrir y cerrar la llave de su riego sin tener que caminar hasta la parcela?
+8.  ¿Cuánto cree que estaría dispuesto a pagar al mes por un servicio así, si le ayudara a ahorrar agua y a no preocuparse tanto?
+
+**Preguntas para el Segmento 2: Agricultores de mediana escala**
+1.  Describa su operación agrícola. ¿Cuáles son sus principales cultivos y a qué mercados se dirige?
+2.  ¿Cómo gestiona actualmente el riego en sus diferentes parcelas? ¿Utiliza algún tipo de programación o es manual?
+3.  ¿Cuáles son sus mayores costos operativos relacionados con el riego (agua, energía, mano de obra)?
+4.  ¿Cómo mide la efectividad de su estrategia de riego? ¿Qué impacto tiene en la calidad y el rendimiento de su producto?
+5.  ¿Qué tecnologías utiliza actualmente en su gestión agrícola (software, sensores, etc.)?
+6.  Le presento una solución que le permite monitorear la humedad del suelo en tiempo real y automatizar el riego desde una app. ¿Qué ventajas inmediatas ve en esto?
+7.  ¿Qué tipo de información o datos le gustaría ver en un tablero de control para tomar mejores decisiones de riego?
+8.  Nuestro modelo de negocio se basa en una suscripción mensual que incluye el hardware. ¿Qué opina de este enfoque en comparación con una gran inversión inicial?
+
+### 2.2.2. Registro de entrevistas
+
+#### Segmento objetivo #1: Agricultores de pequeña escala (subsistencia y autoconsumo)
+
+##### Datos del Entrevistado #1
+
+- *Nombre completo:* Noelia Gómez Sánchez
+- *Segmento Objetivo:* Agricultores de pequeña escala
+- *Edad:* 25
+- *Distrito:* Pueblo Libre, Perú
+- *Inicio de la entrevista:* 0:15 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista1](assets/interviews_screenshots/Interview_1.1.png)
+- *URL del video (Microsoft Stream):* [Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+
+*Resumen:*
+
+- Noelia Gómez Sánchez, de 25 años, estudiante de la Universidad Agraria, relata su experiencia en la chacra de su familia, donde cultivan hortalizas. Explica que decide el momento del riego de forma visual, observando la sequedad de la tierra o las hojas de las plantas, y que su mayor desafío es la presión inconstante del agua del canal, lo que le ha causado pérdidas de cosecha en el pasado. Le parece muy útil la idea de una aplicación que indique la humedad del suelo para saber el momento exacto en que debe regar, y considera que poder controlar el riego a distancia desde el celular sería increíble para ahorrarle tiempo, por lo cual estaría dispuesta a pagar entre 30 y 50 soles al mes.
+
+##### Datos del Entrevistado #2
+
+- *Nombre completo:* Carmen Díaz
+- *Segmento Objetivo:* Agricultores de pequeña escala
+- *Edad:* 28 años
+- *Distrito:* Cercado de Lima, Perú
+- *Inicio de la entrevista:* 3:37 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista2](assets/interviews_screenshots/Interview_2.1.png)
+- *URL del video (Microsoft Stream):* [Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+
+*Resumen:*
+
+- Carmen Díaz, de 28 años, cuenta como quiere mejorar su salud incluyendo alimentos cultivados por ella misma a su dieta diaria. Mencionacomo mucha de la informacion que usa es de internet pero que no esta segura si se adapta al entorno de su ciudad. Nunca antes habia practicado la agricultura, pensando que solo era a gran escala en cultivos de hectarias de longitud, le interesa que la aplicacion le proporcione ayudas como fechas de regado o cambios de productos para un mejor cuidado y una cosecha mas productiva a futuro.
+
+##### Datos del Entrevistado #3
+
+- *Nombre completo:* Alejandro Jacinto
+- *Segmento Objetivo:* Agricultores de pequeña escala
+- *Edad:* 25 años
+- *Distrito:* Puente Piedra, Lima
+- *Inicio de la entrevista:* 8:14 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista3](assets/interviews_screenshots/Interview_3.1.png)
+- *URL del video (Microsoft Stream):* [Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+
+*Resumen:*
+
+Alejandro, un joven aficionado a la agricultura y residente cerca de Lima, comentó que cultiva principalmente maíz, papa y algunas hortalizas como lechuga y tomate para el consumo familiar. Explicó que el riego lo realiza de forma intuitiva, observando la tierra y el estado de las hojas, mientras que la fertilización la maneja con compost casero preparado con restos de comida y hojas secas, aplicándolo de manera esporádica. Entre las principales dificultades que enfrenta mencionó la falta de agua y la presencia de plagas como pulgones y hormigas. Mostró interés en una aplicación que le brinde recomendaciones basadas en datos como tipo de suelo, agua o luz solar, además de recibir alertas prácticas sobre riego o nutrientes y recordatorios, ya que suele olvidar algunas tareas de cuidado. Finalmente, señaló que aunque no es experto en tecnología, se siente cómodo usando aplicaciones sencillas como WhatsApp, Facebook o Instagram, y que estaría dispuesto a dedicar solo unos minutos al día para registrar información sobre sus cultivos.
+
+
+### Segmento objetivo #2: Agricultores de mediana escala (producción comercial local y regional)
+
+##### Datos del Entrevistado #1
+
+- *Nombre completo:* Walter Sanchez
+- *Segmento Objetivo:* Agricultor de mediana escala
+- *Edad:* 52 años
+- *Distrito:* Caraz, Ancash, Perú
+- *Inicio de la entrevista:* 12:03 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista1](assets/interviews_screenshots/Interview_1.2.png)
+- *URL del video (Microsoft Stream):* [Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+
+*Resumen:*
+
+- Walter Sanchez, de 52 años, ingeniero agronomo al cuidado de diferentes cultivos de diferentes empresas, principalmente productoras de arandanos y sugar pees, menciona como su mayor problema es que mantener un registro de los diferentes cultivos en diferentes fechas resulta complicado debido a que no se suele manejar registros organizados, siendo muchas veces registros porco ortodoxos o informales lo cual desemboca en cosechas menos productivas. Sobre todo menciona como quisiera que esta posible aplicacion sea facil e intuitiva de usar para los agricultores, ya que un problema de trabajar en provincia, en sus palabras, es que la automatizacion resulta dificil debido a la falta de profesionales.
+
+##### Datos del Entrevistado #2
+
+- *Nombre completo:* Georgette Revolledo
+- *Segmento Objetivo:* Agricultor de mediana escala
+- *Edad:* 35 años
+- *Distrito:* Caraz, Ancash, Perú
+- *Inicio de la entrevista:* 18:35 min
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista2](assets/interviews_screenshots/Interview_2.2.png)
+- *URL del video (Microsoft Stream):* [Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+
+*Resumen:* Georgette Revolledo, de 35 años, administradora de las parcelas agrícolas de su familia, cultiva hortalizas de ciclo corto como lechugas, espinacas y fresas. Explica que el riego en sus parcelas es completamente manual y se decide basado en la experiencia y la observación directa en el campo, siendo su mayor costo operativo la mano de obra necesaria para esta supervisión. Considera que una solución para automatizar el riego le permitiría optimizar costos y tiempo, y le parece fundamental poder recibir alertas de humedad en su celular. En lugar de una gran inversión inicial, ve el modelo de suscripción mensual como una opción "mucho más adecuada y moderna".
+
+
+##### Datos del Entrevistado #3
+
+- *Nombre completo:* Javier Leon
+- *Segmento Objetivo:* Agricultor de mediana escala
+- *Edad:* 50 años
+- *Distrito:* Caraz, Ancash, Perú
+- *Inicio de la entrevista:* 23:30
+- *Duración:* 30:01 min
+- *Screenshot del cuadro de video:* ![Entrevista3](assets/interviews_screenshots/Interview_3_2.png)
+- *URL del video (Microsoft Stream):* [Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+
+*Resumen:* Javier León, un agricultor de 50 años dedicado a la producción comercial en una extensión de aproximadamente 3,000 metros cuadrados en la que cultiva yuca, plátano, manzana, palta y algunos cítricos, explicó que actualmente controla el riego y los nutrientes basándose en la memoria, ajustando la frecuencia según el clima, y utilizando fertilizantes o abono cada 15 días o un mes. Para registrar la información recurre únicamente a su memoria o a una pizarra en el campo, lo que en ocasiones le genera problemas al olvidar fechas importantes de riego o fertilización. Entre las principales dificultades señaló la falta de un sistema confiable para llevar el control de sus labores agrícolas. Manifestó que le sería de gran utilidad recibir recomendaciones clasificadas por riesgo, generar reportes básicos de consumo de agua o rendimiento esperado, y contar con alertas preventivas que le recuerden tareas como riego, fertilización o fumigación. Indicó que estaría dispuesto a ingresar datos en la aplicación de forma interdiaria, valorando especialmente la inclusión de un calendario de tareas agrícolas. Finalmente, expresó que consideraría pagar una suscripción para acceder a reportes y recomendaciones avanzadas, ya que la tecnología le permitiría estar más ordenado y planificar mejor el manejo de sus cultivos.
+
+
+### 2.2.3. Análisis de entrevistas
+
+**Análisis del Segmento 1 (Pequeña Escala):**
+
+**Hallazgos:**
+
+El 100% de los entrevistados basa sus decisiones de riego en métodos visuales y tradicionales, mostrando una alta dependencia de factores externos incontrolables (clima, turnos de agua). El principal punto de dolor es el riesgo de pérdida de cosecha y los costos directos (combustible, agua comprada). Existe un 100% de escepticismo inicial hacia la tecnología, combinado con curiosidad. La barrera principal es el costo percibido y la durabilidad del equipo. La simplicidad no es un deseo, es un requisito indispensable. La propuesta de valor más resonante es la reducción del riesgo y el ahorro directo.
+
+**Análisis del Segmento 2 (Mediana Escala):**
+
+**Hallazgos:**s
+El 100% de los entrevistados ya utiliza alguna forma de riego tecnificado, pero carece de herramientas de monitoreo y automatización de datos. Los puntos de dolor clave son la optimización de costos (mano de obra, energía) y la mejora de la calidad del producto final para cumplir con los estándares del mercado. Hay un 100% de apertura a la tecnología como una inversión estratégica. Valoran los datos, los reportes y la capacidad de gestionar la operación de forma más eficiente y remota. La propuesta de valor más atractiva es la optimización de la rentabilidad y la eficiencia operativa. El modelo de suscripción es bien recibido.
+
+## 2.3. Needfinding
+
+A partir del análisis de las entrevistas, se procede a la construcción de artefactos centrados en el usuario para guiar el diseño del producto.
+
+### 2.3.1. User Personas
+
+Se han desarrollado dos arquetipos que representan a los usuarios clave de CultivApp.
+
+#### User Persona 1: Javier Quispe, Agricultor de Subsistencia
+
+![User Persona Javier Quispe](assets/user-persona/user-persona-javier-quispe.png)
+
+#### User Persona 2: Mariela Vargas, Agricultora Comercial
+
+![User Persona Mariela Vargas](assets/user-persona/user-persona-mariela-vargas.png)
+
+### 2.3.2. User Task Matrix
+
+En este apartado se realizará la User Task Matrix tomando en cuenta los dos segmentos definidos y relacionados a nuestras User Personas: Javier Quispe, un agricultor de subsistencia con recursos limitados, y Mariela Vargas, una agricultora comercial enfocada en la optimización y la exportación.
+
+| TASK | FREQUENCY (Javier Quispe) | IMPORTANCE (Javier Quispe) | FREQUENCY (Mariela Vargas) | IMPORTANCE (Mariela Vargas) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Consultar estado de humedad del suelo** | Often | High | Often | High |
+| **Recibir alertas de riego necesario** | Sometimes | High | Sometimes | High |
+| **Activar o detener el riego manualmente** | Often | High | Sometimes | Medium |
+| **Programar o ajustar riegos automáticos** | Rarely | Low | Often | High |
+| **Revisar el historial de riegos** | Rarely | Medium | Often | High |
+| **Analizar datos y comparar parcelas** | Never | Low | Often | High |
+| **Descargar reportes de consumo o costos** | Never | Low | Sometimes | High |
+| **Configurar nuevas parcelas o sensores** | Rarely | Medium | Sometimes | Medium |
+
+Tomando en cuenta este recuadro podemos apreciar ciertos detalles sobre las actividades de nuestros User Personas:
+
+-   Tanto Javier (agricultor de subsistencia) como Mariela (agricultora comercial) consideran fundamental consultar el estado de la humedad y recibir alertas. Estas son las tareas más importantes para ambos, ya que les permiten conocer la necesidad principal de sus cultivos.
+-   Mientras que Javier enfoca su uso en acciones inmediatas y de alto impacto para su supervivencia, como activar el riego manualmente para salvar su cosecha, Mariela emplea su tiempo en actividades de gestión y optimización.
+-   Para ella, tareas como programar riegos automáticos, analizar datos y descargar reportes son cruciales para mejorar la eficiencia y rentabilidad de su negocio, actividades que no son prioritarias para el agricultor de subsistencia.
+
+### 2.3.3. User Journey Mapping
+
+En esta sección se elaboran los User Journey Maps para cada User Persona definido en el proyecto: Javier Quispe (Agricultor de Subsistencia) y Mariela Vargas (Agricultora Comercial). Estos mapas ilustran el recorrido de extremo a extremo que cada usuario experimenta en la situación actual (As-Is), es decir, sin la existencia de la solución 'CultivApp'. El objetivo es visualizar sus acciones, pensamientos y emociones para identificar los puntos de dolor más críticos y las oportunidades de mejora.
+
+#### User Journey Map: Javier Quispe (As-Is)
+
+Este mapa de recorrido está vinculado al User Persona Javier Quispe.
+**Escenario:** "Enfrentando una semana sin lluvia"
+
+![User Journey Map Javier Quispe](assets/user-journey-map/user-journey-map-javier-quispe.png)
+
+**Resumen del Recorrido:**
+-   **Fases:** El viaje de Javier se divide en cinco fases emocionales y de acción: Preocupación, Verificación Manual, Decisión Difícil, Riego Costoso e Incertidumbre.
+-   **Acciones:** Sus acciones son puramente físicas y reactivas, desde mirar el cielo y caminar a la chacra hasta comprar combustible y operar una motobomba.
+-   **Pensamientos:** Sus pensamientos reflejan una profunda incertidumbre y estrés financiero: "¿Lloverá?", "¿Me alcanzará el dinero?", "¿Habré regado lo suficiente?".
+-   **Sentimientos:** La montaña rusa emocional de Javier va desde la ansiedad y el cansancio hasta la duda y una frágil esperanza.
+-   **Oportunidad para CultivApp:** Existe una clara oportunidad para proporcionar datos objetivos que eliminen la duda, permitan un uso más eficiente de recursos costosos (agua, combustible) y, sobre todo, brinden tranquilidad al agricultor.
+
+#### User Journey Map: Mariela Vargas (As-Is)
+
+Este mapa de recorrido está vinculado al User Persona Mariela Vargas.
+**Escenario:** "Programando el riego semanal"
+
+![User Journey Map Mariela Vargas](assets/user-journey-map/user-journey-map-mariela-vargas.png)
+
+
+**Resumen del Recorrido:**
+-   **Fases:** El recorrido de Mariela es un ciclo de gestión: Planificación, Delegación, Supervisión, Verificación y Ajuste.
+-   **Acciones:** Sus acciones combinan herramientas digitales básicas (Excel) con una intensa supervisión manual y comunicación constante (llamadas, visitas a las parcelas).
+-   **Pensamientos:** Sus pensamientos están centrados en la eficiencia y el riesgo: "¿Se entendieron las instrucciones?", "¿Por qué esta parcela necesita más agua?", "Este error me costará en calidad", "Pierdo demasiado tiempo en esto".
+-   **Sentimientos:** Su estado emocional fluctúa desde la confianza inicial hasta la frustración y la preocupación al detectar ineficiencias, terminando con una sensación de resolución.
+-   **Oportunidad para CultivApp:** La oportunidad clave es automatizar los ciclos de delegación y supervisión, proporcionando datos precisos por parcela para permitir ajustes en tiempo real y liberar su tiempo para tareas más estratégicas y de mayor valor.
+
+### 2.3.4. Empathy Mapping
+
+#### Empathy Map: Javier Quispe
+
+![Empathy Map Javier Quispe](assets/empathy-map/empathy-map-javier-quispe.png)
+
+#### Empathy Map: Mariela Vargas
+
+![Empathy Map Mariela Vargas](assets/empathy-map/empathy-map-mariela-vargas.png)
+
+## 2.4. Big Picture EventStorming
+
+En una sesión colaborativa, el equipo mapeó los eventos clave del dominio agrícola desde la perspectiva del agricultor para visualizar el flujo de trabajo completo e identificar los puntos de dolor y las oportunidades de intervención.
+
+
+Este ejercicio visual confirmó que el ciclo de detección de necesidad de riego y ejecución es un subdominio crítico, repetitivo y lleno de incertidumbre, validando que es el punto de partida ideal para la solución CultiConection.
+
+<img src="assets/Event storming.jpg" alt="Big Picture Event Sotrming">
+
+## 2.5. Ubiquitous Language
+
+Para asegurar una comunicación clara y sin ambigüedades entre los desarrolladores, los stakeholders y, eventualmente, los usuarios, se establece el siguiente glosario de términos del dominio.
+
+<table>
+  <thead>
+    <tr>
+      <th> Término (Ingles)</th>
+      <th> Término (Español)</th>
+      <th> Descripción (Español)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th> Farmers</th>
+      <th> Agricultores </th>
+      <th> Persona que se dedica o trabaja en el ambito de plantar, cuidar y cultivar alimentos </th>
+    </tr>
+    <tr>
+      <th> Crop</th>
+      <th> Cultivo </th>
+      <th> Area de trabajo de los agricultores donde realizan su labor de plantar y cosechar sus alimentos </th>
+    </tr>
+    <tr>
+      <th> Cultivation cycle</th>
+      <th> Ciclo de Cultivo </th>
+      <th> Eventos durante del proceso de un cultivo desde la siembra hasta la cosecha de este mismo </th>
+    </tr>
+    <tr>
+      <th> Organizations</th>
+      <th> Organizaciones </th>
+      <th> Empresas interesadas en brindar sus servicios dentro de la aplicacion teniendo una paga de por medio. </th>
+    </tr>
+    <tr>
+      <th> Harvest</th>
+      <th> Cosecha </th>
+      <th> Producto de extraccion de un cultivo en el momento indicado. </th>
+    </tr>
+    <tr>
+      <th> Sustainability</th>
+      <th> Sostenibilidad </th>
+      <th> Capacidad de gastar menos recursos de los que se generan para el bien ambiental del cultivo. </th>
+    </tr>
+    <tr>
+      <th> Cultivation history</th>
+      <th> Historial de cultivo </th>
+      <th> Registro actualizado que guarda la informacion de los estados y cuidados del cultivo. </th>
+    </tr>
+    <tr>
+      <th> Adviser</th>
+      <th> Asesor </th>
+      <th> Persona enviada por la empresa a evaluar los cultivos registrado en el momento que es necesario. </th>
+    </tr>
+    <tr>
+      <th> Payment gateway</th>
+      <th> Pasarela de pago </th>
+      <th> Proceso de verificacion que presta su servicio para transacciones dentro de la aplicacion. </th>
+    </tr>
+    <tr>
+      <th> Platform</th>
+      <th> Plataforma </th>
+      <th> Sistema digital donde los agricultores y asesores interactúan y  comparten información. </th>
+    </tr>
+    <tr>
+      <th> Alert system</th>
+      <th> Sistema de alertas </th>
+      <th> Mecanismo digital de notificaciones que recuerdan el estado y necesidades del cultivo. </th>
+    </tr>
+    <tr>
+      <th> Cultivation status</th>
+      <th> Estado de cultivo </th>
+      <th> Mecanismo digital de notificaciones que recuerdan el estado y necesidades del cultivo. </th>
+    </tr>
+    <tr>
+      <th> Resources</th>
+      <th> Recursos </th>
+      <th> Medios fisicos que sirven para el mantenimiento correcto de un cultivo. </th>
+    </tr>
+    <tr>
+      <th> Crop evaluation</th>
+      <th> Evaluacion de cultivo </th>
+      <th> Evaluacion de expertos que muestra el estado del cultivo y si es necesario modificar sus caracteristicas. </th>
+    </tr>
+    <tr>
+      <th> Irrigation schedule</th>
+      <th> Calendario de riego </th>
+      <th> Recordatorio apropiado de la cantidad de dias que faltan para que un cultivo sea regado. </th>
+    </tr>
+    <tr>
+      <th> Cultivation area </th>
+      <th> Area de cultivo </th>
+      <th> Limites medidos del cultivo para su evaluacion y delimitacion.</th>
+    </tr>
+    <tr>
+      <th> Performance reports</th>
+      <th> Reportes de rendimiento</th>
+      <th> Analisis documentados de todo la cosecha del cultivo y como puede mejorar. </th>
+    </tr>
+    <tr>
+      <th> Digital Profile</th>
+      <th> Perfil digital</th>
+      <th> Perfil publico en la aplicacion con la informacion del agricultor, caracteristicas, fotos, cultivos registrados visibles para los usuarios. </th>
+    </tr>
+  </tbody>
+</table>
