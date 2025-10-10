@@ -84,12 +84,18 @@
 | 1.5     | 21/09/2025 | Estefano-Solis-C, samuelbonifacio015                                                              | Integración del **Capítulo IV: Product Design**, abarcando Arquitectura de Información, Diseño UX/UI y prototipado.     |
 | 1.6     | 21/09/2025 | Estefano-Solis-C, samuelbonifacio015                                                              | Integración del **Capítulo V: Product Implementation**, con el desarrollo y evidencias del Sprint 1.                   |
 | 1.7     | 21/09/2025 | Estefano-Solis-C                                                                                | Adición de **Capítulos VI, VII y VIII**: Conclusiones, Bibliografía y Anexos. Actualizaciones finales de diagramas.      |
+| 1.8     | 10/10/2025 | Shukaritas, Serkekes2006, samuelbonifacio015, Gaftherman, Estefano-Solis-C                                                                               | Deploy de **Web Frontend Application**. Creación y deploy de db.json. Actualización de documentación en Report Final Project. Función de autenticación de usuario y redireccionamiento a Frontend en LP.   |
 
 </div>
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el proyecto: https://github.com/AgroApp-UPC/Project-Report
+URL del repositorio para el proyecto: https://github.com/Apps-Web-Grupo-4-FruTech/ReportFinalProject
+URL del repositorio de Landing Page: https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page
+URL del repositorio del Frontend: https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
+URL del repositorio del Backend: https://github.com/Apps-Web-Grupo-4-FruTech/Backend-AgriApp
+
+#
 
 **TB1**
 
@@ -126,6 +132,42 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
     </tr>
   </tbody>
 </table>
+
+**TP1**
+
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<table>
+  <thead>
+    <tr>
+      <th> Integrantes</th>
+      <th> Tarea Asignada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th> Landa Ortiz, Sergio Javier</th>
+      <th> Realizacion del campo "Dashboard"</th>
+    </tr>
+    <tr>
+      <th> Solis Campos, Estefano Sebastian</th>
+      <th> Setup Inicial, realizacion del campo "Profile", enrutamiento de secciones y fusionar funcionalidades del proyecto</th>
+    </tr>
+    <tr>
+      <th> Via Luna, Bruce</th>
+      <th> Realizacion del campo "My Fields" y fusionar las funcionalidades del proyecto</th>
+    </tr>
+    <tr>
+      <th> Castro Pariona, Jefferson Ernesto</th>
+      <th>Realizacion del campo "Crops", apoyo en la documentación y creación de diapositivas</th>
+    </tr>
+    <tr>
+      <th> Bonifacio Jaramillo, Samuel Jesus</th>
+      <th> Bounded Contexts de Tasks,Community & Autenticación de usuario en LP </th>
+    </tr>
+  </tbody>
+</table>
+
 # Contenido
 
 1. [Capítulo I: Introducción](#capítulo-i-introducción)<br>
@@ -279,7 +321,7 @@ El producto insignia de la startup, CultivApp, es una plataforma integral de sof
 |  ![xxxe](assets/integrantes/Estefano-Solis.jpeg)                   |    Solis Campos, Estefano Sebastian                |      u202314354                |       Soy un estudiante apasionado de la carrera de Ingeniería de Software, actualmente en el quinto ciclo. Me entusiasma aplicar mis conocimientos en el desarrollo de soluciones innovadoras y estoy siempre buscando nuevas oportunidades para aprender y crecer en el mundo de la tecnología.                              |
 |  ![xxxe](assets/integrantes/Bruce-Via.png)|Via Luna, Bruce|U20231403|Mi nombre es Bruce Via, tengo 20 años y soy estudiante de la carrera de ingenieria de Software. Me considero uan persona que muestra un interes desmedido cuando lo que hago resulta agradable, dispuesto a aprender nuevos conocimientos incluso si no es necesario, ademas de siempre intentar mejorar en lo que hago demostrando iniciativo|
 |  ![xxxe](assets/integrantes/Jefferson-Castro.jpeg)                   |   Castro Pariona, Jefferson Ernesto                 |    u201822823                    |    Estudiante de la carrera de Ingeniería de Software y me gustaría trabajar para grandes empresas y tener mi propio negocio. Soy motivador y me gusta trabajar en equipo.                               |
-|  ![xxxe](assets/integrantes/Samuel-Bonifacio.jpeg)                   |   Bonifacio Jaramillo, Samuel Jesus       |   u202317269     |       ingeniero de software actualmente en 5to ciclo. experiencia desarrollando aplicaciones en javascript, c++, typescript, react entre otros. me apasiona la inteligencia artificial, ajedrez y la música                              |
+|  ![xxxe](assets/integrantes/Samuel-Bonifacio.jpeg)                   |   Bonifacio Jaramillo, Samuel Jesus       |   u202317269     |       Estudiante de ingeniería de software. Actualmente en 5to ciclo. Cuento con experiencia desarrollando aplicaciones en Javascript, C++, Typescript, React entre otros. Me apasiona la inteligencia artificial, música y fútbol.                              |
 
 ## 1.2. Solution Profile
 
