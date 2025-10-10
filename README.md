@@ -1466,7 +1466,7 @@ Con este logo, CultivApp se posiciona como una marca confiable, eficiente y comp
 
 ***Logo original***
 
-<img src="/assets/CultivAppLogo.pnG" alt="CultivAppLogo" width="100" height="100">
+<img src="assets/CultivAppLogo.png" alt="CultivAppLogo" width="100" height="100">
 
 <h3>Typography</h3>
 
@@ -2226,12 +2226,16 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 
 ## Anexos
 
-[Repositorio de Reporte](https://github.com/Apps-Web-Grupo-4-FruTech)
+Repositorio de Reporte:
+https://github.com/Apps-Web-Grupo-4-FruTech
 
-[Repositorio de LandingPage](https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page)
+Repositorio de LandingPage: 
+https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page
 
-[Repositorio de Frontend](https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech)
+Repositorio de Frontend: 
+https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
 
-[Canvas](https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Canvas: https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-[Enlace link exposición](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202314354_upc_edu_pe/EkxPSpRnNExEuVgVVX7wpO4BCHyHym-DUTW_LHQiDJvDcg?e=zUbaOu)
+Enlace link exposicion: 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EUZOuV2-Kw5Aq95JRvrDhWgBbrbzDQBg74r71WPxq9Vswg?e=DIb7Zr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
