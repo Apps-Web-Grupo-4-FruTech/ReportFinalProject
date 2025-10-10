@@ -363,7 +363,7 @@ To-do / InProcess / ToReview / Done
 <br>
 - US07
 
-![US07](/assets/execution_evidence/Edit_Crop.png)
+![US07](/assets/execution_evidence/Edit_crop.png)
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
