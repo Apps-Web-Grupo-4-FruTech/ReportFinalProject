@@ -345,18 +345,23 @@ To-do / InProcess / ToReview / Done
 ![US01](/assets/execution_evidence/Register.jpeg)
 <br>
 - US02
+
 ![US02](/assets/execution_evidence/Log_in.jpeg)
 <br>
 - US04
+
 ![US04](/assets/execution_evidence/Profile.png)
 <br>
 - US05
+
 ![US05](/assets/execution_evidence/Register_Crop.png)
 <br>
 - US06
+
 ![US06](/assets/execution_evidence/Delete_Crop.png)
 <br>
 - US07
+
 ![US07](/assets/execution_evidence/Edit_Crop.png)
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
