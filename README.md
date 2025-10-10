@@ -211,51 +211,10 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
 8. [Anexos](#anexos)<br>
 
 # Student Outcome
-
-<table>
-  <thead>
-    <tr>
-      <th> Criterio específico</th>
-      <th> Acciones realizadas</th>
-      <th> Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>5.c1. Trabaja en equipo para proporcionar
-        liderazgo en forma conjunta</th>
-      <th> Landa Ortiz, Sergio Javier:<br>
-            TB1: Realizo el capitulo 21, liderando y señalando la ruta tanto de pensamiento como de desarrollo a la que ira dirigida el proyecto<br><br>
-            Solis Campos, Estefano Sebastian<br>
-            TB1: Desarrollo el capitulo 2, definiendo el orden y sentido de las entrevistas, ademas de la forma de acercarnos a nuestros segmentos objetivos<br><br>
-            Via Luna, Bruce<br>
-            TB1: Desarrollo el capitulo 3, liderando la direccion mediante las user stories, llevando por la guia correcta al cumplimiento de estas en los siguientes capitulos<BR><br>
-            Castro Pariona, Jefferson Ernesto<br>
-            TB1: Realizo el capitulo 4, creando lo direccion y guia visual de la landing page, vital para el desarrollo futuro del proyecto<br><br>
-            Bonifacio Jaramillo, Samuel Jesus<br>
-            TB1: Desarrollo del landing page, forma de direccionar el proyecto al frontend y backend da futuro<br><br>
-      </th>
-      <th> TB1: Como equipo, fortalecimos nuestra comunicación oral adaptándola a distintos contextos y audiencias. Desde la presentación de análisis competitivos y la explicación técnica de procesos, hasta la realización de entrevistas con segmentos objetivos, logramos transmitir ideas con claridad y generar confianza. Esto nos permitió obtener información valiosa, validar la propuesta de CultivApp y asegurar que cada integrante aportara a la construcción de un mensaje efectivo y comprensible para públicos diversos.</th>
-    </tr>
-    <tr>
-      <th> 5.c2. Crea un entorno colaborativo e
-            inclusivo, establece metas, planifica tareas
-            y cumple objetivos</th>
-      <th> Landa Ortiz, Sergio Javier:<br>
-            TB1: Establecia la primera fecha de entregable en el trabajo al ser la parte introductoria, enfocada en la direccion incial del proyecto<br><br>
-            Solis Campos, Estefano Sebastian<br>
-            TB1: Se dedico a crear un ambiente optimo y agil para desarrollar entrevistas, brindando las herramientas para estas<br><br>
-            Via Luna, Bruce<br>
-            TB1: La creacion del product backlog establece una meta para la planificacion de las user stories en el desarrollo del landing page a futuro<BR><br>
-            Castro Pariona, Jefferson Ernesto<br>
-            TB1: Creo un entorno figma y brindo una guia para que colaboremos en el desarrollo creativo de el diseño de la aplicacion<br><br>
-            Bonifacio Jaramillo, Samuel Jesus<br>
-            TB1: Uso el repositorio para permitirnos aportar ideas o codigo bruto al desarrollo del landing page<br><br>
-      </th>
-      <th> TB1: Como grupo, demostramos efectividad en la comunicación escrita al producir documentos claros y estructurados que se adaptaron a distintos públicos. Desde análisis competitivos, needfinding y documentación técnica, hasta perfiles y diseños persuasivos, logramos transmitir tanto aspectos académicos como prácticos. Esto permitió al equipo organizar la información, dejar evidencia de los procesos y presentar CultivApp de manera comprensible y convincente para diversas audiencias.</th>
-    </tr>
-  </tbody>
-</table>
+| Criterio específico | Acciones realizadas | Conclusión general |
+|---|---|---|
+| 5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta | <p><strong>Landa Ortiz, Sergio Javier</strong><br>TB1: Lideró la redacción del Capítulo I (introducción, startup profile y estructura del informe).</p><p>TP1: Coordinó la edición final del informe, armonizó estilo y referencias, y validó coherencia entre artefactos (user personas, hipótesis y backlog).</p><p><strong>Solis Campos, Estefano Sebastian</strong><br>TB1: Diseñó y ejecutó guiones de entrevista para el Capítulo II; recopiló y organizó evidencias.</p><p>TP1: Profundizó el análisis cualitativo, redactó el Needfinding y las User Personas, y presentó hallazgos con evidencia citada.</p><p><strong>Via Luna, Bruce</strong><br>TB1: Redactó las user stories y entregó los primeros diagramas del Capítulo III; identificó entidades y relaciones.</p><p>TP1: Refinó los diagramas C4 y de clases, modeló la base de datos y documentó decisiones técnicas para futuras implementaciones.</p><p><strong>Castro Pariona, Jefferson Ernesto</strong><br>TB1: Diseñó la guía visual del Capítulo IV y los wireframes iniciales de la landing.</p><p>TP1: Creó prototipos interactivos en Figma, generó assets y definió pautas de estilo para implementación frontend.</p><p><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>TB1: Contribuyó en el desarrollo del landing y las secciones técnicas del Capítulo V.</p><p>TP1: Implementó la estructura inicial del frontend, realizó commits organizados, desplegó en GitHub Pages y documentó pasos de despliegue.</p> | El equipo demostró capacidad de liderazgo compartido: integró investigación, diseño y trabajo técnico para orientar el proyecto y consolidar un entregable coherente. |
+| 5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <p><strong>Landa Ortiz, Sergio Javier</strong><br>TB1: Definió la fecha de entrega y objetivos iniciales; facilitó coordinación de reuniones.</p><p>TP1: Supervisó la planificación de entregables, verificó cumplimiento de hitos y gestionó ajustes de alcance.</p><p><strong>Solis Campos, Estefano Sebastian</strong><br>TB1: Organizó el equipo para ejecutar entrevistas de campo y validación.</p><p>TP1: Documentó y consolidó la evidencia de entrevistas, generó resúmenes ejecutivos y orientó la priorización de hallazgos.</p><p><strong>Via Luna, Bruce</strong><br>TB1: Diseñó el Product Backlog y priorizó historias para el Sprint 1.</p><p>TP1: Mantuvo y refinó el backlog, asignó historias y facilitó la planificación y seguimiento del sprint.</p><p><strong>Castro Pariona, Jefferson Ernesto</strong><br>TB1: Configuró el entorno de diseño en Figma y coordinó la colaboración visual.</p><p>TP1: Lideró la creación de prototipos y estableció las guías de interacción necesarias para el equipo de frontend.</p><p><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>TB1: Coordinó la estructura del repositorio y fomentó contribuciones al código.</p><p>TP1: Implementó componentes iniciales, aplicó estilos globales, verificó despliegues y documentó el proceso para replicación.</p> | El equipo estableció procesos claros y colaborativos que permitieron cumplir metas y entregar evidencias técnicas y de diseño en tiempo, facilitando la continuidad del proyecto. |
 
 # Capítulo I: Introducción
 
