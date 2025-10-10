@@ -1,7 +1,7 @@
 # Capítulo V: Product Implementation, Validation & Deployment.
 ## 5.1. Software Configuration Management.
 
-Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, mantenimiento y despliegue de la aplicación **CultivApp**, que gestiona el alquiler de vehículos. El objetivo es asegurar la coherencia, eficiencia y calidad a lo largo del ciclo de vida del proyecto.
+Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, mantenimiento y despliegue de la aplicación **CultiConnection**, que gestiona el alquiler de vehículos. El objetivo es asegurar la coherencia, eficiencia y calidad a lo largo del ciclo de vida del proyecto.
 
 ---
 
@@ -78,10 +78,14 @@ Hemos optado por crear un repositorio en GitHub para nuestro proyecto, tanto par
 
 - URL del repositorio Report en GitHub: https://github.com/Apps-Web-Grupo-4-FruTech/ReportFinalProject
 - URL del repositorio Landing Page en GitHub: https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page
+- URL del repositorio Frontend en GitHub: https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
+
+---
+
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
-Para "**CultivApp**", hemos utilizado "**HTML y CSS**". Para estructurar el contenido usamos etiquetas de section y divisiones para contenido específico de cada una de las secciones. Además, hemos empleado atributos como ***HTML Style*** para personalizar el aspecto visual, definiendo propiedades como color, tamaño de fuente y tipo de letra.
+Para "**CultiConnection**", hemos utilizado "**HTML y CSS**". Para estructurar el contenido usamos etiquetas de section y divisiones para contenido específico de cada una de las secciones. Además, hemos empleado atributos como ***HTML Style*** para personalizar el aspecto visual, definiendo propiedades como color, tamaño de fuente y tipo de letra.
 
 Para resaltar elementos importantes, hemos aplicado ***HTML Text Formatting***, incluyendo etiquetas como b para negrita, strong para resaltado y del para mostrar cambios de precios. En cuanto a la navegación, hemos implementado una barra de navegación horizontal utilizando **CSS** para mejorar la experiencia del usuario al explorar el contenido.
 
@@ -102,21 +106,21 @@ esta manera, nuestra página estará disponible en línea y accesible para todos
 
 | Elemento                        | Detalle                                                                                       |
 |----------------------------------|----------------------------------------------------------------------------------------------|
-| **Sprint**                      | 1 - Implementación de funcionalidades básicas y diseño inicial de CultivApp                   |
+| **Sprint**                      | 1 - Implementación de funcionalidades básicas y diseño inicial de CultiConnection                   |
 | **Sprint Planning Background**   |                                                                                              |
 | **Fecha**                       | 20/09/2025                                                                                   |
 | **Hora**                        | 20:00 horas (GMT-5)                                                                          |
 | **Lugar**                       | Reunión virtual mediante Discord                                                              |
 | **Preparado por**               | [FruTech]                                                       |
 | **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Bruce Via, Sergio Landa, Estefano Solis ]                                                             |
-| **Sprint n-1 Review**           | Se creó la organización de CultivApp en GitHub, se definieron ramas y se asignaron tareas iniciales como investigación de usuarios, wireframes y mockups. |
+| **Sprint n-1 Review**           | Se creó la organización de CultiConnection en GitHub, se definieron ramas y se asignaron tareas iniciales como investigación de usuarios, wireframes y mockups. |
 | **Sprint n-1 Retrospective**    | Se implementó la estructura básica de la landing page utilizando HTML, CSS y JavaScript.      |
 | **Sprint Goal & User Stories**  |                                                                                              |
 | **Sprint 1 Velocity**           | 20 puntos                                                                                    |
 | **Sum of Story Points**         | 20 puntos                                                                                    |
 
 #### Objetivo del Sprint
-Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas de registro e inicio de sesión para los usuarios de CultivApp.
+Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas de registro e inicio de sesión para los usuarios de CultiConnection.
 
 #### User Stories seleccionadas para el Sprint 1
 
@@ -124,7 +128,7 @@ Implementar la estructura inicial de la aplicación, el diseño de la landing pa
 |-----|---------------------------------------------------------------------------------------------|--------|
 | 1   | Como usuario, quiero poder registrarme en la plataforma para acceder a las funcionalidades.  |   5    |
 | 2   | Como usuario, quiero iniciar sesión para gestionar mis cultivos o recursos.                  |   5    |
-| 3   | Como visitante, quiero visualizar la landing page con información clara sobre CultivApp.     |   4    |
+| 3   | Como visitante, quiero visualizar la landing page con información clara sobre CultiConnection.     |   4    |
 | 4   | Como usuario, quiero navegar entre las secciones principales desde la barra de navegación.   |   3    |
 | 5   | Como usuario, quiero acceder a enlaces de contacto y redes sociales desde el footer.         |   3    |
 
@@ -134,7 +138,7 @@ Implementar la estructura inicial de la aplicación, el diseño de la landing pa
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-En esta sección se presenta la matriz de liderazgo y colaboración (Leadership-and-Collaboration Matrix, LACX) para el Sprint 1 de CultivApp. Esta matriz identifica, para cada aspecto clave del Sprint, quién es el líder responsable y quiénes son los colaboradores, facilitando así la comunicación y la asignación de tareas dentro del equipo. 
+En esta sección se presenta la matriz de liderazgo y colaboración (Leadership-and-Collaboration Matrix, LACX) para el Sprint 1 de CultiConnection. Esta matriz identifica, para cada aspecto clave del Sprint, quién es el líder responsable y quiénes son los colaboradores, facilitando así la comunicación y la asignación de tareas dentro del equipo. 
 
 Los aspectos considerados en este Sprint incluyen: diseño de la landing page, desarrollo de funcionalidades de registro e inicio de sesión, implementación de la barra de navegación, y configuración del footer con enlaces de contacto y redes sociales.
 
@@ -161,7 +165,7 @@ Esta organización permite una asignación clara de responsabilidades y fomenta 
 | US03 | Inicio de Sesión             | Desarrollo del formulario y lógica para el inicio de sesión de usuarios.                         | 3                  | Jefferson Castro           | Done          |
 | US04 | Barra de Navegación          | Implementación de la barra de navegación principal, con enlaces a las secciones. Responsive.     | 2                  | Sergio Landa                  | Done          |
 | US05 | Footer y Redes Sociales      | Desarrollo del footer con enlaces de contacto y redes sociales. Responsive.                      | 2                  | Estefano Solis             | Done          |
-| US06 | Página de Información        | Sección informativa sobre CultivApp y sus beneficios.                                            | 2                  | Samuel Bonifacio           | Done          |
+| US06 | Página de Información        | Sección informativa sobre CultiConnection y sus beneficios.                                            | 2                  | Samuel Bonifacio           | Done          |
 | US07 | Validación de Formularios    | Validación de datos en los formularios de registro e inicio de sesión.                           | 2                  | Jefferson Castro           | Done          |
 | US08 | Estilos Generales            | Definición y aplicación de estilos globales (colores, fuentes, espaciados, etc.).                | 1                  | Bruce Via                  | Done          |
 
@@ -171,7 +175,7 @@ To-do / InProcess / ToReview / Done
 ---
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1, el equipo de CultivApp realizó múltiples commits en el repositorio de GitHub, evidenciando el avance y cumplimiento de las tareas planificadas. A continuación, se presenta una tabla con los principales commits realizados, siguiendo el formato requerido:
+Durante el Sprint 1, el equipo de CultiConnection realizó múltiples commits en el repositorio de GitHub, evidenciando el avance y cumplimiento de las tareas planificadas. A continuación, se presenta una tabla con los principales commits realizados, siguiendo el formato requerido:
 
 | Repository                                         | Branch | Commit Id | Commit Message                                 | Commit Message Body                                   | Committed on (Date)     |
 |----------------------------------------------------|--------|-----------|------------------------------------------------|-------------------------------------------------------|------------------------|
@@ -185,7 +189,7 @@ Durante el Sprint 1, el equipo de CultivApp realizó múltiples commits en el re
 | Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | c911dca   | feat: merged initial setup                     | Se realizó la configuración inicial y estructura básica de la landing page. | 19/09/2025             |
 | Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 31de6c2   | feat: initial setup for landing page           | Configuración inicial para la landing page.            | 19/09/2025             |
 
-Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos del Sprint, asegurando la trazabilidad y transparencia en el desarrollo de CultivApp.
+Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos del Sprint, asegurando la trazabilidad y transparencia en el desarrollo de CultiConnection.
 
 **Reporte de commits:**
 ![Commits](/assets/commits.png)
@@ -225,7 +229,7 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 
 ## Conclusiones
 
-- El desarrollo del proyecto CultivApp ha permitido establecer una base sólida para la implementación, validación y despliegue de la aplicación de gestión de alquiler de vehículos. A través de este proceso, se han logrado los siguientes resultados clave:
+- El desarrollo del proyecto CultiConnection ha permitido establecer una base sólida para la implementación, validación y despliegue de la aplicación de gestión de alquiler de vehículos. A través de este proceso, se han logrado los siguientes resultados clave:
 
 - La configuración del entorno de desarrollo ha sido fundamental para el éxito del proyecto. La implementación de GitHub como plataforma principal de gestión de código fuente, junto con herramientas complementarias como Trello para la gestión de tareas y Figma para el diseño UX/UI, ha facilitado la colaboración efectiva entre los miembros del equipo. La adopción de tecnologías web estándar (HTML, CSS, JavaScript, Vue.js) y Node.js ha proporcionado una base tecnológica robusta y escalable.
 
@@ -233,10 +237,96 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 
 - La matriz de liderazgo y colaboración (LACX) ha sido instrumental en la organización del equipo, permitiendo una distribución clara de responsabilidades mientras se mantiene la colaboración entre todos los miembros. 
 
+## 5.2.2. Sprint 2
+
+### 5.2.2.1. Sprint Planning 2
+
+
+| Elemento                        | Detalle                                                                                       |
+|----------------------------------|----------------------------------------------------------------------------------------------|
+| **Sprint**                      | 2 - Implementación de componentes, bounded context, db.json y enrutamiento de Frontend Web Application                 |
+| **Sprint Planning Background**   |                                                                                              |
+| **Fecha**                       | 9/10/2025                                                                                   |
+| **Hora**                        | 23:00 horas (GMT-5)                                                                          |
+| **Lugar**                       | Reunión virtual mediante Meet                                                              |
+| **Preparado por**               | [FruTech]                                                       |
+| **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Bruce Via, Sergio Landa, Estefano Solis ]                                                             |
+| **Sprint n-2 Review**           | Se creó el entorno del Frontend Web Application con Vue y Javascript. Se implementó la primera versión de db.json y confiuración de enrutamiento. |
+| **Sprint n-2 Retrospective**    | Se implementaron los componentes en el contexto de CultiConnection usando DDD.      |
+| **Sprint Goal & User Stories**  |                                                                                              |
+| **Sprint 2 Velocity**           | 42 puntos                                                                                    |
+| **Sum of Story Points**         | 42 puntos                                                                                    |
+
+#### Objetivo del Sprint
+Implementar los componentes principales de la aplicación, establecer el contexto delimitado (bounded context), configurar la base de datos inicial (db.json) y definir el enrutamiento para la navegación en la aplicación web frontend de CultiConnection.
+
+#### User Stories seleccionadas para el Sprint 2
+
+| ID  | User Story                                                                                  | Puntos |
+|-----|---------------------------------------------------------------------------------------------|--------|
+| 1   | Como usuario, quiero poder registrarme en la aplicación web para acceder a sus funciones.    |   5    |
+| 2   | Como usuario, quiero iniciar sesión para acceder a mi cuenta y gestionar mis cultivos.       |   5    |
+| 3   | Como usuario, quiero recuperar la contraseña de mi cuenta en caso de olvido.                 |   4    |
+| 4   | Como usuario, quiero modificar mi perfil para mantenerlo actualizado.                        |   4    |
+| 5   | Como agricultor, quiero registrar diferentes cultivos para mantener un registro a mi alcance.|   5    |
+| 6   | Como agricultor, quiero eliminar los cultivos que desee para mantener un registro actualizado.|   4    |
+| 7   | Como agricultor, quiero editar los cultivos registrados para asegurarme que estén actualizados.|   4    |
+| 8   | Como administrador, quiero verificar y gestionar a los usuarios registrados.                 |   4    |
+| 9   | Como administrador, quiero asegurar el acceso al perfil de los usuarios para mantener su información segura.|   4    |
+| 10  | Como agricultor, quiero acceder a un historial de los cambios del cultivo para mantener un registro detallado.|   3    |
+
+**Total de puntos:** 42
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de liderazgo y colaboración (Leadership-and-Collaboration Matrix, LACX) para el Sprint 2 de CultiConnection. Esta matriz identifica, para cada aspecto clave del Sprint, quién es el líder responsable y quiénes son los colaboradores, facilitando así la comunicación y la asignación de tareas dentro del equipo. 
+
+Los aspectos considerados en este Sprint incluyen: diseño de la landing page, desarrollo de funcionalidades de registro e inicio de sesión, implementación de la barra de navegación, y configuración del footer con enlaces de contacto y redes sociales.
+
+| Team Member (Apellido, Nombre)         | GitHub Username      | db.json | Vue Project Setup | BC (Task & Community) | BC (Crops, Dashboard & Fields) |
+|----------------------------------------|----------------------|---------------------|--------------------------|---------------------|------------------------|
+| Bonifacio, Samuel                     | samuelbonifacio015      | L                   | L                       | L                   | L                      |
+| Castro, Jefferson                      | JeffersonCastroPariona     | C                   | L                        | C                   | C                      |
+| Via, Bruce                             | Shukaritas            | L                   | L                        | L                   | L                      |                     |
+| Solis, Estefano                        | Estefano-Solis-C       | L                   | L                        | L                   | L                      |
+| Landa, Sergio                        | Serkekes2006       | C                   | C                        | C                   | C                      |
+
+**L:** Leader (Líder)  
+**C:** Collaborator (Colaborador)
+
+Esta organización permite una asignación clara de responsabilidades y fomenta la colaboración efectiva durante el desarrollo del Sprint 2.
+
+### 5.2.2.3. Sprint Backlog 2
+
+| ID   | Title/Section                | Description                                                                                      | Estimation (Hours) | Assigned To                | Status         |
+|------|------------------------------|--------------------------------------------------------------------------------------------------|--------------------|----------------------------|---------------|
+| US01 | Registro de Usuario          | Implementación del formulario y lógica para el registro de usuarios en la aplicación web.        | 4                  | Samuel Bonifacio           | To-do         |
+| US02 | Inicio de Sesión             | Desarrollo del formulario y lógica para el inicio de sesión y gestión de cultivos.               | 4                  | Jefferson Castro           | To-do         |
+| US03 | Recuperar Contraseña         | Implementación de la funcionalidad para recuperar la contraseña de usuario.                      | 3                  | Bruce Via                  | To-do         |
+| US04 | Editar Perfil                | Desarrollo de la funcionalidad para modificar el perfil del usuario.                             | 3                  | Estefano Solis             | To-do         |
+| US05 | Registrar Cultivos           | Implementación del registro de diferentes cultivos por parte del agricultor.                     | 4                  | Samuel Bonifacio           | To-do         |
+| US06 | Eliminar Cultivos            | Desarrollo de la funcionalidad para eliminar cultivos registrados.                               | 3                  | Jefferson Castro           | To-do         |
+| US07 | Editar Cultivos              | Implementación de la edición de cultivos registrados.                                            | 3                  | Bruce Via                  | To-do         |
+| US08 | Gestionar Usuarios           | Desarrollo de la funcionalidad para que el administrador gestione usuarios registrados.          | 3                  | Estefano Solis             | To-do         |
+| US09 | Bloqueo de Cuenta            | Implementación de la seguridad para el acceso al perfil de los usuarios.                         | 3                  | Sergio Landa               | To-do         |
+| US10 | Historial de Cambios         | Desarrollo de la funcionalidad para acceder al historial de cambios de los cultivos.             | 2                  | Samuel Bonifacio           | To-do         |
+
+**Leyenda de Status:**  
+To-do / InProcess / ToReview / Done
+
+---
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
 
 ## Bibliografía
-
-### Herramientas y Tecnologías
 
 1. **GitHub Inc.** (2024). *GitHub: Where the world builds software*. Recuperado de https://github.com/
 
@@ -264,5 +354,7 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 [Repositorio de Reporte](https://github.com/Apps-Web-Grupo-4-FruTech)
 
 [Repositorio de LandingPage](https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page)
+
+[Repositorio de Frontend](https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech)
 
 [Canvas](https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
