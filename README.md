@@ -195,7 +195,7 @@ Con este logo, CultivApp se posiciona como una marca confiable, eficiente y comp
 
 ***Logo original***
 
-<img src="/assets/CultivAppLogo.png" alt="CultivAppLogo" width="100" height="100">
+<img src="/assets/CultivAppLogo.pnG" alt="CultivAppLogo" width="100" height="100">
 
 <h3>Typography</h3>
 
@@ -412,40 +412,42 @@ En esta sección, presentamos el Design Level Event Storming desarrollado para n
 
 - Bounded Context Cultivos Management
 
-<img src="assets/Desing Level - Event (2).jpg" alt="Bounded Context Cultivos Management">
+<img src="assets/Desing Level - Event (1).jpg" alt="Bounded Context Cultivos Management">
 - Bounded Context Area Management
 
-<img src="assets/Desing Level - Event (3).jpg" alt="Bounded Context Area Management">
+<img src="assets/Desing Level - Event (2).jpg" alt="Bounded Context Area Management">
 
 - Bounded Context Evaluation Management
 
-<img src="assets/Desing Level - Event (1).jpg" alt="Bounded Context Evaluation Management">
+<img src="assets/Desing Level - Event (3).jpg" alt="Bounded Context Evaluation Management">
 
 ### 4.6.2. Software Architecture Context Diagram.
 
 El diagrama de contexto de CultiConection ofrece una visión global de las interacciones principales entre el sistema central y los actores externos que lo rodean. La plataforma está orientada a simplificar la gestión y supervisión de cultivos por parte de los usuarios. En este nivel, se identifican actores clave como el Agricultor, encargado de registrar y administrar sus cultivos, y la Asociación, que envía las evaluaciones correspondientes. Asimismo, se muestran las integraciones externas más relevantes: la Pasarela de Pago para procesar transacciones con las asociaciones, el Servicio de Mapas para visualizar la ubicación de los cultivos y las Redes Sociales para compartir información de manera pública. Esta representación de alto nivel permite entender de manera clara cómo CultiConection se relaciona y coopera con su ecosistema digital y humano.
 
-<img src="assets/context_diagram.jpg" alt="Software Architecture Context Diagram">
+<img src="assets/C4 CONTEXTO.jpg" alt="Software Architecture Context Diagram">
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
 El diagrama de contenedores detalla la organización interna de CultiConection, mostrando cómo los diferentes componentes de software trabajan en conjunto para brindar la funcionalidad de la plataforma. La Aplicación Web, implementada en React, sirve como punto de interacción donde los usuarios pueden registrar y gestionar sus cultivos. Esta interfaz se conecta con una API en Node.js, que cumple el rol de enlace entre la capa de presentación y los servicios del backend. La información esencial de usuarios, cultivos, registros, evaluaciones y pagos se almacena en una Base de Datos PostgreSQL. Asimismo, se integran contenedores adicionales como el Servicio de Mapas (basado en Google Maps API) para la visualización de ubicaciones y la Pasarela de Pago (Stripe), destinada a la gestión de transacciones. En conjunto, este nivel del modelo permite comprender cómo se estructuran y comunican las partes técnicas del sistema.
 
-<img src="assets/container_diagram.png" alt="Software Architecture Container Diagrams">
+<img src="assets/C4 CONTENEDORES.jpg" alt="Software Architecture Container Diagrams">
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
 El diagrama de componentes pone el foco en la arquitectura interna de la API de CultiConection, encargada de coordinar la lógica de negocio central de la plataforma. Esta API, desarrollada en Node.js, se organiza en distintos componentes especializados, cada uno orientado a un dominio concreto. El Componente de Gestión de Usuarios administra la autenticación y los perfiles; Gestión de Cultivos permite realizar operaciones sobre los cultivos registrados; Control de Cultivos abarca el ciclo completo de cuidado de cada cultivo; Ubicaciones y Terrenos gestiona la localización de los cultivos registrados; y Reporte de Evaluaciones procesa tanto los informes como los pagos asociados a dichas evaluaciones. La interacción entre estos módulos sigue un flujo funcional definido: los agricultores administran cultivos, estos se asocian a cuentas y pueden ser evaluados. Esta separación de responsabilidades refleja un diseño guiado por el dominio, donde cada componente encapsula una función específica y colabora con los demás para dar soporte integral a la plataforma junto a los Bounded Countext desarrollados que explicacion de forma aun mas detallada la funcionalidad de cada componente existente de la plataforma CultiConection.
 
-<img src="assets/Components_diagram_API.png" alt="Software Architecture Container Diagrams API Management">
+<img src="assets/C4_COMPONENTES_API.jpg" alt="Software Architecture Container Diagrams API Management">
 
-<img src="assets/Components_diagram_users.jpg" alt="Software Architecture  Diagrams Users Management">
+<img src="assets/C4_COMPONENTS_USER.jpg" alt="Software Architecture  Diagrams Users Management">
 
-<img src="assets/Components_diagram_evaluacion.jpg" alt="Software Architecture Container Diagrams Evaluation Management">
+<img src="assets/C4 COMPONENTS_CULTIVO.jpg" alt="Software Architecture Container Diagrams Evaluation Management">
 
-<img src="assets/Components_diagram_cultivo.jpg" alt="Software Architecture Container Diagrams Cultivo Management">
+<img src="assets/C4 COMPONETS_CAMPO.jpg" alt="Software Architecture Container Diagrams Cultivo Management">
 
-<img src="assets/Components_diagram_maps.jpg" alt="Software Architecture Container Diagrams Maps Management">
+<img src="assets/C4_COMPONENTS_TAREAS.jpg" alt="Software Architecture Container Diagrams Maps Management">
+
+<img src="assets/C4_COMPONENTS_COMUNIDAD.jpg" alt="Software Architecture Container Diagrams Maps Management">
 
 ## 4.7. Software Object-Oriented Design.
 
