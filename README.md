@@ -12,7 +12,7 @@
 
 ## 3.2. User Stories
 
-**Epicas para CultiConection**
+**Epicas para CultivApp**
 
 <table>
   <thead>
@@ -26,57 +26,57 @@
     <tr>
       <th> 01</th>
       <th> Gestion de usuarios </th>
-      <th> Como usuario de CultiConection, quiero crear un perfil, modificarlo, abrir y cerrar sension en cualquier dispositivo y recuperar la contraseña de mi cuenta para crear mi identidad dentro de la aplicacion y acceder a sus funcionalidades. </th>
+      <th> Como usuario de CultivApp, quiero crear un perfil, modificarlo, abrir y cerrar sension en cualquier dispositivo y recuperar la contraseña de mi cuenta para crear mi identidad dentro de la aplicacion y acceder a sus funcionalidades. </th>
     </tr>
     <tr>
       <th> 02</th>
       <th> Publicacion de Cultivos </th>
-      <th> Como usuario de CultiConection, quier crear, eliminar y editar cultivos para tener un control de ellos en tiempo real y actualizado usando las funcionalidades de CultiConection.  </th>
+      <th> Como usuario de CultivApp, quier crear, eliminar y editar cultivos para tener un control de ellos en tiempo real y actualizado usando las funcionalidades de CultivApp.  </th>
     </tr>
     <tr>
       <th> 03</th>
-      <th> Evaluaciones de cultivos </th>
-      <th> Como usuario a CultiConection, quiero pedir y recibir evaluaciones de los cultivos que sienta que puedan mejorar para evitar perdidas o una posible muerte de los cultivos por un mal cuidado del que no sepa. </th>
+      <th> Publicacion de Campo de Cultivo </th>
+      <th> Como usuario a CultivApp, registrar campos donde ingresaran mis cultivos para editarlos independiente si ocurre algo. </th>
     </tr>
     <tr>
       <th> 04</th>
       <th> Mantenimiento de cultivos </th>
-      <th> Como usuario de CultiConection, quiero señalar y recibir señales de datos que necesiten mantenimiento en mi cultivo para asi enfocarme en mejorar y revisar evitando perdidas. </th>
+      <th> Como usuario de CultivApp, quiero señalar y recibir señales de datos que necesiten mantenimiento en mi cultivo para asi enfocarme en mejorar y revisar evitando perdidas. </th>
     </tr>
     <tr>
       <th> 05</th>
       <th> Notificaciones de estado del cultivo</th>
-      <th> Como usuario de CultiConection, quiero recibir notificaciones personalizadas y adaptadas a mis cultivos para no olvidar los cuidados o si muchos de sus datos estan desactualizados antes de perdir una evaluacion. </th>
+      <th> Como usuario de CultivApp, quiero recibir notificaciones personalizadas y adaptadas a mis cultivos para no olvidar los cuidados o si muchos de sus datos estan desactualizados antes de perdir una evaluacion. </th>
     </tr>
     <tr>
       <th> 06</th>
       <th> Seguridad de informacion </th>
-      <th> Como administrador de CultiConection, quiero gestionar y cuidar el perfil de mis usuario, para asegurar su estadia dentro de la aplicacion y no sientan un riesgo de ssu datos al navegar dentro de ella. </th>
+      <th> Como administrador de CultivApp, quiero gestionar y cuidar el perfil de mis usuario, para asegurar su estadia dentro de la aplicacion y no sientan un riesgo de ssu datos al navegar dentro de ella. </th>
     </tr>
     <tr>
       <th> 07</th>
       <th> Historial de cultivo </th>
-      <th> Como usuario de CultiConection, quiero tener un historial actualizado de los cambios y modificaciones que pueda hacerle a mi cultivo, para saber en que paso pudo cambiar el rendimiento de mi cultivo. </th>
+      <th> Como usuario de CultivApp, quiero tener un historial actualizado de los cambios y modificaciones que pueda hacerle a mi cultivo, para saber en que paso pudo cambiar el rendimiento de mi cultivo. </th>
     </tr>
     <tr>
       <th> 08</th>
       <th> Verificacion de identidad </th>
-      <th> Como administrador de CultiConection, quiero un sistema de verificacion de identidades de mis usuarios, para asegurarme de que no existan cuentas duplicadas o falsificadores de identidad. </th>
+      <th> Como administrador de CultivApp, quiero un sistema de verificacion de identidades de mis usuarios, para asegurarme de que no existan cuentas duplicadas o falsificadores de identidad. </th>
     </tr>
     <tr>
       <th> 09</th>
       <th> Accesibilidad  </th>
-      <th> Como usuario de CultiConection, quiero funcionalidades que ayuden a que la aplicacion sea mas accesible en aspectos como color, configuracion y optimizacion para no tener problemas durante su uso. </th>
+      <th> Como usuario de CultivApp, quiero funcionalidades que ayuden a que la aplicacion sea mas accesible en aspectos como color, configuracion y optimizacion para no tener problemas durante su uso. </th>
     </tr>
     <tr>
       <th> 10</th>
       <th> User Experience en la Landing Page </th>
-      <th> Como usuario de CultiConection, quiero navegar por una Landing Page con una experiencia de usuario fluida y agil, para verificar y experimentar sus funcionalidades y el acceso a la informacion util del producto. </th>
+      <th> Como usuario de CultivApp, quiero navegar por una Landing Page con una experiencia de usuario fluida y agil, para verificar y experimentar sus funcionalidades y el acceso a la informacion util del producto. </th>
     </tr>
   </tbody>
 </table>
 
-**Historias de Usuario para CultiConection**
+**Historias de Usuario para CultivApp**
 
 
 <table>
@@ -193,33 +193,33 @@
     </tr>
     <tr>
       <th> 08</th>
-      <th> Peticion de evaluacion </th>
-      <th> Como agricultor, quiero pedir una revision, para comprobar si el estado de mis cultivos es el adecuado </th>
-      <th>Scenario 1: Llamado de evaluacion<br>
-      Given el agricultor este en el cultivo que desee pedir una revision<br>
-      When el agricultor presione el boton "Pedir Revision"<br>
-      Then el sistema iniciara una proceso de evaluacion con un asesor
+      <th> Registro de campo </th>
+      <th> Como agricultor, quiero agregar un campo de cultivo, para registrar y actualizar los datos de mis cultivos sin confusion </th>
+      <th>Scenario 1: Registro de campo<br>
+      Given el agricultor este en la seccion "Mis Campos"
+When el agricultor presione el boton "Añadir campo"
+Then el sistema iniciara una proceso de creacion de campo de cultivo
       </th>
       <th>03</th>
     <tr>
       <th> 09</th>
-      <th> Recepción de evaluación </th>
-      <th> Como agricultor, quiero recibir una evaluacion de mi cultivo, para identificar problemas de mi cultivo</th>
-      <th>Scenario 1: Llegada de evaluación<br>
-      Given el usuario pidio una evaluacion de forma previa<br>
-      When el sistema envie una evaluaion acorde al cultivo que el agricultor haya seleccionado<br>
-      Then el usuario podra ver la evaluacion <br>
+      <th> Publicar Campo </th>
+      <th> Como agricultor, quiero publicar mis campos de cultivo, para vincularlos facilmente a los cultivos</th>
+      <th>Scenario 1: Publicacion de campo
+Given el usuario lleno en formulario para crear un campo
+When el usuario presione el boton de "Guardar"
+Then el sistema creara un campo para su uso
       </th>
       <th>03</th>
     </tr>
     <tr>
       <th>10</th>
-      <th> Pago por evaluaciones </th>
-      <th> Como usuario, quiero pagar por una evaluacion de mi cultivo para asegurar un trabajo de calidad </th>
-      <th>Scenario 1: Pago realizado<br>
-      Given el usuario pidio una evaluacion previamente<br>
-      When el sistema informe que la evaluacion ya esta lista<br>
-      Then el sistema mostrara metodos de pago para recibir la evaluacion<br>
+      <th> Vincular con cultivos </th>
+      <th> Como usuario, quiero vincular mis cultivos con los campos, para organizarlos y mantener un registro ordenado </th>
+      <th>Scenario 1: Vinculacion
+Given el usuario lleno los datos del cultivo
+When el usuario presione el campo al que va a pertenecer
+Then el sistema vinculara los datos para su que se muestre completamente
       </th>
       <th>03</th>
     </tr>
@@ -342,9 +342,9 @@
       <th> 20</th>
       <th> Visualizar página de inicio </th>
       <th> Como usuario, quiero visualizar una página de inicio clara para
-      comprender rápidamente de qué trata CultiConection. </th>
+      comprender rápidamente de qué trata CultivApp. </th>
       <th>Scenario 1: Acceso a la página principal<br>
-      Given  el usuario accede al landing page de CultiConection<br>
+      Given  el usuario accede al landing page de CultivApp<br>
       When el sistema cargue la página <br>
       Then el sistema mostrara el nombre del producto, una descripción
       breve y una pagina correctamente diseñada.<br>
@@ -388,7 +388,7 @@
       <th> EP01</th>
       <th> Gestion de usuarios </th>
       <th></th>
-      <th>Como usuario de CultiConection, quiero crear un perfil, modificarlo, abrir y cerrar sension en cualquier dispositivo y recuperar la contraseña de mi cuenta para crear mi identidad dentro de la aplicacion y acceder a sus funcionalidades.</th>
+      <th>Como usuario de CultivApp, quiero crear un perfil, modificarlo, abrir y cerrar sension en cualquier dispositivo y recuperar la contraseña de mi cuenta para crear mi identidad dentro de la aplicacion y acceder a sus funcionalidades.</th>
       <th></th>
       <th>01</th>
     </tr>
@@ -428,7 +428,7 @@
       <th> EP02</th>
       <th> Publicacion de Cultivos </th>
       <th></th>
-      <th> Como usuario de CultiConection, quier crear, eliminar y editar cultivos para tener un control de ellos en tiempo real y actualizado usando las funcionalidades de CultiConection.  </th>
+      <th> Como usuario de CultivApp, quier crear, eliminar y editar cultivos para tener un control de ellos en tiempo real y actualizado usando las funcionalidades de CultivApp.  </th>
       <th></th>
       <th>02</th>
     </tr>
@@ -458,33 +458,33 @@
     </tr>
     <tr>
       <th> EP03</th>
-      <th> Evaluaciones de cultivos </th>
+      <th> Publicacion de Campo de Cultivo </th>
       <th></th>
-      <th> Como usuario a CultiConection, quiero pedir y recibir evaluaciones de los cultivos que sienta que puedan mejorar para evitar perdidas o una posible muerte de los cultivos por un mal cuidado del que no sepa. </th>
+      <th> Como usuario a CultivApp, registrar campos donde ingresaran mis cultivos para editarlos independiente si ocurre algo. </th>
       <th></th>
       <th>03</th>
     </tr>
     <tr>
       <th> 8</th>
       <th> US08 </th>
-      <th>Peticion de evaluacion</th>
-      <th>Como agricultor, quiero pedir una revision, para comprobar si el estado de mis cultivos es el adecuado</th>
+      <th>Registro de campo</th>
+      <th>Como agricultor, quiero agregar un campo de cultivo, para registrar y actualizar los datos de mis cultivos sin confusion</th>
       <th>3</th>
       <th>03</th>
     </tr>
     <tr>
       <th> 9</th>
       <th> US09 </th>
-      <th>Recepción de evaluación</th>
-      <th>Como agricultor, quiero reibir una evaluacion de mi cultivo, para identificar problemas de mi cultivo</th>
+      <th>Publicar Campo</th>
+      <th>Como agricultor, quiero publicar mis campos de cultivo, para vincularlos fácilmente a los cultivos</th>
       <th>5</th>
       <th>03</th>
     </tr>
     <tr>
       <th> 10</th>
       <th> US10 </th>
-      <th>Pago por evaluaciones</th>
-      <th>Como usuario, quiero pagar por una evaluacion de mi cultivo para asegurar un trabajo de calidad</th>
+      <th>Vincular con cultivos</th>
+      <th>Como usuario, quiero vincular mis cultivos con los campos, para organizarlos y mantener un registro ordenado</th>
       <th>5</th>
       <th>03</th>
     </tr>
@@ -492,7 +492,7 @@
       <th> EP04</th>
       <th> Mantenimiento de cultivos </th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero señalar y recibir señales de datos que necesiten mantenimiento en mi cultivo para asi enfocarme en mejorar y revisar evitando perdidas. </th>
+      <th> Como usuario de CultivApp, quiero señalar y recibir señales de datos que necesiten mantenimiento en mi cultivo para asi enfocarme en mejorar y revisar evitando perdidas. </th>
       <th></th>
       <th>04</th>
     </tr>
@@ -515,7 +515,7 @@
       <th> EP05</th>
       <th> Notificaciones de estado del cultivo</th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero recibir notificaciones personalizadas y adaptadas a mis cultivos para no olvidar los cuidados o si muchos de sus datos estan desactualizados antes de perdir una evaluacion. </th>
+      <th> Como usuario de CultivApp, quiero recibir notificaciones personalizadas y adaptadas a mis cultivos para no olvidar los cuidados o si muchos de sus datos estan desactualizados antes de perdir una evaluacion. </th>
       <th></th>
       <th>05</th>
     </tr>
@@ -539,7 +539,7 @@
       <th> EP06</th>
       <th> Seguridad de informacion </th>
       <th></th>
-      <th> Como administrador de CultiConection, quiero gestionar y cuidar el perfil de mis usuario, para asegurar su estadia dentro de la aplicacion y no sientan un riesgo de ssu datos al navegar dentro de ella. </th>
+      <th> Como administrador de CultivApp, quiero gestionar y cuidar el perfil de mis usuario, para asegurar su estadia dentro de la aplicacion y no sientan un riesgo de ssu datos al navegar dentro de ella. </th>
       <th></th>
       <th>06</th>
     </tr>
@@ -563,7 +563,7 @@
       <th> EP07</th>
       <th> Historial de cultivo </th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero tener un historial actualizado de los cambios y modificaciones que pueda hacerle a mi cultivo, para saber en que paso pudo cambiar el rendimiento de mi cultivo. </th>
+      <th> Como usuario de CultivApp, quiero tener un historial actualizado de los cambios y modificaciones que pueda hacerle a mi cultivo, para saber en que paso pudo cambiar el rendimiento de mi cultivo. </th>
       <th></th>
       <th>07</th>
     </tr>
@@ -579,7 +579,7 @@
       <th> EP09</th>
       <th> Accesibilidad  </th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero funcionalidades que ayuden a que la aplicacion sea mas accesible en aspectos como color, configuracion y optimizacion para no tener problemas durante su uso. </th>
+      <th> Como usuario de CultivApp, quiero funcionalidades que ayuden a que la aplicacion sea mas accesible en aspectos como color, configuracion y optimizacion para no tener problemas durante su uso. </th>
       <th></th>
       <th>09</th>
     </tr>
@@ -606,7 +606,7 @@
       <th> EP10</th>
       <th> User Experience en la Landing Page </th>
       <th></th>
-      <th> Como usuario de CultiConection, quiero navegar por una Landing Page con una experiencia de usuario fluida y agil, para verificar y experimentar sus funcionalidades y el acceso a la informacion util del producto. </th>
+      <th> Como usuario de CultivApp, quiero navegar por una Landing Page con una experiencia de usuario fluida y agil, para verificar y experimentar sus funcionalidades y el acceso a la informacion util del producto. </th>
       <th></th>
       <th>10</th>
     </tr>
@@ -615,7 +615,7 @@
       <th> US20 </th>
       <th>Visualizar página de inicio</th>
       <th>Como usuario, quiero visualizar una página de inicio clara para
-      comprender rápidamente de qué trata CultiConection</th>
+      comprender rápidamente de qué trata CultivApp</th>
       <th>3</th>
       <th>10</th>
     </tr>
