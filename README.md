@@ -342,6 +342,7 @@ To-do / InProcess / ToReview / Done
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
 - US01
+
 ![US01](/assets/execution_evidence/Register.jpeg)
 <br>
 - US02
