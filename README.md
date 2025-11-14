@@ -423,7 +423,7 @@ Estas preguntas se centran en la facilidad de uso, el valor inmediato y la barre
 
 - Al ver esta pantalla principal, ¿qué es lo más importante para usted? ¿Ver sus campos, sus tareas o las recomendaciones?
 
-- ¿Le parece útil que la aplicación le muestre "Alertas de Plaga" o "Fertilización Necesaria"? ¿Cómo maneja estas alertas usualmente?
+- ¿Le parece útil que la aplicación le muestre "Tareas proximas a vencerse" o "Consejos"? ¿Cómo manejaria este contenido?
 
 - ¿Le parece fácil de entender esta pantalla, o ve demasiada información?
 
