@@ -2127,29 +2127,35 @@ To-do / InProcess / ToReview / Done
 | `e41ab39` | [cite_start]Initial commit [cite: 95] | [cite_start]Estefano-Solis-C [cite: 99] | [cite_start]Sep 14, 2025 [cite: 94] |
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
+
 - US01
 
-![US01](/assets/execution_evidence/Register.jpeg)
+<img src="assets/execution_evidence/Register.jpeg" alt="Evidencia de Ejecucion">
+
 <br>
 - US02
 
-![US02](/assets/execution_evidence/Log_in.jpeg)
+<img src="assets/execution_evidence/Log_in.jpeg" alt="Evidencia de Ejecucion">
+
 <br>
 - US04
 
-![US04](/assets/execution_evidence/Profile.png)
+<img src="assets/execution_evidence/Profile.png" alt="Evidencia de Ejecucion">
+
 <br>
 - US05
 
-![US05](/assets/execution_evidence/Register_Crop.png)
+<img src="assets/execution_evidence/Register_Crop.png" alt="Evidencia de Ejecucion">
+
 <br>
 - US06
 
-![US06](/assets/execution_evidence/Delete_Crop.png)
+<img src="assets/execution_evidence/Delete_Crop.png" alt="Evidencia de Ejecucion">
+
 <br>
 - US07
 
-![US07](/assets/execution_evidence/Edit_crop.png)
+<img src="assets/execution_evidence/Edit_crop.png" alt="Evidencia de Ejecucion">
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -2168,7 +2174,7 @@ Durante este Sprint, se realizó el despliegue del frontend del sistema CultivAp
 fácilmente al desarrollo desde cualquier navegador, facilitando las pruebas funcionales, demostraciones internas y la
 recolección de feedback en tiempo real.
 
-![Repositorio_FrontEnd](/assets/front-end.png)
+<img src="assets/front-end.png" alt="Commits Sprint 2">
 
 - URL del repositorio: https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
 
@@ -2195,7 +2201,7 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 
 <br>
 
-![Commits_Sprint_2](/assets/commits_sprint2.png)
+<img src="assets/commits_sprint2.png" alt="Commits Sprint 2">
 
 ## 5.2.3. Sprint 3
 
@@ -2354,13 +2360,14 @@ El equipo ha trabajado de manera enfocada en el repositorio **Backend‑FruTech*
 
 Evidences
 
-![Repositorio_FrontEnd](/assets/ev1.jpeg)
+<img src="assets/ev1.jpeg" alt="Evidencia de Ejecucion">
 
 Además, se implementó un endpoint de health check para monitorear la disponibilidad del sistema (US19). Todos los servicios de backend planificados para este sprint están funcionales y listos para ser consumidos por el frontend y otras integraciones.
 
-![Repositorio_FrontEnd](/assets/ev2.jpeg)
+<img src="assets/ev2.jpeg" alt="Evidencia de Ejecucion">
 
-![Repositorio_FrontEnd](/assets/ev3.jpeg)
+
+<img src="assets/ev3.jpeg" alt="Evidencia de Ejecucion">
 
 
 ### 5.2.3.6.	Services Documentation Evidence for Sprint Review.
@@ -2515,11 +2522,12 @@ A continuación se detallan los pasos realizados y la evidencia correspondiente.
 5. Actividad: Verificación del despliegue (exitosa)  
    - Explicación: Se ejecutó el primer despliegue automático. El proveedor clonó el repo, instaló dependencias (npm install) y ejecutó el start script. El servicio quedó en línea y el endpoint de health check (/health) devolvió 200 OK.  
 
-![Captura_Desplieuge_DataBase](/assets/Deploy_DB.jpeg)
+<img src="assets/Deploy_DB.jpeg" alt="Despliegue Base de datos">
 
-![Captura_Desplieuge_BackEnd](/assets/Deploy_BK.jpeg)
+<img src="assets/Deploy_BK.jpeg" alt="Despliegue Backend">
 
-![Backend Deplgegado](/assets/Deploy.jpeg)
+<img src="assets/Deploy.jpeg" alt="Despliegue Completo">
+
 
 **Url des depliegue:** https://backend-frutech-production.up.railway.app/swagger/index.html
 
@@ -2534,7 +2542,8 @@ las decisiones de funcionalidad del Backend, union y despliegue.
 
 **Evidencia de colaboración en GitHub (Sprint 3)**
 
-![Captura Evidencia Commits](/assets/Commits_Evidence.jpeg)
+<img src="assets/Commits_Evidence.jpeg" alt="Colaboracion de Commits">
+
 
 ## Team Collaboration Insights during Sprint
 
@@ -2656,7 +2665,7 @@ Estas preguntas se centran en la eficiencia, la gestión de múltiples parcelas,
 
 **User Persona del segmento objetivo #1: Agricultores de pequeña escala**
 
-![Captura_ENtrevista Segmento_1](/assets/Captura_Evidencia_Segmento_1.png)
+<img src="assets/Captura_Evidencia_Segmento_1.png" alt="Entrevista 1 Segmento 1">
 
 **Entrevistado(a):** Carmen Diaz
 
@@ -2668,7 +2677,7 @@ Estas preguntas se centran en la eficiencia, la gestión de múltiples parcelas,
 
 **Resumen:** Carmen Diaz es una agriculta de nivel intermedio que simbra mayormente en su casa, fue entrevistada previamente para pensar en la idea de una startup como la que se le presentara a continuacion. Se destaco siemopre por intentar ver por el bienestar de sus cultivos en una zona como la ciudad y señalo como gracias a nustra aplicacion esto sera mucho mas facil y sobre todo tranquilo gracias a las funcionalidades que esta tiene.
 
-![Captura_ENtrevista Segmento_1](/assets/Captura_Segmento_1_Entrevista_2.jpeg)
+<img src="assets/Captura_Segmento_1_Entrevista_2.jpeg" alt="Entrevista 2 Segmento 1">
 
 **Entrevistado(a):** Noelia Gómez Sánchez
 
@@ -2685,7 +2694,7 @@ En cuanto a la operatividad diaria y la confianza, Noelia considera indispensabl
 
 **User Persona del Segmento objetivo #2: Agricultores de mediana escala**
 
-![Captura_ENtrevista Segmento_1](/assets/Captura_Evidencia_Segmento_2.png)
+<img src="assets/Captura_Evidencia_Segmento_2.png" alt="Entrevista 1 Segmento 2">
 
 **Entrevistado(a):** Walter Sanchez
 
@@ -2697,8 +2706,7 @@ En cuanto a la operatividad diaria y la confianza, Noelia considera indispensabl
 
 **Resumen:** Walter Sanchez es ya un agricultor titulado y trabajador desde mas de 20 años, entrevistado previamente para presentarle la idea, hoy la prueba mediante nuestra aplicacion, permitiendole registrar cultivos y campos de cultivo para su trabajo. Se destaca en ser un referente en su area y como el trabajar en esto, pese a ser algo que le gusta tambien resulta ser dificil debido a que muchos procesos son obsoletos, lentos o simplemente tedioso luego de repetirse y señala como con la aplicacion al menos traera la digitalizacion de procesos y el como muchos trabjos que le costaban tiempo y esfuerzo seran mas faciles con nuestro producto.
 
-
-![Captura_ENtrevista Segmento_1](/assets/CAPentrevistaapps.png)
+<img src="assets/CAPentrevistaapps.png" alt="Entrevista 2 Segmento 2">
 
 **Entrevistado(a):** Javier Landa
 
@@ -2709,7 +2717,6 @@ En cuanto a la operatividad diaria y la confianza, Noelia considera indispensabl
 **Enlace de la entrevista (Drive):** [Enlace Entrevista 2](https://drive.google.com/file/d/1fjCNb1DV1eAWvgIRaIHvrII7yc1g-lOJ/view?usp=sharing)
 
 **Resumen:** Este video presenta a Javier, un participante entrevistado previamente, mientras prueba la aplicación web "CultiApp" como parte del "segmento 2" de un proyecto final. La mayor parte del video es una demostración silenciosa de la aplicación, mostrando su "Panel de Control", la gestión de cultivos, los campos y las tareas. Esta grabación de pantalla sirve como contexto para la entrevista formal que comienza justo al final, donde el entrevistador, Sergio Landa, explica que el objetivo es evaluar la eficiencia de la aplicación y su valor comercial para un usuario que maneja una operación agrícola tecnificada.
-
 
 
 ## 5.3.2. Evaluaciones según heurísticas.
@@ -2851,12 +2858,12 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 
 **Cuadro Representativo del Video**
 
-![Captura_ENtrevista Segmento_1](/assets/Captura_About_The_Team_Apps.png)
+<img src="assets/Captura_About_The_Team_Apps.png" alt="Video about the Product">
+
 
 <br>
 
 **Url del video:** https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing
-
 
 
 ## Conclusiones
