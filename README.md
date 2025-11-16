@@ -2947,4 +2947,4 @@ https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
 
 Canvas: https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-Enlace link exposicion: 
+Enlace link exposicion: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/IQBRgMmJN0uFQqbS6f4mbgc_Af9Ma5WzuIAsNYMBb9oeM-k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VeC39G](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/IQBRgMmJN0uFQqbS6f4mbgc_Af9Ma5WzuIAsNYMBb9oeM-k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VeC39G)
