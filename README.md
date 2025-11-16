@@ -315,7 +315,7 @@ El sector agrícola peruano, a pesar de su resiliencia y crecimiento en agroexpo
 - **Who (Quién) - ¿Quiénes son los afectados?**  
   Los principales afectados son dos segmentos de agricultores peruanos:
 
-  1. **Agricultores de pequeña escala (subsistencia):** Con terrenos menores a 5 hectáreas, que constituyen el 66.3% de las unidades agropecuarias del país. Su principal objetivo es la seguridad alimentaria de sus familias y la venta de excedentes en mercados locales.
+  1. **Agricultores de pequeña escala (subsistencia):** Con terrenos menores a 5 hectáreas, que constituyen el 66.3% de las   unidades agropecuarias del país. Su principal objetivo es la seguridad alimentaria de sus familias y la venta de excedentes en mercados locales.
   2. **Agricultores de mediana escala (comercial):** Con terrenos de 5 a 20 hectáreas, orientados a mercados regionales y cadenas de supermercados. Su objetivo es la rentabilidad y la competitividad.
 
   Ambos grupos carecen de acceso a las herramientas de agricultura de precisión que les permitirían optimizar sus procesos y competir en mejores condiciones.
