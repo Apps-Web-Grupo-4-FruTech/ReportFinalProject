@@ -2456,9 +2456,83 @@ Commits relacionados con documentación OpenAPI / Swagger (referencia):
 
 ### 5.2.3.7.	Software Deployment Evidence for Sprint Review.
 
+# Software Deployment Evidence — Pasos y evidencia
+
+A continuación se detallan los pasos realizados y la evidencia correspondiente.
+
+1. Actividad: Selección de proveedor y creación de recursos  
+   - Explicación: Se eligió un proveedor de nube (ej. Render, Vercel, Railway, Heroku) por su integración con GitHub y capa gratuita para proyectos Node.js. Se creó la cuenta del equipo y se configuró el proyecto "FruTech" para alojar los servicios backend.  
+   - Evidencia:  
+     - Captura del dashboard del proveedor mostrando el proyecto "FruTech".  
+     - [Pega aquí la captura de pantalla del Dashboard de tu proveedor de nube]
+
+2. Actividad: Configuración del servicio web (API)  
+   - Explicación: Se creó un servicio web vinculado al repositorio Apps-Web-Grupo-4-FruTech/Backend-FruTech y se seleccionó la rama (main o develop) para despliegue automático (CI/CD). Se definió el comando de inicio (por ejemplo `npm start` o `node dist/index.js`).  
+   - Evidencia:  
+     - Captura de la pantalla de configuración del servicio mostrando el repo vinculado y el comando de inicio.  
+     - [Pega aquí la captura de la configuración del "Web Service" mostrando el repo vinculado]
+
+3. Actividad: Aprovisionamiento de la base de datos en la nube  
+   - Explicación: Se aprovisionó una base de datos gestionada (PostgreSQL o MySQL) en la nube (ej. Neon, PlanetScale o el servicio gestionado del proveedor). Se obtuvo la connection string que la API usará en producción.  
+   - Evidencia:  
+     - Captura del dashboard de la base de datos mostrando detalles de conexión y estado "Online".  
+     - [Pega aquí la captura del dashboard de tu base de datos en la nube]
+
+4. Actividad: Configuración de variables de entorno  
+   - Explicación: Para seguridad y configuración, se añadieron variables de entorno en el panel del servicio (por ejemplo DATABASE_URL, JWT_SECRET, NODE_ENV). La API lee estas variables en tiempo de ejecución en lugar de tener secretos en el código.  
+   - Evidencia:  
+     - Captura de la sección "Environment Variables" con las claves configuradas (valores ocultos).  
+     - Ejemplo de variables usadas:  
+       - `DATABASE_URL`  
+       - `JWT_SECRET`  
+       - `NODE_ENV=production`  
+     - [Pega aquí la captura de la sección de Variables de Entorno]
+
+5. Actividad: Verificación del despliegue (exitosa)  
+   - Explicación: Se ejecutó el primer despliegue automático. El proveedor clonó el repo, instaló dependencias (npm install) y ejecutó el start script. El servicio quedó en línea y el endpoint de health check (/health) devolvió 200 OK.  
+   - Evidencia:  
+     - Captura del log de despliegue mostrando build y start exitosos.  
+     - Resultado de prueba del endpoint: `GET https://<tu-servicio>/health` → 200 OK (JSON o texto confirmando disponibilidad).  
+     - [Pega aquí la captura del log de despliegue y la respuesta del endpoint /health]
+
+---
+
+**Notas recomendadas para la documentación:**  
+- Añadir enlaces directos a las capturas y a la URL pública del servicio.  
+- Incluir el comando exacto de despliegue y el archivo/entrypoint usado (por ejemplo `start: node dist/index.js` en package.json).  
+- Mantener las variables de entorno documentadas en un archivo privado (ej. .env.example sin valores) para facilitar replicación del despliegue.
 
 
 ### 5.2.3.8.	Team Collaboration Insights during Sprint.
+
+// ...existing code...
+
+## Team Collaboration Insights during Sprint
+
+### Introducción
+En esta sección se describen los métodos e insights de colaboración del equipo (Jefferson, Estefano, Samuel, Bruce y Sergio) durante el Sprint 3. Para completar las 13 Historias de Usuario planificadas, el equipo utilizó ceremonias ágiles, un flujo de trabajo en GitHub y canales de comunicación continuos. Estos mecanismos permitieron mantener calidad, resolver bloqueos y coordinar entregables.
+
+### Pilares de la colaboración
+
+1. Comunicación y sincronización (Ceremonias ágiles)  
+   - Daily Scrum: reuniones diarias de 15 minutos para compartir avances, planes e impedimentos.  
+   - Ejemplo: US10 (Samuel) dependía de US08 (Estefano); se priorizó la revisión de US08 tras detectarlo en el Daily.  
+   - Comunicación asincrónica en Discord para dudas rápidas y coordinación fuera de horario.
+
+2. Flujo de trabajo colaborativo (GitHub y Code Reviews)  
+   - Ramas por desarrollador (ej.: jefferson, samuel, estefano) para trabajo paralelo y reducir conflictos.  
+   - Pull Requests obligatorios con, al menos, una aprobación antes de merge.  
+   - Beneficios: calidad de código, transferencia de conocimiento y reducción de bugs en la rama principal.
+
+3. Gestión de tareas y transparencia (Sprint Backlog)  
+   - Sprint Backlog como fuente única de verdad: asignación clara de cada US y estados (To-do / In Process / To Review / Done).  
+   - Actualizaciones constantes del estado permitieron autoorganización del equipo.  
+   - Resultado: todas las 13 US del sprint marcadas como "Done" al cierre.
+
+### Conclusión
+La combinación de ceremonias ágiles, revisión de código y un backlog visible facilitó la entrega completa del sprint. Estas prácticas mejoraron la coordinación entre miembros, aceleraron la resolución de dependencias y aumentaron la confianza en la calidad del producto.
+  
+// ...existing code...
 
 # 5.3. Validation Interviews.
 
