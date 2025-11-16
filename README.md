@@ -85,6 +85,7 @@
 | 1.6     | 21/09/2025 | Estefano-Solis-C, samuelbonifacio015                                                              | Integración del **Capítulo V: Product Implementation**, con el desarrollo y evidencias del Sprint 1.                   |
 | 1.7     | 21/09/2025 | Estefano-Solis-C                                                                                | Adición de **Capítulos VI, VII y VIII**: Conclusiones, Bibliografía y Anexos. Actualizaciones finales de diagramas.      |
 | 1.8     | 10/10/2025 | Shukaritas, Serkekes2006, samuelbonifacio015, Gaftherman, Estefano-Solis-C                                                                               | Deploy de **Web Frontend Application**. Creación y deploy de db.json. Actualización de documentación en Report Final Project. Función de autenticación de usuario y redireccionamiento a Frontend en LP.   |
+| 1.9    | 16/11/2025 | Shukaritas, Serkekes2006, samuelbonifacio015, Gaftherman, Estefano-Solis-C                                                                                | Deploy de **Backend**. Creación y deploy de base de datos. Actualización de documentación en Report Final Project. Funcion de subir, llamar y editar datos desdel el backend.   |
 
 </div>
 
@@ -170,6 +171,42 @@ Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió l
     </tr>
   </tbody>
 </table>
+
+**TB2**
+
+Para el desarrollo del informe perteneciente a la entrega del TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<table>
+  <thead>
+    <tr>
+      <th> Integrantes</th>
+      <th> Tarea Asignada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th> Landa Ortiz, Sergio Javier</th>
+      <th> Desarrollo de documentacion</th>
+    </tr>
+    <tr>
+      <th> Solis Campos, Estefano Sebastian</th>
+      <th> Desarrollo del Bounded Context Users</th>
+    </tr>
+    <tr>
+      <th> Via Luna, Bruce</th>
+      <th> Desarrollo del Boundedn Context Field y Crops</th>
+    </tr>
+    <tr>
+      <th> Castro Pariona, Jefferson Ernesto</th>
+      <th>Desarrollo del Boundedn Context Tasks</th>
+    </tr>
+    <tr>
+      <th> Bonifacio Jaramillo, Samuel Jesus</th>
+      <th> Desarrollo del Boundedn Context CommunityRecommendations </th>
+    </tr>
+  </tbody>
+</table>
+
 
 # Contenido
 
@@ -276,8 +313,8 @@ Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió l
 # Student Outcome
 | Criterio específico | Acciones realizadas | Conclusión general |
 |---|---|---|
-| 5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta | <p><strong>Landa Ortiz, Sergio Javier</strong><br>TB1: Lideró la redacción del Capítulo I (introducción, startup profile y estructura del informe).</p><p>TP1: Coordinó la edición final del informe, armonizó estilo y referencias, y validó coherencia entre artefactos (user personas, hipótesis y backlog).</p><p><strong>Solis Campos, Estefano Sebastian</strong><br>TB1: Diseñó y ejecutó guiones de entrevista para el Capítulo II; recopiló y organizó evidencias.</p><p>TP1: Profundizó el análisis cualitativo, redactó el Needfinding y las User Personas, y presentó hallazgos con evidencia citada.</p><p><strong>Via Luna, Bruce</strong><br>TB1: Redactó las user stories y entregó los primeros diagramas del Capítulo III; identificó entidades y relaciones.</p><p>TP1: Refinó los diagramas C4 y de clases, modeló la base de datos y documentó decisiones técnicas para futuras implementaciones.</p><p><strong>Castro Pariona, Jefferson Ernesto</strong><br>TB1: Diseñó la guía visual del Capítulo IV y los wireframes iniciales de la landing.</p><p>TP1: Creó prototipos interactivos en Figma, generó assets y definió pautas de estilo para implementación frontend.</p><p><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>TB1: Contribuyó en el desarrollo del landing y las secciones técnicas del Capítulo V.</p><p>TP1: Implementó la estructura inicial del frontend, realizó commits organizados, desplegó en GitHub Pages y documentó pasos de despliegue.</p> | El equipo demostró capacidad de liderazgo compartido: integró investigación, diseño y trabajo técnico para orientar el proyecto y consolidar un entregable coherente. |
-| 5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <p><strong>Landa Ortiz, Sergio Javier</strong><br>TB1: Definió la fecha de entrega y objetivos iniciales; facilitó coordinación de reuniones.</p><p>TP1: Supervisó la planificación de entregables, verificó cumplimiento de hitos y gestionó ajustes de alcance.</p><p><strong>Solis Campos, Estefano Sebastian</strong><br>TB1: Organizó el equipo para ejecutar entrevistas de campo y validación.</p><p>TP1: Documentó y consolidó la evidencia de entrevistas, generó resúmenes ejecutivos y orientó la priorización de hallazgos.</p><p><strong>Via Luna, Bruce</strong><br>TB1: Diseñó el Product Backlog y priorizó historias para el Sprint 1.</p><p>TP1: Mantuvo y refinó el backlog, asignó historias y facilitó la planificación y seguimiento del sprint.</p><p><strong>Castro Pariona, Jefferson Ernesto</strong><br>TB1: Configuró el entorno de diseño en Figma y coordinó la colaboración visual.</p><p>TP1: Lideró la creación de prototipos y estableció las guías de interacción necesarias para el equipo de frontend.</p><p><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>TB1: Coordinó la estructura del repositorio y fomentó contribuciones al código.</p><p>TP1: Implementó componentes iniciales, aplicó estilos globales, verificó despliegues y documentó el proceso para replicación.</p> | El equipo estableció procesos claros y colaborativos que permitieron cumplir metas y entregar evidencias técnicas y de diseño en tiempo, facilitando la continuidad del proyecto. |
+| 5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta | <p><strong>Landa Ortiz, Sergio Javier</strong><br>TB1: Lideró la redacción del Capítulo I (introducción, startup profile y estructura del informe).</p><p>TP1: Coordinó la edición final del informe, armonizó estilo y referencias, y validó coherencia entre artefactos (user personas, hipótesis y backlog).</p><p></p>TB2: Realizacion del bounded context CommunityRecommendations <p> <br><strong>Solis Campos, Estefano Sebastian</strong><br>TB1: Diseñó y ejecutó guiones de entrevista para el Capítulo II; recopiló y organizó evidencias.</p><p>TP1: Profundizó el análisis cualitativo, redactó el Needfinding y las User Personas, y presentó hallazgos con evidencia citada.</p><p></p>TB2: Implementación de los endpoints de UserRecommendations y ejecución del deploy del proyecto junto con la base de datos en la plataforma Railway. <p> <br><strong>Via Luna, Bruce</strong><br>TB1: Redactó las user stories y entregó los primeros diagramas del Capítulo III; identificó entidades y relaciones.</p><p>TP1: Refinó los diagramas C4 y de clases, modeló la base de datos y documentó decisiones técnicas para futuras implementaciones.</p><p></p>TB2: Implementación de los endpoints de Field y CropField <p><br><strong>Castro Pariona, Jefferson Ernesto</strong><br>TB1: Diseñó la guía visual del Capítulo IV y los wireframes iniciales de la landing.</p><p>TP1: Creó prototipos interactivos en Figma, generó assets y definió pautas de estilo para implementación frontend.</p><p></p>TB2: Distribución  de actividades de manera equitativa. Desarrollar el trabajo en equipo nos permitió desarrollar habilidades de liderazgo y desarrollo de habilidades blandas.  <p><br><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>TB1: Contribuyó en el desarrollo del landing y las secciones técnicas del Capítulo V.</p><p>TP1: Implementó la estructura inicial del frontend, realizó commits organizados, desplegó en GitHub Pages y documentó pasos de despliegue.</p></p>TB2: Desarrollo de el endpoint de CommunityRecommendations.  <p> | El equipo demostró capacidad de liderazgo compartido: integró investigación, diseño y trabajo técnico para orientar el proyecto y consolidar un entregable coherente. |
+| 5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <p><strong>Landa Ortiz, Sergio Javier</strong><br>TB1: Definió la fecha de entrega y objetivos iniciales; facilitó coordinación de reuniones.</p><p>TP1: Supervisó la planificación de entregables, verificó cumplimiento de hitos y gestionó ajustes de alcance.</p><p></p>TB2: Establecimiento y ejecucion del desarrollo del enpoint estimado dentro del tiempo limite. <p> <br><strong>Solis Campos, Estefano Sebastian</strong><br>TB1: Organizó el equipo para ejecutar entrevistas de campo y validación.</p><p>TP1: Documentó y consolidó la evidencia de entrevistas, generó resúmenes ejecutivos y orientó la priorización de hallazgos.</p><p></p>TB2: Lideró la unificación y combinación de los módulos del backend para garantizar la operatividad del sistema y la integridad de la base de datos. <p> <br><strong>Via Luna, Bruce</strong><br>TB1: Diseñó el Product Backlog y priorizó historias para el Sprint 1.</p><p>TP1: Mantuvo y refinó el backlog, asignó historias y facilitó la planificación y seguimiento del sprint.</p><p></p>TB2: Organizo y unifico los commits iniciales para iniciar el deasrrollo final. <p> <br><strong>Castro Pariona, Jefferson Ernesto</strong><br>TB1: Configuró el entorno de diseño en Figma y coordinó la colaboración visual.</p><p>TP1: Lideró la creación de prototipos y estableció las guías de interacción necesarias para el equipo de frontend.</p><p></p>TB2: Desarrollo de bounded context Tasks, prueba de conectividad con las apis Edit, Get, Put de Tasks. Apoyo en el desarrollo de la documentación correspondiente a la TB2, desarrollo de diapositivas KeyNote de este entregable. <p> <br><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>TB1: Coordinó la estructura del repositorio y fomentó contribuciones al código.</p><p>TP1: Implementó componentes iniciales, aplicó estilos globales, verificó despliegues y documentó el proceso para replicación.</p> TB2: Contribuyó en el desarrollo del backend y las secciones técnicas del Capítulo V. <p> <br>| El equipo estableció procesos claros y colaborativos que permitieron cumplir metas y entregar evidencias técnicas y de diseño en tiempo, facilitando la continuidad del proyecto. |
 
 # Capítulo I: Introducción
 
@@ -2462,46 +2499,44 @@ A continuación se detallan los pasos realizados y la evidencia correspondiente.
 
 1. Actividad: Selección de proveedor y creación de recursos  
    - Explicación: Se eligió un proveedor de nube (ej. Render, Vercel, Railway, Heroku) por su integración con GitHub y capa gratuita para proyectos Node.js. Se creó la cuenta del equipo y se configuró el proyecto "FruTech" para alojar los servicios backend.  
-   - Evidencia:  
-     - Captura del dashboard del proveedor mostrando el proyecto "FruTech".  
-     - [Pega aquí la captura de pantalla del Dashboard de tu proveedor de nube]
+
 
 2. Actividad: Configuración del servicio web (API)  
    - Explicación: Se creó un servicio web vinculado al repositorio Apps-Web-Grupo-4-FruTech/Backend-FruTech y se seleccionó la rama (main o develop) para despliegue automático (CI/CD). Se definió el comando de inicio (por ejemplo `npm start` o `node dist/index.js`).  
-   - Evidencia:  
-     - Captura de la pantalla de configuración del servicio mostrando el repo vinculado y el comando de inicio.  
-     - [Pega aquí la captura de la configuración del "Web Service" mostrando el repo vinculado]
+
 
 3. Actividad: Aprovisionamiento de la base de datos en la nube  
    - Explicación: Se aprovisionó una base de datos gestionada (PostgreSQL o MySQL) en la nube (ej. Neon, PlanetScale o el servicio gestionado del proveedor). Se obtuvo la connection string que la API usará en producción.  
-   - Evidencia:  
-     - Captura del dashboard de la base de datos mostrando detalles de conexión y estado "Online".  
-     - [Pega aquí la captura del dashboard de tu base de datos en la nube]
+
 
 4. Actividad: Configuración de variables de entorno  
    - Explicación: Para seguridad y configuración, se añadieron variables de entorno en el panel del servicio (por ejemplo DATABASE_URL, JWT_SECRET, NODE_ENV). La API lee estas variables en tiempo de ejecución en lugar de tener secretos en el código.  
-   - Evidencia:  
-     - Captura de la sección "Environment Variables" con las claves configuradas (valores ocultos).  
-     - Ejemplo de variables usadas:  
-       - `DATABASE_URL`  
-       - `JWT_SECRET`  
-       - `NODE_ENV=production`  
-     - [Pega aquí la captura de la sección de Variables de Entorno]
 
 5. Actividad: Verificación del despliegue (exitosa)  
    - Explicación: Se ejecutó el primer despliegue automático. El proveedor clonó el repo, instaló dependencias (npm install) y ejecutó el start script. El servicio quedó en línea y el endpoint de health check (/health) devolvió 200 OK.  
-   - Evidencia:  
-     - Captura del log de despliegue mostrando build y start exitosos.  
-     - Resultado de prueba del endpoint: `GET https://<tu-servicio>/health` → 200 OK (JSON o texto confirmando disponibilidad).  
-     - [Pega aquí la captura del log de despliegue y la respuesta del endpoint /health]
 
+![Captura_Desplieuge_DataBase](/assets/Deploy_DB.jpeg)
+
+![Captura_Desplieuge_BackEnd](/assets/Deploy_BK.jpeg)
+
+![Backend Deplgegado](/assets/Deploy.jpeg)
+
+**Url des depliegue:** https://backend-frutech-production.up.railway.app/swagger/index.html
 
 ### 5.2.3.8.	Team Collaboration Insights during Sprint.
 
-## Team Collaboration Insights during Sprint
+Durante el Sprint 3, la totalidad del trabajo de implementación fue realizada por todo el equipo, quienes asumimos todas
+las decisiones de funcionalidad del Backend, union y despliegue.
 
-### Introducción
-En esta sección se describen los métodos e insights de colaboración del equipo (Jefferson, Estefano, Samuel, Bruce y Sergio) durante el Sprint 3. Para completar las 13 Historias de Usuario planificadas, el equipo utilizó ceremonias ágiles, un flujo de trabajo en GitHub y canales de comunicación continuos. Estos mecanismos permitieron mantener calidad, resolver bloqueos y coordinar entregables.
+| Integrante | Acciones realizadas durante el Sprint 3 |
+|------------|----------------------------------------|
+| Todo el equipo | - Desarrollo de diferentes Bounded Contexts<br>- Estructura de carpetas y componentes<br>- Subida al repositorio y despliegue |
+
+**Evidencia de colaboración en GitHub (Sprint 3)**
+
+![Captura Evidencia Commits](/assets/Commits_Evidence.jpeg)
+
+## Team Collaboration Insights during Sprint
 
 ### Pilares de la colaboración
 
@@ -2520,9 +2555,6 @@ En esta sección se describen los métodos e insights de colaboración del equip
    - Actualizaciones constantes del estado permitieron autoorganización del equipo.  
    - Resultado: todas las 13 US del sprint marcadas como "Done" al cierre.
 
-### Conclusión
-La combinación de ceremonias ágiles, revisión de código y un backlog visible facilitó la entrega completa del sprint. Estas prácticas mejoraron la coordinación entre miembros, aceleraron la resolución de dependencias y aumentaron la confianza en la calidad del producto.
-  
 
 # 5.3. Validation Interviews.
 
@@ -2644,7 +2676,7 @@ Estas preguntas se centran en la eficiencia, la gestión de múltiples parcelas,
 
 **Edad:** 25 años
 
-**Enlace de la entrevista (Drive):** [Enlace Entrevista 1]()
+**Enlace de la entrevista (Drive):** [Enlace Entrevista 2](https://drive.google.com/file/d/1UGsyV85vfoeMcjRewXvfqN1JweqLEJyJ/view?usp=sharing)
 
 **Resumen:** Durante la demostración de "CultivApp", Noelia valida la utilidad del panel de control, destacando que el sistema de alertas y el semáforo de estados (Crítico/Saludable) son vitales para priorizar urgencias sin estar físicamente en el campo, aunque enfatiza que la interfaz debe estar en español para que su familia y trabajadores la entiendan. En cuanto a la gestión de terrenos, sugiere mejoras clave como el cálculo automático de insumos basado en las hectáreas exactas y valora la creación de un historial digital organizado por lotes que reemplace a los cuadernos físicos y hojas de cálculo, facilitando así el análisis de rentabilidad.
 
@@ -2910,7 +2942,9 @@ https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page
 Repositorio de Frontend: 
 https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
 
+Repositorio de Backend: 
+https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
+
 Canvas: https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 Enlace link exposicion: 
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EUZOuV2-Kw5Aq95JRvrDhWgBbrbzDQBg74r71WPxq9Vswg?e=DIb7Zr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EUZOuV2-Kw5Aq95JRvrDhWgBbrbzDQBg74r71WPxq9Vswg?e=inGtNl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
