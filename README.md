@@ -250,6 +250,24 @@ Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió l
    5.2.1.6. [Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)<br>
    5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)<br>
    5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)<br>
+   5.2.2. [Sprint 2](#522-sprint-2)<br>
+   5.2.2.1. [Sprint Planning 2](#5221-sprint-planning-2)<br>
+   5.2.2.2. [Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)<br>
+   5.2.2.3. [Sprint Backlog 2](#5223-sprint-backlog-2)<br>
+   5.2.2.4. [Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)<br>
+   5.2.2.5. [Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)<br>
+   5.2.2.6. [Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)<br>
+   5.2.2.7. [Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)<br>
+   5.2.2.8. [Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)<br>
+   5.2.3. [Sprint 3](#523-sprint-3)<br>
+   5.2.3.1. [Sprint Planning 3](#5231-sprint-planning-3)<br>
+   5.2.3.2. [Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)<br>
+   5.2.3.3. [Sprint Backlog 3](#5233-sprint-backlog-3)<br>
+   5.2.3.4. [Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)<br>
+   5.2.3.5. [Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)<br>
+   5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)<br>
+   5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)<br>
+   5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)<br>
 6. [Conclusiones](#conclusiones)<br>
    6.1 [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)<br>
 7. [Bibliografía](#bibliografía)<br>
@@ -1968,18 +1986,6 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 - Insight Report
 ![InsightR](/assets/insightR.png)
 
-## Conclusiones
-
-- El desarrollo del Trabajo Final 1 para el proyecto FruTech ha permitido establecer una base sólida y bien fundamentada para la creación de una solución AgriTech con un alto potencial de impacto en el sector agrícola peruano. A través de una rigurosa aplicación de metodologías como Lean UX y un profundo análisis del contexto, se ha validado que existe una necesidad crítica y desatendida en el segmento de pequeños y medianos agricultores, quienes carecen de herramientas accesibles para una gestión eficiente del riego.
-
-- El desarrollo del proyecto CultivApp ha permitido establecer una base sólida para la implementación, validación y despliegue de la aplicación de gestión de alquiler de vehículos. A través de este proceso, se han logrado los siguientes resultados clave:
-
-- La configuración del entorno de desarrollo ha sido fundamental para el éxito del proyecto. La implementación de GitHub como plataforma principal de gestión de código fuente, junto con herramientas complementarias como Trello para la gestión de tareas y Figma para el diseño UX/UI, ha facilitado la colaboración efectiva entre los miembros del equipo. La adopción de tecnologías web estándar (HTML, CSS, JavaScript, Vue.js) y Node.js ha proporcionado una base tecnológica robusta y escalable.
-
-- El Sprint 1 ha demostrado la efectividad de la metodología ágil en el desarrollo del proyecto. La implementación exitosa de la landing page con funcionalidades básicas de registro e inicio de sesión, navegación responsive y diseño atractivo, ha establecido una base sólida para el desarrollo futuro de la aplicación.
-
-- La matriz de liderazgo y colaboración (LACX) ha sido instrumental en la organización del equipo, permitiendo una distribución clara de responsabilidades mientras se mantiene la colaboración entre todos los miembros. 
-
 ## 5.2.2. Sprint 2
 
 ### 5.2.2.1. Sprint Planning 2
@@ -2153,6 +2159,375 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 <br>
 
 ![Commits_Sprint_2](/assets/commits_sprint2.png)
+
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+<table class="sprint-table">
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 3</th>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-10-14</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>15:40 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Virtual (Google Meet)</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Via Luna, Bruce</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>
+      Landa Ortiz, Sergio Javier<br>
+      Solis Campos, Estefano Sebastián<br>
+      Via Luna, Bruce<br>
+      Castro Pariona, Jefferson Ernesto<br>
+      Bonifacio Jaramillo, Samuel Jesus<br>
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint n – 3 Review Summary</td>
+    <td>
+      Se completó el <b>backend en Rider</b> (Get, Post, Push, Update),
+      conexion a una base de datos MySQL en una <i>real API</i>
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint n – 3 Retrospective Summary</td>
+    <td>
+      <b>Positivo:</b> Mejor coordinacion y tiempos de desarrollo.<br>
+      <b>A mejorar:</b> Declaracion de Commits y metodos shared<br>
+      <b>Acción:</b> Aplicar desarrollo backend y guia de endpoints
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="section">Sprint Goal &amp; User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint n Goal</td>
+    <td>
+      Consolidar la app integrando completamente el CRUD con la <i>real API</i>, creando esta misma y desplegandola para tener un funcionamiento a una api subida en la nube y proxima conexion con el Front-end
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint n Velocity</td>
+    <td>5 Story Points</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>11</td>
+  </tr>
+</table>
+
+### 5.2.3.2.   Aspect Leaders and Collaborators.
+En esta sección se presenta la matriz de liderazgo y colaboración (Leadership-and-Collaboration Matrix, LACX) para el Sprint 3 de CultivApp. Esta matriz identifica, para cada aspecto clave del Sprint, quién es el líder responsable y quiénes son los colaboradores, facilitando así la comunicación y la asignación de tareas dentro del equipo. 
+
+Los aspectos considerados en este Sprint incluyen: diseño de la landing page, desarrollo de funcionalidades de registro e inicio de sesión, implementación de la barra de navegación, y configuración del footer con enlaces de contacto y redes sociales.
+
+| Team Member (Apellido, Nombre)         | GitHub Username        | Declaracion de Responsabilidades| Desarrollo de Endpoints        |Desplegamiento de Backend y DataBase |
+|----------------------------------------|------------------------|---------------------|--------------------------|-----------------------|
+| Bonifacio, Samuel                      | samuelbonifacio015     | C                   | C                        | C                     | 
+| Castro, Jefferson                      | JeffersonCastroPariona | C                   | C                        | C                     |
+| Via, Bruce                             | Shukaritas             | L                   | C                        | C                     |           
+| Solis, Estefano                        | Estefano-Solis-C       | L                   | C                        | L                     |
+| Landa, Sergio                          | Serkekes2006           | L                   | L                        | C                     |
+
+**L:** Leader (Líder)  
+**C:** Collaborator (Colaborador)
+
+Esta organización permite una asignación clara de responsabilidades y fomenta la colaboración efectiva durante el desarrollo del Sprint 3.
+
+### 5.2.3.3.	Sprint Backlog 3.
+
+| ID   | Title/Section                | Description                                                                                      | Estimation (Hours) | Assigned To                | Status       |
+|------|------------------------------|--------------------------------------------------------------------------------------------------|--------------------|----------------------------|--------------|
+| US01 | Registro de Usuario          | Implementación del formulario y lógica para el registro de usuarios en la aplicación web.        | 4                  | Samuel Bonifacio           | Done         |
+| US02 | Inicio de Sesión             | Desarrollo del formulario y lógica para el inicio de sesión y gestión de cultivos.               | 4                  | Jefferson Castro           | Done         |
+| US03 | Recuperar Contraseña         | Implementación de la funcionalidad para recuperar la contraseña de usuario.                      | 3                  | Bruce Via                  | Done         |
+| US04 | Editar Perfil                | Desarrollo de la funcionalidad para modificar el perfil del usuario.                             | 3                  | Estefano Solis             | Done         |
+| US05 | Registrar Cultivos           | Implementación del registro de diferentes cultivos por parte del agricultor.                     | 4                  | Samuel Bonifacio           | Done         |
+| US06 | Eliminar Cultivos            | Desarrollo de la funcionalidad para eliminar cultivos registrados.                               | 3                  | Jefferson Castro           | Done         |
+| US07 | Editar Cultivos              | Implementación de la edición de cultivos registrados.                                            | 3                  | Bruce Via                  | Done         |
+| US08 | Registro de campo            | Capacidad para generar un campo sin cultivo para mejor manejo de datos de los usuarios           | 3                  | Estefano Solis             | Done         |
+| US09 | Publicar Campo               | Implementacion de publicar un campo para vincular a cultivo                                      | 3                  | Sergio Landa               | Done         |
+| US10 | Vincular con cultivos        | Fomra de vincular los cultivos a los campos para un manejo completo de productos                 | 2                  | Samuel Bonifacio           | Done         |
+| US12 | Datos adicionales            | Registrar datos adicionales para especificar los problemas o condiciones de un campo             | 4                  | Sergio Landa               | Done         |
+| US15 | Gestionar usuarios           | Manejar los datos y capacidades de resgitro de los usuarios para evitar duplicaciones            | 3                  | Estefano Solis             | Done         |
+| US19 | Disponibilidad de sistema    | Volver el sistema(Pagina, base de datos y manejo de estas) accesible todo el tiempo              | 4                  | Bruce Via                  | Done         |
+
+**Leyenda de Status:**  
+To-do / InProcess / ToReview / Done
+
+---
+
+### 5.2.3.4.	Development Evidence for Sprint Review.
+
+### 5.2.3.5.	Execution Evidence for Sprint Review.
+
+### 5.2.3.6.	Services Documentation Evidence for Sprint Review.
+
+### 5.2.3.7.	Software Deployment Evidence for Sprint Review.
+
+### 5.2.3.8.	Team Collaboration Insights during Sprint.
+
+# 5.3. Validation Interviews.
+
+## 5.3.1. Diseño de Entrevistas.
+
+**Preguntas para el Segmento #1: Agricultores de Pequeña Escala**
+
+Estas preguntas se centran en la facilidad de uso, el valor inmediato y la barrera tecnológica, asumiendo que el usuario tiene acceso limitado a la tecnología y un enfoque en la producción familiar.
+
+**Módulo: Primeras Impresiones y Panel de Control (Dashboard)**
+
+- Al ver esta pantalla principal, ¿qué es lo más importante para usted? ¿Ver sus campos, sus tareas o las recomendaciones?
+
+- ¿Le parece útil que la aplicación le muestre "Traeas proximas" o "Ultimas recomendaciones"? ¿Cómo manejaria este contenido?
+
+- ¿Le parece fácil de entender esta pantalla, o ve demasiada información?
+
+- ¿Qué tan importante es para usted poder cambiar el idioma de la aplicación entre inglés y español?
+
+**Módulo: "Mis Campos" y "Gestionar Cultivos"**
+
+- ¿Usted suele organizar su chacra por "campos" o la ve como una sola unidad?
+
+- Al registrar un nuevo campo, ¿le parece útil añadir una foto, nombre y ubicación? ¿Sabe usted el tamaño exacto de su terreno (en hectáreas o m²)?
+
+- Al ver los detalles de su campo, ¿qué datos le interesan más? ¿El "Tipo de Suelo", la "Luz solar" o la "Frecuencia de riego"? ¿Son datos que usted ya conoce?
+
+- ¿Le ayudaría tener un registro de sus cultivos con sus fechas de siembra y cosecha? ¿Suele anotar esta información en algún lugar?
+
+- La aplicación clasifica sus cultivos como "Saludable", "Atención" o "Crítico". ¿Le parece útil esta clasificación? ¿Qué haría usted si viera un cultivo en estado "Crítico"?
+
+**Módulo: "Mis Tareas"**
+
+- ¿Le gustaría recibir recordatorios en su celular para tareas como regar, fertilizar o revisar sus cultivos?
+
+- ¿Le parece sencillo entrar aquí y marcar una tarea como "completada"?
+
+- ¿Qué tipo de tareas le gustaría que la aplicación le recuerde?
+
+**Módulo: "Comunidad"**
+
+- ¿Usted suele pedir consejos a otros agricultores, vecinos o a un agrónomo?
+
+- En esta sección, otros expertos (como "Científicos de Suelo" o "Especialistas en Riego") dan consejos. ¿Confiaría en estos consejos para aplicarlos en su chacra?
+
+- ¿Le gustaría poder hacer preguntas y que otros agricultores o expertos le respondan?
+
+**Módulo: "Perfil" y Configuración**
+
+- Al crear su perfil, ¿le parece bien ingresar su nombre y número de celular? ¿Se sentiría cómodo ingresando su número de DNI?
+
+**Preguntas para el Segmento #2: Agricultores de Mediana Escala (Comercial)**
+
+Estas preguntas se centran en la eficiencia, la gestión de múltiples parcelas, la organización del trabajo y el valor comercial, asumiendo que el usuario maneja una operación más grande y tecnificada.
+
+**Módulo: Primeras Impresiones y Panel de Control (Dashboard)**
+
+- Al ver el "Panel de Control", ¿la información que se muestra (campos, tareas, recomendaciones) es suficiente para que usted planifique su día de trabajo?
+
+- ¿Qué métrica o dato clave le gustaría ver en este panel que no está presente? (Ej. ¿Precios de mercado, resumen de costos, clima?)
+
+- Vemos que el panel muestra "Tareas Próximas". ¿Esto es más valioso para usted o para sus trabajadores?
+
+**Módulo: "Mis Campos" y "Gestionar Cultivos"**
+
+- ¿Qué tan valioso es para usted poder ver todos sus campos en un mapa o lista, cada uno con su estado de salud (Saludable, Atención, Crítico)?
+
+- Al registrar un nuevo campo, ¿qué tan importante es diferenciar "Ubicación" y "Tamaño del campo" para su gestión?
+
+- En la página de "Detalle del Campo", ¿usa usted datos como "Tipo de Suelo", "frecuencia de riego (en litros)" y "horas de luz solar" para tomar decisiones?
+
+- ¿Le gustaría poder añadir un historial de "Progreso" (riego, fertilización, pestes) más detallado? ¿Quizás con costos asociados?
+
+- Al "Gestionar Cultivos", ¿la vista de tabla es la mejor forma de ver sus cultivos, o preferiría un calendario?
+
+- ¿La información que se pide al registrar un nuevo cultivo (nombre, fechas, campo, estado) es suficiente para su control comercial? ¿Le faltaría registrar "Variedad", "Rendimiento esperado" o "Costo de siembra"?
+
+**Módulo: "Mis Tareas"** 
+
+- ¿Cómo gestiona actualmente las tareas de sus trabajadores? ¿Usa cuadernos, WhatsApp, o algún otro método?
+
+- ¿Usaría esta sección de "Mis Tareas" para organizar el trabajo de su equipo?
+
+- ¿Qué le faltaría a esta sección para serle realmente útil? (Ej. ¿Poder asignar una tarea a un trabajador específico? ¿Marcar una tarea como "Urgente"?)
+
+**Módulo: "Comunidad"**
+
+- ¿De dónde obtiene sus recomendaciones técnicas actualmente (proveedores de insumos, agrónomo privado, juntas de regantes)?
+
+- Esta sección de "Comunidad" ofrece consejos de expertos. ¿Le parecen consejos generales o información técnica valiosa que podría aplicar para mejorar su rentabilidad?
+
+- ¿Preferiría un foro público o un servicio de chat directo para consultar a un "Especialista en Riego" o un "Consultor de Plagas"?
+
+**Módulo: "Perfil" y Configuración**
+
+- En la sección "Perfil", ¿qué tan importante es para usted poder cambiar su contraseña y ver su información personal?
+
+## 5.3.2. Registro de Entrevistas.
+
+**User Persona del segmento objetivo #1: Agricultores de pequeña escala**
+
+![Captura_ENtrevista Segmento_1](/assets/Captura_Evidencia_Segmento_1.png)
+
+**Entrevistado(a):** Carmen Diaz
+
+**Genero:** Femenino
+
+**Edad:** 28 años
+
+**Enlace de la entrevista (Drive):** [Enlace Entrevista 1](https://drive.google.com/file/d/1iGH5VZRln1pIRpLhEr5JzbHavKCWaZp-/view?usp=sharing)
+
+**Resumen:** Carmen Diaz es una agriculta de nivel intermedio que simbra mayormente en su casa, fue entrevistada previamente para pensar en la idea de una startup como la que se le presentara a continuacion. Se destaco siemopre por intentar ver por el bienestar de sus cultivos en una zona como la ciudad y señalo como gracias a nustra aplicacion esto sera mucho mas facil y sobre todo tranquilo gracias a las funcionalidades que esta tiene.
+
+**User Persona del Segmento objetivo #2: Agricultores de mediana escala**
+
+![Captura_ENtrevista Segmento_1](/assets/Captura_Evidencia_Segmento_2.png)
+
+**Entrevistado(a):** Walter Sanchez
+
+**Genero:** Masculino
+
+**Edad:** 52 años
+
+**Enlace de la entrevista (Drive):** [Enlace Entrevista 1](https://drive.google.com/file/d/1zY895AOneKp07yA6Zz3DYqjk7uhfcfh4/view?usp=sharing)
+
+**Resumen:** Walter Sanchez es ya un agricultor titulado y trabajador desde mas de 20 años, entrevistado previamente para presentarle la idea, hoy la prueba mediante nuestra aplicacion, permitiendole registrar cultivos y campos de cultivo para su trabajo. Se destaca en ser un referente en su area y como el trabajar en esto, pese a ser algo que le gusta tambien resulta ser dificil debido a que muchos procesos son obsoletos, lentos o simplemente tedioso luego de repetirse y señala como con la aplicacion al menos traera la digitalizacion de procesos y el como muchos trabjos que le costaban tiempo y esfuerzo seran mas faciles con nuestro producto.
+
+
+
+## 5.3.2. Evaluaciones según heurísticas.
+
+<span style="font-size: 2em; font-weight: normal;">Site o App a evaluar</span>
+
+**Nombre:** AgroApp
+
+**Objetivo:**  Identificar problemas de usabilidad en el sistema web de control de campos y cultivos usando la Lista Heurística de
+Nielsen.
+
+<span style="font-size: 2em; font-weight: normal;">Tareas a evaluar</span>
+
+1. Visualización y navegación en la página principal
+2. Visualización del campo de Cultivo (galería, fichas, presentación de información)
+3. Navegación por la sección de Cultivos (flujo, claridad de información, pasos a seguir)
+4. Accesibilidad y claridad del menú lateral (ubicación, iconos, estructura)
+5. Visualizacion de los atributos de los campos y cultivos (nombre, dimensiones, producto, estado, etc)
+6. Diferenciación entre las secciones “Cultivos” y “Campos”
+7. Visualización de detalles del campo (tareas, estado, producto)
+8. Gestión de cultivos y sus campos (tareas, recordatorios)
+9. Claridad de iconografía y etiquetas
+10. Navegación lateral y localización de sección activa
+11. Estructura y claridad del formulario de registros
+12. Proceso de cambio de idioma
+13. Personalización y curva de aprendizaje
+
+<span style="font-size: 2em; font-weight: normal;">Problema Detectado</span>
+
+| # | Problema Detectado | Heuristica violada | Severidad |
+|---|--------------------|--------------------|-----------|
+|1|Falta de complementos visuales|Visibilidad del estado del sistema|1|
+|2|Confusión entre Campos y Cultivos|Coincidencia entre el sistema y el mundo real|3|
+|3|Falta de tutoriales o guía para nuevos usuarios |Ayuda y documentación|2|
+|4|Inconsistencia de los estados de los campos|Visibilidad del estado del sistema|3
+
+<span style="font-size: 2em; font-weight: normal;">Escala de severidad</span>
+
+|Nivel |Severidad|
+|------|---------|
+|1|Problema superficial: fácilmente superado por el usuario o muy poco frecuente. No es prioritario.|
+|2|Problema menor: algo más frecuente o confuso; se debe resolver en una próxima versión.|
+|3|Problema mayor: ocurre frecuentemente y afecta el uso normal. Prioridad alta.|
+|4|Problema muy grave: impide el uso del sistema. Debe corregirse antes del lanzamiento.|
+
+<span style="font-size: 2em; font-weight: normal;">Análisis heuristico detallado</span>
+
+<span style="font-size: 19px; font-weight: normal;">Problema #01: Falta de complementos visuales</span>
+
+**Severidad:** 1
+
+**Heuristica violada:** Visibilidad del estado del sistema
+
+**Descripción:**
+
+Las secciones como cultivos o tareas no se ven atractivas visualmente para los usuarios, o segun ellos le falta algun atratactivo visual
+
+**Recomendación:**
+
+Incluir divisores visuales, algunos colores a los botones y una mejor presentacion de modo que se vuelve atractivo para mas usuarios y deja de parecer una lista impresa
+
+<span style="font-size: 19px; font-weight: normal;">Problema #02: Confusión entre Campos y Cultivos</span>
+
+**Severidad:** 3
+
+**Heuristica violada:** Coincidencia entre el sistema y el mundo real
+
+**Descripción:**
+
+Los usuarios no difrencian muy bien entre las dos secciones, confundiendolas constantement al momento de referirse a estas
+
+**Recomendación:**
+
+Renombrar o cambiar la forma de etiquetar cada una de esas por ejemplos ("Cultivos pertenecientes a un campo" o "Campos de Cultivo")
+
+<span style="font-size: 19px; font-weight: normal;">Problema #03: Falta de tutoriales o guía para nuevos usuarios</span>
+
+**Severidad:** 2
+
+**Heuristica violada:** Ayuda y documentación
+
+**Descripción:**
+
+No hay tutorial, guía ni sección de ayuda visible. Esto afecta la curva de aprendizaje, especialmente en usuarios no expertos
+
+**Recomendación:**
+
+Incluir un recorrido inicial con explicaciones breves, un botón de ayuda permanente o una sección de preguntas frecuentes
+
+<span style="font-size: 19px; font-weight: normal;">Problema #04: Inconsistencia de los estados de los campos</span>
+
+**Severidad:** 3
+
+**Heuristica violada:** Visibilidad del estado del sistema
+
+**Descripción:**
+
+Los usuarios remarcan como lo estados de los campos pese a seguir una guia con los colores, algunos estan en ingles y otros en español, si bien son acorde a lo que se muestra, genera confusion 
+
+**Recomendación:**
+
+Estandarizar todos los estados a un lenguaje u otro, ademas de usar tambien las mismas palabras para que siempre muestren la que quiere representar
+
+## 5.4. Video About-the-Product.
+
+En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About The Product - AgroTech". El video muestra en detalle las características principales de la aplicación, enfocándose en cómo cada funcionalidad ha sido diseñada para responder a las necesidades reales de los usuarios interesados en el cuidado de sus cultivos a mayor o menor escala.
+
+
+A lo largo del video, se presentan demostraciones visuales de la aplicación en funcionamiento, incluyendo flujos clave como la creracion de los campos, la creacion de los cultivos, la vinculacion de estos y la creacion de tareas.
+
+La narración guía al espectador a través de la experiencia del usuario, mientras que testimonios reales aportan valor, reflejando el impacto positivo que AgroApp ha tenido tanto en agricultores pequeños como en agricultores a mayor escala. Estos relatos destacan la facilidad de uso y el beneficiendo y mejorando el cuidado de los agricultores a sus cultivos.
+
+Este video no solo presenta el producto, sino que lo contextualiza como una solución digital efectiva para un problema social, demostrando su utilidad, usabilidad e impacto.
+
+**Cuadro Representativo del Video**
+
+![Captura_ENtrevista Segmento_1](/assets/Captura_About_The_Team_Apps.png)
+
+<br>
+
+**Url del video:** https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing
+
 
 
 ## Conclusiones
