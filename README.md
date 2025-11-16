@@ -2271,6 +2271,7 @@ To-do / InProcess / ToReview / Done
 ---
 
 ### 5.2.3.4.	Development Evidence for Sprint Review.
+Aqui se muestra la evidencia técnica del trabajo realizado (qué se hizo, por quién y cuándo), facilita la verificación del cumplimiento de las historias de usuario y permite auditar cambios para la demo y la revisión del sprint. 
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) | Author (GitHub) |
 |---|---|---|---|---|---:|---|
@@ -2327,7 +2328,135 @@ Además, se implementó un endpoint de health check para monitorear la disponibi
 
 ### 5.2.3.6.	Services Documentation Evidence for Sprint Review.
 
+## Documentación de Endpoints (OpenAPI)
+
+### Introducción
+En esta sección se presenta la documentación de los Web Services (API) implementada durante el Sprint 3. Todos los 13 endpoints desarrollados para las Historias de Usuario (US01–US19) han sido documentados siguiendo el estándar OpenAPI 3.0. La documentación se generó mediante anotaciones Swagger en el backend, garantizando sincronía entre implementación y documentación. Está disponible vía Swagger UI en local para pruebas e inspección.
+
+- URL de la Documentación (Local): http://localhost:3000/api-docs (reemplazar 3000 si el puerto difiere)
+
+### Relación de Endpoints Documentados
+
+| Endpoint (Historia) | Verbo | Sintaxis de Llamada | Descripción breve |
+|---|---:|---|---|
+| US01: Registro | POST | /auth/register | Registra un nuevo usuario |
+| US02: Login | POST | /auth/login | Autentica usuario y devuelve JWT |
+| US03: Recuperar Pass | POST | /auth/recover | Inicia recuperación de contraseña |
+| US04: Editar Perfil | PUT | /users/profile | Actualiza perfil (protegido) |
+| US05: Registrar Cultivo | POST | /crops | Crea nuevo cultivo (protegido) |
+| US06: Eliminar Cultivo | DELETE | /crops/{id} | Elimina cultivo por ID (protegido) |
+| US07: Editar Cultivo | PUT | /crops/{id} | Actualiza cultivo por ID (protegido) |
+| US08: Registrar Campo | POST | /fields | Crea nuevo campo (protegido) |
+| US09: Publicar Campo | PATCH | /fields/{id}/publish | Cambia visibilidad de campo (protegido) |
+| US10: Vincular Cultivo | POST | /fields/{id}/link | Asocia cultivo a campo (protegido) |
+| US12: Datos Adicionales | PATCH | /fields/{id} | Registra datos adicionales en campo (protegido) |
+| US15: Gestionar Usuarios | GET | /users/check | Verifica existencia de email/usuario |
+| US19: Disponibilidad | GET | /health | Health check del sistema |
+
+---
+
+### Detalle de Acciones y Ejemplos
+
+1. US01: Registro de Usuario (POST /auth/register)  
+   - Parámetros (Request Body): JSON con datos del usuario.  
+   - Ejemplo Request:
+   ```json
+   {
+     "username": "agricultor_prueba",
+     "email": "prueba@futech.com",
+     "password": "Password123!"
+   }
+   ```
+   - Respuesta Exitosa (201 Created): devuelve el objeto del usuario (sin contraseña).  
+   - Ejemplo Response:
+   ```json
+   {
+     "id": "123e4567-e89b-12d3-a456-426614174000",
+     "username": "agricultor_prueba",
+     "email": "prueba@futech.com",
+     "createdAt": "2025-11-16T12:00:00.000Z"
+   }
+   ```
+
+2. US02: Inicio de Sesión (POST /auth/login)  
+   - Parámetros (Request Body): JSON con credenciales.  
+   - Ejemplo Request:
+   ```json
+   {
+     "email": "prueba@futech.com",
+     "password": "Password123!"
+   }
+   ```
+   - Respuesta Exitosa (200 OK): devuelve JWT.
+   ```json
+   {
+     "message": "Login successful",
+     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIi..."
+   }
+   ```
+
+3. US05: Registrar Cultivo (POST /crops)  
+   - Parámetros (Request Body): JSON con datos del cultivo.  
+   - Ejemplo Request:
+   ```json
+   {
+     "name": "Tomate",
+     "variety": "Cherry",
+     "plantingDate": "2025-11-01"
+   }
+   ```
+   - Header: ruta protegida — Authorization: Bearer <token_JWT>  
+   - Respuesta Exitosa (201 Created): devuelve objeto del cultivo creado.
+   ```json
+   {
+     "id": "c76a5b21-a3b4-11e9-a2a3-2a2ae2dbc345",
+     "name": "Tomate",
+     "variety": "Cherry",
+     "plantingDate": "2025-11-01",
+     "userId": "123e4567-e89b-12d3-a456-426614174000"
+   }
+   ```
+
+> Nota: Los endpoints protegidos requieren el header Authorization con esquema Bearer y el token JWT obtenido en /auth/login.
+
+---
+
+### Interacción con la Documentación (Swagger UI)
+- Captura 1: Exploración de Endpoints — vista principal con endpoints agrupados por etiquetas (Auth, Crops, Fields).  
+  [Pega aquí tu captura de pantalla de Swagger UI mostrando la lista de endpoints]
+
+- Captura 2: Prueba POST /auth/register — ejemplo de ejecución vía "Try it out" y respuesta 201 Created.  
+  [Pega aquí tu captura de pantalla de Swagger UI probando POST /auth/register]
+
+- Captura 3: Prueba de Endpoint Protegido — uso de "Authorize" para incluir JWT y prueba de POST /crops con respuesta 201 Created.  
+  [Pega aquí tu captura de pantalla de Swagger UI probando una ruta protegida]
+
+---
+
+### Repositorio y Commits de Documentación
+Repositorio principal del backend y la documentación:
+- https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
+
+Commits relacionados con documentación OpenAPI / Swagger (referencia):
+| Commit Id | Commit Message | Commited on (Date) | Author |
+|---|---|---:|---|
+| 8a9f2b1 | docs(swagger): Initial setup for OpenAPI | 10/11/2025 | Estefano-Solis-C |
+| c3d4e5f | docs(auth): Document auth endpoints (login, register) | 11/11/2025 | Shukaritas |
+| f6g7h8i | docs(crops): Add documentation for crops module | 13/11/2025 | samuelbonifacio015 |
+| j9k1l2m | docs(fields): Document fields endpoints and auth | 14/11/2025 | JeffersonCastroPariona |
+
+> Nota: Para localizar commits en el historial local, usar git log --grep="docs" o git log --grep="swagger".
+
+---
+
+### Observaciones finales
+- La documentación OpenAPI está embebida en el código mediante anotaciones Swagger y se expone en Swagger UI para pruebas interactivas.  
+- Se recomienda publicar la URL de Swagger en el entorno de staging/producción y añadir casos de prueba automatizados que verifiquen los contratos (responses/validation) para evitar regresiones.
+
+
 ### 5.2.3.7.	Software Deployment Evidence for Sprint Review.
+
+
 
 ### 5.2.3.8.	Team Collaboration Insights during Sprint.
 
