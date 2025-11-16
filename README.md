@@ -2636,6 +2636,8 @@ Estas preguntas se centran en la eficiencia, la gestión de múltiples parcelas,
 
 **Resumen:** Carmen Diaz es una agriculta de nivel intermedio que simbra mayormente en su casa, fue entrevistada previamente para pensar en la idea de una startup como la que se le presentara a continuacion. Se destaco siemopre por intentar ver por el bienestar de sus cultivos en una zona como la ciudad y señalo como gracias a nustra aplicacion esto sera mucho mas facil y sobre todo tranquilo gracias a las funcionalidades que esta tiene.
 
+![Captura_ENtrevista Segmento_1](/assets/Captura_Segmento_1_Entrevista_2.jpeg)
+
 **Entrevistado(a):** Noelia Gómez Sánchez
 
 **Genero:** Femenino
