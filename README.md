@@ -2272,7 +2272,58 @@ To-do / InProcess / ToReview / Done
 
 ### 5.2.3.4.	Development Evidence for Sprint Review.
 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) | Author (GitHub) |
+|---|---|---|---|---|---:|---|
+| .../Backend-FruTech | *Samuel* | `c4a9b1f` | *feat(auth): Add user registration endpoint* | *Implements POST /auth/register. Adds validation and password hashing.* | 10/11/2025 | *samuelbonifacio015* |
+| .../Backend-FruTech | *Jefferson* | `e2g8f5d` | *feat(auth): Implement login endpoint with JWT* | *Creates POST /auth/login. Returns a JWT token on success.* | 10/11/2025 | *JeffersonCastroPariona* |
+| .../Backend-FruTech | *Bruce* | `f9g1h2i` | *feat(auth): Create password recovery service* | *Adds POST /auth/recover. Generates reset token and sends email.* | 11/11/2025 | *Shukaritas* |
+| .../Backend-FruTech | *Estefano* | `h3i4j5k` | *feat(users): Add endpoint to edit user profile* | *Implements PUT /users/profile. Allows user to update their data.* | 11/11/2025 | *Estefano-Solis-C* |
+| .../Backend-FruTech | *Samuel* | `k6l7m8n` | *feat(crops): Create endpoint to register new crops* | *Implements POST /crops for new crop registration by authenticated user.* | 12/11/2025 | *samuelbonifacio015* |
+| .../Backend-FruTech | *Jefferson* | `m9n1o2p` | *feat(crops): Add delete crop endpoint* | *Implements DELETE /crops/:id. Adds ownership check.* | 12/11/2025 | *JeffersonCastroPariona* |
+| .../Backend-FruTech | *Bruce* | `a1b2c3d` | *feat(crops): Add update crop endpoint* | *Implements PUT /crops/:id to update crop information.* | 13/11/2025 | *Shukaritas* |
+| .../Backend-FruTech | *Bruce* | `p3q4r5s` | *feat(fields): Create endpoint to register fields* | *Implements POST /fields to create a new field, unlinked from a crop.* | 13/11/2025 | *Gaftherman* |
+| .../Backend-FruTech | *Sergio* | `s6t7u8v` | *feat(fields): Add endpoint to publish a field* | *Implements PATCH /fields/:id/publish to toggle field visibility.* | 13/11/2025 | *Serkekes2006* |
+| .../Backend-FruTech | *Samuel* | `b6c7d8e` | *feat(fields): Add endpoint to link crop to field* | *Creates POST /fields/:id/link. Associates a crop with a field.* | 14/11/2025 | *samuelbonifacio015* |
+| .../Backend-FruTech | *Sergio* | `v9w1x2y` | *feat(fields): Extend field model with additional data* | *Adds 'conditions' and 'issues' properties to the Field database model.* | 14/11/2025 | *Serkekes2006* |
+| .../Backend-FruTech | *Estefano* | `y3z4a5b` | *fix(auth): Add duplicate user validation on register* | *Updates registration service to check for existing email/username.* | 15/11/2025 | *Estefano-Solis-C* |
+| .../Backend-FruTech | *Bruce* | `e9f1a2b` | *feat(system): Add health check endpoint* | *Creates GET /health endpoint for system availability monitoring.* | 15/11/2025 | *Shukaritas* |
+
 ### 5.2.3.5.	Execution Evidence for Sprint Review.
+
+#### Avances — Backend‑FruTech
+
+El equipo ha trabajado de manera enfocada en el repositorio **Backend‑FruTech**, logrando completar exitosamente el 100% de las 13 Historias de Usuario (US) planificadas.
+
+**Avances por módulos funcionales clave:**
+
+- **Módulo de Autenticación y Usuarios** (US01, US02, US03, US04, US15)  
+  - Registro de nuevos usuarios (US01).  
+  - Autenticación / login con generación de JWT (US02).  
+  - Recuperación de contraseña y flujo de reset (US03).  
+  - Edición de perfil por el propio usuario (US04).  
+  - Validaciones de duplicados y gestión de usuarios (US15).
+
+- **Módulo de Gestión de Cultivos** (US05, US06, US07)  
+  - Registrar cultivos (US05).  
+  - Eliminar cultivos (US06).  
+  - Editar y actualizar datos de cultivos (US07).
+
+- **Módulo de Gestión de Campos** (US08, US09, US10, US12)  
+  - Registrar campos (US08).  
+  - Publicar campos para visibilidad (US09).  
+  - Vincular campos con cultivos (US10).  
+  - Extensión del modelo de datos para incluir condiciones/problemas del campo (US12).
+
+Evidences
+
+![Repositorio_FrontEnd](/assets/ev1.jpeg)
+
+Además, se implementó un endpoint de health check para monitorear la disponibilidad del sistema (US19). Todos los servicios de backend planificados para este sprint están funcionales y listos para ser consumidos por el frontend y otras integraciones.
+
+![Repositorio_FrontEnd](/assets/ev2.jpeg)
+
+![Repositorio_FrontEnd](/assets/ev3.jpeg)
+
 
 ### 5.2.3.6.	Services Documentation Evidence for Sprint Review.
 
