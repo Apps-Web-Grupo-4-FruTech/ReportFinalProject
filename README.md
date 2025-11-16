@@ -2458,6 +2458,19 @@ Estas preguntas se centran en la eficiencia, la gestión de múltiples parcelas,
 **Resumen:** Walter Sanchez es ya un agricultor titulado y trabajador desde mas de 20 años, entrevistado previamente para presentarle la idea, hoy la prueba mediante nuestra aplicacion, permitiendole registrar cultivos y campos de cultivo para su trabajo. Se destaca en ser un referente en su area y como el trabajar en esto, pese a ser algo que le gusta tambien resulta ser dificil debido a que muchos procesos son obsoletos, lentos o simplemente tedioso luego de repetirse y señala como con la aplicacion al menos traera la digitalizacion de procesos y el como muchos trabjos que le costaban tiempo y esfuerzo seran mas faciles con nuestro producto.
 
 
+![Captura_ENtrevista Segmento_1](/assets/CAPentrevistaapps.png)
+
+**Entrevistado(a):** Javier Landa
+
+**Genero:** Masculino
+
+**Edad:** 55 años
+
+**Enlace de la entrevista (Drive):** [Enlace Entrevista 2](https://drive.google.com/file/d/1fjCNb1DV1eAWvgIRaIHvrII7yc1g-lOJ/view?usp=sharing)
+
+**Resumen:** Este video presenta a Javier, un participante entrevistado previamente, mientras prueba la aplicación web "CultiApp" como parte del "segmento 2" de un proyecto final. La mayor parte del video es una demostración silenciosa de la aplicación, mostrando su "Panel de Control", la gestión de cultivos, los campos y las tareas. Esta grabación de pantalla sirve como contexto para la entrevista formal que comienza justo al final, donde el entrevistador, Sergio Landa, explica que el objetivo es evaluar la eficiencia de la aplicación y su valor comercial para un usuario que maneja una operación agrícola tecnificada.
+
+
 
 ## 5.3.2. Evaluaciones según heurísticas.
 
