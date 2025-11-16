@@ -2530,7 +2530,6 @@ En esta sección se describen los métodos e insights de colaboración del equip
 ### Conclusión
 La combinación de ceremonias ágiles, revisión de código y un backlog visible facilitó la entrega completa del sprint. Estas prácticas mejoraron la coordinación entre miembros, aceleraron la resolución de dependencias y aumentaron la confianza en la calidad del producto.
   
-// ...existing code...
 
 # 5.3. Validation Interviews.
 
