@@ -2456,7 +2456,7 @@ Commits relacionados con documentación OpenAPI / Swagger (referencia):
 
 ### 5.2.3.7.	Software Deployment Evidence for Sprint Review.
 
-# Software Deployment Evidence — Pasos y evidencia
+#### Software Deployment Evidence — Pasos y evidencia
 
 A continuación se detallan los pasos realizados y la evidencia correspondiente.
 
@@ -2504,8 +2504,6 @@ A continuación se detallan los pasos realizados y la evidencia correspondiente.
 
 
 ### 5.2.3.8.	Team Collaboration Insights during Sprint.
-
-// ...existing code...
 
 ## Team Collaboration Insights during Sprint
 
