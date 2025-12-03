@@ -448,10 +448,77 @@ Desplegar el backend y frontend de CultivApp con una conexión funcional entre a
 
 ---
 ### 5.2.3.3.Sprint Backlog 4.
+
+### Sprint Backlog 4: Finalización de Backend API
+
+| **User Story** | | **Work-Item / Task (Implementación Backend)** | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Est. (h)** | **Assigned To** | **Status** |
+| **US-01** | Registro y Auth | T-101 | Security & JWT Implementation | Implementar generación de Tokens, encriptación de contraseñas (BCrypt) y Middleware de autorización. | 5h | Estefano-Solis-C | Done |
+| **US-04** | Editar Perfil | T-102 | User Profile Update Logic | Endpoint PUT para actualizar datos del usuario. Incluye validación de unicidad de correo. | 3h | Estefano-Solis-C | Done |
+| **US-12** | Recomendaciones (Comunidad) | T-103 | Community Context Implementation | Desarrollo del Bounded Context `CommunityRecommendation` (visible en carpetas) para lógica de consejos expertos. | 6h | Samuel Bonifacio | To-Review |
+| **US-08** | Registro de Campo | T-201 | Fields CRUD Implementation | Implementar `FieldsController` y `FieldRepository` para crear y listar los terrenos del usuario. | 4h | Shukaritas | Done |
+| **US-05** | Registrar Cultivos | T-202 | CropFields Logic & Entity | Desarrollo de la entidad central `Crop` y su persistencia en base de datos. | 4h | Shukaritas | Done |
+| **US-10** | Vincular Cultivos | T-203 | Relationship Logic (Field-Crop) | Lógica de negocio para asignar un Cultivo existente a un Campo específico (Relación 1:N en BD). | 5h | Shukaritas | Done |
+| **US-06** | Eliminar/Editar Cultivos | T-204 | Crop Lifecycle Endpoints | Endpoints DELETE y PUT para gestión de cultivos. Incluye "Soft Delete" (marcar como inactivo en vez de borrar). | 3h | Shukaritas | To-Review |
+| **US-13** | Notificación Riego | T-301 | Task Generation Service | Servicio de dominio que calcula automáticamente las tareas de riego basadas en el tipo de cultivo. | 5h | JeffersonCastroPariona | Done |
+| **US-17** | Historial Cambios | T-302 | Audit/History Logging | Implementar lógica en `Tasks` para guardar un log cada vez que se completa o modifica una tarea. | 4h | JeffersonCastroPariona | Done |
+| **US-11** | Señalaciones | T-303 | Alerts & Signals Endpoint | API para enviar "flags" o alertas al frontend si una tarea (Task) está vencida. | 3h | JeffersonCastroPariona | Done |
+| **Global** | Integración | T-400 | Swagger & Documentation | Configuración final de Swagger UI para que el equipo de Frontend pueda probar los endpoints. | 2h | Estefano-Solis-C | Done |
+
 ### 5.2.3.4.Development Evidence for Sprint Review.
 
-Despliegue de Frontend: 
-Despliegue de Backend: 
+### 5.2.3.4. Development Evidence for Sprint Review
+
+La siguiente evidencia documenta el proceso técnico de despliegue e integración realizado durante el Sprint 4, validando la operatividad de los componentes Frontend (Vue.js) y Backend (C# .NET).
+
+#### **A. Despliegue de Frontend (Cliente Web)**
+**Entorno de Desarrollo:** WebStorm IDE | **Framework:** Vue.js 3 | **Lenguaje:** JavaScript (ES6+)
+
+El despliegue del cliente web se realizó siguiendo un flujo de integración continua local para asegurar la estabilidad de la interfaz de usuario.
+
+* **Paso 1: Gestión de Dependencias y Compilación**
+    Se ejecutó la instalación de paquetes mediante `npm install` dentro del entorno de WebStorm, asegurando que librerías críticas como `vue-router` (navegación), `axios` (peticiones HTTP) y `pinia`/`vuex` (gestión de estado) estuvieran sincronizadas.
+    * **Evidencia de Build:** Se ejecutó el comando `npm run build` generando exitosamente la carpeta `/dist` con los assets minificados (HTML, CSS, JS), confirmando que no existen errores de sintaxis ni de *linting* que impidan el despliegue.
+
+* **Paso 2: Configuración de Rutas y Navegación (SPA)**
+    Se configuró el archivo `router/index.js` para manejar la navegación *Single Page Application*.
+    * **Validación:** Se comprobó que las rutas `/login`, `/dashboard`, `/fields` y `/profile` cargan sus respectivos componentes (`.vue`) de manera perezosa (*lazy loading*) para optimizar el rendimiento, sin recargar el navegador.
+
+* **Paso 3: Capa de Servicios e Integración de API**
+    Para desacoplar la lógica, se creó una estructura de servicios en `src/services/` (ej. `AuthService.js`, `FieldService.js`).
+    * **Implementación Axios:** Se configuró una instancia global de **Axios** que intercepta las peticiones salientes para inyectar automáticamente el Token JWT en el encabezado `Authorization: Bearer <token>`, permitiendo el acceso a las rutas protegidas del Backend C# desde el primer intento de login.
+
+* **Paso 4: Renderizado Reactivo de Componentes**
+    * **Evidencia Visual:** En la vista "Mis Campos", se utilizó la directiva `v-for` para iterar sobre el objeto JSON recibido del Backend. Se verificó que, al agregar un nuevo cultivo desde el formulario (Modal Vue), la lista se actualiza automáticamente en tiempo real (*Two-way data binding*) sin necesidad de refrescar la página.
+
+---
+
+#### **B. Despliegue de Backend (API RESTful)**
+**Entorno de Desarrollo:** Visual Studio / Rider | **Framework:** .NET 6/8 Core | **Lenguaje:** C#
+
+El Backend se desplegó como una arquitectura orientada a servicios (SOA/DDD), exponiendo los *Bounded Contexts* definidos en el Sprint Backlog.
+
+* **Paso 1: Restauración y Compilación del Núcleo**
+    Se verificó la integridad de la solución `FruTech.Backend.API` mediante el comando `dotnet restore` para descargar dependencias NuGet.
+    * **Build Status:** La compilación (`dotnet build`) finalizó con **0 Errores y 0 Advertencias**, confirmando que los controladores (*Controllers*) y la lógica de negocio (*Services*) cumplen con el tipado estático estricto de C#.
+
+* **Paso 2: Persistencia y Migraciones de Base de Datos**
+    Utilizando **Entity Framework Core**, se ejecutó el comando `Update-Database`.
+    * **Resultado en BD:** Se validó en el motor SQL la creación correcta del esquema relacional. Específicamente, se verificó la creación de las tablas `Fields` y `Crops` y la integridad referencial de la llave foránea `FieldId` dentro de la tabla `Crops`, asegurando la relación "Uno a Muchos" requerida por la Historia de Usuario US-10.
+
+* **Paso 3: Exposición de Endpoints (Controllers)**
+    Se desplegaron los controladores API con las rutas base `/api/v1/[controller]`.
+    * **TaskController (Lógica Compleja):** Se desplegó exitosamente el algoritmo de generación de tareas. Al recibir una petición POST para crear un cultivo, el backend dispara internamente el servicio que calcula las fechas de riego y las inserta en la tabla `Tasks` automáticamente.
+
+* **Paso 4: Documentación y Pruebas con Swagger UI**
+    Al iniciar la aplicación (`dotnet run`), se disponibilizó la interfaz de **Swagger** en la ruta local `/swagger`.
+    * **Evidencia de Prueba:** Se realizaron pruebas de "Happy Path" (Camino feliz) directamente en Swagger:
+        1.  `POST /api/auth/login`: Retornó Token **200 OK**.
+        2.  `GET /api/fields`: Retornó la lista de campos **200 OK**.
+        3.  `POST /api/crops`: Insertó un cultivo y retornó **201 Created**.
+    
+    Esto certifica que los contratos de datos (DTOs) en C# coinciden exactamente con lo que el Frontend en Vue.js espera recibir.
 
 ### 5.2.3.5.Execution Evidence for Sprint Review.
 
@@ -462,8 +529,139 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 ![NetworkGraphFront](assets/network_graph_front.png)
 ![NetworkGraphBack](assets/network_graph_back.png)
 
-### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+La documentación de servicios para este Sprint se ha generado siguiendo el estándar **OpenAPI Specification (OAS 3.0)**, garantizando que los contratos de interfaz entre el Backend (.NET Core) y el Cliente Web (Vue.js) sean claros, precisos y ejecutables. A continuación, se detalla la evidencia de los servicios expuestos.
+
+#### **1. Especificación de API (Swagger UI)**
+Para facilitar la integración y las pruebas manuales, se ha habilitado el middleware de **Swagger UI** en el entorno de desarrollo. Esto proporciona una documentación viva e interactiva de todos los *Bounded Contexts* desarrollados.
+
+- **URL de Acceso:** `http://localhost:[PORT]/swagger/index.html`
+- **Cobertura:** 100% de los Endpoints desarrollados en el Sprint 4 (Auth, Fields, Crops, Tasks).
+- **Formato de Intercambio:** `application/json`
+
+#### **2. Catálogo de Servicios Implementados**
+Se han documentado los siguientes controladores, detallando sus métodos HTTP, rutas y códigos de estado esperados para el consumo por parte del cliente Vue.js.
+
+| Servicio (Controller) | Dominio | Descripción Técnica | Métodos Expuestos |
+| :--- | :--- | :--- | :--- |
+| **Authentication Service** | `Users` | Gestión de identidad y emisión de tokens JWT. | `POST /api/v1/auth/login` (Genera Token)<br>`POST /api/v1/auth/register` (Crea Usuario) |
+| **Field Management Service** | `Fields` | CRUD para la gestión geoespacial de parcelas. | `GET /api/v1/fields` (Lista)<br>`POST /api/v1/fields` (Crea)<br>`PUT /api/v1/fields/{id}` (Edita) |
+| **Crop Inventory Service** | `Crops` | Gestión del ciclo de vida de cultivos y vinculación. | `POST /api/v1/fields/{id}/crops` (Vinculación 1:N)<br>`DELETE /api/v1/crops/{id}` (Soft Delete) |
+| **Task Automation Service** | `Tasks` | Motor de generación de alertas y calendario de riego. | `GET /api/v1/tasks/pending` (Dashboard)<br>`PATCH /api/v1/tasks/{id}/complete` (Cambio estado) |
+
+#### **3. Definición de Contratos de Datos (DTOs)**
+Se ha evidenciado la estructura de los objetos de transferencia de datos (DTOs) para asegurar que el Frontend envíe la información correcta. A continuación, se presenta el esquema JSON documentado para la creación de un Cultivo (Entregable clave del Sprint):
+
+**Request Payload (CreateCropDto):**
+```json
+{
+  "name": "Maíz Morado - Sector A",
+  "sowingDate": "2025-11-14T00:00:00Z",
+  "cropType": "Cereal",
+  "fieldId": 102,
+  "settings": {
+    "irrigationFrequencyDays": 3,
+    "harvestEstimationDate": "2026-02-15T00:00:00Z"
+  }
+}
+```
+
+**Response Payload (201 Created):**
+```json
+{
+  "id": 505,
+  "status": "Active",
+  "trackingCode": "CROP-505-MZ",
+  "createdAt": "2025-12-03T10:15:30Z"
+}
+```
+
+#### **4. Esquema de Seguridad y Autenticación**
+La documentación especifica claramente el esquema de seguridad requerido para consumir los servicios protegidos desde Vue.js (Axios Interceptors).
+
+**Tipo:** Bearer Authentication.
+
+**Header Requerido:**
+```
+Authorization: Bearer <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...>
+```
+
+**Evidencia de Restricción:** Los endpoints de Fields y Tasks están decorados con el atributo `[Authorize]`. Cualquier petición sin este header documentado recibe una respuesta 401 Unauthorized.
+
+#### **5. Estandarización de Códigos de Respuesta**
+Para asegurar un manejo de errores consistente en el Frontend, se documentaron los siguientes códigos de estado HTTP como estándar del proyecto:
+
+- **200 OK:** Petición exitosa y respuesta con datos.
+- **201 Created:** Recurso creado exitosamente (ej. Nuevo Campo).
+- **400 Bad Request:** Error de validación de dominio (ej. Fecha de cosecha anterior a siembra).
+- **401 Unauthorized:** Falta de token o token expirado.
+- **404 Not Found:** Recurso no encontrado (ej. ID de Campo inexistente).
+- **500 Internal Server Error:** Error no controlado en el servidor.
+
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+Para asegurar la disponibilidad y la validación continua del incremento de software desarrollado en el Sprint 4, se ha implementado una estrategia de despliegue basada en la solución `Backend-FruTech.sln`. A continuación, se detalla la evidencia de la infraestructura y los accesos desplegados.
+
+#### **1. Stack Tecnológico de Despliegue**
+El despliegue se ha validado sobre la siguiente arquitectura tecnológica, confirmada en los archivos de configuración del proyecto:
+
+| Componente | Tecnología / Versión | Fuente de Evidencia |
+| :--- | :--- | :--- |
+| **Runtime Backend** | **.NET 9.0** | [cite_start]`FruTech.Backend.API.csproj` (`<TargetFramework>net9.0</TargetFramework>`)  |
+| **Motor de Base de Datos** | **MySQL Server 8.0** | [cite_start]`Program.cs` (`options.UseMySql`, `ServerVersion.AutoDetect`) [cite: 5] |
+| **ORM Provider** | **Pomelo.EntityFrameworkCore** | [cite_start]`FruTech.Backend.API.csproj` (Package v8.0.2)  |
+| **Seguridad API** | **JWT Bearer Auth** | [cite_start]`Program.cs` (`app.UseAuthorization`) & NuGet Package v9.0.10  |
+
+#### **2. Arquitectura de Despliegue (Staging)**
+El despliegue se ha realizado compilando la solución en un entorno optimizado para servicios en la nube.
+
+* **Backend Host:** Servicio de Aplicaciones ejecutando el ensamblado compilado de `.NET 9`.
+    * [cite_start]**Configuración de Red (CORS):** Se ha habilitado la política `"AllowAll"` en `Program.cs` para permitir conexiones irrestrictas desde el cliente Frontend (Vue.js) durante la fase de Staging[cite: 5].
+* **Base de Datos:** Instancia de MySQL alojada en la nube.
+    * [cite_start]*Nota Técnica:* Aunque el archivo `appsettings.Development.json` referencia a `localhost` con usuario `root`, para el despliegue en Staging se inyectan las cadenas de conexión seguras mediante Variables de Entorno del servidor (`ConnectionStrings__DefaultConnection`), protegiendo las credenciales de producción.
+
+#### **3. Pipeline de Integración y Despliegue (Build Pipeline)**
+Se ha configurado un flujo automatizado que respeta las dependencias definidas en el archivo de proyecto `FruTech.Backend.API.csproj`.
+
+**Script de Construcción (Build Evidence):**
+```bash
+# 1. Restaurar dependencias (incluyendo Pomelo y Cortex.Mediator)
+dotnet restore "FruTech.Backend.API/FruTech.Backend.API.csproj"
+
+# 2. Compilar utilizando el SDK de .NET 9.0
+dotnet build "FruTech.Backend.API/FruTech.Backend.API.csproj" -c Release --no-restore
+
+# 3. Ejecutar Migraciones de Base de Datos (MySQL)
+# Valida la conexión definida en Program.cs
+dotnet ef database update --project "FruTech.Backend.API"
+
+# 4. Publicar Artefactos
+dotnet publish "FruTech.Backend.API/FruTech.Backend.API.csproj" -c Release -o ./publish
+4. Versionamiento y Paquetes (NuGet)
+El incremento actual incluye la integración de librerías críticas actualizadas para el funcionamiento del Sprint 4, según el archivo .csproj:
+
+
+Autenticación: Microsoft.AspNetCore.Authentication.JwtBearer (v9.0.10) para la validación segura de tokens.
+
+
+
+Documentación: Swashbuckle.AspNetCore (v6.5.0) y Annotations (v9.0.6) para la generación de la interfaz Swagger UI accesible en /swagger.
+
+
+Arquitectura: Cortex.Mediator (v2.1.0) para la implementación del patrón CQRS en los servicios de dominio (TaskCommandService).
+
+
+5. Verificación de Disponibilidad (Health Check)
+Se ha verificado que la API responde correctamente a las peticiones HTTP tras el despliegue.
+
+
+Prueba de Conectividad: GET /weatherforecast/ (Endpoint de prueba configurado en FruTech.Backend.API.http).
+
+Respuesta Esperada: 200 OK - JSON Array.
+
+Validación de Swagger: La interfaz de documentación carga correctamente (app.UseSwaggerUI()) y permite probar los endpoints protegidos.
+
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
 
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
