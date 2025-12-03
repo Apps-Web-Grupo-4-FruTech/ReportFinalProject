@@ -98,7 +98,7 @@ Finalmente, en el **footer**, hemos incluido enlaces a las redes sociales de la 
 Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subiremos los archivos esenciales (HTML, CSS, etc.) a un repositorio público en GitHub. De
 esta manera, nuestra página estará disponible en línea y accesible para todos los usuarios.
 
-![GithubReportRepo](/assets/github-repo.png)
+![GithubReportRepo](assets/github-repo.png)
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
@@ -192,7 +192,7 @@ Durante el Sprint 1, el equipo de CultiConnection realizó múltiples commits en
 Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos del Sprint, asegurando la trazabilidad y transparencia en el desarrollo de CultiConnection.
 
 **Reporte de commits:**
-![Commits](/assets/commits.png)
+![Commits](assets/commits.png)
 
 ---
 
@@ -202,7 +202,7 @@ En esta entrega, nos centramos en el desarrollo completo de la Landing Page para
 
 Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
-![NetworkGraph](/assets/networkgraph.png)
+![NetworkGraph](assets/networkgraph.png)
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -213,8 +213,8 @@ Para esta primera entrega no hubo implementación de APIs, pues solo se realizó
 
 El objetivo del primer Sprint fue el desarrollo e implementación de la Landing Page. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:
 
-1. Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page ![GithubOrg](/assets/organization.png)
-2. Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images. ![Commits-example](/assets/commits-example.png)
+1. Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page ![GithubOrg](assets/organization.png)
+2. Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images. ![Commits-example](assets/commits-example.png)
 3. Finalmente, se implementó GitHub Pages en el repositorio de GitHub y se desplegó la Landing Page, la que se puede visitar en el siguiente link: https://apps-web-grupo-4-frutech.github.io/Landing-Page/
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
@@ -222,10 +222,10 @@ El objetivo del primer Sprint fue el desarrollo e implementación de la Landing 
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
 
 - Insight Landing Page:
-![InsightLP](/assets/insightLP.png)
+![InsightLP](assets/insightLP.png)
 
 - Insight Report
-![InsightR](/assets/insightR.png)
+![InsightR](assets/insightR.png)
 
 ## Conclusiones
 
@@ -343,27 +343,27 @@ To-do / InProcess / ToReview / Done
 ### 5.2.2.5. Execution Evidence for Sprint Review
 - US01
 
-![US01](/assets/execution_evidence/Register.jpeg)
+![US01](assets/execution_evidence/Register.jpeg)
 <br>
 - US02
 
-![US02](/assets/execution_evidence/Log_in.jpeg)
+![US02](assets/execution_evidence/Log_in.jpeg)
 <br>
 - US04
 
-![US04](/assets/execution_evidence/Profile.png)
+![US04](assets/execution_evidence/Profile.png)
 <br>
 - US05
 
-![US05](/assets/execution_evidence/Register_Crop.png)
+![US05](assets/execution_evidence/Register_Crop.png)
 <br>
 - US06
 
-![US06](/assets/execution_evidence/Delete_Crop.png)
+![US06](assets/execution_evidence/Delete_Crop.png)
 <br>
 - US07
 
-![US07](/assets/execution_evidence/Edit_crop.png)
+![US07](assets/execution_evidence/Edit_crop.png)
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -382,7 +382,7 @@ Durante este Sprint, se realizó el despliegue del frontend del sistema CultivAp
 fácilmente al desarrollo desde cualquier navegador, facilitando las pruebas funcionales, demostraciones internas y la
 recolección de feedback en tiempo real.
 
-![Repositorio_FrontEnd](/assets/front-end.png)
+![Repositorio_FrontEnd](assets/front-end.png)
 
 - URL del repositorio: https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
 
@@ -409,7 +409,76 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 
 <br>
 
-![Commits_Sprint_2](/assets/commits_sprint2.png)
+![Commits_Sprint_2](assets/commits_sprint2.png)
+
+## 5.2.3. Sprint 4
+
+### 5.2.3.1.Sprint Planning 4.
+
+| Elemento | Detalle |
+|-----------|----------|
+| **Sprint** | 4 - Despliegue de Backend y Frontend con conexión funcional |
+| **Sprint Planning Background** |  |
+| **Fecha** | 2/12/2025 |
+| **Hora** | 20:00 horas (GMT-5) |
+| **Lugar** | Reunión virtual mediante Google Meet |
+| **Preparado por** | [FruTech] |
+| **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Bruce Via, Estefano Solis, Sergio Landa ] |
+| **Sprint n-4 Review** | Se desplegó el backend y frontend nuevamente con la conexión necesario y documentación respectivo  |
+| **Sprint n-4 Retrospective** | Se destacó la buena coordinación del equipo y la claridad en las tareas asignadas. |
+| **Sprint Goal & User Stories** | 1-22 |
+| **Sprint 4 Velocity** | 20 puntos |
+| **Sum of Story Points** | 20 puntos |
+
+#### Objetivo del Sprint
+Desplegar el backend y frontend de CultivApp con una conexión funcional entre ambos, asegurando que los usuarios puedan interactuar con la aplicación de manera efectiva.
+
+### 5.2.3.2. Aspect Leaders and Collaborators.
+
+| Team Member (Apellido, Nombre) | GitHub Username | Deploy de Frontend | Deploy de Backend | Conexión de Endpoints | Documentación de Servicios | Pruebas de Integración |
+|--------------------------------|------------------|-------------------------|---------------------|---------------------|-------|----------------------|
+| Bonifacio, Samuel | samuelbonifacio015 | C | C | C| L | L |
+| Castro, Jefferson | JeffersonCastroPariona | C | C | L | L | L |
+| Landa, Sergio | Serkekes2006 | C | C | L | C | L |
+| Solis, Estefano | Estefano-Solis-C | L | C | C | C | C |
+| Via, Bruce | Shukaritas | L | L| L | C | C |
+
+**L:** Leader (Líder)  
+**C:** Collaborator (Colaborador)
+
+---
+### 5.2.3.3.Sprint Backlog 4.
+### 5.2.3.4.Development Evidence for Sprint Review.
+
+Despliegue de Frontend: 
+Despliegue de Backend: 
+
+### 5.2.3.5.Execution Evidence for Sprint Review.
+
+En esta entrega nos centramos en el despliegue completo del backend y frontend de la aplicación CultivApp, asegurando una conexión funcional entre ambos.
+
+Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
+
+![NetworkGraphFront](assets/network_graph_front.png)
+![NetworkGraphBack](assets/network_graph_back.png)
+
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
+
+- Insight Landing Page:
+![InsightLP](/assets/insightLP.png)
+
+- Insight Report
+![InsightR](/assets/insightR.png)
+
+- Insight Backend
+![InsightB](/assets/insightsB.png)
+
+- Insight Frontend
+![InsightF](/assets/insightsF.png)
 
 # 5.3. Validation Interviews.
 
@@ -623,7 +692,7 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 
 **Cuadro Representativo del Video**
 
-![Commits_Sprint_2](/assets/Caputa_About-The-Product_Apps.png)
+![Commits_Sprint_2](assets/Caputa_About-The-Product_Apps.png)
 
 **Url del video:** https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing 
 
