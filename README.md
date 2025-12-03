@@ -540,7 +540,77 @@ contexto.
 |---|----------|--------|-------|------------|
 | AgroApp | GET | / | CultivApp Logic | welcome |
 
+ **Community Recommendations Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|CommunityRecommendation|GET|/api/v1/community-recommendation/{recommendationId}|Get Community Recommendation By Id|GetCommunityRecommendationById|
+|CommunityRecommendation|GET|/api/v1/community-recommendation|Get All Community Recommendations|GetAllCommunityRecommendations|
+|CommunityRecommendation|PUT|/api/v1/community-recommendation/{id}|Update Community Recommendation|UpdateCommunityRecommendation|
+
+ **CropFields Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|CropFields|POST|/api/v1/crop-fields|Creates a new CropField associated with a Field (1:1 relationship)|CreateCropField|
+|CropFields|GET|/api/v1/crop-fields|Gets all CropFields|GetAllCropFields|
+|CropFields|GET|/api/v1/crop-fields/{id}|Gets a CropField by ID|GetCropFieldById|
+|CropFields|GET|/api/v1/crop-fields/field/{fieldId}|Gets the CropField associated with a Field (1:1 relationship)|GetCropFieldByFieldId|
+|CropFields|PUT|/api/v1/crop-fields/{id}|Updates the crop attribute of a CropField|UpdateCropField|
+
+ **Fields Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|Fields|POST|/api/v1/fields|Creates a new field and its associated ProgressHistory automatically|CreateField|
+|Fields|GET|/api/v1/fields/user/{userId}|Gets all fields for a user|GetFieldsByUserId|
+|Fields|GET|/api/v1/fields/{id}|Gets a field by ID|GetFieldById|
+
+ **Progress History Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|ProgressHistory|GET|/api/v1/progress|Gets all progress history records|GetAll|
+|ProgressHistory|POST|/api/v1/progress|Creates a new progress history record|Create|
+|ProgressHistory|GET|/api/v1/progress/{id}|Gets a progress history record by ID|GetById|
+|ProgressHistory|PUT|/api/v1/progress/{id}|Updates a progress history record|Update|
+
+ **Tasks Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|Tasks|GET|/api/tasks|Gets all registered tasks|GetAllTasks|
+|Tasks|POST|/api/tasks|Creates a new task|CreateTask|
+|Tasks|GET|/api/tasks/{id}|Gets a specific task by its identifier|GetTaskById|
+|Tasks|GET|/api/tasks/field/{fieldId}|Gets tasks associated with a specific field|GetTasksByField|
+|Tasks|PUT|/api/tasks/{id}|Updates data of an existing task|UpdateTask|
+|Tasks|DELETE|/api/tasks/{id}|Deletes a task|DeleteTask|
+
+ **Users Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|Users|POST|/api/v1/users/sign-up|Creates a new user in the system|SignUp|
+|Users|POST|/api/v1/users/sign-in|Authenticates a user and returns basic session information|SignIn|
+|Users|GET|/api/v1/users/{id}|Gets a user by ID|GetById|
+|Users|PUT|/api/v1/users/{id}/profile|Updates the profile information of an existing user|UpdateProfile|
+|Users|PUT|/api/v1/users/{id}/password|Updates a user's password|UpdatePassword|
+|Users|DELETE|/api/v1/users/{id}|Deletes a user from the system|Delete|
+
+
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 4, se logró desplegar exitosamente la API del Backend y el Frontend del proyecto CultivApp permitiendo el acceso público a los endpoints implementados y documentados.
+
+Esta acción asegura que las funcionalidades desarrolladas estén accesibles para pruebas externas y validación del producto en un entorno de staging.
+
+El despliegue incluye una instancia de servidor corriendo la aplicación .NET y una base de datos MySQL desplegada. 
+
+Finalmente, luego de fusionar correctamente los metodos, se re-desplegó el frontend.
+
+Archivos de configuracion clave
+
+* Dockerfile: Utilizado para construir la imagen personalizada de la aplicación y facilitar el despliegue en Render.
 
 ### 5.2.4.8.Team Collaboration Insights during Sprint.
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
