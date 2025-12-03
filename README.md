@@ -466,8 +466,6 @@ Desplegar el backend y frontend de CultivApp con una conexión funcional entre a
 | **US-11** | Señalaciones | T-303 | Alerts & Signals Endpoint | API para enviar "flags" o alertas al frontend si una tarea (Task) está vencida. | 3h | JeffersonCastroPariona | Done |
 | **Global** | Integración | T-400 | Swagger & Documentation | Configuración final de Swagger UI para que el equipo de Frontend pueda probar los endpoints. | 2h | Estefano-Solis-C | Done |
 
-### 5.2.3.4.Development Evidence for Sprint Review.
-
 ### 5.2.3.4. Development Evidence for Sprint Review
 
 La siguiente evidencia documenta el proceso técnico de despliegue e integración realizado durante el Sprint 4, validando la operatividad de los componentes Frontend (Vue.js) y Backend (C# .NET).
