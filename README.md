@@ -876,10 +876,41 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 
 ## Anexos
 
-[Repositorio de Reporte](https://github.com/Apps-Web-Grupo-4-FruTech)
+Repositorio de Github - CultivApp (FruTech) - Documento: 
 
-[Repositorio de LandingPage](https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page)
+https://github.com/Apps-Web-Grupo-4-FruTech/ReportFinalProject
 
-[Repositorio de Frontend](https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech)
+Repositorio de Github - CultivApp (FruTech) - Landing Page:
 
-[Canvas](https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page
+
+Despliegue de Landing Page:
+
+https://apps-web-grupo-4-frutech.github.io/Landing-Page/
+
+Repositorio de Github - CultivApp (FruTech) - Frontend:
+
+https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
+
+Despliegue de Frontend:
+
+* pendiente
+
+Repositorio de Github - CultivApp (FruTech) - Backend:
+
+https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
+
+Despliegue de Backend:
+
+* pendiente
+
+Documento de Presentacion - FruTech:
+
+https://www.canva.com/design/DAG1W9lWTt4/7FePKDPl-tod08DSHVJt-Q/edit?utm_content=DAG1W9lWTt4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+Enlace Video About the Team:
+
+* pendiente
+
+Enlace Video About the Product:
+https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing
