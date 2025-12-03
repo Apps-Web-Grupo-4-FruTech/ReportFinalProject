@@ -2550,267 +2550,219 @@ las decisiones de funcionalidad del Backend, union y despliegue.
 
 ## 5.2.4. Sprint 4
 
-### 5.2.4.1. Sprint Planning 4
+### 5.2.4.1.Sprint Planning 4.
 
-<table class="sprint-table">
-  <tr>
-    <th>Sprint #</th>
-    <th>Sprint 4</th>
-  </tr>
-  <tr>
-    <td>Date</td>
-    <td>2025-10-14</td>
-  </tr>
-  <tr>
-    <td>Time</td>
-    <td>15:40 PM</td>
-  </tr>
-  <tr>
-    <td>Location</td>
-    <td>Virtual (Google Meet)</td>
-  </tr>
-  <tr>
-    <td>Prepared By</td>
-    <td>Via Luna, Bruce</td>
-  </tr>
-  <tr>
-    <td>Attendees (to planning meeting)</td>
-    <td>
-      Landa Ortiz, Sergio Javier<br>
-      Solis Campos, Estefano Sebastián<br>
-      Via Luna, Bruce<br>
-      Castro Pariona, Jefferson Ernesto<br>
-      Bonifacio Jaramillo, Samuel Jesus<br>
-    </td>
-  </tr>
-  <tr>
-    <td>Sprint n – 4 Review Summary</td>
-    <td>
-      Se completó el <b>backend en Rider</b> (Get, Post, Push, Update),
-      y la conexión estable a una base de datos MySQL en una <i>real API</i>.
-    </td>
-  </tr>
-  <tr>
-    <td>Sprint n – 4 Retrospective Summary</td>
-    <td>
-      <b>Positivo:</b> Mejor coordinación y tiempos de desarrollo.<br>
-      <b>A mejorar:</b> Declaración de Commits y métodos shared.<br>
-      <b>Acción:</b> Aplicar desarrollo backend y guía de endpoints.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" class="section">Sprint Goal &amp; User Stories</td>
-  </tr>
-  <tr>
-    <td>Sprint 4 Goal</td>
-    <td>
-      Consolidar la app integrando completamente el CRUD con la <i>real API</i>, crear esta misma y desplegarla para tener un funcionamiento completo en la nube con conexión al Front-end.
-    </td>
-  </tr>
-  <tr>
-    <td>Sprint 4 Velocity</td>
-    <td>5 Story Points</td>
-  </tr>
-  <tr>
-    <td>Sum of Story Points</td>
-    <td>11</td>
-  </tr>
-</table>
+| Elemento | Detalle |
+|-----------|----------|
+| **Sprint** | 4 - Despliegue de Backend y Frontend con conexión funcional |
+| **Sprint Planning Background** |  |
+| **Fecha** | 2/12/2025 |
+| **Hora** | 20:00 horas (GMT-5) |
+| **Lugar** | Reunión virtual mediante Google Meet |
+| **Preparado por** | [FruTech] |
+| **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Bruce Via, Estefano Solis, Sergio Landa ] |
+| **Sprint n-4 Review** | Se desplegó el backend y frontend nuevamente con la conexión necesario y documentación respectivo  |
+| **Sprint n-4 Retrospective** | Positivo: Mayor madurez del backend y mejor comprensión del flujo completo entre frontend–API.<br></br> A mejorar: Coordinar mejor los horarios de trabajo para evitar retrasos en las pruebas. <br></br>Acción: Implementar autenticación en el backend y Alinear endpoints finales con el frontend|
+| **Sprint Goal & User Stories** | Consolidar la integración del frontend con la API real, perfeccionar los módulos CRUD implementados, estabilizar la comunicación completa entre vistas y backend, y dejar lista la base para implementar autenticación. |
+| **Sprint 4 Velocity** | 16 Story Points |
+| **Sum of Story Points** | 16 |
 
----
+#### Objetivo del Sprint
+Desplegar el backend y frontend de CultivApp con una conexión funcional entre ambos, asegurando que los usuarios puedan interactuar con la aplicación de manera efectiva.
 
-### 5.2.4.2. Aspect Leaders and Collaborators
+### 5.2.4.2. Aspect Leaders and Collaborators.
 
-En esta sección se presenta la matriz de liderazgo y colaboración (LACX) para el Sprint 4 de CultivApp.
-
-| Team Member (Apellido, Nombre)         | GitHub Username        | Declaración de Responsabilidades | Desarrollo de Endpoints | Desplegamiento de Backend y Database |
-|----------------------------------------|------------------------|----------------------------------|--------------------------|---------------------------------------|
-| Bonifacio, Samuel                      | samuelbonifacio015     | C                                | C                        | C                                     |
-| Castro, Jefferson                      | JeffersonCastroPariona | C                                | C                        | C                                     |
-| Via, Bruce                             | Shukaritas             | L                                | C                        | C                                     |
-| Solis, Estefano                        | Estefano-Solis-C       | L                                | C                        | L                                     |
-| Landa, Sergio                          | Serkekes2006           | L                                | L                        | C                                     |
+| Team Member (Apellido, Nombre) | GitHub Username | Deploy de Frontend | Deploy de Backend | Conexión de Endpoints | Documentación de Servicios | Pruebas de Integración |
+|--------------------------------|------------------|-------------------------|---------------------|---------------------|-------|----------------------|
+| Bonifacio, Samuel | samuelbonifacio015 | C | C | C| L | L |
+| Castro, Jefferson | JeffersonCastroPariona | C | C | L | L | L |
+| Landa, Sergio | Serkekes2006 | C | C | L | C | L |
+| Solis, Estefano | Estefano-Solis-C | L | C | C | C | C |
+| Via, Bruce | Shukaritas | L | L| L | C | C |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
 
 ---
+### 5.2.4.3.Sprint Backlog 4.
 
-### 5.2.4.3. Sprint Backlog 4
+### Sprint Backlog 4: Finalización de Backend API
 
-#### Sprint Backlog 4: Integración y Cierre
-
-| **User Story** | | **Work-Item / Task (Integration & Release)** | | | | | |
+| **User Story** | | **Work-Item / Task (Implementación Backend)** | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Est. (h)** | **Assigned To** | **Status** |
-| **US-12** | Recomendaciones | T-103 | Community Context Implementation | Revisión final e integración del bounded context `CommunityRecommendation`. | 6h | Samuel Bonifacio | To-Review |
-| **US-06** | Eliminar/Editar Cultivos | T-204 | Crop Lifecycle Endpoints | Revisión y pruebas de endpoints DELETE / PUT con soft delete. | 3h | Shukaritas | To-Review |
-| **US-31** | Integración Frontend-Backend | T-401 | End-to-end Integration Tests | Pruebas E2E de flujos críticos entre frontend y backend. | 6h | JeffersonCastroPariona | To-Review |
-| **US-32** | Despliegue y Rollout | T-402 | Production Release | Verificación pre-release, migraciones y despliegue final en Railway/Azure. | 4h | Serkekes2006 | To-Review |
-| **US-33** | Monitorización y Alertas | T-403 | Monitoring Setup | Configurar monitorización (health checks, logs, alerts). | 3h | Bruce Via | To-Review |
-| **US-34** | Documentación Operacional | T-404 | Runbook & Rollback | Documentar runbook, rollback steps y endpoints críticos. | 2h | Estefano-Solis-C | To-Review |
-| **US-35** | QA y Correcciones | T-405 | Bugfix Sprint | Corrección de bugs encontrados en E2E y pruebas de integración. | 8h | Equipo | To-Review |
-| **Global** | Integración | T-400 | Swagger & Documentation | Validación final de la especificación OpenAPI y publicación. | 2h | Estefano-Solis-C | To-Review |
+| **US-01** | Registro y Auth | T-101 | Security & JWT Implementation | Implementar generación de Tokens, encriptación de contraseñas (BCrypt) y Middleware de autorización. | 5h | Estefano-Solis-C | Done |
+| **US-04** | Editar Perfil | T-102 | User Profile Update Logic | Endpoint PUT para actualizar datos del usuario. Incluye validación de unicidad de correo. | 3h | Estefano-Solis-C | Done |
+| **US-12** | Recomendaciones (Comunidad) | T-103 | Community Context Implementation | Desarrollo del Bounded Context `CommunityRecommendation` (visible en carpetas) para lógica de consejos expertos. | 6h | Samuel Bonifacio | To-Review |
+| **US-08** | Registro de Campo | T-201 | Fields CRUD Implementation | Implementar `FieldsController` y `FieldRepository` para crear y listar los terrenos del usuario. | 4h | Shukaritas | Done |
+| **US-05** | Registrar Cultivos | T-202 | CropFields Logic & Entity | Desarrollo de la entidad central `Crop` y su persistencia en base de datos. | 4h | Shukaritas | Done |
+| **US-10** | Vincular Cultivos | T-203 | Relationship Logic (Field-Crop) | Lógica de negocio para asignar un Cultivo existente a un Campo específico (Relación 1:N en BD). | 5h | Shukaritas | Done |
+| **US-06** | Eliminar/Editar Cultivos | T-204 | Crop Lifecycle Endpoints | Endpoints DELETE y PUT para gestión de cultivos. Incluye "Soft Delete" (marcar como inactivo en vez de borrar). | 3h | Shukaritas | To-Review |
+| **US-13** | Notificación Riego | T-301 | Task Generation Service | Servicio de dominio que calcula automáticamente las tareas de riego basadas en el tipo de cultivo. | 5h | JeffersonCastroPariona | Done |
+| **US-17** | Historial Cambios | T-302 | Audit/History Logging | Implementar lógica en `Tasks` para guardar un log cada vez que se completa o modifica una tarea. | 4h | JeffersonCastroPariona | Done |
+| **US-11** | Señalaciones | T-303 | Alerts & Signals Endpoint | API para enviar "flags" o alertas al frontend si una tarea (Task) está vencida. | 3h | JeffersonCastroPariona | Done |
+| **Global** | Integración | T-400 | Swagger & Documentation | Configuración final de Swagger UI para que el equipo de Frontend pueda probar los endpoints. | 2h | Estefano-Solis-C | Done |
 
----
 
 ### 5.2.4.4. Development Evidence for Sprint Review
 
-Durante el Sprint 4, el equipo de CultivApp realizó múltiples commits en el repositorio de GitHub, evidenciando el avance y cumplimiento de las tareas planificadas. A continuación, se presenta una tabla con los principales commits realizados:
+A continuación se presenta la evidencia de desarrollo del Sprint 4, ordenada según la tabla solicitada:
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) | Author (GitHub) |
-|---|---|---|---|---|---:|---|
-| .../Backend-FruTech | main | `a1b2c3d` | *feat(auth): Add JWT token generation* | *Implements secure token generation with expiration and refresh logic.* | 20/11/2025 | *Estefano-Solis-C* |
-| .../Backend-FruTech | main | `d4e5f6g` | *feat(auth): Implement BCrypt password hashing* | *Adds secure password hashing and validation for user registration.* | 20/11/2025 | *Estefano-Solis-C* |
-| .../Backend-FruTech | main | `h7i8j9k` | *feat(users): Add profile update endpoint* | *Implements PUT /users/profile with email uniqueness validation.* | 21/11/2025 | *Estefano-Solis-C* |
-| .../Backend-FruTech | main | `l1m2n3o` | *feat(community): Implement recommendation context* | *Creates Community Bounded Context for recommendations and alerts.* | 21/11/2025 | *samuelbonifacio015* |
-| .../Backend-FruTech | main | `p4q5r6s` | *feat(fields): Add CRUD for fields management* | *Implements FieldsController with full CRUD operations.* | 22/11/2025 | *Shukaritas* |
-| .../Backend-FruTech | main | `t7u8v9w` | *feat(crops): Implement crop entity and logic* | *Creates Crop model and business logic for crop management.* | 22/11/2025 | *Shukaritas* |
-| .../Backend-FruTech | main | `x1y2z3a` | *feat(relationships): Add field-crop relationship* | *Implements 1:N relationship between fields and crops.* | 23/11/2025 | *Shukaritas* |
-| .../Backend-FruTech | main | `b4c5d6e` | *feat(crops): Add soft delete for crops* | *Implements DELETE and PUT endpoints with soft delete pattern.* | 23/11/2025 | *Shukaritas* |
-| .../Backend-FruTech | main | `f7g8h9i` | *feat(tasks): Add automatic task generation* | *Creates task generation service for irrigation and maintenance.* | 24/11/2025 | *JeffersonCastroPariona* |
-| .../Backend-FruTech | main | `j1k2l3m` | *feat(tasks): Implement audit logging* | *Adds comprehensive change tracking for all task modifications.* | 24/11/2025 | *JeffersonCastroPariona* |
-| .../Backend-FruTech | main | `n4o5p6q` | *feat(alerts): Add signals and alerts endpoint* | *Implements alerts for overdue tasks and system notifications.* | 25/11/2025 | *JeffersonCastroPariona* |
-| .../Backend-FruTech | main | `r7s8t9u` | *docs(swagger): Configure Swagger UI* | *Final configuration and documentation setup for API endpoints.* | 25/11/2025 | *Estefano-Solis-C* |
+* Commits en Backend: 
 
----
+| Commit ID  | Commit Message                              | User                     | Commit Date    |
+|:----------:|:--------------------------------------------|:------------------------|:--------------|
+| 752db64    | feat: add CR REST interfaces                | samuelbonifacio015      | Nov 14, 2025  |
+| 36025ed    | feat: add CR infrastructure                 | samuelbonifacio015      | Nov 14, 2025  |
+| a3671db    | feat: add CR repositories & services        | samuelbonifacio015      | Nov 14, 2025  |
+| d9df421    | feat: CR domain update                      | samuelbonifacio015      | Nov 14, 2025  |
+| 4eab47b    | Update Tasks JeffersonCastro                | JeffersonCastroPariona  | Nov 14, 2025  |
+| aca777f    | feat: endpoint user and upcoming task       | Gaftherman              | Nov 14, 2025  |
+| eefbf08    | feat: pre-deploy                            | Shukaritas              | Nov 14, 2025  |
+| 06da246    | Disable forced port                         | Estefano-Solis-C        | Nov 14, 2025  |
+| 92a8d2c    | Enabled all ports in all context            | Estefano-Solis-C        | Nov 14, 2025  |
+| 82af78e    | Dockerfile                                  | Estefano-Solis-C        | Nov 14, 2025  |
+| ed54d60    | feat-updated-bakend                         | Serkekes2006            | Nov 14, 2025  |
+| f04a0be    | fixture dashboard 
 
-### 5.2.4.5. Execution Evidence for Sprint Review
+* Commits en Frontend: 
 
-#### Avances — Backend‑FruTech (Sprint 4)
+| Commit ID  | Commit Message                              | User                     | Commit Date    |
+|:----------:|:--------------------------------------------|:------------------------|:--------------|
+| fa78823    | Add crop registration managment form        | JeffersonCastroPariona  | Oct 8, 2025   |
+| d1ebf4b    | feat: community API response working        | samuelbonifacio015      | Oct 8, 2025   |
+| cf67542    | feat: added community components            | samuelbonifacio015      | Oct 8, 2025   |
+| f6766dd    | fix: update task handling                   | samuelbonifacio015      | Oct 8, 2025   |
+| 40b8f5d    | fix: component lang & better comments       | samuelbonifacio015      | Oct 8, 2025   |
+| 3c134a3    | feat: added my-task component               | samuelbonifacio015      | Oct 8, 2025   |
+| 245bee2    | feature: Modified and improve fields        | Shukaritas              | Oct 8, 2025   |
+| 41d8990    | fixed db.json                               | Estefano-Solis-C        | Oct 8, 2025   |
+| aeaa6f0    | Merge remote-tracking branch 'origin/feature/fields' into develop | Estefano-Solis-C | Oct 8, 2025   |
+| 5167129    | Merge remote-tracking branch 'origin/tasks&comunity' into develop | Estefano-Solis-C | Oct 8, 2025   |
 
-El equipo ha completado exitosamente el 100% de las tareas planificadas para el Sprint 4, consolidando una API backend completamente funcional.
 
-**Avances por módulos funcionales clave:**
+### 5.2.4.5.Execution Evidence for Sprint Review.
 
-- **Módulo de Seguridad y Autenticación (T-101, T-102)**  
-  - Generación de JWT tokens con expiración y refresh logic.  
-  - Implementación de BCrypt para hashing seguro de contraseñas.  
-  - Validación de unicidad de correo en actualización de perfil.
+En esta entrega nos centramos en el despliegue completo del backend y frontend de la aplicación CultivApp, asegurando una conexión funcional entre ambos.
 
-- **Módulo de Gestión de Comunidad (T-103)**  
-  - Creación del Bounded Context `CommunityRecommendation`.  
-  - Implementación de lógica para generación de recomendaciones.
+Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
-- **Módulo de Gestión de Campos y Cultivos (T-201 a T-204)**  
-  - CRUD completo de campos con controlador `FieldsController`.  
-  - Modelo de entidad `Crop` con lógica de negocio.  
-  - Relación 1:N entre campos y cultivos.  
-  - Endpoints DELETE/PUT con patrón de soft delete.
-
-- **Módulo de Tareas y Alertas (T-301 a T-303)**  
-  - Servicio de generación automática de tareas para riego y mantenimiento.  
-  - Implementación de auditoría completa con registro de cambios.  
-  - Endpoints para alertas de tareas vencidas y notificaciones del sistema.
-
-**Disponibilidad del Sistema (US-19):**  
-Todos los servicios están operacionales en la nube, con health check continuamente monitorizado.
-
----
+![NetworkGraphFront](assets/network_graph_front.png)
+![NetworkGraphBack](assets/network_graph_back.png)
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-## Documentación de Endpoints (OpenAPI) — Sprint 4
+En esta sección se incluye la relación de endpoints documentados con OpenAPI (Swagger), desarrollados como parte del alcance del Sprint 4. Se resumen los logros alcanzados en relación con la implementación y documentación de los servicios REST del Backend.
 
-### Introducción
-En esta sección se presenta la documentación de los Web Services (API) implementada durante el Sprint 4. Todos los endpoints desarrollados han sido documentados siguiendo el estándar OpenAPI 3.0, con anotaciones Swagger integradas en el backend.
+**Backend en Rider**
 
-### Relación de Endpoints Documentados (Sprint 4)
+![RiderBackend](assets/riderBackend.png)
+![RiderBackend2](assets/riderBackend2.png)
 
-| Endpoint (Historia) | Verbo | Sintaxis de Llamada | Descripción breve |
-|---|---:|---|---|
-| US-01: Auth & JWT | POST | /auth/login | Autenticación con generación de JWT |
-| US-01: Registration | POST | /auth/register | Registro de nuevos usuarios |
-| US-04: Edit Profile | PUT | /users/profile | Actualización de perfil de usuario |
-| US-12: Recommendations | GET | /community/recommendations | Obtiene recomendaciones personalizadas |
-| US-08: Register Field | POST | /fields | Registra nuevo campo |
-| US-05: Register Crop | POST | /crops | Registra nuevo cultivo |
-| US-10: Link Crop | POST | /fields/{id}/link-crop | Vincula cultivo a campo |
-| US-06: Update Crop | PUT | /crops/{id} | Actualiza datos de cultivo |
-| US-06: Delete Crop | DELETE | /crops/{id} | Elimina cultivo con soft delete |
-| US-13: Create Task | POST | /tasks/generate | Genera tareas automáticamente |
-| US-17: Audit Log | GET | /tasks/{id}/audit | Obtiene historial de cambios |
-| US-11: Alerts | GET | /alerts/signals | Obtiene alertas activas |
-| US-19: Health Check | GET | /health | Verifica disponibilidad del sistema |
+**Frontend en WebStorm**
 
----
+![WebStormFrontend](assets/webstormFrontend.png)
+![WebStormFrontend2](assets/webstormFrontend2.png)
 
-### Repositorio y Commits de Documentación
-Repositorio principal del backend:
-- https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
+**API**
 
-**URL de Swagger:** https://backend-frutech-production.up.railway.app/swagger/index.html
+Todos los endpoints están organizados siguiendo la convención RESTful bajo la ruta /api/v1/ y están documentados según
+contexto.
 
----
+<br>
+
+**CultivApp Intern Logic**
+
+|Tag|HTTTP Verb|Endpoint|Summary|Operation ID|
+|---|----------|--------|-------|------------|
+| AgroApp | GET | / | CultivApp Logic | welcome |
+
+ **Community Recommendations Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|CommunityRecommendation|GET|/api/v1/community-recommendation/{recommendationId}|Get Community Recommendation By Id|GetCommunityRecommendationById|
+|CommunityRecommendation|GET|/api/v1/community-recommendation|Get All Community Recommendations|GetAllCommunityRecommendations|
+|CommunityRecommendation|PUT|/api/v1/community-recommendation/{id}|Update Community Recommendation|UpdateCommunityRecommendation|
+
+ **CropFields Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|CropFields|POST|/api/v1/crop-fields|Creates a new CropField associated with a Field (1:1 relationship)|CreateCropField|
+|CropFields|GET|/api/v1/crop-fields|Gets all CropFields|GetAllCropFields|
+|CropFields|GET|/api/v1/crop-fields/{id}|Gets a CropField by ID|GetCropFieldById|
+|CropFields|GET|/api/v1/crop-fields/field/{fieldId}|Gets the CropField associated with a Field (1:1 relationship)|GetCropFieldByFieldId|
+|CropFields|PUT|/api/v1/crop-fields/{id}|Updates the crop attribute of a CropField|UpdateCropField|
+
+ **Fields Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|Fields|POST|/api/v1/fields|Creates a new field and its associated ProgressHistory automatically|CreateField|
+|Fields|GET|/api/v1/fields/user/{userId}|Gets all fields for a user|GetFieldsByUserId|
+|Fields|GET|/api/v1/fields/{id}|Gets a field by ID|GetFieldById|
+
+ **Progress History Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|ProgressHistory|GET|/api/v1/progress|Gets all progress history records|GetAll|
+|ProgressHistory|POST|/api/v1/progress|Creates a new progress history record|Create|
+|ProgressHistory|GET|/api/v1/progress/{id}|Gets a progress history record by ID|GetById|
+|ProgressHistory|PUT|/api/v1/progress/{id}|Updates a progress history record|Update|
+
+ **Tasks Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|Tasks|GET|/api/tasks|Gets all registered tasks|GetAllTasks|
+|Tasks|POST|/api/tasks|Creates a new task|CreateTask|
+|Tasks|GET|/api/tasks/{id}|Gets a specific task by its identifier|GetTaskById|
+|Tasks|GET|/api/tasks/field/{fieldId}|Gets tasks associated with a specific field|GetTasksByField|
+|Tasks|PUT|/api/tasks/{id}|Updates data of an existing task|UpdateTask|
+|Tasks|DELETE|/api/tasks/{id}|Deletes a task|DeleteTask|
+
+ **Users Controller**
+
+|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
+|---|---------|--------|-------|------------|
+|Users|POST|/api/v1/users/sign-up|Creates a new user in the system|SignUp|
+|Users|POST|/api/v1/users/sign-in|Authenticates a user and returns basic session information|SignIn|
+|Users|GET|/api/v1/users/{id}|Gets a user by ID|GetById|
+|Users|PUT|/api/v1/users/{id}/profile|Updates the profile information of an existing user|UpdateProfile|
+|Users|PUT|/api/v1/users/{id}/password|Updates a user's password|UpdatePassword|
+|Users|DELETE|/api/v1/users/{id}|Deletes a user from the system|Delete|
+
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-#### Software Deployment Evidence — Sprint 4
+Durante el Sprint 4, se logró desplegar exitosamente la API del Backend y el Frontend del proyecto CultivApp permitiendo el acceso público a los endpoints implementados y documentados.
 
-A continuación se detalla el proceso de despliegue para el Sprint 4.
+Esta acción asegura que las funcionalidades desarrolladas estén accesibles para pruebas externas y validación del producto en un entorno de staging.
 
-1. **Configuración de CI/CD Pipeline**  
-   - Se configuró GitHub Actions para despliegue automático en Railway.  
-   - Cada push a main dispara build, test y despliegue automático.
+El despliegue incluye una instancia de servidor corriendo la aplicación .NET y una base de datos MySQL desplegada. 
 
-2. **Despliegue de Base de Datos**  
-   - Base de datos MySQL aprovisionada en Railway con backups automáticos.  
-   - Connection string configurada como variable de entorno en el servicio.
+Finalmente, luego de fusionar correctamente los metodos, se re-desplegó el frontend.
 
-3. **Despliegue del Backend API**  
-   - Servicio Node.js deployado en Railway con auto-scaling.  
-   - Health check activo para monitorear disponibilidad.  
-   - SSL/TLS habilitado para todas las conexiones.
+Archivos de configuracion clave
 
-4. **Validación Post-Despliegue**  
-   - Pruebas de endpoints ejecutadas en Swagger UI.  
-   - Validación de conectividad con base de datos.  
-   - Monitoreo de logs en tiempo real.
+* Dockerfile: Utilizado para construir la imagen personalizada de la aplicación y facilitar el despliegue en Render.
 
-**URL de Despliegue:** https://backend-frutech-production.up.railway.app/swagger/index.html
+### 5.2.4.8.Team Collaboration Insights during Sprint.
+A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
 
-**Estado:** ✅ Producción - Todos los servicios operacionales
+- Insight Landing Page:
+![InsightLP](/assets/insightLP.png)
 
----
+- Insight Report
+![InsightR](/assets/insightR.png)
 
-### 5.2.4.8. Team Collaboration Insights during Sprint
+- Insight Backend
+![InsightB](/assets/insightsB.png)
 
-Durante el Sprint 4, el equipo continuó con la metodología exitosa de trabajo colaborativo implementada en sprints anteriores.
-
-| Integrante | Acciones realizadas durante el Sprint 4 |
-|-----------|----------------------------------------|
-| Estefano Sebastián Solis Campos | Implementación de seguridad, JWT y validaciones. Configuración de Swagger UI final. |
-| Bruce Via Luna | Desarrollo completo de CRUD de campos y relaciones con cultivos. |
-| Samuel Jesus Bonifacio Jaramillo | Implementación de Bounded Context de Community y recomendaciones. |
-| Jefferson Ernesto Castro Pariona | Desarrollo de servicio de tareas, auditoría y sistema de alertas. |
-| Sergio Javier Landa Ortiz | Liderazgo en arquitectura, integración de componentes y validación final. |
-
-**Evidencia de colaboración en GitHub (Sprint 4)**
-
-<img src="assets/Commits_Evidence_Sprint4.jpeg" alt="Colaboracion de Commits Sprint 4">
-
----
-
-## Team Collaboration Insights during Sprint
-
-### Pilares de la colaboración
-
-1. Comunicación y sincronización (Ceremonias ágiles)  
-   - Daily Scrum: reuniones diarias de 15 minutos para compartir avances, planes e impedimentos.  
-   - Ejemplo: US10 (Samuel) dependía de US08 (Estefano); se priorizó la revisión de US08 tras detectarlo en el Daily.  
-   - Comunicación asincrónica en Discord para dudas rápidas y coordinación fuera de horario.
-
-2. Flujo de trabajo colaborativo (GitHub y Code Reviews)  
-   - Ramas por desarrollador (ej.: jefferson, samuel, estefano) para trabajo paralelo y reducir conflictos.  
-   - Pull Requests obligatorios con, al menos, una aprobación antes de merge.  
-   - Beneficios: calidad de código, transferencia de conocimiento y reducción de bugs en la rama principal.
-
-3. Gestión de tareas y transparencia (Sprint Backlog)  
-   - Sprint Backlog como fuente única de verdad: asignación clara de cada US y estados (To-do / In Process / To Review / Done).  
-   - Actualizaciones constantes del estado permitieron autoorganización del equipo.  
-   - Resultado: todas las 13 US del sprint marcadas como "Done" al cierre.
-
-
+- Insight Frontend
+![InsightF](/assets/insightsF.png)
 
 # 5.3. Validation Interviews.
 
@@ -2824,7 +2776,7 @@ Estas preguntas se centran en la facilidad de uso, el valor inmediato y la barre
 
 - Al ver esta pantalla principal, ¿qué es lo más importante para usted? ¿Ver sus campos, sus tareas o las recomendaciones?
 
-- ¿Le parece útil que la aplicación le muestre "Traeas proximas" o "Ultimas recomendaciones"? ¿Cómo manejaria este contenido?
+- ¿Le parece útil que la aplicación le muestre "Tareas proximas a vencerse" o "Consejos"? ¿Cómo manejaria este contenido?
 
 - ¿Le parece fácil de entender esta pantalla, o ve demasiada información?
 
@@ -2910,208 +2862,123 @@ Estas preguntas se centran en la eficiencia, la gestión de múltiples parcelas,
 
 ## 5.3.2. Registro de Entrevistas.
 
-**User Persona del segmento objetivo #1: Agricultores de pequeña escala**
-
-<img src="assets/Captura_Evidencia_Segmento_1.png" alt="Entrevista 1 Segmento 1">
-
-**Entrevistado(a):** Carmen Diaz
-
-**Genero:** Femenino
-
-**Edad:** 28 años
-
-**Enlace de la entrevista (Drive):** [Enlace Entrevista 1](https://drive.google.com/file/d/1iGH5VZRln1pIRpLhEr5JzbHavKCWaZp-/view?usp=sharing)
-
-**Resumen:** Carmen Diaz es una agriculta de nivel intermedio que simbra mayormente en su casa, fue entrevistada previamente para pensar en la idea de una startup como la que se le presentara a continuacion. Se destaco siemopre por intentar ver por el bienestar de sus cultivos en una zona como la ciudad y señalo como gracias a nustra aplicacion esto sera mucho mas facil y sobre todo tranquilo gracias a las funcionalidades que esta tiene.
-
-<img src="assets/Captura_Segmento_1_Entrevista_2.jpeg" alt="Entrevista 2 Segmento 1">
-
-**Entrevistado(a):** Noelia Gómez Sánchez
-
-**Genero:** Femenino
-
-**Edad:** 25 años
-
-**Enlace de la entrevista (Drive):** [Enlace Entrevista 2](https://drive.google.com/file/d/1UGsyV85vfoeMcjRewXvfqN1JweqLEJyJ/view?usp=sharing)
-
-**Resumen:** Durante la demostración de "CultivApp", Noelia valida la utilidad del panel de control, destacando que el sistema de alertas y el semáforo de estados (Crítico/Saludable) son vitales para priorizar urgencias sin estar físicamente en el campo, aunque enfatiza que la interfaz debe estar en español para que su familia y trabajadores la entiendan. En cuanto a la gestión de terrenos, sugiere mejoras clave como el cálculo automático de insumos basado en las hectáreas exactas y valora la creación de un historial digital organizado por lotes que reemplace a los cuadernos físicos y hojas de cálculo, facilitando así el análisis de rentabilidad.
-
-En cuanto a la operatividad diaria y la confianza, Noelia considera indispensable que las notificaciones de tareas se sincronicen con Google Calendar y solicita la función de adjuntar fotos al completar actividades (como evidencias de fumigación) para llevar un mejor control de costos. Muestra disposición para participar en la comunidad de la app siempre que la información provenga de agrónomos certificados y datos científicos, prefiriendo esto sobre consejos empíricos. Finalmente, expresa una fuerte preocupación por la privacidad al notar que el perfil solicita su DNI, indicando que desconfía de entregar datos sensibles en aplicaciones gratuitas a menos que sea estrictamente necesario para facturación formal.
-
-
-**User Persona del Segmento objetivo #2: Agricultores de mediana escala**
-
-<img src="assets/Captura_Evidencia_Segmento_2.png" alt="Entrevista 1 Segmento 2">
-
-**Entrevistado(a):** Walter Sanchez
-
-**Genero:** Masculino
-
-**Edad:** 52 años
-
-**Enlace de la entrevista (Drive):** [Enlace Entrevista 1](https://drive.google.com/file/d/1zY895AOneKp07yA6Zz3DYqjk7uhfcfh4/view?usp=sharing)
-
-**Resumen:** Walter Sanchez es ya un agricultor titulado y trabajador desde mas de 20 años, entrevistado previamente para presentarle la idea, hoy la prueba mediante nuestra aplicacion, permitiendole registrar cultivos y campos de cultivo para su trabajo. Se destaca en ser un referente en su area y como el trabajar en esto, pese a ser algo que le gusta tambien resulta ser dificil debido a que muchos procesos son obsoletos, lentos o simplemente tedioso luego de repetirse y señala como con la aplicacion al menos traera la digitalizacion de procesos y el como muchos trabjos que le costaban tiempo y esfuerzo seran mas faciles con nuestro producto.
-
-<img src="assets/CAPentrevistaapps.png" alt="Entrevista 2 Segmento 2">
-
-**Entrevistado(a):** Javier Landa
-
-**Genero:** Masculino
-
-**Edad:** 55 años
-
-**Enlace de la entrevista (Drive):** [Enlace Entrevista 2](https://drive.google.com/file/d/1fjCNb1DV1eAWvgIRaIHvrII7yc1g-lOJ/view?usp=sharing)
-
-**Resumen:** Este video presenta a Javier, un participante entrevistado previamente, mientras prueba la aplicación web "CultiApp" como parte del "segmento 2" de un proyecto final. La mayor parte del video es una demostración silenciosa de la aplicación, mostrando su "Panel de Control", la gestión de cultivos, los campos y las tareas. Esta grabación de pantalla sirve como contexto para la entrevista formal que comienza justo al final, donde el entrevistador, Sergio Landa, explica que el objetivo es evaluar la eficiencia de la aplicación y su valor comercial para un usuario que maneja una operación agrícola tecnificada.
-
-
 ## 5.3.2. Evaluaciones según heurísticas.
 
-## **Site o App a evaluar**
-**Nombre:** PlantE
+<span style="font-size: 2em; font-weight: normal;">Site o App a evaluar</span>
 
-*Objetivo:*  Detectar qué tan fácil o difícil resulta usar el sistema web de monitoreo y control de equipos de refrigeración, evaluándolo con las heurísticas de Nielsen para identificar fallas de usabilidad.
+**Nombre:** AgroApp
 
-**Tareas a evaluar**
+**Objetivo:**  Identificar problemas de usabilidad en el sistema web de control de campos y cultivos usando la Lista Heurística de
+Nielsen.
 
-1. Ambigüedad en la terminología y las unidades de las temperaturas máximas.
-2. Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.
-3. La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".
-4. Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.
-5. Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación.
-6. Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de activos y alertas.
-7. Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.
-8. Confusión visual entre campos editables y no editables en la sección de información de usuario.
-9. Redundancia o falta de claridad en los filtros de la sección "My Service Requests".
+<span style="font-size: 2em; font-weight: normal;">Tareas a evaluar</span>
 
-**Problema Detectado**
+1. Visualización y navegación en la página principal
+2. Visualización del campo de Cultivo (galería, fichas, presentación de información)
+3. Navegación por la sección de Cultivos (flujo, claridad de información, pasos a seguir)
+4. Accesibilidad y claridad del menú lateral (ubicación, iconos, estructura)
+5. Visualizacion de los atributos de los campos y cultivos (nombre, dimensiones, producto, estado, etc)
+6. Diferenciación entre las secciones “Cultivos” y “Campos”
+7. Visualización de detalles del campo (tareas, estado, producto)
+8. Gestión de cultivos y sus campos (tareas, recordatorios)
+9. Claridad de iconografía y etiquetas
+10. Navegación lateral y localización de sección activa
+11. Estructura y claridad del formulario de registros
+12. Proceso de cambio de idioma
+13. Personalización y curva de aprendizaje
 
-| *\#* | *Problema* | *Escala de severidad* | *Heurística/Principio violada(o)* |
-| :---- | :---- | :---- | :---- |
-| ***1*** | *Ambigüedad en la terminología y las unidades de las temperaturas máximas.* | *3* | ***Visibility of System Status** / **Consistency and Standards*** |
-| ***2*** | *Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.* | *2* | ***Visibility of System Status*** |
-| ***3*** | *La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".* | *3* | ***Error Prevention** / **Consistency and Standards*** |
-| ***4*** | *Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.* | *2* | ***Recognition Rather Than Recall** / **Aesthetic and Minimalist Design*** |
-| ***5*** | *Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación.* | *3* | ***Consistency and Standards** / **Match Between System and the Real World*** |
-| ***6*** | *Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de alertas.* | *3* | ***Recognition Rather Than Recall** / **Match Between System and the Real World*** |
-| ***7*** | *Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.* | *4* | ***Match Between System and the Real World*** |
-| ***8*** | *Confusión visual entre campos editables y no editables en la sección de información de usuario.* | *3* | ***Visibility of System Status** / **Aesthetic and Minimalist Design*** |
-| ***9*** | *Redundancia o falta de claridad en los filtros de la sección "My Service Requests".* | *2* | ***Aesthetic and Minimalist Design** / **Flexibility and Efficiency of Use*** |
+<span style="font-size: 2em; font-weight: normal;">Problema Detectado</span>
 
-## **DESCRIPCIÓN DE PROBLEMAS:**
+| # | Problema Detectado | Heuristica violada | Severidad |
+|---|--------------------|--------------------|-----------|
+|1|Falta de complementos visuales|Visibilidad del estado del sistema|1|
+|2|Confusión entre Campos y Cultivos|Coincidencia entre el sistema y el mundo real|3|
+|3|Falta de tutoriales o guía para nuevos usuarios |Ayuda y documentación|2|
+|4|Inconsistencia de los estados de los campos|Visibilidad del estado del sistema|3
 
-### **PROBLEMA \#1: Ambigüedad en la terminología y las unidades de las temperaturas máximas.**
+<span style="font-size: 2em; font-weight: normal;">Escala de severidad</span>
 
----
+|Nivel |Severidad|
+|------|---------|
+|1|Problema superficial: fácilmente superado por el usuario o muy poco frecuente. No es prioritario.|
+|2|Problema menor: algo más frecuente o confuso; se debe resolver en una próxima versión.|
+|3|Problema mayor: ocurre frecuentemente y afecta el uso normal. Prioridad alta.|
+|4|Problema muy grave: impide el uso del sistema. Debe corregirse antes del lanzamiento.|
 
-**Severidad: 3 Heurística violada: Visibility of System Status / Consistency and Standards**
+<span style="font-size: 2em; font-weight: normal;">Análisis heuristico detallado</span>
 
-Problema: En el Dashboard, la sección superior derecha muestra "Max: 3.8°" y "Max: 4.3°". No hay una etiqueta que explique si estos son límites preconfigurados, los máximos históricos, o los máximos registrados en las últimas 24h. Esta falta de contexto clave impide al usuario entender el significado de estas métricas. Además, la unidad de temperatura usa ° en estos máximos, mientras que el promedio usa °C, mostrando una inconsistencia.
+<span style="font-size: 19px; font-weight: normal;">Problema #01: Falta de complementos visuales</span>
 
-Recomendación: Etiquetar claramente los valores, por ejemplo, "Límite Alto" o "Máximo Histórico". Unificar el símbolo de temperatura a °C en toda la interfaz.
+**Severidad:** 1
 
-### **PROBLEMA \#2: Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.**
+**Heuristica violada:** Visibilidad del estado del sistema
 
----
+**Descripción:**
 
-**Severidad: 2 Heurística violada: Visibility of System Status**
+Las secciones como cultivos o tareas no se ven atractivas visualmente para los usuarios, o segun ellos le falta algun atratactivo visual
 
-Problema: El elemento del menú lateral activo ("Equipments" en su vista) se indica con un sutil color de fondo azul que podría no ser lo suficientemente visible o contrastante para algunos usuarios. Esto dificulta la confirmación instantánea de la ubicación actual del usuario en la aplicación.
+**Recomendación:**
 
-Recomendación: Reforzar la indicación del elemento activo. Sugerencia: Añadir un borde vertical (ej. una línea gruesa azul) al lado izquierdo del elemento seleccionado para un contraste más fuerte.
+Incluir divisores visuales, algunos colores a los botones y una mejor presentacion de modo que se vuelve atractivo para mas usuarios y deja de parecer una lista impresa
 
-### **PROBLEMA \#3: La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".**
+<span style="font-size: 19px; font-weight: normal;">Problema #02: Confusión entre Campos y Cultivos</span>
 
-**Severidad: 3 Heurística violada: Error Prevention / Consistency and Standards**
+**Severidad:** 3
 
----
+**Heuristica violada:** Coincidencia entre el sistema y el mundo real
 
-Problema: En la tabla "Recent Alerts" del Dashboard, se ofrece la acción "Acknowledge (ACK)" para alertas que ya tienen un estado de "Resolved" o "Closed". Lógicamente, no se requiere o no debería ser posible "reconocer" una alerta que el sistema ya considera finalizada. Esto genera confusión e impulsa acciones innecesarias.
+**Descripción:**
 
-Recomendación: Hacer que la columna ACTION sea contextual: debe desaparecer o cambiar a una opción como "View Log" o "View Details" cuando el Status sea finalizado.
+Los usuarios no difrencian muy bien entre las dos secciones, confundiendolas constantement al momento de referirse a estas
 
-### **PROBLEMA \#4: Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.**
+**Recomendación:**
 
----
+Renombrar o cambiar la forma de etiquetar cada una de esas por ejemplos ("Cultivos pertenecientes a un campo" o "Campos de Cultivo")
 
-**Severidad: 2 Heurística violada: Recognition Rather Than Recall / Aesthetic and Minimalist Design**
+<span style="font-size: 19px; font-weight: normal;">Problema #03: Falta de tutoriales o guía para nuevos usuarios</span>
 
-Problema: El texto "5 pontos" sobre el gráfico de temperatura es técnico o está mal traducido/etiquetado. El usuario no puede saber fácilmente si se refiere a 5 sensores, 5 días, o la granularidad de los datos. Esto obliga al usuario a recordar su significado.
+**Severidad:** 2
 
-Recomendación: Utilizar una etiqueta clara y orientada al usuario, como "5 Sensores", "Granularidad" o el parámetro real que se esté filtrando.
+**Heuristica violada:** Ayuda y documentación
 
-### **PROBLEMA \#5: Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación.**
+**Descripción:**
 
----
+No hay tutorial, guía ni sección de ayuda visible. Esto afecta la curva de aprendizaje, especialmente en usuarios no expertos
 
-**Severidad: 3 Heurística violada: Consistency and Standards / Match Between System and the Real World**
+**Recomendación:**
 
-Problema: En las vistas de listas de activos (Sites y Equipments), el botón azul global en la esquina superior derecha está etiquetado como "Site detail" o "Equipment detail". Este etiquetado sugiere que llevará al detalle de un elemento seleccionado, cuando lo más probable es que su función principal sea agregar un nuevo activo. Esto es inconsistente con el estándar de UX de usar verbos de acción.
+Incluir un recorrido inicial con explicaciones breves, un botón de ayuda permanente o una sección de preguntas frecuentes
 
-Recomendación: Cambiar la etiqueta del botón por un texto que indique la acción de creación, como "+ New Site" o "+ New Equipment". Si su función es realmente ver el detalle, esta acción debe estar en la fila del activo o deshabilitada si no hay selección.
+<span style="font-size: 19px; font-weight: normal;">Problema #04: Inconsistencia de los estados de los campos</span>
 
-### **PROBLEMA \#6: Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de activos y alertas.**
+**Severidad:** 3
 
----
+**Heuristica violada:** Visibilidad del estado del sistema
 
-**Severidad: 3 Heurística violada: Recognition Rather Than Recall / Match Between System and the Real World**
+**Descripción:**
 
-Problema: La tabla de Alerts utiliza IDs del sistema como e1 (Equipment), s1 (Site) y t2 (Tenant). Estos IDs no son significativos para el usuario, obligándolo a recordar o consultar constantemente su significado. Esta abstracción aumenta la carga cognitiva y reduce la velocidad de comprensión del estado del sistema.
+Los usuarios remarcan como lo estados de los campos pese a seguir una guia con los colores, algunos estan en ingles y otros en español, si bien son acorde a lo que se muestra, genera confusion 
 
-Recomendación: Reemplazar los IDs en las vistas de lista con los nombres reales de los activos (mostrar "Minimarket San Miguel" en lugar de s1, y el "Model" del equipo en lugar de e1).
+**Recomendación:**
 
-### **PROBLEMA \#7: Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.**
-
----
-
-**Severidad: 4 Heurística violada: Match Between System and the Real World**
-
-Problema: En la vista "Equipment detail", las fechas como 2025-09-21T14:10:00Z están en formato UTC. En un sistema de monitoreo, donde el tiempo es crítico, obligar al usuario a calcular la diferencia horaria manualmente para correlacionar eventos con la hora local es un error crítico que puede llevar a errores operacionales.
-
-Recomendación: Implementar la conversión automática de todas las marcas de tiempo a la zona horaria local del usuario y mostrarlas en un formato legible (ej. DD/MM/AAAA HH:MM:SS).
-
-### **PROBLEMA \#8: Confusión visual entre campos editables y no editables en la sección de información de usuario.**
-
----
-
-**Severidad: 3 Heurística violada: Visibility of System Status / Aesthetic and Minimalist Design**
-
-Problema: En la sección "User information" (Admin), la información de solo lectura (ej. Email, Register Date, Plans) se presenta dentro de cajas de texto de color gris, que visualmente son demasiado similares a los campos editables (cajas blancas). Esto añade desorden visual y hace que el usuario se pregunte qué campos puede modificar y cuáles no.
-
-Recomendación: Los datos de sólo lectura deben mostrarse como texto plano (sin bordes ni sombreado de caja) para una clara diferenciación visual.
-
-### **PROBLEMA \#9: Redundancia o falta de claridad en los filtros de la sección "My Service Requests".**
-
----
-
-**Severidad: 2 Heurística violada: Aesthetic and Minimalist Design / Flexibility and Efficiency of Use**
-
-Problema: En la sección "My Service Requests", los filtros están agrupados de forma redundante ("Filter by: ALL | Pending | Assigned | In progress | Done" y luego "ALL | Repair (Corrective) | Maintenance (Preventive)"). El doble uso de "ALL" es confuso. Además, el primer conjunto de filtros parece enfocarse en el Status, y el segundo en el Type, pero la repetición de "ALL" no es eficiente.
-
-Recomendación: Fusionar los filtros en un único conjunto que permita seleccionar una opción de Status Y una opción de Type, o unificar el botón "ALL" si es un reset general de ambos filtros.
-
+Estandarizar todos los estados a un lenguaje u otro, ademas de usar tambien las mismas palabras para que siempre muestren la que quiere representar
 
 ## 5.4. Video About-the-Product.
 
-En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About The Product - AgroTech". El video muestra en detalle las características principales de la aplicación, enfocándose en cómo cada funcionalidad ha sido diseñada para responder a las necesidades reales de los usuarios interesados en el cuidado de sus cultivos a mayor o menor escala.
+En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About The Product –CultivApp". El video muestra en detalle las características principales de la aplicación, enfocándose en cómo cada funcionalidad ha sido diseñada para responder a las necesidades reales de los usuarios interesados en el cuidado de sus cultivos a mayor o menor escala.
 
 
 A lo largo del video, se presentan demostraciones visuales de la aplicación en funcionamiento, incluyendo flujos clave como la creracion de los campos, la creacion de los cultivos, la vinculacion de estos y la creacion de tareas.
 
-La narración guía al espectador a través de la experiencia del usuario, mientras que testimonios reales aportan valor, reflejando el impacto positivo que AgroApp ha tenido tanto en agricultores pequeños como en agricultores a mayor escala. Estos relatos destacan la facilidad de uso y el beneficiendo y mejorando el cuidado de los agricultores a sus cultivos.
+La narración guía al espectador a través de la experiencia del usuario, mientras que testimonios reales aportan valor, reflejando el impacto positivo que CultivApp ha tenido tanto en agricultores pequeños como en agricultores a mayor escala. Estos relatos destacan la facilidad de uso y el beneficiendo y mejorando el cuidado de los agricultores a sus cultivos.
 
 Este video no solo presenta el producto, sino que lo contextualiza como una solución digital efectiva para un problema social, demostrando su utilidad, usabilidad e impacto.
 
 **Cuadro Representativo del Video**
 
-<img src="assets/Captura_About_The_Team_Apps.png" alt="Video about the Product">
+![Commits_Sprint_2](assets/Caputa_About-The-Product_Apps.png)
 
-
-<br>
-
-**Url del video:** https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing
-
+**Url del video:** https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing 
 
 ## Conclusiones
 
@@ -3122,47 +2989,6 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 - Cohesión Técnica y Organización del Equipo: La integración de estas características, reflejada en los frecuentes merges de ramas de funcionalidad (como feature/fields y feature/crops) hacia una rama principal de desarrollo, sugiere un modelo de trabajo organizado. Este enfoque permite contribuciones en paralelo por parte del equipo, manteniendo la cohesión e integridad del proyecto para futuras iteraciones.
 
 ## Bibliografía
-
-### Bibliografía
-
-* [Agricultura peruana: Desafíos para el 2023 | Conexión ESAN](https://www.esan.edu.pe/conexion-esan/agricultura-peruana-desafios-para-el-2023)
-* [¿Qué apoyo recibirán los más de 4 millones de agricultores peruanos en el 2024?](https://www.youtube.com/watch?v=onY0uXgKj20)
-* [El 45% de agua se pierde por canales de riego en mal estado - Infobae](https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/)
-* [Pequeña agricultura comercial: dinámica y retos en el Perú - GRADE](https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/LIBROGRADE_PEQUENAAGRICULTURACOMERCIAL.pdf)
-* [32 de cada 100 productores agropecuarios son mujeres - Noticias](https://www.gob.pe/es/institucion/inei/noticias/1190624-32-out-of-100-agricultural-producers-are-women)
-* [La crisis hídrica: un desafío creciente para la agricultura en Perú - Aquafondo](https://aquafondo.org.pe/la-crisis-hidrica-un-desafio-creciente-para-la-agricultura-en-peru/)
-* [La brecha de infraestructura de riego en el sector agropecuario | Conexión ESAN](https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario)
-* [Desafíos actuales de la sostenibilidad agrícola a pequeña escala - Agrotendencia.tv](https://agrotendencia.tv/agricultura/desafios-actuales-de-la-sostenibilidad-agricola-a-pequena-escala/)
-* [La investigación social sobre el manejo del agua de riego en el Perú: una mirada a conceptos y estudios empíricos - GRADE](https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/EZ-Manejo%20del%20agua%20de%20riego.pdf)
-* [5 Innovaciones Tecnológicas que Están Revolucionando la Agricultura en Perú](https://pev.com.pe/5-innovaciones-tecnologicas-que-estan-revolucionando-la-agricultura-en-peru/)
-* [Análisis espacial de la adopción de tecnologías agrarias en el Perú: una mirada desde el Censo Nacional Agropecuario 2012 - Consorcio de Investigación Económica y Social](https://cies.org.pe/publicaciones/analisis-espacial-de-la-adopcion-de-tecnologias-agrarias-en-el-peru-una-mirada-desde-el-censo-nacional-agropecuario-2012/)
-* [Tecnología en agricultura - El Peruano](https://www.elperuano.pe/noticia/159901-tecnologia-en-agricultura)
-* [La mediana y pequeña agricultura | Lampadia](https://www.lampadia.com/analisis/desarrollo/la-mediana-y-pequena-agricultura/)
-* [Desafíos del desarrollo rural en el Perú - Consorcio de Investigación Económica y Social](https://cies.org.pe/wp-content/uploads/2016/07/dyp-02.pdf)
-* [SpaceAG | Te Acompañamos en la Digitalización de la Agricultura](https://www.spaceag.co/)
-* [Leading the Digitalization of Agriculture - SpaceAG](https://www.spaceag.co/en/home)
-* [SIMA - Sistema Integrado de Monitoreo Agrícola](https://sima.ag/)
-* [Integrated Agricultural Monitoring System - SIMA](https://sima.ag/en)
-* [Chilean-developed virtual assistant makes farming operations more efficient](https://www.agwatersummit.com/chilean-developed-virtual-assistant-makes-farming-operations-more-efficient/?lang=en)
-* [Orgullo nacional: Revolucionaria startup chilena Instacrops brilla entre las 200 startups más prometedoras del mundo - La Tercera](https://www.latercera.com/emprendimiento/noticia/orgullo-nacional-revolucionaria-startup-chilena-instacrops-brilla-entre-las-200-startups-mas-prometedoras-del-mundo/)
-* [Space AG, the Peruvian agricultural startup coming to Chile in 2022 - InvestChile Blog](https://blog.investchile.gob.cl/space-ag-the-peruvian-agricultural-startup-coming-to-chile-in-2022)
-* [SIMA (Sistema Integrado de Monitoreo Agricola) - ASAP](https://climateasap.org/directory/sima-sistema-integrado-de-monitoreo-agricola/)
-* [Smart Agricultural Solutions - Instacrops.AI](https://www.instacrops.com/instadrop)
-* [SpaceAG partners with Netafim to develop software that helps high-value crop growers optimize their drip-irrigation systems in Peru](https://www.spaceag.co/blog/spaceag-netafim-peru-drip-irrigation-systems)
-* [View From the Sky Helps Predict Crop Yields | NASA Spinoff](https://spinoff.nasa.gov/View_From_the_Sky_Helps_Predict_Crop_Yields)
-* [Instacrops.AI - Smart Agricultural Solutions](https://www.instacrops.com/)
-* [Producción nacional agropecuaria creció 4.47% entre enero y noviembre de 2024](https://agraria.pe/noticias/produccion-nacional-agropecuaria-crecio-4-47-entre-enero-y-n-38328)
-* [El 34.4% de los productores agropecuarios en Perú se concentran en el rango de edad de entre 50 y 64 años - Agraria.pe](https://agraria.pe/noticias/el-34-4-de-los-productores-agropecuarios-en-peru-se-concentr-39858)
-* [Tecnología - Agroideas-Midagri](https://agroideas.gob.pe/project/tecnologia/)
-* [Advierten fallas en canal de riego destinado a 30 mil agricultores de tres distritos de Moyobamba - Noticias - Contraloría General de la República - Plataforma del Estado Peruano](https://www.gob.pe/institucion/contraloria/noticias/1108057-advierten-fallas-en-canal-de-riego-destinado-a-30-mil-agricultores-de-tres-distritos-de-moyobamba)
-* [Acceder al Incentivo de Adopción de Tecnología del Programa de Compensaciones para la Competividad](https://www.gob.pe/11091-acceder-al-incentivo-de-adopcion-de-tecnologia-del-programa-de-compensaciones-para-la-competividad)
-* [Abril 2024 - Instituto Nacional de Estadística e Informática - INEI](https://m.inei.gob.pe/media/MenuRecursivo/boletines/06-informe-tecnico-produccion-nacional-abril-2024.pdf)
-* [Julio 2024 - Instituto Nacional de Estadística e Informática - INEI](https://www.inei.gob.pe/media/MenuRecursivo/boletines/informe-de-producion.pdf)
-* [Empresas nativas digitales impulsan agro basado en datos e IA en Latinoamérica](https://news.microsoft.com/es-xl/empresas-nativas-digitales-impulsan-un-agro-basado-en-datos-e-ia-en-latinoamerica/)
-* [Las apps más útiles para el desarrollo de la agricultura - Mundoagro](https://mundoagro.io/cl/las-apps-mas-utiles-para-el-desarrollo-de-la-agricultura/)
-* [Agricultura peruana: Desafíos para el 2023 - Tecfresh](https://tecfresh.com/agricultura-peruana-desafios-para-el-2023/)
-
-### Herramientas y Tecnologías
 
 1. **GitHub Inc.** (2024). *GitHub: Where the world builds software*. Recuperado de https://github.com/
 
@@ -3187,18 +3013,41 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 
 ## Anexos
 
-Repositorio de Reporte:
-https://github.com/Apps-Web-Grupo-4-FruTech
+Repositorio de Github - CultivApp (FruTech) - Documento: 
 
-Repositorio de LandingPage: 
+https://github.com/Apps-Web-Grupo-4-FruTech/ReportFinalProject
+
+Repositorio de Github - CultivApp (FruTech) - Landing Page:
+
 https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page
 
-Repositorio de Frontend: 
+Despliegue de Landing Page:
+
+https://apps-web-grupo-4-frutech.github.io/Landing-Page/
+
+Repositorio de Github - CultivApp (FruTech) - Frontend:
+
 https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
 
-Repositorio de Backend: 
+Despliegue de Frontend:
+
+* pendiente
+
+Repositorio de Github - CultivApp (FruTech) - Backend:
+
 https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
 
-Canvas: https://www.canva.com/design/DAGzlK9YqZs/5TXIxqLG4Ih5yCHLwJacVA/edit?utm_content=DAGzlK9YqZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Despliegue de Backend:
 
-Enlace link exposicion: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/IQBRgMmJN0uFQqbS6f4mbgc_Af9Ma5WzuIAsNYMBb9oeM-k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VeC39G](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/IQBRgMmJN0uFQqbS6f4mbgc_Af9Ma5WzuIAsNYMBb9oeM-k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VeC39G)
+* pendiente
+
+Documento de Presentacion - FruTech:
+
+https://www.canva.com/design/DAG1W9lWTt4/7FePKDPl-tod08DSHVJt-Q/edit?utm_content=DAG1W9lWTt4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+Enlace Video About the Team:
+
+* pendiente
+
+Enlace Video About the Product:
+https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing
