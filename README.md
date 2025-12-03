@@ -1,126 +1,62 @@
 <div align="center">
-   <div>
+  <div>
 
-  ## Bibliografía
+  # Informe del Trabajo Final
 
-  ### Bibliografía
+  <br>
+  <center>Universidad Peruana de Ciencias Aplicadas</center>
 
-  ESAN. (2023). Agricultura peruana: Desafíos para el 2023. Conexión ESAN. https://www.esan.edu.pe/conexion-esan/agricultura-peruana-desafios-para-el-2023
+  <br>
+  <center><img src="assets/logoupc.png" alt="Logo UPC" width="120"/></center>
 
-  YouTube. (2024). ¿Qué apoyo recibirán los más de 4 millones de agricultores peruanos en el 2024? [Video]. https://www.youtube.com/watch?v=onY0uXgKj20
+  <br>
+  <center><b>Ingeniería de Software</b></center>
+  <br>
+  <center><b>Curso: Aplicaciones Web</b></center>
+  <br>
+  <center><b>NRC: 7452</b></center>
+  <br>
+  <center><b>Profesor: Hugo Allan Mori Paiva</b></center>
+  <br>
+  <center><b>Nombre del Startup: CultivApp</b></center>
+  <br>
+  <center><b>Nombre del Producto: Frutech</b></center>
 
-  Infobae. (2023). El 45% de agua se pierde por canales de riego en mal estado. https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/
+  </div>
 
-  GRADE. (s.f.). Pequeña agricultura comercial: dinámica y retos en el Perú. https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/LIBROGRADE_PEQUENAAGRICULTURACOMERCIAL.pdf
+  <br>
 
-  Instituto Nacional de Estadística e Informática (INEI). (2024). Producción nacional agropecuaria creció 4.47% entre enero y noviembre de 2024. https://agraria.pe/noticias/produccion-nacional-agropecuaria-crecio-4-47-entre-enero-y-n-38328
+  <div align="center">
+  <table style="margin-left: auto; margin-right: auto;">
+  <tr>
+  <th>Apellidos y Nombres</th>
+  <th>Código</th>
+  </tr>
+  <tr>
+  <td>Landa Ortiz, Sergio Javier</td>
+  <td>U202311086</td>
+  </tr>
+  <tr>
+  <td>Solis Campos, Estefano Sebastian</td>
+  <td>U202314354</td>
+  </tr>
+  <tr>
+  <td>Castro Pariona, Jefferson Ernesto</td>
+  <td>U201822823</td>
+  </tr>
+  <tr>
+  <td>Via Luna, Bruce</td>
+  <td>U202313403</td>
+  </tr>
+  <tr>
+  <td>Bonifacio Jaramillo, Samuel Jesus</td>
+  <td>U202317269</td>
+  </tr>
+  </table>
+  </div>
 
-  Gobierno del Perú - INEI. (s.f.). 32 de cada 100 productores agropecuarios son mujeres. https://www.gob.pe/es/institucion/inei/noticias/1190624-32-out-of-100-agricultural-producers-are-women
-
-  Aquafondo. (2022). La crisis hídrica: un desafío creciente para la agricultura en Perú. https://aquafondo.org.pe/la-crisis-hidrica-un-desafio-creciente-para-la-agricultura-en-peru/
-
-  ESAN. (s.f.). La brecha de infraestructura de riego en el sector agropecuario. https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario
-
-  Agrotendencia.tv. (s.f.). Desafíos actuales de la sostenibilidad agrícola a pequeña escala. https://agrotendencia.tv/agricultura/desafios-actuales-de-la-sostenibilidad-agricola-a-pequena-escala/
-
-  GRADE. (s.f.). La investigación social sobre el manejo del agua de riego en el Perú: una mirada a conceptos y estudios empíricos. https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/EZ-Manejo%20del%20agua%20de%20riego.pdf
-
-  PEV. (s.f.). 5 Innovaciones tecnológicas que están revolucionando la agricultura en Perú. https://pev.com.pe/5-innovaciones-tecnologicas-que-estan-revolucionando-la-agricultura-en-peru/
-
-  CIES. (2012). Análisis espacial de la adopción de tecnologías agrarias en el Perú: una mirada desde el Censo Nacional Agropecuario 2012. https://cies.org.pe/publicaciones/analisis-espacial-de-la-adopcion-de-tecnologias-agrarias-en-el-peru-una-mirada-desde-el-censo-nacional-agropecuario-2012/
-
-  El Peruano. (s.f.). Tecnología en agricultura. https://www.elperuano.pe/noticia/159901-tecnologia-en-agricultura
-
-  Lampadia. (s.f.). La mediana y pequeña agricultura. https://www.lampadia.com/analisis/desarrollo/la-mediana-y-pequena-agricultura/
-
-  CIES. (2016). Desafíos del desarrollo rural en el Perú. https://cies.org.pe/wp-content/uploads/2016/07/dyp-02.pdf
-
-  SpaceAG. (2022). SpaceAG: Te acompañamos en la digitalización de la agricultura. https://www.spaceag.co/
-
-  SpaceAG. (2022). Leading the digitalization of agriculture. https://www.spaceag.co/en/home
-
-  SIMA. (s.f.). Sistema Integrado de Monitoreo Agrícola. https://sima.ag/
-
-  AgWaterSummit. (s.f.). Chilean-developed virtual assistant makes farming operations more efficient. https://www.agwatersummit.com/chilean-developed-virtual-assistant-makes-farming-operations-more-efficient/?lang=en
-
-  La Tercera. (2022). Orgullo nacional: Revolucionaria startup chilena Instacrops brilla entre las 200 startups más prometedoras del mundo. https://www.latercera.com/emprendimiento/noticia/orgullo-nacional-revolucionaria-startup-chilena-instacrops-brilla-entre-las-200-startups-mas-prometedoras-del-mundo/
-
-  InvestChile Blog. (2022). Space AG, the Peruvian agricultural startup coming to Chile in 2022. https://blog.investchile.gob.cl/space-ag-the-peruvian-agricultural-startup-coming-to-chile-in-2022
-
-  ClimateASAP. (s.f.). SIMA (Sistema Integrado de Monitoreo Agricola). https://climateasap.org/directory/sima-sistema-integrado-de-monitoreo-agricola/
-
-  Instacrops. (s.f.). Smart agricultural solutions. https://www.instacrops.com/instadrop
-
-  SpaceAG. (2022). SpaceAG partners with Netafim to develop software that helps high-value crop growers optimize their drip-irrigation systems in Peru. https://www.spaceag.co/blog/spaceag-netafim-peru-drip-irrigation-systems
-
-  NASA Spinoff. (s.f.). View from the sky helps predict crop yields. https://spinoff.nasa.gov/View_From_the_Sky_Helps_Predict_Crop_Yields
-
-  Instacrops. (s.f.). Instacrops: Smart agricultural solutions. https://www.instacrops.com/
-
-  Agraria.pe. (2024). Producción nacional agropecuaria creció 4.47% entre enero y noviembre de 2024. https://agraria.pe/noticias/produccion-nacional-agropecuaria-crecio-4-47-entre-enero-y-n-38328
-
-  Agraria.pe. (2024). El 34.4% de los productores agropecuarios en Perú se concentran en el rango de edad de entre 50 y 64 años. https://agraria.pe/noticias/el-34-4-de-los-productores-agropecuarios-en-peru-se-concentran-39858
-
-  Agroideas-MIDAGRI. (s.f.). Tecnología - Agroideas. https://agroideas.gob.pe/project/tecnologia/
-
-  Contraloría General de la República. (2023). Advierten fallas en canal de riego destinado a 30 mil agricultores de tres distritos de Moyobamba. https://www.gob.pe/institucion/contraloria/noticias/1108057-advierten-fallas-en-canal-de-riego-destinado-a-30-mil-agricultores-de-tres-distritos-de-moyobamba
-
-  Gobierno del Perú. (s.f.). Acceder al Incentivo de Adopción de Tecnología del Programa de Compensaciones para la Competitividad. https://www.gob.pe/11091-acceder-al-incentivo-de-adopcion-de-tecnologia-del-programa-de-compensaciones-para-la-competividad
-
-  INEI. (2024). Abril 2024 - Informe técnico de producción nacional. https://m.inei.gob.pe/media/MenuRecursivo/boletines/06-informe-tecnico-produccion-nacional-abril-2024.pdf
-
-  INEI. (2024). Julio 2024 - Informe de producción. https://www.inei.gob.pe/media/MenuRecursivo/boletines/informe-de-producion.pdf
-
-  Microsoft News. (2024). Empresas nativas digitales impulsan agro basado en datos e IA en Latinoamérica. https://news.microsoft.com/es-xl/empresas-nativas-digitales-impulsan-un-agro-basado-en-datos-e-ia-en-latinoamerica/
-
-  Mundoagro. (2024). Las apps más útiles para el desarrollo de la agricultura. https://mundoagro.io/cl/las-apps-mas-utiles-para-el-desarrollo-de-la-agricultura/
-
-  Tecfresh. (2023). Agricultura peruana: Desafíos para el 2023. https://tecfresh.com/agricultura-peruana-desafios-para-el-2023/
-
-  ### Herramientas y Tecnologías
-      <br>
-         <br>
-   <table style="margin-left: auto; margin-right: auto;">
-   <tr>
-   <th>Apellidos y Nombres</th>
-   <th>Código</th>
-   </tr>
-   <tr>
-   <td>Landa Ortiz, Sergio Javier</td>
-   <td>U202311086</td>
-   </tr>
-   <tr>
-   <td>Solis Campos, Estefano Sebastian</td>
-   <td>U202314354</td>
-   </tr>
-   <tr>
-   <td>Castro Pariona, Jefferson Ernesto</td>
-   <td>u201822823</td>
-   </tr>
-   <tr>
-   <td>Via Luna, Bruce</td>
-   <td>U202313403</td>
-   </tr>
-   <tr>
-   <td>Bonifacio Jaramillo, Samuel Jesus</td>
-   <td>u202317269</td>
-   </tr>
-
-   </table>
-   </div>
-
-   <br>
-      <br>
-
-   <br>
-      <br>
-         <br>
-            <br>
-               <br>
-                  <br>
-                     <br>
-                        <br>
-   <center><b>Diciembre - 2025</b></center>
+  <br>
+  <center><b>Diciembre - 2025</b></center>
 
 </div>
 
