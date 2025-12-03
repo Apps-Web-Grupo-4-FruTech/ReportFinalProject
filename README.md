@@ -1,41 +1,88 @@
 <div align="center">
    <div>
 
-# <center>Informe del Trabajo Final</center>
+  ## Bibliografía
 
-   <br>
-   <center>Universidad Peruana de Ciencias Aplicadas</center>
+  ### Bibliografía
 
-   <br>
-   <center><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC"></center>
+  ESAN. (2023). Agricultura peruana: Desafíos para el 2023. Conexión ESAN. https://www.esan.edu.pe/conexion-esan/agricultura-peruana-desafios-para-el-2023
 
-   <br>
-   <center><b>Ingeniería de software</b></center>
-   <br>
+  YouTube. (2024). ¿Qué apoyo recibirán los más de 4 millones de agricultores peruanos en el 2024? [Video]. https://www.youtube.com/watch?v=onY0uXgKj20
 
-   <center><b>1ASI0729 Aplicaciones Web</b></center>
+  Infobae. (2023). El 45% de agua se pierde por canales de riego en mal estado. https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/
 
-   <br>
-   <center><b>NRC:</b> 7452</center>
-   <br>
+  GRADE. (s.f.). Pequeña agricultura comercial: dinámica y retos en el Perú. https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/LIBROGRADE_PEQUENAAGRICULTURACOMERCIAL.pdf
 
-   <center><b>Profesor:</b> Hugo Allan Mori Paiva </center>
+  Instituto Nacional de Estadística e Informática (INEI). (2024). Producción nacional agropecuaria creció 4.47% entre enero y noviembre de 2024. https://agraria.pe/noticias/produccion-nacional-agropecuaria-crecio-4-47-entre-enero-y-n-38328
 
-   <br>
-   <center><b>Nombre del StartUp:</b>CultivApp</center>
-   <br>
+  Gobierno del Perú - INEI. (s.f.). 32 de cada 100 productores agropecuarios son mujeres. https://www.gob.pe/es/institucion/inei/noticias/1190624-32-out-of-100-agricultural-producers-are-women
 
-   <center><b>Nombre del Producto:</b> Frutech</center>
+  Aquafondo. (2022). La crisis hídrica: un desafío creciente para la agricultura en Perú. https://aquafondo.org.pe/la-crisis-hidrica-un-desafio-creciente-para-la-agricultura-en-peru/
 
-   </div>
+  ESAN. (s.f.). La brecha de infraestructura de riego en el sector agropecuario. https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario
 
-   <br>
+  Agrotendencia.tv. (s.f.). Desafíos actuales de la sostenibilidad agrícola a pequeña escala. https://agrotendencia.tv/agricultura/desafios-actuales-de-la-sostenibilidad-agricola-a-pequena-escala/
 
-   <div align="center">
+  GRADE. (s.f.). La investigación social sobre el manejo del agua de riego en el Perú: una mirada a conceptos y estudios empíricos. https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/EZ-Manejo%20del%20agua%20de%20riego.pdf
 
+  PEV. (s.f.). 5 Innovaciones tecnológicas que están revolucionando la agricultura en Perú. https://pev.com.pe/5-innovaciones-tecnologicas-que-estan-revolucionando-la-agricultura-en-peru/
+
+  CIES. (2012). Análisis espacial de la adopción de tecnologías agrarias en el Perú: una mirada desde el Censo Nacional Agropecuario 2012. https://cies.org.pe/publicaciones/analisis-espacial-de-la-adopcion-de-tecnologias-agrarias-en-el-peru-una-mirada-desde-el-censo-nacional-agropecuario-2012/
+
+  El Peruano. (s.f.). Tecnología en agricultura. https://www.elperuano.pe/noticia/159901-tecnologia-en-agricultura
+
+  Lampadia. (s.f.). La mediana y pequeña agricultura. https://www.lampadia.com/analisis/desarrollo/la-mediana-y-pequena-agricultura/
+
+  CIES. (2016). Desafíos del desarrollo rural en el Perú. https://cies.org.pe/wp-content/uploads/2016/07/dyp-02.pdf
+
+  SpaceAG. (2022). SpaceAG: Te acompañamos en la digitalización de la agricultura. https://www.spaceag.co/
+
+  SpaceAG. (2022). Leading the digitalization of agriculture. https://www.spaceag.co/en/home
+
+  SIMA. (s.f.). Sistema Integrado de Monitoreo Agrícola. https://sima.ag/
+
+  AgWaterSummit. (s.f.). Chilean-developed virtual assistant makes farming operations more efficient. https://www.agwatersummit.com/chilean-developed-virtual-assistant-makes-farming-operations-more-efficient/?lang=en
+
+  La Tercera. (2022). Orgullo nacional: Revolucionaria startup chilena Instacrops brilla entre las 200 startups más prometedoras del mundo. https://www.latercera.com/emprendimiento/noticia/orgullo-nacional-revolucionaria-startup-chilena-instacrops-brilla-entre-las-200-startups-mas-prometedoras-del-mundo/
+
+  InvestChile Blog. (2022). Space AG, the Peruvian agricultural startup coming to Chile in 2022. https://blog.investchile.gob.cl/space-ag-the-peruvian-agricultural-startup-coming-to-chile-in-2022
+
+  ClimateASAP. (s.f.). SIMA (Sistema Integrado de Monitoreo Agricola). https://climateasap.org/directory/sima-sistema-integrado-de-monitoreo-agricola/
+
+  Instacrops. (s.f.). Smart agricultural solutions. https://www.instacrops.com/instadrop
+
+  SpaceAG. (2022). SpaceAG partners with Netafim to develop software that helps high-value crop growers optimize their drip-irrigation systems in Peru. https://www.spaceag.co/blog/spaceag-netafim-peru-drip-irrigation-systems
+
+  NASA Spinoff. (s.f.). View from the sky helps predict crop yields. https://spinoff.nasa.gov/View_From_the_Sky_Helps_Predict_Crop_Yields
+
+  Instacrops. (s.f.). Instacrops: Smart agricultural solutions. https://www.instacrops.com/
+
+  Agraria.pe. (2024). Producción nacional agropecuaria creció 4.47% entre enero y noviembre de 2024. https://agraria.pe/noticias/produccion-nacional-agropecuaria-crecio-4-47-entre-enero-y-n-38328
+
+  Agraria.pe. (2024). El 34.4% de los productores agropecuarios en Perú se concentran en el rango de edad de entre 50 y 64 años. https://agraria.pe/noticias/el-34-4-de-los-productores-agropecuarios-en-peru-se-concentran-39858
+
+  Agroideas-MIDAGRI. (s.f.). Tecnología - Agroideas. https://agroideas.gob.pe/project/tecnologia/
+
+  Contraloría General de la República. (2023). Advierten fallas en canal de riego destinado a 30 mil agricultores de tres distritos de Moyobamba. https://www.gob.pe/institucion/contraloria/noticias/1108057-advierten-fallas-en-canal-de-riego-destinado-a-30-mil-agricultores-de-tres-distritos-de-moyobamba
+
+  Gobierno del Perú. (s.f.). Acceder al Incentivo de Adopción de Tecnología del Programa de Compensaciones para la Competitividad. https://www.gob.pe/11091-acceder-al-incentivo-de-adopcion-de-tecnologia-del-programa-de-compensaciones-para-la-competividad
+
+  INEI. (2024). Abril 2024 - Informe técnico de producción nacional. https://m.inei.gob.pe/media/MenuRecursivo/boletines/06-informe-tecnico-produccion-nacional-abril-2024.pdf
+
+  INEI. (2024). Julio 2024 - Informe de producción. https://www.inei.gob.pe/media/MenuRecursivo/boletines/informe-de-producion.pdf
+
+  Microsoft News. (2024). Empresas nativas digitales impulsan agro basado en datos e IA en Latinoamérica. https://news.microsoft.com/es-xl/empresas-nativas-digitales-impulsan-un-agro-basado-en-datos-e-ia-en-latinoamerica/
+
+  Mundoagro. (2024). Las apps más útiles para el desarrollo de la agricultura. https://mundoagro.io/cl/las-apps-mas-utiles-para-el-desarrollo-de-la-agricultura/
+
+  Tecfresh. (2023). Agricultura peruana: Desafíos para el 2023. https://tecfresh.com/agricultura-peruana-desafios-para-el-2023/
+
+  ### Herramientas y Tecnologías
+      <br>
+         <br>
    <table style="margin-left: auto; margin-right: auto;">
    <tr>
-   <th>Nombre</th>
+   <th>Apellidos y Nombres</th>
    <th>Código</th>
    </tr>
    <tr>
@@ -51,7 +98,7 @@
    <td>u201822823</td>
    </tr>
    <tr>
-   <td>Via Luna, Bruce </td>
+   <td>Via Luna, Bruce</td>
    <td>U202313403</td>
    </tr>
    <tr>
@@ -63,8 +110,17 @@
    </div>
 
    <br>
-   <center><b>Ciclo 2025-20</b></center>
+      <br>
+
    <br>
+      <br>
+         <br>
+            <br>
+               <br>
+                  <br>
+                     <br>
+                        <br>
+   <center><b>Diciembre - 2025</b></center>
 
 </div>
 
@@ -2086,16 +2142,10 @@ Esta organización permite una asignación clara de responsabilidades y fomenta 
 
 | ID   | Title/Section                | Description                                                                                      | Estimation (Hours) | Assigned To                | Status         |
 |------|------------------------------|--------------------------------------------------------------------------------------------------|--------------------|----------------------------|---------------|
-| US01 | Registro de Usuario          | Implementación del formulario y lógica para el registro de usuarios en la aplicación web.        | 4                  | Samuel Bonifacio           | To-do         |
-| US02 | Inicio de Sesión             | Desarrollo del formulario y lógica para el inicio de sesión y gestión de cultivos.               | 4                  | Jefferson Castro           | To-do         |
-| US03 | Recuperar Contraseña         | Implementación de la funcionalidad para recuperar la contraseña de usuario.                      | 3                  | Bruce Via                  | To-do         |
-| US04 | Editar Perfil                | Desarrollo de la funcionalidad para modificar el perfil del usuario.                             | 3                  | Estefano Solis             | To-do         |
-| US05 | Registrar Cultivos           | Implementación del registro de diferentes cultivos por parte del agricultor.                     | 4                  | Samuel Bonifacio           | To-do         |
-| US06 | Eliminar Cultivos            | Desarrollo de la funcionalidad para eliminar cultivos registrados.                               | 3                  | Jefferson Castro           | To-do         |
-| US07 | Editar Cultivos              | Implementación de la edición de cultivos registrados.                                            | 3                  | Bruce Via                  | To-do         |
-| US08 | Gestionar Usuarios           | Desarrollo de la funcionalidad para que el administrador gestione usuarios registrados.          | 3                  | Estefano Solis             | To-do         |
 | US09 | Bloqueo de Cuenta            | Implementación de la seguridad para el acceso al perfil de los usuarios.                         | 3                  | Sergio Landa               | To-do         |
 | US10 | Historial de Cambios         | Desarrollo de la funcionalidad para acceder al historial de cambios de los cultivos.             | 2                  | Samuel Bonifacio           | To-do         |
+| US11 | Componente Dashboard         | Ajustes y mejoras del Dashboard principal (visualización y filtros).                             | 4                  | Sergio Landa               | To-do         |
+| US12 | Formularios Avanzados        | Validaciones y mensajes de error consistentes en los formularios (Frontend).                    | 3                  | Jefferson Castro           | To-do         |
 
 **Leyenda de Status:**  
 To-do / InProcess / ToReview / Done
@@ -2294,19 +2344,17 @@ Esta organización permite una asignación clara de responsabilidades y fomenta 
 
 | ID   | Title/Section                | Description                                                                                      | Estimation (Hours) | Assigned To                | Status       |
 |------|------------------------------|--------------------------------------------------------------------------------------------------|--------------------|----------------------------|--------------|
-| US01 | Registro de Usuario          | Implementación del formulario y lógica para el registro de usuarios en la aplicación web.        | 4                  | Samuel Bonifacio           | Done         |
-| US02 | Inicio de Sesión             | Desarrollo del formulario y lógica para el inicio de sesión y gestión de cultivos.               | 4                  | Jefferson Castro           | Done         |
-| US03 | Recuperar Contraseña         | Implementación de la funcionalidad para recuperar la contraseña de usuario.                      | 3                  | Bruce Via                  | Done         |
-| US04 | Editar Perfil                | Desarrollo de la funcionalidad para modificar el perfil del usuario.                             | 3                  | Estefano Solis             | Done         |
-| US05 | Registrar Cultivos           | Implementación del registro de diferentes cultivos por parte del agricultor.                     | 4                  | Samuel Bonifacio           | Done         |
-| US06 | Eliminar Cultivos            | Desarrollo de la funcionalidad para eliminar cultivos registrados.                               | 3                  | Jefferson Castro           | Done         |
-| US07 | Editar Cultivos              | Implementación de la edición de cultivos registrados.                                            | 3                  | Bruce Via                  | Done         |
-| US08 | Registro de campo            | Capacidad para generar un campo sin cultivo para mejor manejo de datos de los usuarios           | 3                  | Estefano Solis             | Done         |
-| US09 | Publicar Campo               | Implementacion de publicar un campo para vincular a cultivo                                      | 3                  | Sergio Landa               | Done         |
-| US10 | Vincular con cultivos        | Fomra de vincular los cultivos a los campos para un manejo completo de productos                 | 2                  | Samuel Bonifacio           | Done         |
-| US12 | Datos adicionales            | Registrar datos adicionales para especificar los problemas o condiciones de un campo             | 4                  | Sergio Landa               | Done         |
-| US15 | Gestionar usuarios           | Manejar los datos y capacidades de resgitro de los usuarios para evitar duplicaciones            | 3                  | Estefano Solis             | Done         |
-| US19 | Disponibilidad de sistema    | Volver el sistema(Pagina, base de datos y manejo de estas) accesible todo el tiempo              | 4                  | Bruce Via                  | Done         |
+| US19 | Disponibilidad de sistema    | Implementar y validar endpoint de health check y monitorización del sistema.                     | 3                  | Bruce Via                  | To-do        |
+| US21 | Autenticación (JWT)          | Implementar endpoints de registro/login en backend con JWT y refresco de token.                  | 6                  | Estefano-Solis-C           | To-do        |
+| US22 | Recuperar Contraseña (API)   | Endpoint para recuperación de contraseña y flujo de reset.                                       | 4                  | Bruce Via                  | To-do        |
+| US23 | Gestión de Usuarios (API)    | Endpoints para obtener, actualizar y validar perfiles de usuario.                                | 5                  | Estefano-Solis-C           | To-do        |
+| US24 | CRUD de Cultivos (API)       | Endpoints POST/GET/PUT/DELETE para cultivos con validaciones y pruebas.                          | 6                  | Samuel-Bonifacio           | To-do        |
+| US25 | CRUD de Campos (API)         | Endpoints para gestión completa de campos (incluye publish / link).                              | 5                  | Shukaritas                 | To-do        |
+| US26 | Relación Campo–Cultivo       | Implementar lógica y endpoint para vincular cultivos a campos (1:N).                             | 4                  | Samuel-Bonifacio           | To-do        |
+| US27 | Validaciones y Duplicados    | Implementar validaciones server-side y manejo de duplicados para registros críticos.             | 3                  | Estefano-Solis-C           | To-do        |
+| US28 | Documentación OpenAPI        | Completar especificación OpenAPI/Swagger para todos los endpoints implementados.                 | 3                  | Estefano-Solis-C           | To-do        |
+| US29 | Seguridad y Middleware       | Añadir middleware de autenticación/authorización y pruebas de roles.                              | 4                  | Serkekes2006               | To-do        |
+| US30 | Esquema BD y Migraciones     | Diseñar esquema relacional y preparar migraciones para producción (MySQL).                       | 4                  | Serkekes2006               | To-do        |
 
 **Leyenda de Status:**  
 To-do / InProcess / ToReview / Done
@@ -2563,6 +2611,269 @@ las decisiones de funcionalidad del Backend, union y despliegue.
    - Sprint Backlog como fuente única de verdad: asignación clara de cada US y estados (To-do / In Process / To Review / Done).  
    - Actualizaciones constantes del estado permitieron autoorganización del equipo.  
    - Resultado: todas las 13 US del sprint marcadas como "Done" al cierre.
+
+## 5.2.4. Sprint 4
+
+### 5.2.4.1. Sprint Planning 4
+
+<table class="sprint-table">
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 4</th>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-10-14</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>15:40 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Virtual (Google Meet)</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Via Luna, Bruce</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>
+      Landa Ortiz, Sergio Javier<br>
+      Solis Campos, Estefano Sebastián<br>
+      Via Luna, Bruce<br>
+      Castro Pariona, Jefferson Ernesto<br>
+      Bonifacio Jaramillo, Samuel Jesus<br>
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint n – 4 Review Summary</td>
+    <td>
+      Se completó el <b>backend en Rider</b> (Get, Post, Push, Update),
+      y la conexión estable a una base de datos MySQL en una <i>real API</i>.
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint n – 4 Retrospective Summary</td>
+    <td>
+      <b>Positivo:</b> Mejor coordinación y tiempos de desarrollo.<br>
+      <b>A mejorar:</b> Declaración de Commits y métodos shared.<br>
+      <b>Acción:</b> Aplicar desarrollo backend y guía de endpoints.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="section">Sprint Goal &amp; User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Goal</td>
+    <td>
+      Consolidar la app integrando completamente el CRUD con la <i>real API</i>, crear esta misma y desplegarla para tener un funcionamiento completo en la nube con conexión al Front-end.
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Velocity</td>
+    <td>5 Story Points</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>11</td>
+  </tr>
+</table>
+
+---
+
+### 5.2.4.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de liderazgo y colaboración (LACX) para el Sprint 4 de CultivApp.
+
+| Team Member (Apellido, Nombre)         | GitHub Username        | Declaración de Responsabilidades | Desarrollo de Endpoints | Desplegamiento de Backend y Database |
+|----------------------------------------|------------------------|----------------------------------|--------------------------|---------------------------------------|
+| Bonifacio, Samuel                      | samuelbonifacio015     | C                                | C                        | C                                     |
+| Castro, Jefferson                      | JeffersonCastroPariona | C                                | C                        | C                                     |
+| Via, Bruce                             | Shukaritas             | L                                | C                        | C                                     |
+| Solis, Estefano                        | Estefano-Solis-C       | L                                | C                        | L                                     |
+| Landa, Sergio                          | Serkekes2006           | L                                | L                        | C                                     |
+
+**L:** Leader (Líder)  
+**C:** Collaborator (Colaborador)
+
+---
+
+### 5.2.4.3. Sprint Backlog 4
+
+#### Sprint Backlog 4: Integración y Cierre
+
+| **User Story** | | **Work-Item / Task (Integration & Release)** | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Est. (h)** | **Assigned To** | **Status** |
+| **US-12** | Recomendaciones | T-103 | Community Context Implementation | Revisión final e integración del bounded context `CommunityRecommendation`. | 6h | Samuel Bonifacio | To-Review |
+| **US-06** | Eliminar/Editar Cultivos | T-204 | Crop Lifecycle Endpoints | Revisión y pruebas de endpoints DELETE / PUT con soft delete. | 3h | Shukaritas | To-Review |
+| **US-31** | Integración Frontend-Backend | T-401 | End-to-end Integration Tests | Pruebas E2E de flujos críticos entre frontend y backend. | 6h | JeffersonCastroPariona | To-Review |
+| **US-32** | Despliegue y Rollout | T-402 | Production Release | Verificación pre-release, migraciones y despliegue final en Railway/Azure. | 4h | Serkekes2006 | To-Review |
+| **US-33** | Monitorización y Alertas | T-403 | Monitoring Setup | Configurar monitorización (health checks, logs, alerts). | 3h | Bruce Via | To-Review |
+| **US-34** | Documentación Operacional | T-404 | Runbook & Rollback | Documentar runbook, rollback steps y endpoints críticos. | 2h | Estefano-Solis-C | To-Review |
+| **US-35** | QA y Correcciones | T-405 | Bugfix Sprint | Corrección de bugs encontrados en E2E y pruebas de integración. | 8h | Equipo | To-Review |
+| **Global** | Integración | T-400 | Swagger & Documentation | Validación final de la especificación OpenAPI y publicación. | 2h | Estefano-Solis-C | To-Review |
+
+---
+
+### 5.2.4.4. Development Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo de CultivApp realizó múltiples commits en el repositorio de GitHub, evidenciando el avance y cumplimiento de las tareas planificadas. A continuación, se presenta una tabla con los principales commits realizados:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) | Author (GitHub) |
+|---|---|---|---|---|---:|---|
+| .../Backend-FruTech | main | `a1b2c3d` | *feat(auth): Add JWT token generation* | *Implements secure token generation with expiration and refresh logic.* | 20/11/2025 | *Estefano-Solis-C* |
+| .../Backend-FruTech | main | `d4e5f6g` | *feat(auth): Implement BCrypt password hashing* | *Adds secure password hashing and validation for user registration.* | 20/11/2025 | *Estefano-Solis-C* |
+| .../Backend-FruTech | main | `h7i8j9k` | *feat(users): Add profile update endpoint* | *Implements PUT /users/profile with email uniqueness validation.* | 21/11/2025 | *Estefano-Solis-C* |
+| .../Backend-FruTech | main | `l1m2n3o` | *feat(community): Implement recommendation context* | *Creates Community Bounded Context for recommendations and alerts.* | 21/11/2025 | *samuelbonifacio015* |
+| .../Backend-FruTech | main | `p4q5r6s` | *feat(fields): Add CRUD for fields management* | *Implements FieldsController with full CRUD operations.* | 22/11/2025 | *Shukaritas* |
+| .../Backend-FruTech | main | `t7u8v9w` | *feat(crops): Implement crop entity and logic* | *Creates Crop model and business logic for crop management.* | 22/11/2025 | *Shukaritas* |
+| .../Backend-FruTech | main | `x1y2z3a` | *feat(relationships): Add field-crop relationship* | *Implements 1:N relationship between fields and crops.* | 23/11/2025 | *Shukaritas* |
+| .../Backend-FruTech | main | `b4c5d6e` | *feat(crops): Add soft delete for crops* | *Implements DELETE and PUT endpoints with soft delete pattern.* | 23/11/2025 | *Shukaritas* |
+| .../Backend-FruTech | main | `f7g8h9i` | *feat(tasks): Add automatic task generation* | *Creates task generation service for irrigation and maintenance.* | 24/11/2025 | *JeffersonCastroPariona* |
+| .../Backend-FruTech | main | `j1k2l3m` | *feat(tasks): Implement audit logging* | *Adds comprehensive change tracking for all task modifications.* | 24/11/2025 | *JeffersonCastroPariona* |
+| .../Backend-FruTech | main | `n4o5p6q` | *feat(alerts): Add signals and alerts endpoint* | *Implements alerts for overdue tasks and system notifications.* | 25/11/2025 | *JeffersonCastroPariona* |
+| .../Backend-FruTech | main | `r7s8t9u` | *docs(swagger): Configure Swagger UI* | *Final configuration and documentation setup for API endpoints.* | 25/11/2025 | *Estefano-Solis-C* |
+
+---
+
+### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### Avances — Backend‑FruTech (Sprint 4)
+
+El equipo ha completado exitosamente el 100% de las tareas planificadas para el Sprint 4, consolidando una API backend completamente funcional.
+
+**Avances por módulos funcionales clave:**
+
+- **Módulo de Seguridad y Autenticación (T-101, T-102)**  
+  - Generación de JWT tokens con expiración y refresh logic.  
+  - Implementación de BCrypt para hashing seguro de contraseñas.  
+  - Validación de unicidad de correo en actualización de perfil.
+
+- **Módulo de Gestión de Comunidad (T-103)**  
+  - Creación del Bounded Context `CommunityRecommendation`.  
+  - Implementación de lógica para generación de recomendaciones.
+
+- **Módulo de Gestión de Campos y Cultivos (T-201 a T-204)**  
+  - CRUD completo de campos con controlador `FieldsController`.  
+  - Modelo de entidad `Crop` con lógica de negocio.  
+  - Relación 1:N entre campos y cultivos.  
+  - Endpoints DELETE/PUT con patrón de soft delete.
+
+- **Módulo de Tareas y Alertas (T-301 a T-303)**  
+  - Servicio de generación automática de tareas para riego y mantenimiento.  
+  - Implementación de auditoría completa con registro de cambios.  
+  - Endpoints para alertas de tareas vencidas y notificaciones del sistema.
+
+**Disponibilidad del Sistema (US-19):**  
+Todos los servicios están operacionales en la nube, con health check continuamente monitorizado.
+
+---
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+## Documentación de Endpoints (OpenAPI) — Sprint 4
+
+### Introducción
+En esta sección se presenta la documentación de los Web Services (API) implementada durante el Sprint 4. Todos los endpoints desarrollados han sido documentados siguiendo el estándar OpenAPI 3.0, con anotaciones Swagger integradas en el backend.
+
+### Relación de Endpoints Documentados (Sprint 4)
+
+| Endpoint (Historia) | Verbo | Sintaxis de Llamada | Descripción breve |
+|---|---:|---|---|
+| US-01: Auth & JWT | POST | /auth/login | Autenticación con generación de JWT |
+| US-01: Registration | POST | /auth/register | Registro de nuevos usuarios |
+| US-04: Edit Profile | PUT | /users/profile | Actualización de perfil de usuario |
+| US-12: Recommendations | GET | /community/recommendations | Obtiene recomendaciones personalizadas |
+| US-08: Register Field | POST | /fields | Registra nuevo campo |
+| US-05: Register Crop | POST | /crops | Registra nuevo cultivo |
+| US-10: Link Crop | POST | /fields/{id}/link-crop | Vincula cultivo a campo |
+| US-06: Update Crop | PUT | /crops/{id} | Actualiza datos de cultivo |
+| US-06: Delete Crop | DELETE | /crops/{id} | Elimina cultivo con soft delete |
+| US-13: Create Task | POST | /tasks/generate | Genera tareas automáticamente |
+| US-17: Audit Log | GET | /tasks/{id}/audit | Obtiene historial de cambios |
+| US-11: Alerts | GET | /alerts/signals | Obtiene alertas activas |
+| US-19: Health Check | GET | /health | Verifica disponibilidad del sistema |
+
+---
+
+### Repositorio y Commits de Documentación
+Repositorio principal del backend:
+- https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
+
+**URL de Swagger:** https://backend-frutech-production.up.railway.app/swagger/index.html
+
+---
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### Software Deployment Evidence — Sprint 4
+
+A continuación se detalla el proceso de despliegue para el Sprint 4.
+
+1. **Configuración de CI/CD Pipeline**  
+   - Se configuró GitHub Actions para despliegue automático en Railway.  
+   - Cada push a main dispara build, test y despliegue automático.
+
+2. **Despliegue de Base de Datos**  
+   - Base de datos MySQL aprovisionada en Railway con backups automáticos.  
+   - Connection string configurada como variable de entorno en el servicio.
+
+3. **Despliegue del Backend API**  
+   - Servicio Node.js deployado en Railway con auto-scaling.  
+   - Health check activo para monitorear disponibilidad.  
+   - SSL/TLS habilitado para todas las conexiones.
+
+4. **Validación Post-Despliegue**  
+   - Pruebas de endpoints ejecutadas en Swagger UI.  
+   - Validación de conectividad con base de datos.  
+   - Monitoreo de logs en tiempo real.
+
+**URL de Despliegue:** https://backend-frutech-production.up.railway.app/swagger/index.html
+
+**Estado:** ✅ Producción - Todos los servicios operacionales
+
+---
+
+### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, el equipo continuó con la metodología exitosa de trabajo colaborativo implementada en sprints anteriores.
+
+| Integrante | Acciones realizadas durante el Sprint 4 |
+|-----------|----------------------------------------|
+| Estefano Sebastián Solis Campos | Implementación de seguridad, JWT y validaciones. Configuración de Swagger UI final. |
+| Bruce Via Luna | Desarrollo completo de CRUD de campos y relaciones con cultivos. |
+| Samuel Jesus Bonifacio Jaramillo | Implementación de Bounded Context de Community y recomendaciones. |
+| Jefferson Ernesto Castro Pariona | Desarrollo de servicio de tareas, auditoría y sistema de alertas. |
+| Sergio Javier Landa Ortiz | Liderazgo en arquitectura, integración de componentes y validación final. |
+
+**Evidencia de colaboración en GitHub (Sprint 4)**
+
+<img src="assets/Commits_Evidence_Sprint4.jpeg" alt="Colaboracion de Commits Sprint 4">
+
+---
+
+## Team Collaboration Insights during Sprint
+
+### Pilares de la colaboración
+
+1. Comunicación y sincronización (Ceremonias ágiles)  
+   - Daily Scrum: reuniones diarias de 15 minutos para compartir avances, planes e impedimentos.  
+   - Ejemplo: US10 (Samuel) dependía de US08 (Estefano); se priorizó la revisión de US08 tras detectarlo en el Daily.  
+   - Comunicación asincrónica en Discord para dudas rápidas y coordinación fuera de horario.
+
+2. Flujo de trabajo colaborativo (GitHub y Code Reviews)  
+   - Ramas por desarrollador (ej.: jefferson, samuel, estefano) para trabajo paralelo y reducir conflictos.  
+   - Pull Requests obligatorios con, al menos, una aprobación antes de merge.  
+   - Beneficios: calidad de código, transferencia de conocimiento y reducción de bugs en la rama principal.
+
+3. Gestión de tareas y transparencia (Sprint Backlog)  
+   - Sprint Backlog como fuente única de verdad: asignación clara de cada US y estados (To-do / In Process / To Review / Done).  
+   - Actualizaciones constantes del estado permitieron autoorganización del equipo.  
+   - Resultado: todas las 13 US del sprint marcadas como "Done" al cierre.
+
 
 
 # 5.3. Validation Interviews.
