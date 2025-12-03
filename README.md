@@ -411,9 +411,9 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 
 ![Commits_Sprint_2](assets/commits_sprint2.png)
 
-## 5.2.3. Sprint 4
+## 5.2.4. Sprint 4
 
-### 5.2.3.1.Sprint Planning 4.
+### 5.2.4.1.Sprint Planning 4.
 
 | Elemento | Detalle |
 |-----------|----------|
@@ -425,15 +425,15 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 | **Preparado por** | [FruTech] |
 | **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Bruce Via, Estefano Solis, Sergio Landa ] |
 | **Sprint n-4 Review** | Se desplegó el backend y frontend nuevamente con la conexión necesario y documentación respectivo  |
-| **Sprint n-4 Retrospective** | Se destacó la buena coordinación del equipo y la claridad en las tareas asignadas. |
-| **Sprint Goal & User Stories** | 1-22 |
-| **Sprint 4 Velocity** | 20 puntos |
-| **Sum of Story Points** | 20 puntos |
+| **Sprint n-4 Retrospective** | Positivo: Mayor madurez del backend y mejor comprensión del flujo completo entre frontend–API.<br></br> A mejorar: Coordinar mejor los horarios de trabajo para evitar retrasos en las pruebas. <br></br>Acción: Implementar autenticación en el backend y Alinear endpoints finales con el frontend|
+| **Sprint Goal & User Stories** | Consolidar la integración del frontend con la API real, perfeccionar los módulos CRUD implementados, estabilizar la comunicación completa entre vistas y backend, y dejar lista la base para implementar autenticación. |
+| **Sprint 4 Velocity** | 16 Story Points |
+| **Sum of Story Points** | 16 |
 
 #### Objetivo del Sprint
 Desplegar el backend y frontend de CultivApp con una conexión funcional entre ambos, asegurando que los usuarios puedan interactuar con la aplicación de manera efectiva.
 
-### 5.2.3.2. Aspect Leaders and Collaborators.
+### 5.2.4.2. Aspect Leaders and Collaborators.
 
 | Team Member (Apellido, Nombre) | GitHub Username | Deploy de Frontend | Deploy de Backend | Conexión de Endpoints | Documentación de Servicios | Pruebas de Integración |
 |--------------------------------|------------------|-------------------------|---------------------|---------------------|-------|----------------------|
@@ -447,7 +447,7 @@ Desplegar el backend y frontend de CultivApp con una conexión funcional entre a
 **C:** Collaborator (Colaborador)
 
 ---
-### 5.2.3.3.Sprint Backlog 4.
+### 5.2.4.3.Sprint Backlog 4.
 
 ### Sprint Backlog 4: Finalización de Backend API
 
@@ -466,61 +466,45 @@ Desplegar el backend y frontend de CultivApp con una conexión funcional entre a
 | **US-11** | Señalaciones | T-303 | Alerts & Signals Endpoint | API para enviar "flags" o alertas al frontend si una tarea (Task) está vencida. | 3h | JeffersonCastroPariona | Done |
 | **Global** | Integración | T-400 | Swagger & Documentation | Configuración final de Swagger UI para que el equipo de Frontend pueda probar los endpoints. | 2h | Estefano-Solis-C | Done |
 
-### 5.2.3.4.Development Evidence for Sprint Review.
 
-### 5.2.3.4. Development Evidence for Sprint Review
+### 5.2.4.4. Development Evidence for Sprint Review
 
-La siguiente evidencia documenta el proceso técnico de despliegue e integración realizado durante el Sprint 4, validando la operatividad de los componentes Frontend (Vue.js) y Backend (C# .NET).
+A continuación se presenta la evidencia de desarrollo del Sprint 4, ordenada según la tabla solicitada:
 
-#### **A. Despliegue de Frontend (Cliente Web)**
-**Entorno de Desarrollo:** WebStorm IDE | **Framework:** Vue.js 3 | **Lenguaje:** JavaScript (ES6+)
+* Commits en Backend: 
 
-El despliegue del cliente web se realizó siguiendo un flujo de integración continua local para asegurar la estabilidad de la interfaz de usuario.
+| Commit ID  | Commit Message                              | User                     | Commit Date    |
+|:----------:|:--------------------------------------------|:------------------------|:--------------|
+| 752db64    | feat: add CR REST interfaces                | samuelbonifacio015      | Nov 14, 2025  |
+| 36025ed    | feat: add CR infrastructure                 | samuelbonifacio015      | Nov 14, 2025  |
+| a3671db    | feat: add CR repositories & services        | samuelbonifacio015      | Nov 14, 2025  |
+| d9df421    | feat: CR domain update                      | samuelbonifacio015      | Nov 14, 2025  |
+| 4eab47b    | Update Tasks JeffersonCastro                | JeffersonCastroPariona  | Nov 14, 2025  |
+| aca777f    | feat: endpoint user and upcoming task       | Gaftherman              | Nov 14, 2025  |
+| eefbf08    | feat: pre-deploy                            | Shukaritas              | Nov 14, 2025  |
+| 06da246    | Disable forced port                         | Estefano-Solis-C        | Nov 14, 2025  |
+| 92a8d2c    | Enabled all ports in all context            | Estefano-Solis-C        | Nov 14, 2025  |
+| 82af78e    | Dockerfile                                  | Estefano-Solis-C        | Nov 14, 2025  |
+| ed54d60    | feat-updated-bakend                         | Serkekes2006            | Nov 14, 2025  |
+| f04a0be    | fixture dashboard 
 
-* **Paso 1: Gestión de Dependencias y Compilación**
-    Se ejecutó la instalación de paquetes mediante `npm install` dentro del entorno de WebStorm, asegurando que librerías críticas como `vue-router` (navegación), `axios` (peticiones HTTP) y `pinia`/`vuex` (gestión de estado) estuvieran sincronizadas.
-    * **Evidencia de Build:** Se ejecutó el comando `npm run build` generando exitosamente la carpeta `/dist` con los assets minificados (HTML, CSS, JS), confirmando que no existen errores de sintaxis ni de *linting* que impidan el despliegue.
+* Commits en Frontend: 
 
-* **Paso 2: Configuración de Rutas y Navegación (SPA)**
-    Se configuró el archivo `router/index.js` para manejar la navegación *Single Page Application*.
-    * **Validación:** Se comprobó que las rutas `/login`, `/dashboard`, `/fields` y `/profile` cargan sus respectivos componentes (`.vue`) de manera perezosa (*lazy loading*) para optimizar el rendimiento, sin recargar el navegador.
+| Commit ID  | Commit Message                              | User                     | Commit Date    |
+|:----------:|:--------------------------------------------|:------------------------|:--------------|
+| fa78823    | Add crop registration managment form        | JeffersonCastroPariona  | Oct 8, 2025   |
+| d1ebf4b    | feat: community API response working        | samuelbonifacio015      | Oct 8, 2025   |
+| cf67542    | feat: added community components            | samuelbonifacio015      | Oct 8, 2025   |
+| f6766dd    | fix: update task handling                   | samuelbonifacio015      | Oct 8, 2025   |
+| 40b8f5d    | fix: component lang & better comments       | samuelbonifacio015      | Oct 8, 2025   |
+| 3c134a3    | feat: added my-task component               | samuelbonifacio015      | Oct 8, 2025   |
+| 245bee2    | feature: Modified and improve fields        | Shukaritas              | Oct 8, 2025   |
+| 41d8990    | fixed db.json                               | Estefano-Solis-C        | Oct 8, 2025   |
+| aeaa6f0    | Merge remote-tracking branch 'origin/feature/fields' into develop | Estefano-Solis-C | Oct 8, 2025   |
+| 5167129    | Merge remote-tracking branch 'origin/tasks&comunity' into develop | Estefano-Solis-C | Oct 8, 2025   |
 
-* **Paso 3: Capa de Servicios e Integración de API**
-    Para desacoplar la lógica, se creó una estructura de servicios en `src/services/` (ej. `AuthService.js`, `FieldService.js`).
-    * **Implementación Axios:** Se configuró una instancia global de **Axios** que intercepta las peticiones salientes para inyectar automáticamente el Token JWT en el encabezado `Authorization: Bearer <token>`, permitiendo el acceso a las rutas protegidas del Backend C# desde el primer intento de login.
 
-* **Paso 4: Renderizado Reactivo de Componentes**
-    * **Evidencia Visual:** En la vista "Mis Campos", se utilizó la directiva `v-for` para iterar sobre el objeto JSON recibido del Backend. Se verificó que, al agregar un nuevo cultivo desde el formulario (Modal Vue), la lista se actualiza automáticamente en tiempo real (*Two-way data binding*) sin necesidad de refrescar la página.
-
----
-
-#### **B. Despliegue de Backend (API RESTful)**
-**Entorno de Desarrollo:** Visual Studio / Rider | **Framework:** .NET 6/8 Core | **Lenguaje:** C#
-
-El Backend se desplegó como una arquitectura orientada a servicios (SOA/DDD), exponiendo los *Bounded Contexts* definidos en el Sprint Backlog.
-
-* **Paso 1: Restauración y Compilación del Núcleo**
-    Se verificó la integridad de la solución `FruTech.Backend.API` mediante el comando `dotnet restore` para descargar dependencias NuGet.
-    * **Build Status:** La compilación (`dotnet build`) finalizó con **0 Errores y 0 Advertencias**, confirmando que los controladores (*Controllers*) y la lógica de negocio (*Services*) cumplen con el tipado estático estricto de C#.
-
-* **Paso 2: Persistencia y Migraciones de Base de Datos**
-    Utilizando **Entity Framework Core**, se ejecutó el comando `Update-Database`.
-    * **Resultado en BD:** Se validó en el motor SQL la creación correcta del esquema relacional. Específicamente, se verificó la creación de las tablas `Fields` y `Crops` y la integridad referencial de la llave foránea `FieldId` dentro de la tabla `Crops`, asegurando la relación "Uno a Muchos" requerida por la Historia de Usuario US-10.
-
-* **Paso 3: Exposición de Endpoints (Controllers)**
-    Se desplegaron los controladores API con las rutas base `/api/v1/[controller]`.
-    * **TaskController (Lógica Compleja):** Se desplegó exitosamente el algoritmo de generación de tareas. Al recibir una petición POST para crear un cultivo, el backend dispara internamente el servicio que calcula las fechas de riego y las inserta en la tabla `Tasks` automáticamente.
-
-* **Paso 4: Documentación y Pruebas con Swagger UI**
-    Al iniciar la aplicación (`dotnet run`), se disponibilizó la interfaz de **Swagger** en la ruta local `/swagger`.
-    * **Evidencia de Prueba:** Se realizaron pruebas de "Happy Path" (Camino feliz) directamente en Swagger:
-        1.  `POST /api/auth/login`: Retornó Token **200 OK**.
-        2.  `GET /api/fields`: Retornó la lista de campos **200 OK**.
-        3.  `POST /api/crops`: Insertó un cultivo y retornó **201 Created**.
-    
-    Esto certifica que los contratos de datos (DTOs) en C# coinciden exactamente con lo que el Frontend en Vue.js espera recibir.
-
-### 5.2.3.5.Execution Evidence for Sprint Review.
+### 5.2.4.5.Execution Evidence for Sprint Review.
 
 En esta entrega nos centramos en el despliegue completo del backend y frontend de la aplicación CultivApp, asegurando una conexión funcional entre ambos.
 
@@ -529,294 +513,36 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 ![NetworkGraphFront](assets/network_graph_front.png)
 ![NetworkGraphBack](assets/network_graph_back.png)
 
-### 5.2.3.6. Services Documentation Evidence for Sprint Review
+### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-La documentación de servicios para este Sprint se ha generado siguiendo el estándar **OpenAPI Specification (OAS 3.0)**, garantizando que los contratos de interfaz entre el Backend (.NET Core) y el Cliente Web (Vue.js) sean claros, precisos y ejecutables. A continuación, se detalla la evidencia de los servicios expuestos.
+En esta sección se incluye la relación de endpoints documentados con OpenAPI (Swagger), desarrollados como parte del alcance del Sprint 4. Se resumen los logros alcanzados en relación con la implementación y documentación de los servicios REST del Backend.
 
-#### **1. Especificación de API (Swagger UI)**
-Para facilitar la integración y las pruebas manuales, se ha habilitado el middleware de **Swagger UI** en el entorno de desarrollo. Esto proporciona una documentación viva e interactiva de todos los *Bounded Contexts* desarrollados.
+**Backend en Rider**
 
-- **URL de Acceso:** `http://localhost:[PORT]/swagger/index.html`
-- **Cobertura:** 100% de los Endpoints desarrollados en el Sprint 4 (Auth, Fields, Crops, Tasks).
-- **Formato de Intercambio:** `application/json`
+![RiderBackend](/assets/riderBackend.png)
+![RiderBackend2](/assets/riderBackend2.png)
 
-#### **2. Catálogo de Servicios Implementados**
-Se han documentado los siguientes controladores, detallando sus métodos HTTP, rutas y códigos de estado esperados para el consumo por parte del cliente Vue.js.
+**Frontend en WebStorm**
 
-| Servicio (Controller) | Dominio | Descripción Técnica | Métodos Expuestos |
-| :--- | :--- | :--- | :--- |
-| **Authentication Service** | `Users` | Gestión de identidad y emisión de tokens JWT. | `POST /api/v1/auth/login` (Genera Token)<br>`POST /api/v1/auth/register` (Crea Usuario) |
-| **Field Management Service** | `Fields` | CRUD para la gestión geoespacial de parcelas. | `GET /api/v1/fields` (Lista)<br>`POST /api/v1/fields` (Crea)<br>`PUT /api/v1/fields/{id}` (Edita) |
-| **Crop Inventory Service** | `Crops` | Gestión del ciclo de vida de cultivos y vinculación. | `POST /api/v1/fields/{id}/crops` (Vinculación 1:N)<br>`DELETE /api/v1/crops/{id}` (Soft Delete) |
-| **Task Automation Service** | `Tasks` | Motor de generación de alertas y calendario de riego. | `GET /api/v1/tasks/pending` (Dashboard)<br>`PATCH /api/v1/tasks/{id}/complete` (Cambio estado) |
+![WebStormFrontend](/assets/webstormFrontend.png)
+![WebStormFrontend2](/assets/webstormFrontend2.png)
 
-#### **3. Definición de Contratos de Datos (DTOs)**
-Se ha evidenciado la estructura de los objetos de transferencia de datos (DTOs) para asegurar que el Frontend envíe la información correcta. A continuación, se presenta el esquema JSON documentado para la creación de un Cultivo (Entregable clave del Sprint):
+**API**
 
-**Request Payload (CreateCropDto):**
-```json
-{
-  "name": "Maíz Morado - Sector A",
-  "sowingDate": "2025-11-14T00:00:00Z",
-  "cropType": "Cereal",
-  "fieldId": 102,
-  "settings": {
-    "irrigationFrequencyDays": 3,
-    "harvestEstimationDate": "2026-02-15T00:00:00Z"
-  }
-}
-```
+Todos los endpoints están organizados siguiendo la convención RESTful bajo la ruta /api/v1/ y están documentados según
+contexto.
 
-**Response Payload (201 Created):**
-```json
-{
-  "id": 505,
-  "status": "Active",
-  "trackingCode": "CROP-505-MZ",
-  "createdAt": "2025-12-03T10:15:30Z"
-}
-```
+<br>
 
-#### **4. Esquema de Seguridad y Autenticación**
-La documentación especifica claramente el esquema de seguridad requerido para consumir los servicios protegidos desde Vue.js (Axios Interceptors).
+**CultivApp Intern Logic**
 
-**Tipo:** Bearer Authentication.
+|Tag|HTTTP Verb|Endpoint|Summary|Operation ID|
+|---|----------|--------|-------|------------|
+| AgroApp | GET | / | CultivApp Logic | welcome |
 
-**Header Requerido:**
-```
-Authorization: Bearer <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...>
-```
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-**Evidencia de Restricción:** Los endpoints de Fields y Tasks están decorados con el atributo `[Authorize]`. Cualquier petición sin este header documentado recibe una respuesta 401 Unauthorized.
-
-#### **5. Estandarización de Códigos de Respuesta**
-Para asegurar un manejo de errores consistente en el Frontend, se documentaron los siguientes códigos de estado HTTP como estándar del proyecto:
-
-- **200 OK:** Petición exitosa y respuesta con datos.
-- **201 Created:** Recurso creado exitosamente (ej. Nuevo Campo).
-- **400 Bad Request:** Error de validación de dominio (ej. Fecha de cosecha anterior a siembra).
-- **401 Unauthorized:** Falta de token o token expirado.
-- **404 Not Found:** Recurso no encontrado (ej. ID de Campo inexistente).
-- **500 Internal Server Error:** Error no controlado en el servidor.
-
-### 5.2.3.7. Software Deployment Evidence for Sprint Review
-
-Durante el Sprint 4, se realizó el despliegue integral de la plataforma **CultivApp** en entornos de producción y staging, validando la infraestructura de ambos componentes (Frontend y Backend) bajo métricas estrictas de calidad y disponibilidad.
-
-#### **A. Estrategia de Despliegue**
-
-Se implementó una estrategia de despliegue **Blue-Green** para garantizar cero downtime durante las actualizaciones críticas de la aplicación. Esta metodología permite mantener dos entornos idénticos en producción, alternando entre ellos mediante cambios en el balanceador de carga.
-
-**Flujo de Despliegue:**
-1. **Ambiente Staging:** Validación de funcionalidades antes de producción
-2. **Ambiente Production (Blue):** Sistema activo sirviendo a usuarios finales
-3. **Ambiente Production (Green):** Nueva versión lista para switchover inmediato
-
----
-
-#### **B. Infraestructura de Despliegue - Frontend (Vue.js)**
-
-**Plataforma de Hosting:** Render.com  
-**Entorno de Build:** Node.js 18.x LTS  
-**Repositorio:** `https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech`
-
-**Pipeline de CI/CD:**
-```
-Git Push → GitHub Actions → Validación ESLint → Build optimizado → Render Deploy
-```
-
-**Pasos de Despliegue:**
-
-1. **Instalación y Validación de Dependencias**
-   ```bash
-   npm ci --production
-   npm run lint
-   ```
-   - Se utilizó `npm ci` (clean install) en lugar de `npm install` para garantizar reproducibilidad en ambientes de CI/CD
-   - Validación de código mediante ESLint con ruleset profesional (airbnb-extended)
-
-2. **Construcción de Artefactos Optimizados**
-   ```bash
-   npm run build
-   ```
-   - Generación de assets minificados en carpeta `/dist`
-   - **Tamaño optimizado:** Bundle inicial reducido a 245KB (gzip)
-   - Code splitting automático para rutas: `/login` (32KB), `/dashboard` (67KB), `/fields` (45KB)
-
-3. **Configuración de Variables de Entorno**
-   - `VITE_API_URL`: Endpoint del backend (.NET Core)
-   - `VITE_AUTH_TOKEN_KEY`: Clave para almacenamiento local de JWT
-   - `VITE_APP_ENV`: staging | production
-
-4. **Verificación de Salud (Health Check)**
-   - Endpoint GET `/api/health` retorna `200 OK` y métricas de latencia
-   - Validación de conectividad con Backend antes de servir tráfico
-
-5. **Despliegue Automático en Render**
-   - Webhook de GitHub dispara build automático tras merge en `main`
-   - Tiempo de despliegue: ~3-5 minutos desde push hasta producción
-   - Logs disponibles en dashboard de Render: `https://render.com/dashboard`
-
-**URL de Producción:** `https://frontend-frutech-static.onrender.com/`
-
----
-
-#### **C. Infraestructura de Despliegue - Backend (.NET Core)**
-
-**Plataforma de Hosting:** Azure App Service (Tier: Standard S1)  
-**Runtime:** .NET 8.0  
-**Base de Datos:** SQL Server (Azure SQL Database)  
-**Repositorio:** `https://github.com/Apps-Web-Grupo-4-FruTech/Backend-AgriApp`
-
-**Pipeline de CI/CD:**
-```
-Git Push → GitHub Actions → dotnet restore → dotnet build → Unit Tests → dotnet publish → Azure Deploy
-```
-
-**Pasos de Despliegue:**
-
-1. **Restauración de Dependencias NuGet**
-   ```bash
-   dotnet restore FruTech.Backend.API.sln
-   ```
-   - Descarga de paquetes NuGet críticos: EntityFramework Core, AutoMapper, Swagger (Swashbuckle)
-   - Validación de compatibilidad de versiones
-
-2. **Compilación y Análisis Estático**
-   ```bash
-   dotnet build --configuration Release
-   ```
-   - **Resultado esperado:** 0 Errores, 0 Advertencias
-   - Verificación de tipado estricto C# (nullable reference types habilitados)
-   - Análisis de seguridad mediante Roslyn analyzers
-
-3. **Ejecución de Suite de Tests Unitarios**
-   ```bash
-   dotnet test --logger "trx;LogFileName=test-results.trx"
-   ```
-   - **Cobertura de código:** 78% (objetivo: >80%)
-   - Tests incluidos en `FruTech.Backend.Tests` project
-   - Validación de lógica en Bounded Contexts: Users, Fields, Crops, Tasks
-
-4. **Migraciones de Base de Datos**
-   ```bash
-   dotnet ef migrations script --idempotent > migration.sql
-   Update-Database -Script
-   ```
-   - Migraciones idempotentes para garantizar consistencia entre despliegues
-   - Respaldo automático de BD antes de ejecutar scripts
-   - Historial de cambios registrado en tabla `__EFMigrationsHistory`
-
-5. **Publicación de Artefactos**
-   ```bash
-   dotnet publish -c Release -o ./publish
-   ```
-   - Generación de binarios optimizados en carpeta `publish/`
-   - Tamaño de artefacto: ~45MB (comprimido a 12MB en ZIP)
-
-6. **Despliegue en Azure App Service**
-   - Deploy mediante GitHub Actions + Azure CLI
-   - Slot de despliegue "staging" para validación previa
-   - Swap automático a "production" tras health check exitoso
-   - Tiempo de despliegue: ~8-10 minutos
-
-**URL de Base de Datos (Development):** `Server=localhost;Database=CultivApp_Dev;User Id=sa;Password=***;`  
-**URL de API en Producción:** `https://frutech-api.azurewebsites.net/api/v1`
-
----
-
-#### **D. Validación Post-Despliegue**
-
-**Pruebas Funcionales Automáticas (Smoke Tests):**
-
-| Endpoint | Método | Esperado | Latencia Máx |
-|----------|--------|----------|--------------|
-| `/api/v1/auth/login` | POST | 200 OK + Token JWT | 500ms |
-| `/api/v1/fields` | GET | 200 OK + Array JSON | 350ms |
-| `/api/v1/crops` | POST | 201 Created | 400ms |
-| `/api/v1/tasks/pending` | GET | 200 OK + Tareas | 300ms |
-| `/swagger/index.html` | GET | 200 OK | 200ms |
-
-**Monitoreo en Tiempo Real:**
-- Application Insights (Azure) registra eventos, excepciones y dependencias
-- Alertas configuradas para: tasa de error > 5%, latencia promedio > 1s, disponibilidad < 99.5%
-- Dashboard de métricas: Uptime, Requests/min, Error rate, Response time P95
-
-**Certificación SSL/TLS:**
-- Certificado HTTPS válido en ambos endpoints
-- TLS 1.3 habilitado para comunicación segura
-- Validación de certificado mediante: `openssl s_client -connect frutech-api.azurewebsites.net:443`
-
----
-
-#### **E. Documentación de Acceso y Credenciales**
-
-| Recurso | URL/Endpoint | Responsable |
-|---------|-------------|-------------|
-| Frontend Producción | https://frontend-frutech-static.onrender.com/ | Estefano Solis |
-| Backend API | https://frutech-api.azurewebsites.net/api/v1 | Bruce Via |
-| Swagger (Documentación API) | [URL]/swagger/index.html | Jefferson Castro |
-| Azure Dashboard | [Portal Azure] | Samuel Bonifacio |
-| GitHub Workflows | [Repo]/actions | Sergio Landa |
-
----
-
-#### **F. Procedimiento de Rollback en Caso de Fallo**
-
-En caso de detectar errores críticos post-despliegue:
-
-1. **Render (Frontend):**
-   - Desactivar últimos cambios desde dashboard Render
-   - Revertir a commit anterior: `git revert <commit-hash>`
-   - Re-trigger de build automático
-
-2. **Azure (Backend):**
-   - Swap inverso de slots: Production ← Staging
-   - Restore de BD desde backup automático (últimas 24h disponibles)
-   - Notification a team via Slack/Email
-
-**Tiempo de Recuperación Estimado (RTO):** < 5 minutos
-
----
-
-#### **G. Evidencia Visual de Despliegue**
-
-**Logs de Deploy en Render:**
-```
-✓ Build exitoso: 2025-12-03T15:32:17Z
-✓ Dependencies instaladas correctamente
-✓ Linting completado sin errores
-✓ Aplicación iniciada en puerto 3000
-✓ Health check: OK (respuesta en 156ms)
-```
-
-**Logs de Deploy en Azure:**
-```
-✓ dotnet restore: Completado (2.4s)
-✓ dotnet build: 0 errors, 0 warnings (8.1s)
-✓ dotnet test: 45 tests passed (12.3s)
-✓ Migration applied: Users, Fields, Crops, Tasks (3.2s)
-✓ Swagger enabled: http://localhost:5000/swagger
-✓ Application started successfully
-```
-
----
-
-#### **H. Comparativa de Entornos**
-
-| Característica | Staging | Production |
-|---|---|---|
-| **Instancias** | 1 | 2 (Auto-scale) |
-| **Base de Datos** | SQL Server (DTU 5) | SQL Server (DTU 20) |
-| **CDN** | No configurado | Cloudflare (enabled) |
-| **Backup** | Diario | Cada 6 horas |
-| **Monitoreo** | Básico | Completo (Application Insights) |
-| **SLA** | 95% | 99.5% |
-
----
-
-### 5.2.3.8.Team Collaboration Insights during Sprint.
-
+### 5.2.4.8.Team Collaboration Insights during Sprint.
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
 
 - Insight Landing Page:
