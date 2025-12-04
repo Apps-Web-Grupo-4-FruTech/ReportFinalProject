@@ -2958,14 +2958,15 @@ las decisiones de funcionalidad del Backend, union y despliegue.
 
 <img src="assets/Commits_Evidence.jpeg" alt="Colaboracion de Commits">
 
+---
 
-<h2 id="524-sprint-4">5.2.4. Sprint 4</h2>
+## 5.2.4. Sprint 4
 
-<h3 class="sprint-header-3">5.2.4.1. Sprint Planning 4</h3>
+### 5.2.4.1. Sprint Planning 4
 
-<p>En esta sección se detalla la planificación de la fase final: Seguridad, Auditoría y Optimización de CultivApp.</p>
+En esta sección se detalla la planificación de la fase final: Seguridad, Auditoría y Optimización de CultivApp.
 
-<table border="1" class="sprint-table-3">
+<table border="1"">
   <tr>
     <th width="30%">Sprint #</th>
     <th>Sprint 4</th>
@@ -2992,18 +2993,18 @@ las decisiones de funcionalidad del Backend, union y despliegue.
   </tr>
   <tr>
     <td>Sprint n – 4 Review Summary</td>
-    <td>Se implementaron las medidas de seguridad (Rate Limiting, Bloqueo de cuentas), el sistema de auditoría (Logs) y el monitoreo de salud del sistema. Se cerraron todas las tareas pendientes del Sprint 3.</td>
+    <td>Se cerraron todas las tareas pendientes del Sprint 3 y se realizó la conexión entre Frontend y Backend justo a la conexión respectiva</td>
   </tr>
   <tr>
     <td>Sprint n – 4 Retrospective Summary</td>
-    <td>Positivo: Cierre exitoso de deuda técnica y despliegue final estable. <br> A mejorar: Documentación de incidentes de seguridad en tiempo real. <br> Acción: Establecer protocolos de monitoreo post-despliegue y alertas automatizadas.</td>
+    <td>Positivo: despliegue final de servicios. <br> A mejorar: documentación y comunicación en equipo. <br> Acción: realizar las pruebas unitarias para validar despliegues y funcionamiento correcto.</td>
   </tr>
   <tr>
     <td colspan="2">Sprint Goal & User Stories</td>
   </tr>
   <tr>
     <td>Sprint n Goal </td>
-    <td>Asegurar la plataforma implementando bloqueo de cuentas por intentos fallidos, historial de cambios (logs) y monitoreo de disponibilidad, además de finalizar las notificaciones y optimizar la UX.</td>
+    <td>Desplegar ambos servicios con la conexión necesaria. Asegurar que todo funciona correctamente y culminar con items en To-Do</td>
   </tr>
   <tr>
     <td>Sprint n Velocity</td>
@@ -3018,21 +3019,67 @@ las decisiones de funcionalidad del Backend, union y despliegue.
 
 ### 5.2.4.2. Aspect Leaders and Collaborators.
 
-| Team Member (Apellido, Nombre) | GitHub Username | Deploy de Frontend | Deploy de Backend | Conexión de Endpoints | Documentación de Servicios | Pruebas de Integración |
-|--------------------------------|------------------|-------------------------|---------------------|---------------------|-------|----------------------|
-| Bonifacio, Samuel | samuelbonifacio015 | C | C | C| L | L |
-| Castro, Jefferson | JeffersonCastroPariona | C | C | L | L | L |
-| Landa, Sergio | Serkekes2006 | C | C | L | C | L |
-| Solis, Estefano | Estefano-Solis-C | L | C | C | C | C |
-| Via, Bruce | Shukaritas | L | L| L | C | C |
-
-**L:** Leader (Líder)  
-**C:** Collaborator (Colaborador)
+<table>
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Deploy de Frontend Leader (L) / Collaborator (C)</th>
+    <th>Deploy de Backend Leader (L) / Collaborator (C)</th>
+    <th>Conexión de Endpoints Leader (L) / Collaborator (C)</th>
+    <th>Documentación de Servicios Leader (L) / Collaborator (C)</th>
+    <th>Pruebas de Integración Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Bonifacio, Samuel</td>
+    <td>samuelbonifacio015</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Castro, Jefferson</td>
+    <td>JeffersonCastroPariona</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Landa, Sergio</td>
+    <td>Serkekes2006</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Solis, Estefano</td>
+    <td>Estefano-Solis-C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Via, Bruce</td>
+    <td>Shukaritas</td>
+    <td>L</td>
+    <td>L</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
 
 ---
 ### 5.2.4.3.Sprint Backlog 4.
 
-<table class="backlog-table-bw">
+<table border="1">
     <thead>
         <tr>
             <th colspan="7" style="font-size: 1.1em; text-transform: uppercase;">Sprint # Sprint 4</th>
@@ -3120,39 +3167,172 @@ las decisiones de funcionalidad del Backend, union y despliegue.
 
 ### 5.2.4.4. Development Evidence for Sprint Review
 
-A continuación se presenta la evidencia de desarrollo del Sprint 4, ordenada según la tabla solicitada:
+Commits en Backend: 
 
-* Commits en Backend: 
-
-| Commit ID  | Commit Message                              | User                     | Commit Date    |
-|:----------:|:--------------------------------------------|:------------------------|:--------------|
-| 752db64    | feat: add CR REST interfaces                | samuelbonifacio015      | Nov 14, 2025  |
-| 36025ed    | feat: add CR infrastructure                 | samuelbonifacio015      | Nov 14, 2025  |
-| a3671db    | feat: add CR repositories & services        | samuelbonifacio015      | Nov 14, 2025  |
-| d9df421    | feat: CR domain update                      | samuelbonifacio015      | Nov 14, 2025  |
-| 4eab47b    | Update Tasks JeffersonCastro                | JeffersonCastroPariona  | Nov 14, 2025  |
-| aca777f    | feat: endpoint user and upcoming task       | Gaftherman              | Nov 14, 2025  |
-| eefbf08    | feat: pre-deploy                            | Shukaritas              | Nov 14, 2025  |
-| 06da246    | Disable forced port                         | Estefano-Solis-C        | Nov 14, 2025  |
-| 92a8d2c    | Enabled all ports in all context            | Estefano-Solis-C        | Nov 14, 2025  |
-| 82af78e    | Dockerfile                                  | Estefano-Solis-C        | Nov 14, 2025  |
-| ed54d60    | feat-updated-bakend                         | Serkekes2006            | Nov 14, 2025  |
+<table border="1">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>tasks & community</td>
+    <td>752db64</td>
+    <td>feat: add CR REST interfaces</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>36025ed</td>
+    <td>tasks & community</td>
+    <td>feat: add CR infrastructure</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>a3671db</td>
+    <td>tasks & community</td>
+    <td>feat: add CR repositories & services</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>d9df421</td>
+    <td>tasks & community</td>
+    <td>feat: CR domain update</td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>4eab47b</td>
+    <td>tasks & community</td>
+    <td>Update Tasks JeffersonCastro</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>aca777f</td>
+    <td>develop</td>
+    <td>feat: endpoint user and upcoming task</td>
+    <td>Gaftherman</td>
+    <td>2025-11-13</td>
+  </tr>
+  <tr>
+    <td>eefbf08</td>
+    <td>develop</td>
+    <td>feat: pre-deploy</td>
+    <td>Shukaritas</td>
+    <td>2025-11-12</td>
+  </tr>
+  <tr>
+    <td>06da246</td>
+    <td>develop</td>
+    <td>Disable forced port</td>
+    <td>Estefano-Solis-C</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>92a8d2c</td>
+    <td>develop</td>
+    <td>Enabled all ports in all context</td>
+    <td>Estefano-Solis-C</td>
+    <td>2025-11-16</td>
+  </tr>
+  <tr>
+    <td>82af78e</td>
+    <td>develop</td>
+    <td>Dockerfile</td>
+    <td>Estefano-Solis-C</td>
+    <td>2025-11-16</td>
+  </tr>
+  <tr>
+    <td>ed54d60</td>
+    <td>develop</td>
+    <td>feat-updated-bakend</td>
+    <td>Serkekes2006</td>
+    <td>2025-11-19</td>
+  </tr>
+</table>
 
 * Commits en Frontend: 
 
-| Commit ID  | Commit Message                              | User                     | Commit Date    |
-|:----------:|:--------------------------------------------|:------------------------|:--------------|
-| fa78823    | Add crop registration managment form        | JeffersonCastroPariona  | Oct 8, 2025   |
-| d1ebf4b    | feat: community API response working        | samuelbonifacio015      | Oct 8, 2025   |
-| cf67542    | feat: added community components            | samuelbonifacio015      | Oct 8, 2025   |
-| f6766dd    | fix: update task handling                   | samuelbonifacio015      | Oct 8, 2025   |
-| 40b8f5d    | fix: component lang & better comments       | samuelbonifacio015      | Oct 8, 2025   |
-| 3c134a3    | feat: added my-task component               | samuelbonifacio015      | Oct 8, 2025   |
-| 245bee2    | feature: Modified and improve fields        | Shukaritas              | Oct 8, 2025   |
-| 41d8990    | fixed db.json                               | Estefano-Solis-C        | Oct 8, 2025   |
-| aeaa6f0    | Merge remote-tracking branch 'origin/feature/fields' into develop | Estefano-Solis-C | Oct 8, 2025   |
-| 5167129    | Merge remote-tracking branch 'origin/tasks&comunity' into develop | Estefano-Solis-C | Oct 8, 2025   |
-
+<table border="1">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/crops</td>
+    <td>fa78823</td>
+    <td>Add crop registration managment form</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>d1ebf4b</td>
+    <td>feat: community API response working</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>cf67542</td>
+    <td>feat: added community components</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>f6766dd</td>
+    <td>fix: update task handling</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>40b8f5d</td>
+    <td>fix: component lang & better comments</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>3c134a3</td>
+    <td>feat: added my-task component</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/fields</td>
+    <td>245bee2</td>
+    <td>feature: Modified and improve fields</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/fields</td>
+    <td>41d8990</td>
+    <td>fixed db.json</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/fields</td>
+    <td>aeaa6f0</td>
+    <td>Merge remote-tracking branch 'origin/feature/fields' into develop</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>5167129</td>
+    <td>Merge remote-tracking branch 'origin/tasks&comunity' into develop</td>
+    <td>2025-10-08</td>
+  </tr>
+</table>
 
 ### 5.2.4.5.Execution Evidence for Sprint Review.
 
@@ -3160,7 +3340,9 @@ A continuación se presenta la evidencia de desarrollo del Sprint 4, ordenada se
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-En esta sección se incluye la relación de endpoints documentados con OpenAPI (Swagger), desarrollados como parte del alcance del Sprint 4. Se resumen los logros alcanzados en relación con la implementación y documentación de los servicios REST del Backend.
+Durante este Sprint se realizó la conexión de ambos servicios (Frontend y Backend) y se realizaron las pruebas unitarias para validar su funcionamiento.
+
+A continuación se presenta la documentación de ambos servicios:
 
 **Backend en Rider**
 
@@ -3580,6 +3762,20 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 - Avance Funcional y Desarrollo Ágil: El progreso reciente demuestra la efectividad del equipo en la integración de funcionalidades clave. Los commits de los últimos días indican avances significativos en módulos como:
 
 - Cohesión Técnica y Organización del Equipo: La integración de estas características, reflejada en los frecuentes merges de ramas de funcionalidad (como feature/fields y feature/crops) hacia una rama principal de desarrollo, sugiere un modelo de trabajo organizado. Este enfoque permite contribuciones en paralelo por parte del equipo, manteniendo la cohesión e integridad del proyecto para futuras iteraciones.
+- 
+---
+
+### Video About-the-Team
+
+**Cuadro Representativo del Video**
+
+![AboutTheTeam](/assets/about_the_team_video.png)
+
+**Url del video:**
+
+https://drive.google.com/file/d/1l6CxCV-PC2i4gESPqRtwXc3gITI3b6SV/view
+
+---
 
 ## Bibliografía
 
