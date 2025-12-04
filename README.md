@@ -208,15 +208,15 @@ Para el desarrollo del informe perteneciente a la entrega del TB2, se dividió l
     </tr>
     <tr>
       <th> Via Luna, Bruce</th>
-      <th> Desarrollo del Boundedn Context Field y Crops</th>
+      <th> Desarrollo del Bounded Context Field y Crops</th>
     </tr>
     <tr>
       <th> Castro Pariona, Jefferson Ernesto</th>
-      <th>Desarrollo del Boundedn Context Tasks</th>
+      <th>Desarrollo del Bounded Context Tasks</th>
     </tr>
     <tr>
       <th> Bonifacio Jaramillo, Samuel Jesus</th>
-      <th> Desarrollo del Boundedn Context CommunityRecommendations </th>
+      <th> Desarrollo del Bounded Context CommunityRecommendations </th>
     </tr>
   </tbody>
 </table>
