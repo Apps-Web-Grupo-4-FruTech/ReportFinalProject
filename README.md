@@ -1922,6 +1922,7 @@ esta manera, nuestra página estará disponible en línea y accesible para todos
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
+
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1.
 
@@ -2114,6 +2115,14 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 
 Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
 
+Url del repositorio de Landing Page desplegada:
+https://apps-web-grupo-4-frutech.github.io/Landing-Page/
+
+----
+**GitHub Proyecto CultivApp Web Service (Planeado para sprint 3)**
+> URL estimada del repositorio del frontend (Sprint 2) <br>
+>https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 El objetivo del primer Sprint fue el desarrollo e implementación de la Landing Page. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:
@@ -2124,6 +2133,10 @@ El objetivo del primer Sprint fue el desarrollo e implementación de la Landing 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
+| Integrante | Acciones realizadas durante el Sprint 1 |
+|------------|----------------------------------------|
+| Todo el equipo | - Desarrollo de Mockups y Landing Page<br>- Documentación de Sprint 1<br>- Subida al repositorio y despliegue |
+
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
 
 - Insight Landing Page:
@@ -2132,7 +2145,7 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 - Insight Report
 ![InsightR](assets/insightR.png)
 
----  
+---
 
 ## 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2.
@@ -2191,112 +2204,324 @@ En esta sección se detalla la planificación del Frontend Web Application de Cu
 
 ---
 
-
-#### Objetivo del Sprint
-Implementar los componentes principales de la aplicación, establecer el contexto delimitado (bounded context), configurar la base de datos inicial (db.json) y definir el enrutamiento para la navegación en la aplicación web frontend de CultivApp.
-
-#### User Stories seleccionadas para el Sprint 2
-
-| ID  | User Story                                                                                  | Puntos |
-|-----|---------------------------------------------------------------------------------------------|--------|
-| 1   | Como usuario, quiero poder registrarme en la aplicación web para acceder a sus funciones.    |   5    |
-| 2   | Como usuario, quiero iniciar sesión para acceder a mi cuenta y gestionar mis cultivos.       |   5    |
-| 3   | Como usuario, quiero recuperar la contraseña de mi cuenta en caso de olvido.                 |   4    |
-| 4   | Como usuario, quiero modificar mi perfil para mantenerlo actualizado.                        |   4    |
-| 5   | Como agricultor, quiero registrar diferentes cultivos para mantener un registro a mi alcance.|   5    |
-| 6   | Como agricultor, quiero eliminar los cultivos que desee para mantener un registro actualizado.|   4    |
-| 7   | Como agricultor, quiero editar los cultivos registrados para asegurarme que estén actualizados.|   4    |
-| 8   | Como administrador, quiero verificar y gestionar a los usuarios registrados.                 |   4    |
-| 9   | Como administrador, quiero asegurar el acceso al perfil de los usuarios para mantener su información segura.|   4    |
-| 10  | Como agricultor, quiero acceder a un historial de los cambios del cultivo para mantener un registro detallado.|   3    |
-
-**Total de puntos:** 42
-
 ### 5.2.2.2. Aspect Leaders and Collaborators
 
-En esta sección se presenta la matriz de liderazgo y colaboración (Leadership-and-Collaboration Matrix, LACX) para el Sprint 2 de CultivApp. Esta matriz identifica, para cada aspecto clave del Sprint, quién es el líder responsable y quiénes son los colaboradores, facilitando así la comunicación y la asignación de tareas dentro del equipo. 
-
-Los aspectos considerados en este Sprint incluyen: diseño de la landing page, desarrollo de funcionalidades de registro e inicio de sesión, implementación de la barra de navegación, y configuración del footer con enlaces de contacto y redes sociales.
-
-| Team Member (Apellido, Nombre)         | GitHub Username      | db.json | Vue Project Setup | BC (Task & Community) | BC (Crops, Dashboard & Fields) |
-|----------------------------------------|----------------------|---------------------|--------------------------|---------------------|------------------------|
-| Bonifacio, Samuel                     | samuelbonifacio015      | L                   | L                       | L                   | L                      |
-| Castro, Jefferson                      | JeffersonCastroPariona     | C                   | L                        | C                   | C                      |
-| Via, Bruce                             | Shukaritas            | L                   | L                        | L                   | L                      |                     |
-| Solis, Estefano                        | Estefano-Solis-C       | L                   | L                        | L                   | L                      |
-| Landa, Sergio                        | Serkekes2006       | C                   | C                        | C                   | C                      |
-
-**L:** Leader (Líder)  
-**C:** Collaborator (Colaborador)
-
-Esta organización permite una asignación clara de responsabilidades y fomenta la colaboración efectiva durante el desarrollo del Sprint 2.
-
-### 5.2.2.3. Sprint Backlog 2
-
-| ID   | Title/Section                | Description                                                                                      | Estimation (Hours) | Assigned To                | Status         |
-|------|------------------------------|--------------------------------------------------------------------------------------------------|--------------------|----------------------------|---------------|
-| US09 | Bloqueo de Cuenta            | Implementación de la seguridad para el acceso al perfil de los usuarios.                         | 3                  | Sergio Landa               | To-do         |
-| US10 | Historial de Cambios         | Desarrollo de la funcionalidad para acceder al historial de cambios de los cultivos.             | 2                  | Samuel Bonifacio           | To-do         |
-| US11 | Componente Dashboard         | Ajustes y mejoras del Dashboard principal (visualización y filtros).                             | 4                  | Sergio Landa               | To-do         |
-| US12 | Formularios Avanzados        | Validaciones y mensajes de error consistentes en los formularios (Frontend).                    | 3                  | Jefferson Castro           | To-do         |
-
-**Leyenda de Status:**  
-To-do / InProcess / ToReview / Done
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>db.json Leader (L) / Collaborator (C)</th>
+    <th>Vue Project Setup Leader (L) / Collaborator (C)</th>
+    <th>BC (Task & Community) Leader (L) / Collaborator (C)</th>
+    <th>BC (Crops, Dashboard & Fields) Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Bonifacio Jaramillo, Samuel Jesus</td>
+    <td>samuelbonifacio015</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Castro Pariona, Jefferson Ernesto</td>
+    <td>JeffersonCastroPariona</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Via Luna, Bruce</td>
+    <td>Shukaritas</td>
+    <td>L</td>
+    <td>L</td>
+    <td>L</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Solis Campos, Estefano Sebastian</td>
+    <td>Estefano-Solis-C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>L</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Landa Ortiz, Sergio Javier</td>
+    <td>Serkekes2006</td>
+    <td>L</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table>
 
 ---
 
-### 5.2.2.4. Development Evidence for Sprint Review
+### 5.2.2.3. Sprint Backlog 2
 
-| Commit ID | Commit Message | User | Commit Date |
-| :--- | :--- | :--- | :--- |
-| `3c7acf2` | [cite_start]Update index.js [cite: 18] | [cite_start]Shukaritas [cite: 21] | Oct 10, 2025 [cite: 17] |
-| `29eae95` | feature: final commit [cite: 22] | [cite_start]Shukaritas [cite: 25] | [cite_start]Oct 10, 2025 [cite: 17] |
-| `2db80c7` | commits: preview final changes [cite: 27] | [cite_start]Shukaritas [cite: 30] | [cite_start]Oct 9, 2025 [cite: 26] |
-| `683228` | [cite_start]Merge remote-tracking branch 'origin/main' into develop [cite: 31] | [cite_start]Shukaritas [cite: 33] | [cite_start]Oct 9, 2025 [cite: 26] |
-| `c9cab99` | [cite_start]Update db.json [cite: 34] | [cite_start]Shukaritas [cite: 37] | [cite_start]Oct 9, 2025 [cite: 26] |
-| `41d8990` | fixed db.json [cite: 39] | [cite_start]Estefano-Solis-C [cite: 42] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `aeaa6f0` | [cite_start]Merge remote-tracking branch 'origin/feature/fields' into develop [cite: 43] | [cite_start]Estefano-Solis-C [cite: 46] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `5167129` | [cite_start]Merge remote-tracking branch 'origin/tasks&comunity' into develop [cite: 51] | [cite_start]Estefano-Solis-C [cite: 53] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `e82e591` | [cite_start]Merge remote-tracking branch 'origin/feature/crops' into develop [cite: 54] | [cite_start]Estefano-Solis-C [cite: 57] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `f04a0be` | fixture dashboard [cite: 58] | [cite_start]Serkekes2006 [cite: 60] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `fa78823` | [cite_start]Add crop registration managment form [cite: 61] | [cite_start]Jefferson CastroPariona [cite: 63] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `d1ebf4b` | feat: community API response working [cite: 64] [cite_start]| samuelbonifacio015 [cite: 66] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `cf67542` | feat: added community components [cite: 67] [cite_start]| samuelbonifacio015 [cite: 70] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `f6766dd` | fix: update task handling [cite: 71] [cite_start]| samuelbonifacio015 [cite: 74] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `40b8f5d` | fix: component lang & better comments [cite: 75] [cite_start]| samuelbonifacio015 [cite: 77] | [cite_start]Oct 8, 2025 [cite: 38] |
-|`3c134a3` | feat: added my-task component [cite: 78] [cite_start]| samuelbonifacio015 [cite: 80] | [cite_start]Oct 8, 2025 [cite: 38] |
-|`245bee2` | feature: Modified and improve fields [cite: 81] | [cite_start]Shukaritas [cite: 84] | [cite_start]Oct 8, 2025 [cite: 38] |
-| `c4bde32` | [cite_start]First update [cite: 89] | [cite_start]Estefano-Solis-C [cite: 93] | [cite_start]Oct 7, 2025 [cite: 85] |
-| `e41ab39` | [cite_start]Initial commit [cite: 95] | [cite_start]Estefano-Solis-C [cite: 99] | [cite_start]Sep 14, 2025 [cite: 94] |
+<table border="1">
+  <tr>
+    <th colspan="8">Sprint # Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item/Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do/In-Process/To-Review/Done)</th>
+  </tr>
+  <tr>
+    <td>US-01</td>
+    <td>Registro de cuenta</td>
+    <td>03</td>
+    <td>Como usuario, quiero registrarme en la aplicacion, para acceder a sus funciones</td>
+    <td>3</td>
+    <td>Samuel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-02</td>
+    <td>Inicio de Sesión</td>
+    <td>04</td>
+    <td>Como usuario, quiero iniciar sesion, para acceder a mi cuenta</td>
+    <td>2</td>
+    <td>Jefferson</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-03</td>
+    <td>Recuperar Contraseña</td>
+    <td>05</td>
+    <td>Como usuario, quiero recuperar la contraseña de mi cuenta, para recuperar el acceso a ella en caso se me olvide</td>
+    <td>4</td>
+    <td>Sergio</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-04</td>
+    <td>Editar perfil</td>
+    <td>06</td>
+    <td>Como usuario, quiero modificar mi perfil, para mantenerlo actualizado todo el tiempo</td>
+    <td>3</td>
+    <td>Estefano</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-05</td>
+    <td>Registrar cultivos</td>
+    <td>07</td>
+    <td>Como agricultor, quiero registrar diferentes cultivos, para mantener un registro a mi alcance</td>
+    <td>3</td>
+    <td>Bruce</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-06</td>
+    <td>Eliminar cultivos</td>
+    <td>08</td>
+    <td>Como agricultor, quiero eliminar los cultivos que desee, para mantener un registro actualizado</td>
+    <td>2</td>
+    <td>Samuel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-07</td>
+    <td>Editar cultivos</td>
+    <td>09</td>
+    <td>Como agricultor, quiero editar los cultivos que tenga registrados, para asegurarme que siempre esten actualizados</td>
+    <td>2</td>
+    <td>Bruce</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+---
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>develop</td>
+    <td>3c7acf2</td>
+    <td>Update index.js</td>
+    <td>2025-10-10</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature_dashboard</td>
+    <td>29eae95</td>
+    <td>feature: final commit</td>
+    <td>2025-10-10</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>pre-final</td>
+    <td>2db80c7</td>
+    <td>commits: preview final changes</td>
+    <td>2025-10-09</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>develop</td>
+    <td>683228</td>
+    <td>Merge remote-tracking branch 'origin/main' into develop</td>
+    <td>2025-10-09</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/fields</td>
+    <td>c9cab99</td>
+    <td>Update db.json</td>
+    <td>2025-10-09</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/fields</td>
+    <td>41d8990</td>
+    <td>fixed db.json</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/fields</td>
+    <td>aeaa6f0</td>
+    <td>Merge remote-tracking branch 'origin/feature/fields' into develop</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>5167129</td>
+    <td>Merge remote-tracking branch 'origin/tasks&comunity' into develop</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/crops</td>
+    <td>e82e591</td>
+    <td>Merge remote-tracking branch 'origin/feature/crops' into develop</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature_dashboard</td>
+    <td>f04a0be</td>
+    <td>fixture dashboard</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/crops</td>
+    <td>fa78823</td>
+    <td>Add crop registration managment form</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>d1ebf4b</td>
+    <td>feat: community API response working</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>cf67542</td>
+    <td>feat: added community components</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>f6766dd</td>
+    <td>fix: update task handling</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>40b8f5d</td>
+    <td>fix: component lang & better comments</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>tasks&comunity</td>
+    <td>3c134a3</td>
+    <td>feat: added my-task component</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>feature/fields</td>
+    <td>245bee2</td>
+    <td>feature: Modified and improve fields</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>main</td>
+    <td>c4bde32</td>
+    <td>First update</td>
+    <td>2025-10-07</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
+    <td>main</td>
+    <td>e41ab39</td>
+    <td>Initial commit</td>
+    <td>2025-09-14</td>
+  </tr>
+</table>
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
 
-- US01
+Durante este Sprint se desarrolló la aplicación web en el entorno de desarrollo WebStorm, siguiendo los principios de Domain-Driven Design (DDD) para organizar la estructura y responsabilidad del sistema.
+
+Se implementaron con éxito las vistas principales y componentes funcionales, utilizando los datos de la Fake API con JSON-Server.
+
+- US01 (Registro de cuenta): Se implementó el registro de usuario a través de la creación de cuenta en la Landing Page.
 
 <img src="assets/execution_evidence/Register.jpeg" alt="Evidencia de Ejecucion">
 
 <br>
-- US02
+- US02 (Inicio de Sesión): Una vez el usuario está registrado, puede iniciar sesión usando sus credenciales y redirigirse a la WebApp.
 
 <img src="assets/execution_evidence/Log_in.jpeg" alt="Evidencia de Ejecucion">
 
 <br>
-- US04
+- US04 (Editar perfil): El usuario puede acceder a su perfil y modificar su información a gusto.
 
 <img src="assets/execution_evidence/Profile.png" alt="Evidencia de Ejecucion">
 
 <br>
-- US05
+- US05 (Registrar cultivos): El usuario al acceder a "Manage Crops" puede registrar nuevos cultivos.
 
 <img src="assets/execution_evidence/Register_Crop.png" alt="Evidencia de Ejecucion">
 
 <br>
-- US06
+- US06 (Eliminar cultivos): El usuario puede eliminar un cultivo permanentemente.
 
 <img src="assets/execution_evidence/Delete_Crop.png" alt="Evidencia de Ejecucion">
 
 <br>
-- US07
+- US07 (Editar cultivos): El usuario puede modificar los datos de un cultivo a placer.
 
 <img src="assets/execution_evidence/Edit_crop.png" alt="Evidencia de Ejecucion">
 
@@ -2310,7 +2535,7 @@ rutas necesarias para la gestión de campos en tiempo real con su informacion, u
 ----
 **GitHub Proyecto CultivApp Web Service (Planeado para sprint 3)**
 > URL estimada del repositorio del backend (Sprint 3) <br>
->https://github.com/Apps-Web-Grupo-4-FruTech/Backend-AgriApp
+>https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
 Durante este Sprint, se realizó el despliegue del frontend del sistema CultivApp, incluyendo la Landing Page, el dashboard principal junto con sus secciones principales para el nuestros usuarios, lo cual permitió acceder
