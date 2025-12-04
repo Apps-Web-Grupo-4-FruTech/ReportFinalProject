@@ -1938,7 +1938,7 @@ El diagrama de clases nos ayuda a definir la funcionalidad de el producto de Cul
 
 ### 4.7.1. Class Diagrams.
 
-<img src="assets/Class Diagram.png" alt="Class Diagram">
+<img src="assets/Class_Diagram.png" alt="Class Diagram">
 
 ## 4.8. Database Design.
 
@@ -2643,26 +2643,32 @@ Se implementaron con éxito las vistas principales y componentes funcionales, ut
 <img src="assets/execution_evidence/Register.jpeg" alt="Evidencia de Ejecucion">
 
 <br>
+
 - US02 (Inicio de Sesión): Una vez el usuario está registrado, puede iniciar sesión usando sus credenciales y redirigirse a la WebApp.
 
+<br>
 <img src="assets/execution_evidence/Log_in.jpeg" alt="Evidencia de Ejecucion">
 
 <br>
+
 - US04 (Editar perfil): El usuario puede acceder a su perfil y modificar su información a gusto.
 
 <img src="assets/execution_evidence/Profile.png" alt="Evidencia de Ejecucion">
 
 <br>
+
 - US05 (Registrar cultivos): El usuario al acceder a "Manage Crops" puede registrar nuevos cultivos.
 
 <img src="assets/execution_evidence/Register_Crop.png" alt="Evidencia de Ejecucion">
 
 <br>
+
 - US06 (Eliminar cultivos): El usuario puede eliminar un cultivo permanentemente.
 
 <img src="assets/execution_evidence/Delete_Crop.png" alt="Evidencia de Ejecucion">
 
 <br>
+
 - US07 (Editar cultivos): El usuario puede modificar los datos de un cultivo a placer.
 
 <img src="assets/execution_evidence/Edit_crop.png" alt="Evidencia de Ejecucion">
