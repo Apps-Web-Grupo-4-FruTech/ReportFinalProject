@@ -1,62 +1,82 @@
 <div align="center">
-  <div>
+   <div>
 
-  # Informe del Trabajo Final
+   <br>
+   <center><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC"></center>
 
-  <br>
-  <center>Universidad Peruana de Ciencias Aplicadas</center>
+   <br>
+   <center>Universidad Peruana de Ciencias Aplicadas</center>
 
-  <br>
-  <center><img src="assets/logoupc.png" alt="Logo UPC" width="120"/></center>
+   <br>
+   <center><b>Facultad: Ingeniería de software</b></center>
+   <br>
+   <br>
+   <center><b>Carrera: Ingeniería de software</b></center>
+   <br>
+   <br>
+   <center><b>Periodo: 202520</b></center>
+   <br>
+   <center><b>Codigo del curso: 1ASI0729</b></center>
 
-  <br>
-  <center><b>Ingeniería de Software</b></center>
-  <br>
-  <center><b>Curso: Aplicaciones Web</b></center>
-  <br>
-  <center><b>NRC: 7452</b></center>
-  <br>
-  <center><b>Profesor: Hugo Allan Mori Paiva</b></center>
-  <br>
-  <center><b>Nombre del Startup: CultivApp</b></center>
-  <br>
-  <center><b>Nombre del Producto: Frutech</b></center>
+   <br>
+   <br>
+   <center><b>Nombre del curso:</b> Aplicaciones Web</center>
+   <br>
+   <center><b>NRC:</b> 7452
+</center>
+   <br>
 
-  </div>
+   <center><b>Nombre de profesor:</b> Hugo Allan Mori Paiva </center>
+   <br>
+   <center><b>Informe de Trabajo Final </center>
+   <br>
+   <br>
+   <center><b>Nombre del startup:</b> FruTech </center>
+   <br>
 
-  <br>
+   <center><b>Nombre del producto:</b> CultivApp</center>
 
-  <div align="center">
-  <table style="margin-left: auto; margin-right: auto;">
-  <tr>
-  <th>Apellidos y Nombres</th>
-  <th>Código</th>
-  </tr>
-  <tr>
-  <td>Landa Ortiz, Sergio Javier</td>
-  <td>U202311086</td>
-  </tr>
-  <tr>
-  <td>Solis Campos, Estefano Sebastian</td>
-  <td>U202314354</td>
-  </tr>
-  <tr>
+   </div>
+
+   <br>
+
+   <div align="center">
+   <b>Relación de Integrantes</b>
+      <br>
+         <br>
+   <table style="margin-left: auto; margin-right: auto;">
+   <tr>
+   <th>Apellidos y Nombres</th>
+   <th>Código</th>
+   </tr>
+   <tr>
+   <td>Landa Ortiz, Sergio Javier</td>
+   <td>U202311086</td>
+   </tr>
+   <tr>
+   <td>Solis Campos, Estefano Sebastian</td>
+   <td>U202314354</td>
+   </tr>
+   <tr>
   <td>Castro Pariona, Jefferson Ernesto</td>
-  <td>U201822823</td>
+   <td>U201822823</td>
   </tr>
-  <tr>
-  <td>Via Luna, Bruce</td>
-  <td>U202313403</td>
-  </tr>
-  <tr>
-  <td>Bonifacio Jaramillo, Samuel Jesus</td>
-  <td>U202317269</td>
-  </tr>
-  </table>
-  </div>
+   <tr>
+   <td>Via Luna, Bruce </td>
+   <td>U202313403</td>
+   </tr>
+   <tr>
+   <td>Bonifacio Jaramillo, Samuel Jesus</td>
+   <td>U202317269</td>
+   </tr>
 
-  <br>
-  <center><b>Diciembre - 2025</b></center>
+   </table>
+   </div>
+
+  </br>
+
+   <center><b>Diciembre - 2025</center>
+
 
 </div>
 
