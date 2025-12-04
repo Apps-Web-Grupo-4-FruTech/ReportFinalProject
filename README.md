@@ -403,7 +403,7 @@ Para el desarrollo del informe perteneciente a la entrega del TF, se dividió la
   <p>TB2: Desarrollo del endpoint de CommunityRecommendations.</p>
   <p>TF: Documentación técnica de servicios y elaboración de guías de implementación.</p>
 </td>
-      <td>El equipo demostró capacidad de liderazgo compartido: integró investigación, diseño y trabajo técnico para orientar el proyecto y consolidar un entregable coherente.</td>
+<td><p><strong>TB1:</strong> El equipo demostró capacidad de liderazgo compartido: integró investigación, diseño y trabajo técnico para orientar el proyecto y consolidar un entregable coherente.</p><p><strong>TP1:</strong> El equipo avanzó significativamente en la materialización del producto. Se logró transitar desde conceptos y wireframes a un frontend funcional desplegado en línea.</p><p><strong>TB2:</strong> Se logró la validación con usuarios reales  para el despliegue del backend e integración de API.</p><p><strong>TF:</strong> Se logró con éxito la integración entre ambos servicios (Frontend y Backend) a través del trabajo en equipo y coordinación de tareas</p></td>
     </tr>
     <tr>
       <td>5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
@@ -411,7 +411,7 @@ Para el desarrollo del informe perteneciente a la entrega del TF, se dividió la
         <p><strong>Landa Ortiz, Sergio Javier</strong><br>
         TB1: Definió la fecha de entrega y objetivos iniciales; facilitó coordinación de reuniones.</p>
         <p>TP1: Supervisó la planificación de entregables, verificó cumplimiento de hitos y gestionó ajustes de alcance.</p>
-        <p>TB2: Establecimiento y ejecucion del desarrollo del enpoint estimado dentro del tiempo limite.</p>
+        <p>TB2: Establecimiento y ejecucion del desarrollo del endpoint estimado dentro del tiempo limite.</p>
         
   <p><strong>Solis Campos, Estefano Sebastian</strong><br>
   TB1: Organizó el equipo para ejecutar entrevistas de campo y validación.</p>
@@ -433,7 +433,7 @@ Para el desarrollo del informe perteneciente a la entrega del TF, se dividió la
   <p>TP1: Implementó componentes iniciales, aplicó estilos globales, verificó despliegues y documentó el proceso para replicación.</p>
   <p>TB2: Contribuyó en el desarrollo del backend y las secciones técnicas del Capítulo V.</p>
 </td>
-<td>El equipo estableció procesos claros y colaborativos que permitieron cumplir metas y entregar evidencias técnicas y de diseño en tiempo, facilitando la continuidad del proyecto.</td>
+<td><p><strong>TB1:</strong> El equipo estableció un entorno colaborativo desde el inicio, definiendo metas claras de investigación, diseño y desarrollo técnico.</p><p><strong>TP1:</strong>El equipo estableció metas de desarrollo del frontend, cumpliendo los objetivos gracias a una coordinación efectiva.</p><p><strong>TB2:</strong> El equipo mantuvo un entorno colaborativo durante el desarrollo del backend, planificando de forma conjunta la integración de API y estableciendo metas de validación con usuarios reales.</p><p><strong>TF:</strong> Se consolidó un ambiente colaborativo e inclusivo que permitió establecer metas claras de integración entre Frontend y Backend.</p></td>
 </tr>
   </tbody>
 </table>
