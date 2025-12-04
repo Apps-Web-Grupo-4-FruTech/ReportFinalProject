@@ -1872,6 +1872,18 @@ Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, ma
     <td><h4>Vue.js</h4>Framework basado en Single Page Applications para el desarrollo de frontend</td>
   </tr>
   <tr>
+    <td></td>
+    <td><h4>C#</h4>Lenguaje de programación orientado a objetos desarrollado por Microsoft, utilizado para el desarrollo de aplicaciones en diversas plataformas.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>.NET</h4>Plataforma de desarrollo de software creada por Microsoft que permite construir y ejecutar aplicaciones en diferentes sistemas operativos.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>Rider</h4>Entorno de desarrollo integrado (IDE) para .NET y C# desarrollado por JetBrains, que ofrece herramientas avanzadas para el desarrollo de aplicaciones.</td>
+  </tr>
+  <tr>
     <td>Software Deployment</td>
     <td><h4>Github Pages</h4>Plataforma que nos permite realizar el despliegue de nuestro landing page.</td>
   </tr>
@@ -1909,95 +1921,172 @@ esta manera, nuestra página estará disponible en línea y accesible para todos
 ![GithubReportRepo](/assets/github-repo.png)
 
 ## 5.2. Landing Page, Services & Applications Implementation.
+
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1.
 
-| Elemento                        | Detalle                                                                                       |
-|----------------------------------|----------------------------------------------------------------------------------------------|
-| **Sprint**                      | 1 - Implementación de funcionalidades básicas y diseño inicial de CultivApp                   |
-| **Sprint Planning Background**   |                                                                                              |
-| **Fecha**                       | 20/09/2025                                                                                   |
-| **Hora**                        | 20:00 horas (GMT-5)                                                                          |
-| **Lugar**                       | Reunión virtual mediante Discord                                                              |
-| **Preparado por**               | [FruTech]                                                       |
-| **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Bruce Via, Sergio Landa, Estefano Solis ]                                                             |
-| **Sprint n-1 Review**           | Se creó la organización de CultivApp en GitHub, se definieron ramas y se asignaron tareas iniciales como investigación de usuarios, wireframes y mockups. |
-| **Sprint n-1 Retrospective**    | Se implementó la estructura básica de la landing page utilizando HTML, CSS y JavaScript.      |
-| **Sprint Goal & User Stories**  |                                                                                              |
-| **Sprint 1 Velocity**           | 20 puntos                                                                                    |
-| **Sum of Story Points**         | 20 puntos                                                                                    |
+En esta sección se detalla la reunion de planificación para iniciar con el desarrollo de la Landing Page de CultivApp.
 
-#### Objetivo del Sprint
-Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas de registro e inicio de sesión para los usuarios de CultivApp.
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 1</th>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-09-15</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>9:00 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Virtual (Google Meet)</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Via Luna, Bruce</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Samuel Bonifacio<br>Jefferson Castro<br>Bruce Via<br>Estefano Solis<br>Sergio Landa</td>
+  </tr>
+  <tr>
+    <td>Sprint n – 1 Review Summary</td>
+    <td>No aplica por ser primer Sprint</td>
+  </tr>
+  <tr>
+    <td>Sprint n – 1 Retrospective Summary</td>
+    <td>No aplica por ser primer Sprint</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint n Goal </td>
+    <td>El objetivo es desarrollar el Landing Page de CultivApp. Además de implementar la estructura con HTML, CSS y JavaScript. Junto a la documentación respectiva. Creemos que nuestro producto llamará la atención de nuestros a usuarios objetivos. </td>
+  </tr>
+  <tr>
+    <td>Sprint n Velocity</td>
+    <td>2 Story Points</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>2</td>
+  </tr>
+</table>
 
-#### User Stories seleccionadas para el Sprint 1
+---
 
-| ID  | User Story                                                                                  | Puntos |
-|-----|---------------------------------------------------------------------------------------------|--------|
-| 1   | Como usuario, quiero poder registrarme en la plataforma para acceder a las funcionalidades.  |   5    |
-| 2   | Como usuario, quiero iniciar sesión para gestionar mis cultivos o recursos.                  |   5    |
-| 3   | Como visitante, quiero visualizar la landing page con información clara sobre CultivApp.     |   4    |
-| 4   | Como usuario, quiero navegar entre las secciones principales desde la barra de navegación.   |   3    |
-| 5   | Como usuario, quiero acceder a enlaces de contacto y redes sociales desde el footer.         |   3    |
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
-**Total de puntos:** 20
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Visualizar página de inicio (L) / Collaborator (C)</th>
+    <th>Navegación desde el footer Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Bonifacio Jaramillo, Samuel Jesus</td>
+    <td>samuelbonifacio015</td>
+    <td>L</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Castro Pariona, Jefferson Ernesto</td>
+    <td>JeffersonCastroPariona</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Via Luna, Bruce</td>
+    <td>Shukaritas</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Solis Campos, Estefano Sebastian</td>
+    <td>Estefano-Solis-C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Landa Ortiz, Sergio Javier</td>
+    <td>Serkekes2006</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
 
 ---
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.3. Sprint Backlog 1.
 
-En esta sección se presenta la matriz de liderazgo y colaboración (Leadership-and-Collaboration Matrix, LACX) para el Sprint 1 de CultivApp. Esta matriz identifica, para cada aspecto clave del Sprint, quién es el líder responsable y quiénes son los colaboradores, facilitando así la comunicación y la asignación de tareas dentro del equipo. 
+<table border="1">
+  <tr>
+    <th colspan="8">Sprint # Sprint 1</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item/Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do/In-Process/To-Review/Done)</th>
+  </tr>
+  <tr>
+    <td>US-20</td>
+    <td>Visualizar página de inicio	</td>
+    <td>01</td>
+    <td>Como usuario, quiero visualizar una página de inicio clara para comprender rápidamente de qué trata CultivApp.</td>
+    <td>4</td>
+    <td>Samuel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-21</td>
+    <td>Navegación desde el footer	</td>
+    <td>02</td>
+    <td>Como usuario, quiero acceder a enlaces de navegación en el footer para moverme entre secciones fácilmente</td>
+    <td>2</td>
+    <td>Jefferson</td>
+    <td>Done</td>
+  </tr>
+</table>
 
-Los aspectos considerados en este Sprint incluyen: diseño de la landing page, desarrollo de funcionalidades de registro e inicio de sesión, implementación de la barra de navegación, y configuración del footer con enlaces de contacto y redes sociales.
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
-| Team Member (Apellido, Nombre)         | GitHub Username      | Landing Page Design | Registro/Inicio de Sesión | Barra de Navegación | Footer y Redes Sociales |
-|----------------------------------------|----------------------|---------------------|--------------------------|---------------------|------------------------|
-| Bonifacio, Samuel                     | samuelbonifacio015      | L                   | L                       | L                   | L                      |
-| Castro, Jefferson                      | JeffersonCastroPariona     | C                   | L                        | C                   | C                      |
-| Via, Bruce                             | Shukaritas            | C                   | C                        | L                   | C                      |                     |
-| Solis, Estefano                        | Estefano-Solis-C       | C                   | C                        | C                   | C                      |
-| Landa, Sergio                        | Serkekes2006       | C                   | C                        | C                   | C                      |
-
-**L:** Leader (Líder)  
-**C:** Collaborator (Colaborador)
-
-Esta organización permite una asignación clara de responsabilidades y fomenta la colaboración efectiva durante el desarrollo del Sprint.
-
-
-#### 5.2.1.3. Sprint Backlog 1
-
-| ID   | Title/Section                | Description                                                                                      | Estimation (Hours) | Assigned To                | Status         |
-|------|------------------------------|--------------------------------------------------------------------------------------------------|--------------------|----------------------------|---------------|
-| US01 | Landing Page                 | Desarrollo e implementación de la estructura y estilos de la landing page. Debe ser responsive.  | 3                  | Samuel Bonifacio           | Done          |
-| US02 | Registro de Usuario          | Implementación del formulario y lógica para el registro de usuarios.                             | 3                  | Jefferson Castro           | Done          |
-| US03 | Inicio de Sesión             | Desarrollo del formulario y lógica para el inicio de sesión de usuarios.                         | 3                  | Jefferson Castro           | Done          |
-| US04 | Barra de Navegación          | Implementación de la barra de navegación principal, con enlaces a las secciones. Responsive.     | 2                  | Sergio Landa                  | Done          |
-| US05 | Footer y Redes Sociales      | Desarrollo del footer con enlaces de contacto y redes sociales. Responsive.                      | 2                  | Estefano Solis             | Done          |
-| US06 | Página de Información        | Sección informativa sobre CultivApp y sus beneficios.                                            | 2                  | Samuel Bonifacio           | Done          |
-| US07 | Validación de Formularios    | Validación de datos en los formularios de registro e inicio de sesión.                           | 2                  | Jefferson Castro           | Done          |
-| US08 | Estilos Generales            | Definición y aplicación de estilos globales (colores, fuentes, espaciados, etc.).                | 1                  | Bruce Via                  | Done          |
-
-**Leyenda de Status:**  
-To-do / InProcess / ToReview / Done
-
----
-#### 5.2.1.4. Development Evidence for Sprint Review
-
-Durante el Sprint 1, el equipo de CultivApp realizó múltiples commits en el repositorio de GitHub, evidenciando el avance y cumplimiento de las tareas planificadas. A continuación, se presenta una tabla con los principales commits realizados, siguiendo el formato requerido:
-
-| Repository                                         | Branch | Commit Id | Commit Message                                 | Commit Message Body                                   | Committed on (Date)     |
-|----------------------------------------------------|--------|-----------|------------------------------------------------|-------------------------------------------------------|------------------------|
-| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 42af56e   | feat: add images folder and update index.html  | Se agregó la carpeta de imágenes y se actualizó index.html. | 20/09/2025             |
-| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 5eb6b3f   | feat: add images folder and update index.html  | Se agregó la carpeta de imágenes y se actualizó index.html. | 20/09/2025             |
-| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 457c4a0   | chore: SEO and Meta tags added                 | Se añadieron mejoras en SEO y meta etiquetas.          | 20/09/2025             |
-| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 626b448   | feat: merged sections & responsive             | Se fusionaron secciones y se mejoró la responsividad.  | 20/09/2025             |
-| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | c14157e   | chore: updated logo & index                    | Se actualizó el logo y la estructura principal.        | 20/09/2025             |
-| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 879b814   | feat: added features & purchase sections       | Se añadieron secciones de características y compras.   | 20/09/2025             |
-| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 6b06fef   | feat: added responsive hamburger menu          | Se implementó el menú hamburguesa responsive.          | 20/09/2025             |
-| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | c911dca   | feat: merged initial setup                     | Se realizó la configuración inicial y estructura básica de la landing page. | 19/09/2025             |
-| Apps-Web-Grupo-4-FruTech/Landing-Page              | main   | 31de6c2   | feat: initial setup for landing page           | Configuración inicial para la landing page.            | 19/09/2025             |
-
-Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos del Sprint, asegurando la trazabilidad y transparencia en el desarrollo de CultivApp.
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit</th>
+    <th>Date</th>
+ 
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Landing-Page</td>
+    <td>main</td>
+    <td>31de6c2</td>
+    <td>initial setup for landing page</td>
+    <td>2025-09-20</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Landing-Page</td>
+    <td>main</td>
+    <td>fddb888</td>
+    <td>feat: auth function</td>
+    <td>2025-10-7</td>
+  </tr>
+</table>
 
 **Reporte de commits:**
 ![Commits](/assets/commits.png)
@@ -2010,8 +2099,16 @@ En esta entrega, nos centramos en el desarrollo completo de la Landing Page para
 
 Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
-![NetworkGraph](/assets/networkgraph.png)
-
+* Hero: 
+![LandingPageHero](assets/landingpage-hero.png)
+* About Us:
+![LandingPageAboutUs](assets/landingpage-aboutus.png)
+* Features:
+![LandingPageFeatures](assets/landingpage-mainfeatures.png)
+* Pricing:
+![LandingPagePricing](assets/landingpage-pricing.png)
+* Sponsors:
+![LandingPageSponsors](assets/landingpage-sponsors.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -2021,8 +2118,8 @@ Para esta primera entrega no hubo implementación de APIs, pues solo se realizó
 
 El objetivo del primer Sprint fue el desarrollo e implementación de la Landing Page. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:
 
-1. Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page ![GithubOrg](/assets/organization.png)
-2. Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images. ![Commits-example](/assets/commits-example.png)
+1. Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page ![GithubOrg](assets/organization.png)
+2. Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images. ![Commits-example](assets/commits-example.png)
 3. Finalmente, se implementó GitHub Pages en el repositorio de GitHub y se desplegó la Landing Page, la que se puede visitar en el siguiente link: https://apps-web-grupo-4-frutech.github.io/Landing-Page/
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
@@ -2030,10 +2127,10 @@ El objetivo del primer Sprint fue el desarrollo e implementación de la Landing 
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
 
 - Insight Landing Page:
-![InsightLP](/assets/insightLP.png)
+![InsightLP](assets/insightLP.png)
 
 - Insight Report
-![InsightR](/assets/insightR.png)
+![InsightR](assets/insightR.png)
 
 ## 5.2.2. Sprint 2
 
@@ -2663,12 +2760,7 @@ A continuación se presenta la evidencia de desarrollo del Sprint 4, ordenada se
 
 ### 5.2.4.5.Execution Evidence for Sprint Review.
 
-En esta entrega nos centramos en el despliegue completo del backend y frontend de la aplicación CultivApp, asegurando una conexión funcional entre ambos.
-
-Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
-
-![NetworkGraphFront](assets/network_graph_front.png)
-![NetworkGraphBack](assets/network_graph_back.png)
+* pendiente deployment
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
@@ -2769,6 +2861,8 @@ Archivos de configuracion clave
 
 * Dockerfile: Utilizado para construir la imagen personalizada de la aplicación y facilitar el despliegue en Render.
 
+* pendiente imagenes
+
 ### 5.2.4.8.Team Collaboration Insights during Sprint.
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
 
@@ -2778,11 +2872,13 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 - Insight Report
 ![InsightR](/assets/insightR.png)
 
+* pendiente contribuciones :
+
 - Insight Backend
-![InsightB](/assets/insightsB.png)
+![InsightB](/assets/insightB.png)
 
 - Insight Frontend
-![InsightF](/assets/insightsF.png)
+![InsightF](/assets/insightF.png)
 
 # 5.3. Validation Interviews.
 
