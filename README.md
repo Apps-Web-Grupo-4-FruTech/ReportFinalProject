@@ -2571,13 +2571,15 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 
 <img src="assets/commits_sprint2.png" alt="Commits Sprint 2">
 
-<h2 id="523-sprint-3">5.2.3. Sprint 3</h2>
+--- 
 
-<h3 class="sprint-header-3">5.2.3.1. Sprint Planning 3</h3>
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
 
 <p>En esta sección se detalla la planificación del Backend Application de CultivApp.</p>
 
-<table border="1" class="sprint-table-3">
+<table border="1">
   <tr>
     <th width="30%">Sprint #</th>
     <th>Sprint 3</th>
@@ -2627,45 +2629,45 @@ las funciones de diseño, codificación, validación y despliegue de la solució
   </tr>
 </table>
 
-<h3 class="sprint-header-3">5.2.3.2. Aspect Leaders and Collaborators</h3>
+### 5.2.3.2. Aspect Leaders and Collaborators
 
-<table class="sprint-table-3">
+<table border="1">
     <thead>
         <tr>
             <th>Team Member</th>
-            <th>GitHub User</th>
-            <th>Declaración Resp.</th>
-            <th>Endpoints Dev</th>
-            <th>Deployment</th>
+            <th>GitHub Username</th>
+            <th>Endpoints Development</th>
+            <th>Swagger Documentation</th>
+            <th>Deploy</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Bonifacio, Samuel</td>
             <td>samuelbonifacio015</td>
-            <td>Collaborator</td>
-            <td>Collaborator</td>
-            <td>Collaborator</td>
+            <td>L</td>
+            <td>L</td>
+            <td>C</td>
         </tr>
         <tr>
             <td>Castro, Jefferson</td>
             <td>JeffersonCastroPariona</td>
-            <td>C</td>
-            <td>C</td>
+            <td>L</td>
+            <td>L</td>
             <td>C</td>
         </tr>
         <tr>
             <td>Via, Bruce</td>
             <td>Shukaritas</td>
             <td>L</td>
-            <td>C</td>
-            <td>C</td>
+            <td>L</td>
+            <td>L</td>
         </tr>
         <tr>
             <td>Solis, Estefano</td>
             <td>Estefano-Solis-C</td>
             <td>L</td>
-            <td>C</td>
+            <td>L</td>
             <td>L</td>
         </tr>
         <tr>
@@ -2673,16 +2675,14 @@ las funciones de diseño, codificación, validación y despliegue de la solució
             <td>Serkekes2006</td>
             <td>L</td>
             <td>L</td>
-            <td>C</td>
+            <td>L</td>
         </tr>
     </tbody>
 </table>
 
-<h3 class="sprint-header-3">5.2.3.3. Sprint Backlog 3</h3>
+### 5.2.3.3. Sprint Backlog 3
 
-</style>
-
-<table class="backlog-table-bw">
+<table border="1">
     <thead>
         <tr>
             <th colspan="7" style="font-size: 1.1em; text-transform: uppercase;">Sprint # Sprint 3</th>
@@ -2780,29 +2780,110 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 ### 5.2.3.4.	Development Evidence for Sprint Review.
 Aqui se muestra la evidencia técnica del trabajo realizado (qué se hizo, por quién y cuándo), facilita la verificación del cumplimiento de las historias de usuario y permite auditar cambios para la demo y la revisión del sprint. 
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) | Author (GitHub) |
-|---|---|---|---|---|---:|---|
-| .../Backend-FruTech | *Samuel* | `c4a9b1f` | *feat(auth): Add user registration endpoint* | *Implements POST /auth/register. Adds validation and password hashing.* | 10/11/2025 | *samuelbonifacio015* |
-| .../Backend-FruTech | *Jefferson* | `e2g8f5d` | *feat(auth): Implement login endpoint with JWT* | *Creates POST /auth/login. Returns a JWT token on success.* | 10/11/2025 | *JeffersonCastroPariona* |
-| .../Backend-FruTech | *Bruce* | `f9g1h2i` | *feat(auth): Create password recovery service* | *Adds POST /auth/recover. Generates reset token and sends email.* | 11/11/2025 | *Shukaritas* |
-| .../Backend-FruTech | *Estefano* | `h3i4j5k` | *feat(users): Add endpoint to edit user profile* | *Implements PUT /users/profile. Allows user to update their data.* | 11/11/2025 | *Estefano-Solis-C* |
-| .../Backend-FruTech | *Samuel* | `k6l7m8n` | *feat(crops): Create endpoint to register new crops* | *Implements POST /crops for new crop registration by authenticated user.* | 12/11/2025 | *samuelbonifacio015* |
-| .../Backend-FruTech | *Jefferson* | `m9n1o2p` | *feat(crops): Add delete crop endpoint* | *Implements DELETE /crops/:id. Adds ownership check.* | 12/11/2025 | *JeffersonCastroPariona* |
-| .../Backend-FruTech | *Bruce* | `a1b2c3d` | *feat(crops): Add update crop endpoint* | *Implements PUT /crops/:id to update crop information.* | 13/11/2025 | *Shukaritas* |
-| .../Backend-FruTech | *Bruce* | `p3q4r5s` | *feat(fields): Create endpoint to register fields* | *Implements POST /fields to create a new field, unlinked from a crop.* | 13/11/2025 | *Gaftherman* |
-| .../Backend-FruTech | *Sergio* | `s6t7u8v` | *feat(fields): Add endpoint to publish a field* | *Implements PATCH /fields/:id/publish to toggle field visibility.* | 13/11/2025 | *Serkekes2006* |
-| .../Backend-FruTech | *Samuel* | `b6c7d8e` | *feat(fields): Add endpoint to link crop to field* | *Creates POST /fields/:id/link. Associates a crop with a field.* | 14/11/2025 | *samuelbonifacio015* |
-| .../Backend-FruTech | *Sergio* | `v9w1x2y` | *feat(fields): Extend field model with additional data* | *Adds 'conditions' and 'issues' properties to the Field database model.* | 14/11/2025 | *Serkekes2006* |
-| .../Backend-FruTech | *Estefano* | `y3z4a5b` | *fix(auth): Add duplicate user validation on register* | *Updates registration service to check for existing email/username.* | 15/11/2025 | *Estefano-Solis-C* |
-| .../Backend-FruTech | *Bruce* | `e9f1a2b` | *feat(system): Add health check endpoint* | *Creates GET /health endpoint for system availability monitoring.* | 15/11/2025 | *Shukaritas* |
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>c4a9b1f</td>
+    <td>feat(auth): Add user registration endpoint</td>
+    <td>2025-11-10</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>e2g8f5d</td>
+    <td>feat(auth): Implement login endpoint with JWT</td>
+    <td>2025-11-10</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>f9g1h2i</td>
+    <td>feat(auth): Create password recovery service</td>
+    <td>2025-11-11</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>h3i4j5k</td>
+    <td>feat(users): Add endpoint to edit user profile</td>
+    <td>2025-11-11</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>k6l7m8n</td>
+    <td>feat(crops): Create endpoint to register new crops</td>
+    <td>2025-11-12</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>m9n1o2p</td>
+    <td>feat(crops): Add delete crop endpoint</td>
+    <td>2025-11-12</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>a1b2c3d</td>
+    <td>feat(crops): Add update crop endpoint</td>
+    <td>2025-11-13</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>p3q4r5s</td>
+    <td>feat(fields): Create endpoint to register fields</td>
+    <td>2025-11-13</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>s6t7u8v</td>
+    <td>feat(fields): Add endpoint to publish a field</td>
+    <td>2025-11-13</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>b6c7d8e</td>
+    <td>feat(fields): Add endpoint to link crop to field</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>v9w1x2y</td>
+    <td>feat(fields): Extend field model with additional data</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>y3z4a5b</td>
+    <td>fix(auth): Add duplicate user validation on register</td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
+    <td>main</td>
+    <td>e9f1a2b</td>
+    <td>feat(system): Add health check endpoint</td>
+    <td>2025-11-15</td>
+  </tr>
+</table>
 
 ### 5.2.3.5.	Execution Evidence for Sprint Review.
 
-#### Avances — Backend‑FruTech
-
-El equipo ha trabajado de manera enfocada en el repositorio **Backend‑FruTech**, logrando completar exitosamente el 100% de las 13 Historias de Usuario (US) planificadas.
-
-**Avances por módulos funcionales clave:**
+En esta entrega, nos centramos en el desarrollo completo de los Web Services. Como objetivo principal, implementamos endpoints REST para cubrir las funcionalidades definidas en las Historias de Usuario. Estos servicios permiten la gestión de usuarios, cultivos y campos, integrándose con una base de datos MySQL para persistencia de datos.
 
 - **Módulo de Gestión de Campos** (US08, US09, US10, US12, US15)  
   - Registrar campos (US08).  
@@ -2810,7 +2891,7 @@ El equipo ha trabajado de manera enfocada en el repositorio **Backend‑FruTech*
   - Vincular campos con cultivos (US10).  
   - Extensión del modelo de datos para incluir condiciones/problemas del campo (US12).
 
-Evidences
+Es por ello que se comparte las evidencias de para corroborar el trabajo hecho por cada uno de los participantes:
 
 <img src="assets/ev1.jpeg" alt="Evidencia de Ejecucion">
 
@@ -2824,33 +2905,12 @@ Además, se implementó un endpoint de health check para monitorear la disponibi
 
 ### 5.2.3.6.	Services Documentation Evidence for Sprint Review.
 
-## Documentación de Endpoints (OpenAPI)
+En esta sección se presenta la documentación de los Web Services (API) implementada durante el Sprint 3. Todos los 13 endpoints desarrollados para las Historias de Usuario han sido documentados siguiendo el estándar OpenAPI 3.0. La documentación se generó mediante anotaciones Swagger en el backend, garantizando sincronía entre implementación y documentación. 
 
-### Introducción
-En esta sección se presenta la documentación de los Web Services (API) implementada durante el Sprint 3. Todos los 13 endpoints desarrollados para las Historias de Usuario (US01–US19) han sido documentados siguiendo el estándar OpenAPI 3.0. La documentación se generó mediante anotaciones Swagger en el backend, garantizando sincronía entre implementación y documentación. Está disponible vía Swagger UI en local para pruebas e inspección.
+<img src="assets/Deploy.jpeg" alt="Despliegue Completo">
 
-- URL de la Documentación (Local): http://localhost:3000/api-docs (reemplazar 3000 si el puerto difiere)
-
-### Repositorio y Commits de Documentación
-Repositorio principal del backend y la documentación:
+Repositorio principal del backend:
 - https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
-
-Commits relacionados con documentación OpenAPI / Swagger (referencia):
-| Commit Id | Commit Message | Commited on (Date) | Author |
-|---|---|---:|---|
-| 8a9f2b1 | docs(swagger): Initial setup for OpenAPI | 10/11/2025 | Estefano-Solis-C |
-| c3d4e5f | docs(auth): Document auth endpoints (login, register) | 11/11/2025 | Shukaritas |
-| f6g7h8i | docs(crops): Add documentation for crops module | 13/11/2025 | samuelbonifacio015 |
-| j9k1l2m | docs(fields): Document fields endpoints and auth | 14/11/2025 | JeffersonCastroPariona |
-
-> Nota: Para localizar commits en el historial local, usar git log --grep="docs" o git log --grep="swagger".
-
----
-
-### Observaciones finales
-- La documentación OpenAPI está embebida en el código mediante anotaciones Swagger y se expone en Swagger UI para pruebas interactivas.  
-- Se recomienda publicar la URL de Swagger en el entorno de staging/producción y añadir casos de prueba automatizados que verifiquen los contratos (responses/validation) para evitar regresiones.
-
 
 ### 5.2.3.7.	Software Deployment Evidence for Sprint Review.
 
@@ -2883,7 +2943,7 @@ A continuación se detallan los pasos realizados y la evidencia correspondiente.
 <img src="assets/Deploy.jpeg" alt="Despliegue Completo">
 
 
-**Url des depliegue:** https://backend-frutech-production.up.railway.app/swagger/index.html
+**Url des depliegue:** * pendiente url
 
 ### 5.2.3.8.	Team Collaboration Insights during Sprint.
 
@@ -2897,26 +2957,6 @@ las decisiones de funcionalidad del Backend, union y despliegue.
 **Evidencia de colaboración en GitHub (Sprint 3)**
 
 <img src="assets/Commits_Evidence.jpeg" alt="Colaboracion de Commits">
-
-
-## Team Collaboration Insights during Sprint
-
-### Pilares de la colaboración
-
-1. Comunicación y sincronización (Ceremonias ágiles)  
-   - Daily Scrum: reuniones diarias de 15 minutos para compartir avances, planes e impedimentos.  
-   - Ejemplo: US10 (Samuel) dependía de US08 (Estefano); se priorizó la revisión de US08 tras detectarlo en el Daily.  
-   - Comunicación asincrónica en Discord para dudas rápidas y coordinación fuera de horario.
-
-2. Flujo de trabajo colaborativo (GitHub y Code Reviews)  
-   - Ramas por desarrollador (ej.: jefferson, samuel, estefano) para trabajo paralelo y reducir conflictos.  
-   - Pull Requests obligatorios con, al menos, una aprobación antes de merge.  
-   - Beneficios: calidad de código, transferencia de conocimiento y reducción de bugs en la rama principal.
-
-3. Gestión de tareas y transparencia (Sprint Backlog)  
-   - Sprint Backlog como fuente única de verdad: asignación clara de cada US y estados (To-do / In Process / To Review / Done).  
-   - Actualizaciones constantes del estado permitieron autoorganización del equipo.  
-   - Resultado: todas las 13 US del sprint marcadas como "Done" al cierre.
 
 
 <h2 id="524-sprint-4">5.2.4. Sprint 4</h2>
