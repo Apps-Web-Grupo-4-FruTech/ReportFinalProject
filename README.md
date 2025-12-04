@@ -98,6 +98,8 @@
 | 1.7     | 21/09/2025 | Estefano-Solis-C                                                                                | Adición de **Capítulos VI, VII y VIII**: Conclusiones, Bibliografía y Anexos. Actualizaciones finales de diagramas.      |
 | 1.8     | 10/10/2025 | Shukaritas, Serkekes2006, samuelbonifacio015, Gaftherman, Estefano-Solis-C                                                                               | Deploy de **Web Frontend Application**. Creación y deploy de db.json. Actualización de documentación en Report Final Project. Función de autenticación de usuario y redireccionamiento a Frontend en LP.   |
 | 1.9    | 16/11/2025 | Shukaritas, Serkekes2006, samuelbonifacio015, Gaftherman, Estefano-Solis-C                                                                                | Deploy de **Backend**. Creación y deploy de base de datos. Actualización de documentación en Report Final Project. Funcion de subir, llamar y editar datos desdel el backend.   |
+| 1.10    | 03/12/2025 | Shukaritas, Serkekes2006, samuelbonifacio015, Gaftherman, Estefano-Solis-C                                                                                | Actualización de documentación en Report Final Project. Integración de evidencias técnicas y de colaboración del equipo.   |
+| 1.11    | 4/12/2025 | Shukaritas, Serkekes2006, samuelbonifacio015, Gaftherman, Estefano-Solis-C                                                                                | Correción de errores y formato en documento de informe ReporteTF.   |
 
 </div>
 
@@ -219,6 +221,40 @@ Para el desarrollo del informe perteneciente a la entrega del TB2, se dividió l
   </tbody>
 </table>
 
+**TF**
+
+Para el desarrollo del informe perteneciente a la entrega del TF, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<table>
+  <thead>
+    <tr>
+      <th> Integrantes</th>
+      <th> Tarea Asignada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th> Landa Ortiz, Sergio Javier</th>
+      <th> Integración de Frontend con Backend y conexión</th>
+    </tr>
+    <tr>
+      <th> Solis Campos, Estefano Sebastian</th>
+      <th> Integración de Frontend con Backend y conexión</th>
+    </tr>
+    <tr>
+      <th> Via Luna, Bruce</th>
+      <th> Integración de Frontend con Backend y conexión</th>
+    </tr>
+    <tr>
+      <th> Castro Pariona, Jefferson Ernesto</th>
+      <th> Documentación de Sprint 4</th>
+    </tr>
+    <tr>
+      <th> Bonifacio Jaramillo, Samuel Jesus</th>
+      <th> Documentación de Sprint 4 </th>
+    </tr>
+  </tbody>
+</table>
 
 # Contenido
 
@@ -323,10 +359,84 @@ Para el desarrollo del informe perteneciente a la entrega del TB2, se dividió l
 8. [Anexos](#anexos)<br>
 
 # Student Outcome
-| Criterio específico | Acciones realizadas | Conclusión general |
-|---|---|---|
-| 5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta | <p><strong>Landa Ortiz, Sergio Javier</strong><br>TB1: Lideró la redacción del Capítulo I (introducción, startup profile y estructura del informe).</p><p>TP1: Coordinó la edición final del informe, armonizó estilo y referencias, y validó coherencia entre artefactos (user personas, hipótesis y backlog).</p><p></p>TB2: Realizacion del bounded context CommunityRecommendations <p> <br><strong>Solis Campos, Estefano Sebastian</strong><br>TB1: Diseñó y ejecutó guiones de entrevista para el Capítulo II; recopiló y organizó evidencias.</p><p>TP1: Profundizó el análisis cualitativo, redactó el Needfinding y las User Personas, y presentó hallazgos con evidencia citada.</p><p></p>TB2: Implementación de los endpoints de UserRecommendations y ejecución del deploy del proyecto junto con la base de datos en la plataforma Railway. <p> <br><strong>Via Luna, Bruce</strong><br>TB1: Redactó las user stories y entregó los primeros diagramas del Capítulo III; identificó entidades y relaciones.</p><p>TP1: Refinó los diagramas C4 y de clases, modeló la base de datos y documentó decisiones técnicas para futuras implementaciones.</p><p></p>TB2: Implementación de los endpoints de Field y CropField <p><br><strong>Castro Pariona, Jefferson Ernesto</strong><br>TB1: Diseñó la guía visual del Capítulo IV y los wireframes iniciales de la landing.</p><p>TP1: Creó prototipos interactivos en Figma, generó assets y definió pautas de estilo para implementación frontend.</p><p></p>TB2: Distribución  de actividades de manera equitativa. Desarrollar el trabajo en equipo nos permitió desarrollar habilidades de liderazgo y desarrollo de habilidades blandas.  <p><br><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>TB1: Contribuyó en el desarrollo del landing y las secciones técnicas del Capítulo V.</p><p>TP1: Implementó la estructura inicial del frontend, realizó commits organizados, desplegó en GitHub Pages y documentó pasos de despliegue.</p></p>TB2: Desarrollo de el endpoint de CommunityRecommendations.  <p> | El equipo demostró capacidad de liderazgo compartido: integró investigación, diseño y trabajo técnico para orientar el proyecto y consolidar un entregable coherente. |
-| 5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <p><strong>Landa Ortiz, Sergio Javier</strong><br>TB1: Definió la fecha de entrega y objetivos iniciales; facilitó coordinación de reuniones.</p><p>TP1: Supervisó la planificación de entregables, verificó cumplimiento de hitos y gestionó ajustes de alcance.</p><p></p>TB2: Establecimiento y ejecucion del desarrollo del enpoint estimado dentro del tiempo limite. <p> <br><strong>Solis Campos, Estefano Sebastian</strong><br>TB1: Organizó el equipo para ejecutar entrevistas de campo y validación.</p><p>TP1: Documentó y consolidó la evidencia de entrevistas, generó resúmenes ejecutivos y orientó la priorización de hallazgos.</p><p></p>TB2: Lideró la unificación y combinación de los módulos del backend para garantizar la operatividad del sistema y la integridad de la base de datos. <p> <br><strong>Via Luna, Bruce</strong><br>TB1: Diseñó el Product Backlog y priorizó historias para el Sprint 1.</p><p>TP1: Mantuvo y refinó el backlog, asignó historias y facilitó la planificación y seguimiento del sprint.</p><p></p>TB2: Organizo y unifico los commits iniciales para iniciar el deasrrollo final. <p> <br><strong>Castro Pariona, Jefferson Ernesto</strong><br>TB1: Configuró el entorno de diseño en Figma y coordinó la colaboración visual.</p><p>TP1: Lideró la creación de prototipos y estableció las guías de interacción necesarias para el equipo de frontend.</p><p></p>TB2: Desarrollo de bounded context Tasks, prueba de conectividad con las apis Edit, Get, Put de Tasks. Apoyo en el desarrollo de la documentación correspondiente a la TB2, desarrollo de diapositivas KeyNote de este entregable. <p> <br><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>TB1: Coordinó la estructura del repositorio y fomentó contribuciones al código.</p><p>TP1: Implementó componentes iniciales, aplicó estilos globales, verificó despliegues y documentó el proceso para replicación.</p> TB2: Contribuyó en el desarrollo del backend y las secciones técnicas del Capítulo V. <p> <br>| El equipo estableció procesos claros y colaborativos que permitieron cumplir metas y entregar evidencias técnicas y de diseño en tiempo, facilitando la continuidad del proyecto. |
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusión general</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td>
+      
+  <p><strong>Landa Ortiz, Sergio Javier</strong><br>
+  TB1: Lideró la redacción del Capítulo I (introducción, startup profile y estructura del informe).</p>
+  <p>TP1: Coordinó la edición final del informe, armonizó estilo y referencias, y validó coherencia entre artefactos (user personas, hipótesis y backlog).</p>
+  <p>TB2: Realización del bounded context CommunityRecommendations</p>
+  <p>TF: Integración de Frontend con Backend y conexión de funcionalidades principales.</p>
+  
+  <p><strong>Solis Campos, Estefano Sebastian</strong><br>
+  TB1: Diseñó y ejecutó guiones de entrevista para el Capítulo II; recopiló y organizó evidencias.</p>
+  <p>TP1: Profundizó el análisis cualitativo, redactó el Needfinding y las User Personas, y presentó hallazgos con evidencia citada.</p>
+  <p>TB2: Implementación de los endpoints de UserRecommendations y ejecución del deploy del proyecto junto con la base de datos en la plataforma Railway.</p>
+  <p>TF: Coordinación general del sprint, integración de módulos y supervisión del despliegue final.</p>
+  
+  <p><strong>Via Luna, Bruce</strong><br>
+  TB1: Redactó las user stories y entregó los primeros diagramas del Capítulo III; identificó entidades y relaciones.</p>
+  <p>TP1: Refinó los diagramas C4 y de clases, modeló la base de datos y documentó decisiones técnicas para futuras implementaciones.</p>
+  <p>TB2: Implementación de los endpoints de Field y CropField</p>
+  <p>TF: Desarrollo de pruebas de integración y validación de conexiones entre servicios.</p>
+  
+  <p><strong>Castro Pariona, Jefferson Ernesto</strong><br>
+  TB1: Diseñó la guía visual del Capítulo IV y los wireframes iniciales de la landing.</p>
+  <p>TP1: Creó prototipos interactivos en Figma, generó assets y definió pautas de estilo para implementación frontend.</p>
+  <p>TB2: Distribución de actividades de manera equitativa. Desarrollar el trabajo en equipo nos permitió desarrollar habilidades de liderazgo y desarrollo de habilidades blandas.</p>
+  <p>TF: Documentación de Sprint 4 y elaboración de diapositivas de presentación.</p>
+  
+  <p><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>
+  TB1: Contribuyó en el desarrollo del landing y las secciones técnicas del Capítulo V.</p>
+  <p>TP1: Implementó la estructura inicial del frontend, realizó commits organizados, desplegó en GitHub Pages y documentó pasos de despliegue.</p>
+  <p>TB2: Desarrollo del endpoint de CommunityRecommendations.</p>
+  <p>TF: Documentación técnica de servicios y elaboración de guías de implementación.</p>
+</td>
+      <td>El equipo demostró capacidad de liderazgo compartido: integró investigación, diseño y trabajo técnico para orientar el proyecto y consolidar un entregable coherente.</td>
+    </tr>
+    <tr>
+      <td>5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+      <td>
+        <p><strong>Landa Ortiz, Sergio Javier</strong><br>
+        TB1: Definió la fecha de entrega y objetivos iniciales; facilitó coordinación de reuniones.</p>
+        <p>TP1: Supervisó la planificación de entregables, verificó cumplimiento de hitos y gestionó ajustes de alcance.</p>
+        <p>TB2: Establecimiento y ejecucion del desarrollo del enpoint estimado dentro del tiempo limite.</p>
+        
+  <p><strong>Solis Campos, Estefano Sebastian</strong><br>
+  TB1: Organizó el equipo para ejecutar entrevistas de campo y validación.</p>
+  <p>TP1: Documentó y consolidó la evidencia de entrevistas, generó resúmenes ejecutivos y orientó la priorización de hallazgos.</p>
+  <p>TB2: Lideró la unificación y combinación de los módulos del backend para garantizar la operatividad del sistema y la integridad de la base de datos.</p>
+  
+  <p><strong>Via Luna, Bruce</strong><br>
+  TB1: Diseñó el Product Backlog y priorizó historias para el Sprint 1.</p>
+  <p>TP1: Mantuvo y refinó el backlog, asignó historias y facilitó la planificación y seguimiento del sprint.</p>
+  <p>TB2: Organizo y unifico los commits iniciales para iniciar el deasrrollo final.</p>
+  
+  <p><strong>Castro Pariona, Jefferson Ernesto</strong><br>
+  TB1: Configuró el entorno de diseño en Figma y coordinó la colaboración visual.</p>
+  <p>TP1: Lideró la creación de prototipos y estableció las guías de interacción necesarias para el equipo de frontend.</p>
+  <p>TB2: Desarrollo de bounded context Tasks, prueba de conectividad con las apis Edit, Get, Put de Tasks. Apoyo en el desarrollo de la documentación correspondiente a la TB2, desarrollo de diapositivas KeyNote de este entregable.</p>
+  
+  <p><strong>Bonifacio Jaramillo, Samuel Jesus</strong><br>
+  TB1: Coordinó la estructura del repositorio y fomentó contribuciones al código.</p>
+  <p>TP1: Implementó componentes iniciales, aplicó estilos globales, verificó despliegues y documentó el proceso para replicación.</p>
+  <p>TB2: Contribuyó en el desarrollo del backend y las secciones técnicas del Capítulo V.</p>
+</td>
+<td>El equipo estableció procesos claros y colaborativos que permitieron cumplir metas y entregar evidencias técnicas y de diseño en tiempo, facilitando la continuidad del proyecto.</td>
+</tr>
+  </tbody>
+</table>
 
 # Capítulo I: Introducción
 
@@ -1737,6 +1847,24 @@ These are diagrams that visually represent the path a user takes within a web ap
 
 Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de bocetos visuales o modelos preliminares de una aplicación antes de su implementación completa. 
 
+* HU01: 
+![HU01](/assets/web-app-prototyping/HU01.png)
+
+* HU02:
+![HU02](/assets/web-app-prototyping/HU02.png)
+
+* HU03:
+![HU03](/assets/web-app-prototyping/HU03.png)
+
+* HU04:
+![HU04](/assets/web-app-prototyping/HU04.png)
+
+* HU05:
+![HU05](/assets/web-app-prototyping/HU05.png)
+
+* HU06:
+![HU06](/assets/web-app-prototyping/HU06.png)
+
 [Ver video de Landing Page en Google Drive](https://drive.google.com/file/d/1qCTM9e2YOJkWyPt9eAu8up6ohTb8QGHl/view?usp=sharing)
 
 ## 4.6. Domain-Driven Software Architecture.
@@ -2089,9 +2217,6 @@ En esta sección se detalla la reunion de planificación para iniciar con el des
   </tr>
 </table>
 
-**Reporte de commits:**
-![Commits](/assets/commits.png)
-
 ---
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
@@ -2138,6 +2263,9 @@ El objetivo del primer Sprint fue el desarrollo e implementación de la Landing 
 | Todo el equipo | - Desarrollo de Mockups y Landing Page<br>- Documentación de Sprint 1<br>- Subida al repositorio y despliegue |
 
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
+
+**Reporte de commits:**
+![Commits](/assets/commits.png)
 
 - Insight Landing Page:
 ![InsightLP](assets/insightLP.png)
@@ -3766,9 +3894,15 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 
 ### Video About-the-Team
 
+En esta sección presentamos el video About The Team. Este documenta el proceso de desarrollo de la aplicación, mostrando imágenes y clips de sesiones reales de trabajo colaborativo entre los integrantes del equipo.
+
+A través de una narración fluida, se explican las distintas etapas del proyecto: desde la ideación inicial de FruTech, pasando por las fases de diseño y desarrollo, hasta llegar a su implementación. Los testimonios de los miembros del equipo enriquecen la experiencia, detallando las tareas que cada uno desempeñó, los desafíos que enfrentaron y las soluciones implementadas.
+
+Además, se destacan los logros alcanzados, como la integración de funcionalidades clave para facilitar la creacion de campos de cultivo, la colaboración con agricultores locales y la creación de una interfaz intuitiva y accesible para todos los usuarios.
+
 **Cuadro Representativo del Video**
 
-![AboutTheTeam](/assets/about_the_team_video.png)
+![AboutTheTeam](assets/about_the_team_video.png)
 
 **Url del video:**
 
