@@ -2571,13 +2571,15 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 
 <img src="assets/commits_sprint2.png" alt="Commits Sprint 2">
 
-## 5.2.3. Sprint 3
+<h2 id="523-sprint-3">5.2.3. Sprint 3</h2>
 
-### 5.2.3.1. Sprint Planning 3
+<h3 class="sprint-header-3">5.2.3.1. Sprint Planning 3</h3>
 
-<table class="sprint-table">
+<p>En esta sección se detalla la planificación del Backend Application de CultivApp.</p>
+
+<table border="1" class="sprint-table-3">
   <tr>
-    <th>Sprint #</th>
+    <th width="30%">Sprint #</th>
     <th>Sprint 3</th>
   </tr>
   <tr>
@@ -2598,37 +2600,22 @@ las funciones de diseño, codificación, validación y despliegue de la solució
   </tr>
   <tr>
     <td>Attendees (to planning meeting)</td>
-    <td>
-      Landa Ortiz, Sergio Javier<br>
-      Solis Campos, Estefano Sebastián<br>
-      Via Luna, Bruce<br>
-      Castro Pariona, Jefferson Ernesto<br>
-      Bonifacio Jaramillo, Samuel Jesus<br>
-    </td>
+    <td>Landa Ortiz, Sergio Javier<br>Solis Campos, Estefano Sebastián<br>Via Luna, Bruce<br>Castro Pariona, Jefferson Ernesto<br>Bonifacio Jaramillo, Samuel Jesus</td>
   </tr>
   <tr>
     <td>Sprint n – 3 Review Summary</td>
-    <td>
-      Se completó el <b>backend en Rider</b> (Get, Post, Push, Update),
-      conexion a una base de datos MySQL en una <i>real API</i>
-    </td>
+    <td>Se completó el backend en Rider (Get, Post, Push, Update), conexión a una base de datos MySQL en una real API.</td>
   </tr>
   <tr>
     <td>Sprint n – 3 Retrospective Summary</td>
-    <td>
-      <b>Positivo:</b> Mejor coordinacion y tiempos de desarrollo.<br>
-      <b>A mejorar:</b> Declaracion de Commits y metodos shared<br>
-      <b>Acción:</b> Aplicar desarrollo backend y guia de endpoints
-    </td>
+    <td>Positivo: Mejor coordinación y tiempos de desarrollo. <br> A mejorar: Declaración de Commits y métodos shared. <br> Acción: Aplicar desarrollo backend y guía de endpoints.</td>
   </tr>
   <tr>
-    <td colspan="2" class="section">Sprint Goal &amp; User Stories</td>
+    <td colspan="2">Sprint Goal & User Stories</td>
   </tr>
   <tr>
-    <td>Sprint n Goal</td>
-    <td>
-      Consolidar la app integrando completamente el CRUD con la <i>real API</i>, creando esta misma y desplegandola para tener un funcionamiento a una api subida en la nube y proxima conexion con el Front-end
-    </td>
+    <td>Sprint n Goal </td>
+    <td>Consolidar la app integrando completamente el CRUD con la real API, creando esta misma y desplegándola para tener un funcionamiento a una api subida en la nube y próxima conexión con el Front-end.</td>
   </tr>
   <tr>
     <td>Sprint n Velocity</td>
@@ -2640,44 +2627,155 @@ las funciones de diseño, codificación, validación y despliegue de la solució
   </tr>
 </table>
 
-### 5.2.3.2.   Aspect Leaders and Collaborators.
-En esta sección se presenta la matriz de liderazgo y colaboración (Leadership-and-Collaboration Matrix, LACX) para el Sprint 3 de CultivApp. Esta matriz identifica, para cada aspecto clave del Sprint, quién es el líder responsable y quiénes son los colaboradores, facilitando así la comunicación y la asignación de tareas dentro del equipo. 
+<h3 class="sprint-header-3">5.2.3.2. Aspect Leaders and Collaborators</h3>
 
-Los aspectos considerados en este Sprint incluyen: diseño de la landing page, desarrollo de funcionalidades de registro e inicio de sesión, implementación de la barra de navegación, y configuración del footer con enlaces de contacto y redes sociales.
+<table class="sprint-table-3">
+    <thead>
+        <tr>
+            <th>Team Member</th>
+            <th>GitHub User</th>
+            <th>Declaración Resp.</th>
+            <th>Endpoints Dev</th>
+            <th>Deployment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Bonifacio, Samuel</td>
+            <td>samuelbonifacio015</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+            <td>Collaborator</td>
+        </tr>
+        <tr>
+            <td>Castro, Jefferson</td>
+            <td>JeffersonCastroPariona</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Via, Bruce</td>
+            <td>Shukaritas</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Solis, Estefano</td>
+            <td>Estefano-Solis-C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td>Landa, Sergio</td>
+            <td>Serkekes2006</td>
+            <td>L</td>
+            <td>L</td>
+            <td>C</td>
+        </tr>
+    </tbody>
+</table>
 
-| Team Member (Apellido, Nombre)         | GitHub Username        | Declaracion de Responsabilidades| Desarrollo de Endpoints        |Desplegamiento de Backend y DataBase |
-|----------------------------------------|------------------------|---------------------|--------------------------|-----------------------|
-| Bonifacio, Samuel                      | samuelbonifacio015     | C                   | C                        | C                     | 
-| Castro, Jefferson                      | JeffersonCastroPariona | C                   | C                        | C                     |
-| Via, Bruce                             | Shukaritas             | L                   | C                        | C                     |           
-| Solis, Estefano                        | Estefano-Solis-C       | L                   | C                        | L                     |
-| Landa, Sergio                          | Serkekes2006           | L                   | L                        | C                     |
+<h3 class="sprint-header-3">5.2.3.3. Sprint Backlog 3</h3>
 
-**L:** Leader (Líder)  
-**C:** Collaborator (Colaborador)
+</style>
 
-Esta organización permite una asignación clara de responsabilidades y fomenta la colaboración efectiva durante el desarrollo del Sprint 3.
-
-### 5.2.3.3.	Sprint Backlog 3.
-
-| ID   | Title/Section                | Description                                                                                      | Estimation (Hours) | Assigned To                | Status       |
-|------|------------------------------|--------------------------------------------------------------------------------------------------|--------------------|----------------------------|--------------|
-| US19 | Disponibilidad de sistema    | Implementar y validar endpoint de health check y monitorización del sistema.                     | 3                  | Bruce Via                  | To-do        |
-| US21 | Autenticación (JWT)          | Implementar endpoints de registro/login en backend con JWT y refresco de token.                  | 6                  | Estefano-Solis-C           | To-do        |
-| US22 | Recuperar Contraseña (API)   | Endpoint para recuperación de contraseña y flujo de reset.                                       | 4                  | Bruce Via                  | To-do        |
-| US23 | Gestión de Usuarios (API)    | Endpoints para obtener, actualizar y validar perfiles de usuario.                                | 5                  | Estefano-Solis-C           | To-do        |
-| US24 | CRUD de Cultivos (API)       | Endpoints POST/GET/PUT/DELETE para cultivos con validaciones y pruebas.                          | 6                  | Samuel-Bonifacio           | To-do        |
-| US25 | CRUD de Campos (API)         | Endpoints para gestión completa de campos (incluye publish / link).                              | 5                  | Shukaritas                 | To-do        |
-| US26 | Relación Campo–Cultivo       | Implementar lógica y endpoint para vincular cultivos a campos (1:N).                             | 4                  | Samuel-Bonifacio           | To-do        |
-| US27 | Validaciones y Duplicados    | Implementar validaciones server-side y manejo de duplicados para registros críticos.             | 3                  | Estefano-Solis-C           | To-do        |
-| US28 | Documentación OpenAPI        | Completar especificación OpenAPI/Swagger para todos los endpoints implementados.                 | 3                  | Estefano-Solis-C           | To-do        |
-| US29 | Seguridad y Middleware       | Añadir middleware de autenticación/authorización y pruebas de roles.                              | 4                  | Serkekes2006               | To-do        |
-| US30 | Esquema BD y Migraciones     | Diseñar esquema relacional y preparar migraciones para producción (MySQL).                       | 4                  | Serkekes2006               | To-do        |
-
-**Leyenda de Status:**  
-To-do / InProcess / ToReview / Done
-
----
+<table class="backlog-table-bw">
+    <thead>
+        <tr>
+            <th colspan="7" style="font-size: 1.1em; text-transform: uppercase;">Sprint # Sprint 3</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="5">Work-Item/Task</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-do/In-Process/To-Review/Done)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>US08</td>
+            <td>Registro de campo</td>
+            <td>10</td>
+            <td>Implementar endpoint POST /fields y formulario frontend</td>
+            <td>3</td>
+            <td>Estefano-Solis-C</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US09</td>
+            <td>Publicar Campo</td>
+            <td>11</td>
+            <td>Crear lógica de visibilidad (PATCH /publish)</td>
+            <td>3</td>
+            <td>Serkekes2006</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US10</td>
+            <td>Vincular con cultivos</td>
+            <td>12</td>
+            <td>Desarrollar relación Many-to-One en DB y API</td>
+            <td>2</td>
+            <td>samuelbonifacio015</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US11</td>
+            <td>Señalaciones</td>
+            <td>13</td>
+            <td>Diseñar sistema de alertas visuales en Dashboard</td>
+            <td>4</td>
+            <td>JeffersonCastroPariona</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>US12</td>
+            <td>Datos adicionales</td>
+            <td>14</td>
+            <td>Extender modelo de datos para condiciones del suelo</td>
+            <td>3</td>
+            <td>Serkekes2006</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US13</td>
+            <td>Notificación de riego</td>
+            <td>15</td>
+            <td>Configurar servicio de notificaciones Push/Email</td>
+            <td>4</td>
+            <td>Shukaritas</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>US14</td>
+            <td>Recordatorio de datos</td>
+            <td>16</td>
+            <td>Implementar cron jobs para verificar antigüedad de datos</td>
+            <td>3</td>
+            <td>Estefano-Solis-C</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>US15</td>
+            <td>Gestionar usuarios</td>
+            <td>17</td>
+            <td>Crear panel de admin y validación de duplicados</td>
+            <td>3</td>
+            <td>Estefano-Solis-C</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 5.2.3.4.	Development Evidence for Sprint Review.
 Aqui se muestra la evidencia técnica del trabajo realizado (qué se hizo, por quién y cuándo), facilita la verificación del cumplimiento de las historias de usuario y permite auditar cambios para la demo y la revisión del sprint. 
@@ -2706,19 +2804,7 @@ El equipo ha trabajado de manera enfocada en el repositorio **Backend‑FruTech*
 
 **Avances por módulos funcionales clave:**
 
-- **Módulo de Autenticación y Usuarios** (US01, US02, US03, US04, US15)  
-  - Registro de nuevos usuarios (US01).  
-  - Autenticación / login con generación de JWT (US02).  
-  - Recuperación de contraseña y flujo de reset (US03).  
-  - Edición de perfil por el propio usuario (US04).  
-  - Validaciones de duplicados y gestión de usuarios (US15).
-
-- **Módulo de Gestión de Cultivos** (US05, US06, US07)  
-  - Registrar cultivos (US05).  
-  - Eliminar cultivos (US06).  
-  - Editar y actualizar datos de cultivos (US07).
-
-- **Módulo de Gestión de Campos** (US08, US09, US10, US12)  
+- **Módulo de Gestión de Campos** (US08, US09, US10, US12, US15)  
   - Registrar campos (US08).  
   - Publicar campos para visibilidad (US09).  
   - Vincular campos con cultivos (US10).  
@@ -2744,104 +2830,6 @@ Además, se implementó un endpoint de health check para monitorear la disponibi
 En esta sección se presenta la documentación de los Web Services (API) implementada durante el Sprint 3. Todos los 13 endpoints desarrollados para las Historias de Usuario (US01–US19) han sido documentados siguiendo el estándar OpenAPI 3.0. La documentación se generó mediante anotaciones Swagger en el backend, garantizando sincronía entre implementación y documentación. Está disponible vía Swagger UI en local para pruebas e inspección.
 
 - URL de la Documentación (Local): http://localhost:3000/api-docs (reemplazar 3000 si el puerto difiere)
-
-### Relación de Endpoints Documentados
-
-| Endpoint (Historia) | Verbo | Sintaxis de Llamada | Descripción breve |
-|---|---:|---|---|
-| US01: Registro | POST | /auth/register | Registra un nuevo usuario |
-| US02: Login | POST | /auth/login | Autentica usuario y devuelve JWT |
-| US03: Recuperar Pass | POST | /auth/recover | Inicia recuperación de contraseña |
-| US04: Editar Perfil | PUT | /users/profile | Actualiza perfil (protegido) |
-| US05: Registrar Cultivo | POST | /crops | Crea nuevo cultivo (protegido) |
-| US06: Eliminar Cultivo | DELETE | /crops/{id} | Elimina cultivo por ID (protegido) |
-| US07: Editar Cultivo | PUT | /crops/{id} | Actualiza cultivo por ID (protegido) |
-| US08: Registrar Campo | POST | /fields | Crea nuevo campo (protegido) |
-| US09: Publicar Campo | PATCH | /fields/{id}/publish | Cambia visibilidad de campo (protegido) |
-| US10: Vincular Cultivo | POST | /fields/{id}/link | Asocia cultivo a campo (protegido) |
-| US12: Datos Adicionales | PATCH | /fields/{id} | Registra datos adicionales en campo (protegido) |
-| US15: Gestionar Usuarios | GET | /users/check | Verifica existencia de email/usuario |
-| US19: Disponibilidad | GET | /health | Health check del sistema |
-
----
-
-### Detalle de Acciones y Ejemplos
-
-1. US01: Registro de Usuario (POST /auth/register)  
-   - Parámetros (Request Body): JSON con datos del usuario.  
-   - Ejemplo Request:
-   ```json
-   {
-     "username": "agricultor_prueba",
-     "email": "prueba@futech.com",
-     "password": "Password123!"
-   }
-   ```
-   - Respuesta Exitosa (201 Created): devuelve el objeto del usuario (sin contraseña).  
-   - Ejemplo Response:
-   ```json
-   {
-     "id": "123e4567-e89b-12d3-a456-426614174000",
-     "username": "agricultor_prueba",
-     "email": "prueba@futech.com",
-     "createdAt": "2025-11-16T12:00:00.000Z"
-   }
-   ```
-
-2. US02: Inicio de Sesión (POST /auth/login)  
-   - Parámetros (Request Body): JSON con credenciales.  
-   - Ejemplo Request:
-   ```json
-   {
-     "email": "prueba@futech.com",
-     "password": "Password123!"
-   }
-   ```
-   - Respuesta Exitosa (200 OK): devuelve JWT.
-   ```json
-   {
-     "message": "Login successful",
-     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIi..."
-   }
-   ```
-
-3. US05: Registrar Cultivo (POST /crops)  
-   - Parámetros (Request Body): JSON con datos del cultivo.  
-   - Ejemplo Request:
-   ```json
-   {
-     "name": "Tomate",
-     "variety": "Cherry",
-     "plantingDate": "2025-11-01"
-   }
-   ```
-   - Header: ruta protegida — Authorization: Bearer <token_JWT>  
-   - Respuesta Exitosa (201 Created): devuelve objeto del cultivo creado.
-   ```json
-   {
-     "id": "c76a5b21-a3b4-11e9-a2a3-2a2ae2dbc345",
-     "name": "Tomate",
-     "variety": "Cherry",
-     "plantingDate": "2025-11-01",
-     "userId": "123e4567-e89b-12d3-a456-426614174000"
-   }
-   ```
-
-> Nota: Los endpoints protegidos requieren el header Authorization con esquema Bearer y el token JWT obtenido en /auth/login.
-
----
-
-### Interacción con la Documentación (Swagger UI)
-- Captura 1: Exploración de Endpoints — vista principal con endpoints agrupados por etiquetas (Auth, Crops, Fields).  
-  [Pega aquí tu captura de pantalla de Swagger UI mostrando la lista de endpoints]
-
-- Captura 2: Prueba POST /auth/register — ejemplo de ejecución vía "Try it out" y respuesta 201 Created.  
-  [Pega aquí tu captura de pantalla de Swagger UI probando POST /auth/register]
-
-- Captura 3: Prueba de Endpoint Protegido — uso de "Authorize" para incluir JWT y prueba de POST /crops con respuesta 201 Created.  
-  [Pega aquí tu captura de pantalla de Swagger UI probando una ruta protegida]
-
----
 
 ### Repositorio y Commits de Documentación
 Repositorio principal del backend y la documentación:
@@ -2930,27 +2918,63 @@ las decisiones de funcionalidad del Backend, union y despliegue.
    - Actualizaciones constantes del estado permitieron autoorganización del equipo.  
    - Resultado: todas las 13 US del sprint marcadas como "Done" al cierre.
 
-## 5.2.4. Sprint 4
 
-### 5.2.4.1.Sprint Planning 4.
+<h2 id="524-sprint-4">5.2.4. Sprint 4</h2>
 
-| Elemento | Detalle |
-|-----------|----------|
-| **Sprint** | 4 - Despliegue de Backend y Frontend con conexión funcional |
-| **Sprint Planning Background** |  |
-| **Fecha** | 2/12/2025 |
-| **Hora** | 20:00 horas (GMT-5) |
-| **Lugar** | Reunión virtual mediante Google Meet |
-| **Preparado por** | [FruTech] |
-| **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Bruce Via, Estefano Solis, Sergio Landa ] |
-| **Sprint n-4 Review** | Se desplegó el backend y frontend nuevamente con la conexión necesario y documentación respectivo  |
-| **Sprint n-4 Retrospective** | Positivo: Mayor madurez del backend y mejor comprensión del flujo completo entre frontend–API.<br></br> A mejorar: Coordinar mejor los horarios de trabajo para evitar retrasos en las pruebas. <br></br>Acción: Implementar autenticación en el backend y Alinear endpoints finales con el frontend|
-| **Sprint Goal & User Stories** | Consolidar la integración del frontend con la API real, perfeccionar los módulos CRUD implementados, estabilizar la comunicación completa entre vistas y backend, y dejar lista la base para implementar autenticación. |
-| **Sprint 4 Velocity** | 16 Story Points |
-| **Sum of Story Points** | 16 |
+<h3 class="sprint-header-3">5.2.4.1. Sprint Planning 4</h3>
 
-#### Objetivo del Sprint
-Desplegar el backend y frontend de CultivApp con una conexión funcional entre ambos, asegurando que los usuarios puedan interactuar con la aplicación de manera efectiva.
+<p>En esta sección se detalla la planificación de la fase final: Seguridad, Auditoría y Optimización de CultivApp.</p>
+
+<table border="1" class="sprint-table-3">
+  <tr>
+    <th width="30%">Sprint #</th>
+    <th>Sprint 4</th>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-11-17</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>20:00 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Virtual (Google Meet)</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Via Luna, Bruce</td>
+  </tr>
+  <tr>
+    <td>Attendees</td>
+    <td>Landa Ortiz, Sergio Javier<br>Solis Campos, Estefano Sebastián<br>Via Luna, Bruce<br>Castro Pariona, Jefferson Ernesto<br>Bonifacio Jaramillo, Samuel Jesus</td>
+  </tr>
+  <tr>
+    <td>Sprint n – 4 Review Summary</td>
+    <td>Se implementaron las medidas de seguridad (Rate Limiting, Bloqueo de cuentas), el sistema de auditoría (Logs) y el monitoreo de salud del sistema. Se cerraron todas las tareas pendientes del Sprint 3.</td>
+  </tr>
+  <tr>
+    <td>Sprint n – 4 Retrospective Summary</td>
+    <td>Positivo: Cierre exitoso de deuda técnica y despliegue final estable. <br> A mejorar: Documentación de incidentes de seguridad en tiempo real. <br> Acción: Establecer protocolos de monitoreo post-despliegue y alertas automatizadas.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint n Goal </td>
+    <td>Asegurar la plataforma implementando bloqueo de cuentas por intentos fallidos, historial de cambios (logs) y monitoreo de disponibilidad, además de finalizar las notificaciones y optimizar la UX.</td>
+  </tr>
+  <tr>
+    <td>Sprint n Velocity</td>
+    <td>11 Story Points (Sprint Anterior)</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>14</td>
+  </tr>
+</table>
+
 
 ### 5.2.4.2. Aspect Leaders and Collaborators.
 
@@ -2968,23 +2992,91 @@ Desplegar el backend y frontend de CultivApp con una conexión funcional entre a
 ---
 ### 5.2.4.3.Sprint Backlog 4.
 
-### Sprint Backlog 4: Finalización de Backend API
-
-| **User Story** | | **Work-Item / Task (Implementación Backend)** | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Id** | **Title** | **Id** | **Title** | **Description** | **Est. (h)** | **Assigned To** | **Status** |
-| **US-01** | Registro y Auth | T-101 | Security & JWT Implementation | Implementar generación de Tokens, encriptación de contraseñas (BCrypt) y Middleware de autorización. | 5h | Estefano-Solis-C | Done |
-| **US-04** | Editar Perfil | T-102 | User Profile Update Logic | Endpoint PUT para actualizar datos del usuario. Incluye validación de unicidad de correo. | 3h | Estefano-Solis-C | Done |
-| **US-12** | Recomendaciones (Comunidad) | T-103 | Community Context Implementation | Desarrollo del Bounded Context `CommunityRecommendation` (visible en carpetas) para lógica de consejos expertos. | 6h | Samuel Bonifacio | To-Review |
-| **US-08** | Registro de Campo | T-201 | Fields CRUD Implementation | Implementar `FieldsController` y `FieldRepository` para crear y listar los terrenos del usuario. | 4h | Shukaritas | Done |
-| **US-05** | Registrar Cultivos | T-202 | CropFields Logic & Entity | Desarrollo de la entidad central `Crop` y su persistencia en base de datos. | 4h | Shukaritas | Done |
-| **US-10** | Vincular Cultivos | T-203 | Relationship Logic (Field-Crop) | Lógica de negocio para asignar un Cultivo existente a un Campo específico (Relación 1:N en BD). | 5h | Shukaritas | Done |
-| **US-06** | Eliminar/Editar Cultivos | T-204 | Crop Lifecycle Endpoints | Endpoints DELETE y PUT para gestión de cultivos. Incluye "Soft Delete" (marcar como inactivo en vez de borrar). | 3h | Shukaritas | To-Review |
-| **US-13** | Notificación Riego | T-301 | Task Generation Service | Servicio de dominio que calcula automáticamente las tareas de riego basadas en el tipo de cultivo. | 5h | JeffersonCastroPariona | Done |
-| **US-17** | Historial Cambios | T-302 | Audit/History Logging | Implementar lógica en `Tasks` para guardar un log cada vez que se completa o modifica una tarea. | 4h | JeffersonCastroPariona | Done |
-| **US-11** | Señalaciones | T-303 | Alerts & Signals Endpoint | API para enviar "flags" o alertas al frontend si una tarea (Task) está vencida. | 3h | JeffersonCastroPariona | Done |
-| **Global** | Integración | T-400 | Swagger & Documentation | Configuración final de Swagger UI para que el equipo de Frontend pueda probar los endpoints. | 2h | Estefano-Solis-C | Done |
-
+<table class="backlog-table-bw">
+    <thead>
+        <tr>
+            <th colspan="7" style="font-size: 1.1em; text-transform: uppercase;">Sprint # Sprint 4</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="5">Work-Item/Task</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-do/In-Process/To-Review/Done)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>US16</td>
+            <td>Bloqueo de cuenta</td>
+            <td>18</td>
+            <td>Implementar middleware de Rate Limiting y bloqueo tras 10 intentos</td>
+            <td>5</td>
+            <td>Serkekes2006</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US17</td>
+            <td>Creación de historial</td>
+            <td>19</td>
+            <td>Diseñar entidad AuditLog e implementar interceptores en Entity Framework</td>
+            <td>5</td>
+            <td>samuelbonifacio015</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US18</td>
+            <td>Atajos sencillos</td>
+            <td>20</td>
+            <td>Implementar breadcrumbs dinámicos y optimización de rutas en Frontend</td>
+            <td>3</td>
+            <td>JeffersonCastroPariona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US19</td>
+            <td>Disponibilidad de sistema</td>
+            <td>21</td>
+            <td>Configurar Health Check endpoint (/health) y dashboard de uptime</td>
+            <td>2</td>
+            <td>Shukaritas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US11</td>
+            <td>Señalaciones</td>
+            <td>13</td>
+            <td>Integración final de alertas visuales en UI y validación de estados</td>
+            <td>4</td>
+            <td>JeffersonCastroPariona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US13</td>
+            <td>Notificación de riego</td>
+            <td>15</td>
+            <td>Despliegue de servicio Worker para notificaciones Push/Email</td>
+            <td>4</td>
+            <td>Shukaritas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US14</td>
+            <td>Recordatorio de datos</td>
+            <td>16</td>
+            <td>Optimización de Cron Jobs para verificación de datos obsoletos</td>
+            <td>3</td>
+            <td>Estefano-Solis-C</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 5.2.4.4. Development Evidence for Sprint Review
 
