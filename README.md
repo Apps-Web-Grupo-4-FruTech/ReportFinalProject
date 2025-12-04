@@ -2778,9 +2778,8 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 </table>
 
 ### 5.2.3.4.	Development Evidence for Sprint Review.
-Aqui se muestra la evidencia técnica del trabajo realizado (qué se hizo, por quién y cuándo), facilita la verificación del cumplimiento de las historias de usuario y permite auditar cambios para la demo y la revisión del sprint. 
 
-<table>
+<table border="1">
   <tr>
     <th>Repository</th>
     <th>Branch</th>
