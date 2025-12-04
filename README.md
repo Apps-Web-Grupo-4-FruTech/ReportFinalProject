@@ -353,6 +353,15 @@ Para el desarrollo del informe perteneciente a la entrega del TF, se dividió la
    5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)<br>
    5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)<br>
    5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)<br>
+   5.2.4. [Sprint 4](#543-sprint-4)<br>
+   5.2.4.1. [Sprint Planning 4](#5241-sprint-planning-4)<br>
+   5.2.4.2. [Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)<br>
+   5.2.4.3. [Sprint Backlog 4](#5243-sprint-backlog-3)<br>
+   5.2.4.4. [Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)<br>
+   5.2.4.5. [Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)<br>
+   5.2.4.6. [Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)<br>
+   5.2.4.7. [Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)<br>
+   5.2.4.8. [Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
 6. [Conclusiones](#conclusiones)<br>
    6.1 [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)<br>
 7. [Bibliografía](#bibliografía)<br>
@@ -421,7 +430,8 @@ Para el desarrollo del informe perteneciente a la entrega del TF, se dividió la
   <p><strong>Via Luna, Bruce</strong><br>
   TB1: Diseñó el Product Backlog y priorizó historias para el Sprint 1.</p>
   <p>TP1: Mantuvo y refinó el backlog, asignó historias y facilitó la planificación y seguimiento del sprint.</p>
-  <p>TB2: Organizo y unifico los commits iniciales para iniciar el deasrrollo final.</p>
+  <p>TB2: Organizo y unifico los commits iniciales para iniciar el desarrollo final.</p>
+  <p>TF: Elabore reuniones y llamadas para verificar avances o comprobar que el equipo necesitaba ayuda durante el desarrollo de este</p>
   
   <p><strong>Castro Pariona, Jefferson Ernesto</strong><br>
   TB1: Configuró el entorno de diseño en Figma y coordinó la colaboración visual.</p>
@@ -1898,29 +1908,29 @@ En esta sección, presentamos el Design Level Event Storming desarrollado para n
 
 El diagrama de contexto de CultivApp ofrece una visión global de las interacciones principales entre el sistema central y los actores externos que lo rodean. La plataforma está orientada a simplificar la gestión y supervisión de cultivos por parte de los usuarios. En este nivel, se identifican actores clave como el Agricultor, encargado de registrar y administrar sus cultivos, y la Asociación, que envía las evaluaciones correspondientes. Asimismo, se muestran las integraciones externas más relevantes: la Pasarela de Pago para procesar transacciones con las asociaciones, el Servicio de Mapas para visualizar la ubicación de los cultivos y las Redes Sociales para compartir información de manera pública. Esta representación de alto nivel permite entender de manera clara cómo CultivApp se relaciona y coopera con su ecosistema digital y humano.
 
-<img src="assets/C4 CONTEXTO.jpg" alt="Software Architecture Context Diagram">
+<img src="assets/structurizr-109014-ContextDiagram.png" alt="Software Architecture Context Diagram">
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
 El diagrama de contenedores detalla la organización interna de CultivApp, mostrando cómo los diferentes componentes de software trabajan en conjunto para brindar la funcionalidad de la plataforma. La Aplicación Web, implementada en React, sirve como punto de interacción donde los usuarios pueden registrar y gestionar sus cultivos. Esta interfaz se conecta con una API en Node.js, que cumple el rol de enlace entre la capa de presentación y los servicios del backend. La información esencial de usuarios, cultivos, registros, evaluaciones y pagos se almacena en una Base de Datos PostgreSQL. Asimismo, se integran contenedores adicionales como el Servicio de Mapas (basado en Google Maps API) para la visualización de ubicaciones y la Pasarela de Pago (Stripe), destinada a la gestión de transacciones. En conjunto, este nivel del modelo permite comprender cómo se estructuran y comunican las partes técnicas del sistema.
 
-<img src="assets/C4 CONTENEDORES.jpg" alt="Software Architecture Container Diagrams">
+<img src="assets/structurizr-109014-AgroApp_Containers.png" alt="Software Architecture Container Diagrams">
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
 El diagrama de componentes pone el foco en la arquitectura interna de la API de CultivApp, encargada de coordinar la lógica de negocio central de la plataforma. Esta API, desarrollada en Node.js, se organiza en distintos componentes especializados, cada uno orientado a un dominio concreto. El Componente de Gestión de Usuarios administra la autenticación y los perfiles; Gestión de Cultivos permite realizar operaciones sobre los cultivos registrados; Control de Cultivos abarca el ciclo completo de cuidado de cada cultivo; Ubicaciones y Terrenos gestiona la localización de los cultivos registrados; y Reporte de Evaluaciones procesa tanto los informes como los pagos asociados a dichas evaluaciones. La interacción entre estos módulos sigue un flujo funcional definido: los agricultores administran cultivos, estos se asocian a cuentas y pueden ser evaluados. Esta separación de responsabilidades refleja un diseño guiado por el dominio, donde cada componente encapsula una función específica y colabora con los demás para dar soporte integral a la plataforma junto a los Bounded Countext desarrollados que explicacion de forma aun mas detallada la funcionalidad de cada componente existente de la plataforma CultivApp.
 
-<img src="assets/C4_COMPONENTES_API.jpg" alt="Software Architecture Container Diagrams API Management">
+<img src="assets/structurizr-109014-AgroApp_API_Components.png" alt="Software Architecture Container Diagrams API Management">
 
-<img src="assets/C4_COMPONENTS_USER.jpg" alt="Software Architecture  Diagrams Users Management">
+<img src="assets/structurizr-109014-UserManagement_Components.png" alt="Software Architecture Diagrams Users Management">
 
-<img src="assets/C4 COMPONENTS_CULTIVO.jpg" alt="Software Architecture Container Diagrams Evaluation Management">
+<img src="assets/structurizr-109014-CommunityManagement_Components.png" alt="Software Architecture Container Diagrams Community Management">
 
-<img src="assets/C4 COMPONETS_CAMPO.jpg" alt="Software Architecture Container Diagrams Cultivo Management">
+<img src="assets/structurizr-109014-CropManagement_Components.png" alt="Software Architecture Container Diagrams Cultivo Management">
 
-<img src="assets/C4_COMPONENTS_TAREAS.jpg" alt="Software Architecture Container Diagrams Maps Management">
+<img src="assets/structurizr-109014-FieldManagement_Components.png" alt="Software Architecture Container Diagrams Fields Management">
 
-<img src="assets/C4_COMPONENTS_COMUNIDAD.jpg" alt="Software Architecture Container Diagrams Maps Management">
+<img src="assets/structurizr-109014-TaskManagement_Components.png" alt="Software Architecture Container Diagrams Tasks Management">
 
 ## 4.7. Software Object-Oriented Design.
 
@@ -2102,11 +2112,11 @@ En esta sección se detalla la reunion de planificación para iniciar con el des
   </tr>
   <tr>
     <td>Sprint n Velocity</td>
-    <td>2 Story Points</td>
+    <td>6 Story Points</td>
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>2</td>
+    <td>6</td>
   </tr>
 </table>
 
@@ -2326,11 +2336,11 @@ En esta sección se detalla la planificación del Frontend Web Application de Cu
   </tr>
   <tr>
     <td>Sprint n Velocity</td>
-    <td>5 Story Points</td>
+    <td>19 Story Points</td>
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>5</td>
+    <td>25 (Sprint Anterior)</td>
   </tr>
 </table>
 
@@ -2753,11 +2763,11 @@ las funciones de diseño, codificación, validación y despliegue de la solució
   </tr>
   <tr>
     <td>Sprint n Velocity</td>
-    <td>5 Story Points</td>
+    <td>25 Story Points</td>
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>11</td>
+    <td>50 (Sprint Anterior)</td>
   </tr>
 </table>
 
@@ -3139,11 +3149,11 @@ En esta sección se detalla la planificación de la fase final: Seguridad, Audit
   </tr>
   <tr>
     <td>Sprint n Velocity</td>
-    <td>11 Story Points (Sprint Anterior)</td>
+    <td>26 Story Points</td>
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>14</td>
+    <td>76 (Sprint Anterior)</td>
   </tr>
 </table>
 
@@ -3300,170 +3310,10 @@ En esta sección se detalla la planificación de la fase final: Seguridad, Audit
 
 Commits en Backend: 
 
-<table border="1">
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit</th>
-    <th>Date</th>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>tasks & community</td>
-    <td>752db64</td>
-    <td>feat: add CR REST interfaces</td>
-    <td>2025-11-14</td>
-  </tr>
-  <tr>
-    <td>36025ed</td>
-    <td>tasks & community</td>
-    <td>feat: add CR infrastructure</td>
-    <td>2025-11-14</td>
-  </tr>
-  <tr>
-    <td>a3671db</td>
-    <td>tasks & community</td>
-    <td>feat: add CR repositories & services</td>
-    <td>2025-11-14</td>
-  </tr>
-  <tr>
-    <td>d9df421</td>
-    <td>tasks & community</td>
-    <td>feat: CR domain update</td>
-    <td>2025-11-15</td>
-  </tr>
-  <tr>
-    <td>4eab47b</td>
-    <td>tasks & community</td>
-    <td>Update Tasks JeffersonCastro</td>
-    <td>2025-11-14</td>
-  </tr>
-  <tr>
-    <td>aca777f</td>
-    <td>develop</td>
-    <td>feat: endpoint user and upcoming task</td>
-    <td>Gaftherman</td>
-    <td>2025-11-13</td>
-  </tr>
-  <tr>
-    <td>eefbf08</td>
-    <td>develop</td>
-    <td>feat: pre-deploy</td>
-    <td>Shukaritas</td>
-    <td>2025-11-12</td>
-  </tr>
-  <tr>
-    <td>06da246</td>
-    <td>develop</td>
-    <td>Disable forced port</td>
-    <td>Estefano-Solis-C</td>
-    <td>2025-11-14</td>
-  </tr>
-  <tr>
-    <td>92a8d2c</td>
-    <td>develop</td>
-    <td>Enabled all ports in all context</td>
-    <td>Estefano-Solis-C</td>
-    <td>2025-11-16</td>
-  </tr>
-  <tr>
-    <td>82af78e</td>
-    <td>develop</td>
-    <td>Dockerfile</td>
-    <td>Estefano-Solis-C</td>
-    <td>2025-11-16</td>
-  </tr>
-  <tr>
-    <td>ed54d60</td>
-    <td>develop</td>
-    <td>feat-updated-bakend</td>
-    <td>Serkekes2006</td>
-    <td>2025-11-19</td>
-  </tr>
-</table>
+
 
 * Commits en Frontend: 
 
-<table border="1">
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit</th>
-    <th>Date</th>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/crops</td>
-    <td>fa78823</td>
-    <td>Add crop registration managment form</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>d1ebf4b</td>
-    <td>feat: community API response working</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>cf67542</td>
-    <td>feat: added community components</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>f6766dd</td>
-    <td>fix: update task handling</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>40b8f5d</td>
-    <td>fix: component lang & better comments</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>3c134a3</td>
-    <td>feat: added my-task component</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/fields</td>
-    <td>245bee2</td>
-    <td>feature: Modified and improve fields</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/fields</td>
-    <td>41d8990</td>
-    <td>fixed db.json</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/fields</td>
-    <td>aeaa6f0</td>
-    <td>Merge remote-tracking branch 'origin/feature/fields' into develop</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>5167129</td>
-    <td>Merge remote-tracking branch 'origin/tasks&comunity' into develop</td>
-    <td>2025-10-08</td>
-  </tr>
-</table>
 
 ### 5.2.4.5.Execution Evidence for Sprint Review.
 
@@ -3492,68 +3342,6 @@ contexto.
 
 <br>
 
-**CultivApp Intern Logic**
-
-|Tag|HTTTP Verb|Endpoint|Summary|Operation ID|
-|---|----------|--------|-------|------------|
-| CultivApp | GET | / | CultivApp Logic | welcome |
-
- **Community Recommendations Controller**
-
-|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
-|---|---------|--------|-------|------------|
-|CommunityRecommendation|GET|/api/v1/community-recommendation/{recommendationId}|Get Community Recommendation By Id|GetCommunityRecommendationById|
-|CommunityRecommendation|GET|/api/v1/community-recommendation|Get All Community Recommendations|GetAllCommunityRecommendations|
-|CommunityRecommendation|PUT|/api/v1/community-recommendation/{id}|Update Community Recommendation|UpdateCommunityRecommendation|
-
- **CropFields Controller**
-
-|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
-|---|---------|--------|-------|------------|
-|CropFields|POST|/api/v1/crop-fields|Creates a new CropField associated with a Field (1:1 relationship)|CreateCropField|
-|CropFields|GET|/api/v1/crop-fields|Gets all CropFields|GetAllCropFields|
-|CropFields|GET|/api/v1/crop-fields/{id}|Gets a CropField by ID|GetCropFieldById|
-|CropFields|GET|/api/v1/crop-fields/field/{fieldId}|Gets the CropField associated with a Field (1:1 relationship)|GetCropFieldByFieldId|
-|CropFields|PUT|/api/v1/crop-fields/{id}|Updates the crop attribute of a CropField|UpdateCropField|
-
- **Fields Controller**
-
-|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
-|---|---------|--------|-------|------------|
-|Fields|POST|/api/v1/fields|Creates a new field and its associated ProgressHistory automatically|CreateField|
-|Fields|GET|/api/v1/fields/user/{userId}|Gets all fields for a user|GetFieldsByUserId|
-|Fields|GET|/api/v1/fields/{id}|Gets a field by ID|GetFieldById|
-
- **Progress History Controller**
-
-|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
-|---|---------|--------|-------|------------|
-|ProgressHistory|GET|/api/v1/progress|Gets all progress history records|GetAll|
-|ProgressHistory|POST|/api/v1/progress|Creates a new progress history record|Create|
-|ProgressHistory|GET|/api/v1/progress/{id}|Gets a progress history record by ID|GetById|
-|ProgressHistory|PUT|/api/v1/progress/{id}|Updates a progress history record|Update|
-
- **Tasks Controller**
-
-|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
-|---|---------|--------|-------|------------|
-|Tasks|GET|/api/tasks|Gets all registered tasks|GetAllTasks|
-|Tasks|POST|/api/tasks|Creates a new task|CreateTask|
-|Tasks|GET|/api/tasks/{id}|Gets a specific task by its identifier|GetTaskById|
-|Tasks|GET|/api/tasks/field/{fieldId}|Gets tasks associated with a specific field|GetTasksByField|
-|Tasks|PUT|/api/tasks/{id}|Updates data of an existing task|UpdateTask|
-|Tasks|DELETE|/api/tasks/{id}|Deletes a task|DeleteTask|
-
- **Users Controller**
-
-|Tag|HTTP Verb|Endpoint|Summary|Operation ID|
-|---|---------|--------|-------|------------|
-|Users|POST|/api/v1/users/sign-up|Creates a new user in the system|SignUp|
-|Users|POST|/api/v1/users/sign-in|Authenticates a user and returns basic session information|SignIn|
-|Users|GET|/api/v1/users/{id}|Gets a user by ID|GetById|
-|Users|PUT|/api/v1/users/{id}/profile|Updates the profile information of an existing user|UpdateProfile|
-|Users|PUT|/api/v1/users/{id}/password|Updates a user's password|UpdatePassword|
-|Users|DELETE|/api/v1/users/{id}|Deletes a user from the system|Delete|
 
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review
@@ -3575,19 +3363,7 @@ Archivos de configuracion clave
 ### 5.2.4.8.Team Collaboration Insights during Sprint.
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
 
-- Insight Landing Page:
-![InsightLP](/assets/insightLP.png)
 
-- Insight Report
-![InsightR](/assets/insightR.png)
-
-* pendiente contribuciones :
-
-- Insight Backend
-![InsightB](/assets/insightB.png)
-
-- Insight Frontend
-![InsightF](/assets/insightF.png)
 
 # 5.3. Validation Interviews.
 
@@ -3973,7 +3749,12 @@ https://www.canva.com/design/DAG1W9lWTt4/7FePKDPl-tod08DSHVJt-Q/edit?utm_content
 
 Enlace Video About the Team:
 
-* pendiente
+https://drive.google.com/file/d/1l6CxCV-PC2i4gESPqRtwXc3gITI3b6SV/view?usp=drive_link 
 
 Enlace Video About the Product:
+
 https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing
+
+Enlace de Api Externa:
+
+https://ip-api.com/ 
