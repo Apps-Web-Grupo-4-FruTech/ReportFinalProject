@@ -1828,6 +1828,10 @@ Servicios de la aplicación.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
+A continuación se presentan los diagramas de flujo de usuario (wireflow diagrams) que ilustran las interacciones y navegación dentro de la aplicación web CultivApp.
+
+![WebApplicationsWireflowDiagrams](/assets/Web_Applications_Wireflow_Diagrams.png)
+
 ### 4.4.2. Web Applications Mock-ups.
 ![Mockup1](/assets/WebApplication/mockups/US-01_%20Registro%20de%20cuenta.png)
 ![Mockup2](/assets/WebApplication/mockups/US-02_%20Inicio%20de%20Sesión.png)
