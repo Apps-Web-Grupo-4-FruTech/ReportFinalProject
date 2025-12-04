@@ -2776,7 +2776,7 @@ Estas preguntas se centran en la facilidad de uso, el valor inmediato y la barre
 
 - Al ver esta pantalla principal, ¿qué es lo más importante para usted? ¿Ver sus campos, sus tareas o las recomendaciones?
 
-- ¿Le parece útil que la aplicación le muestre "Tareas proximas a vencerse" o "Consejos"? ¿Cómo manejaria este contenido?
+- ¿Le parece útil que la aplicación le muestre "Traeas proximas" o "Ultimas recomendaciones"? ¿Cómo manejaria este contenido?
 
 - ¿Le parece fácil de entender esta pantalla, o ve demasiada información?
 
@@ -2862,111 +2862,192 @@ Estas preguntas se centran en la eficiencia, la gestión de múltiples parcelas,
 
 ## 5.3.2. Registro de Entrevistas.
 
-## 5.3.2. Evaluaciones según heurísticas.
+**User Persona del segmento objetivo #1: Agricultores de pequeña escala**
 
-<span style="font-size: 2em; font-weight: normal;">Site o App a evaluar</span>
+<img src="assets/Captura_Evidencia_Segmento_1.png" alt="Entrevista 1 Segmento 1">
 
-**Nombre:** AgroApp
+**Entrevistado(a):** Carmen Diaz
 
-**Objetivo:**  Identificar problemas de usabilidad en el sistema web de control de campos y cultivos usando la Lista Heurística de
-Nielsen.
+**Genero:** Femenino
 
-<span style="font-size: 2em; font-weight: normal;">Tareas a evaluar</span>
+**Edad:** 28 años
 
-1. Visualización y navegación en la página principal
-2. Visualización del campo de Cultivo (galería, fichas, presentación de información)
-3. Navegación por la sección de Cultivos (flujo, claridad de información, pasos a seguir)
-4. Accesibilidad y claridad del menú lateral (ubicación, iconos, estructura)
-5. Visualizacion de los atributos de los campos y cultivos (nombre, dimensiones, producto, estado, etc)
-6. Diferenciación entre las secciones “Cultivos” y “Campos”
-7. Visualización de detalles del campo (tareas, estado, producto)
-8. Gestión de cultivos y sus campos (tareas, recordatorios)
-9. Claridad de iconografía y etiquetas
-10. Navegación lateral y localización de sección activa
-11. Estructura y claridad del formulario de registros
-12. Proceso de cambio de idioma
-13. Personalización y curva de aprendizaje
+**Enlace de la entrevista (Drive):** [Enlace Entrevista 1](https://drive.google.com/file/d/1iGH5VZRln1pIRpLhEr5JzbHavKCWaZp-/view?usp=sharing)
 
-<span style="font-size: 2em; font-weight: normal;">Problema Detectado</span>
+**Resumen:** Carmen Diaz es una agriculta de nivel intermedio que simbra mayormente en su casa, fue entrevistada previamente para pensar en la idea de una startup como la que se le presentara a continuacion. Se destaco siemopre por intentar ver por el bienestar de sus cultivos en una zona como la ciudad y señalo como gracias a nustra aplicacion esto sera mucho mas facil y sobre todo tranquilo gracias a las funcionalidades que esta tiene.
 
-| # | Problema Detectado | Heuristica violada | Severidad |
-|---|--------------------|--------------------|-----------|
-|1|Falta de complementos visuales|Visibilidad del estado del sistema|1|
-|2|Confusión entre Campos y Cultivos|Coincidencia entre el sistema y el mundo real|3|
-|3|Falta de tutoriales o guía para nuevos usuarios |Ayuda y documentación|2|
-|4|Inconsistencia de los estados de los campos|Visibilidad del estado del sistema|3
+<img src="assets/Captura_Segmento_1_Entrevista_2.jpeg" alt="Entrevista 2 Segmento 1">
 
-<span style="font-size: 2em; font-weight: normal;">Escala de severidad</span>
+**Entrevistado(a):** Noelia Gómez Sánchez
 
-|Nivel |Severidad|
-|------|---------|
-|1|Problema superficial: fácilmente superado por el usuario o muy poco frecuente. No es prioritario.|
-|2|Problema menor: algo más frecuente o confuso; se debe resolver en una próxima versión.|
-|3|Problema mayor: ocurre frecuentemente y afecta el uso normal. Prioridad alta.|
-|4|Problema muy grave: impide el uso del sistema. Debe corregirse antes del lanzamiento.|
+**Genero:** Femenino
 
-<span style="font-size: 2em; font-weight: normal;">Análisis heuristico detallado</span>
+**Edad:** 25 años
 
-<span style="font-size: 19px; font-weight: normal;">Problema #01: Falta de complementos visuales</span>
+**Enlace de la entrevista (Drive):** [Enlace Entrevista 2](https://drive.google.com/file/d/1UGsyV85vfoeMcjRewXvfqN1JweqLEJyJ/view?usp=sharing)
 
-**Severidad:** 1
+**Resumen:** Durante la demostración de "CultivApp", Noelia valida la utilidad del panel de control, destacando que el sistema de alertas y el semáforo de estados (Crítico/Saludable) son vitales para priorizar urgencias sin estar físicamente en el campo, aunque enfatiza que la interfaz debe estar en español para que su familia y trabajadores la entiendan. En cuanto a la gestión de terrenos, sugiere mejoras clave como el cálculo automático de insumos basado en las hectáreas exactas y valora la creación de un historial digital organizado por lotes que reemplace a los cuadernos físicos y hojas de cálculo, facilitando así el análisis de rentabilidad.
 
-**Heuristica violada:** Visibilidad del estado del sistema
+En cuanto a la operatividad diaria y la confianza, Noelia considera indispensable que las notificaciones de tareas se sincronicen con Google Calendar y solicita la función de adjuntar fotos al completar actividades (como evidencias de fumigación) para llevar un mejor control de costos. Muestra disposición para participar en la comunidad de la app siempre que la información provenga de agrónomos certificados y datos científicos, prefiriendo esto sobre consejos empíricos. Finalmente, expresa una fuerte preocupación por la privacidad al notar que el perfil solicita su DNI, indicando que desconfía de entregar datos sensibles en aplicaciones gratuitas a menos que sea estrictamente necesario para facturación formal.
 
-**Descripción:**
 
-Las secciones como cultivos o tareas no se ven atractivas visualmente para los usuarios, o segun ellos le falta algun atratactivo visual
+**User Persona del Segmento objetivo #2: Agricultores de mediana escala**
 
-**Recomendación:**
+<img src="assets/Captura_Evidencia_Segmento_2.png" alt="Entrevista 1 Segmento 2">
 
-Incluir divisores visuales, algunos colores a los botones y una mejor presentacion de modo que se vuelve atractivo para mas usuarios y deja de parecer una lista impresa
+**Entrevistado(a):** Walter Sanchez
 
-<span style="font-size: 19px; font-weight: normal;">Problema #02: Confusión entre Campos y Cultivos</span>
+**Genero:** Masculino
 
-**Severidad:** 3
+**Edad:** 52 años
 
-**Heuristica violada:** Coincidencia entre el sistema y el mundo real
+**Enlace de la entrevista (Drive):** [Enlace Entrevista 1](https://drive.google.com/file/d/1zY895AOneKp07yA6Zz3DYqjk7uhfcfh4/view?usp=sharing)
 
-**Descripción:**
+**Resumen:** Walter Sanchez es ya un agricultor titulado y trabajador desde mas de 20 años, entrevistado previamente para presentarle la idea, hoy la prueba mediante nuestra aplicacion, permitiendole registrar cultivos y campos de cultivo para su trabajo. Se destaca en ser un referente en su area y como el trabajar en esto, pese a ser algo que le gusta tambien resulta ser dificil debido a que muchos procesos son obsoletos, lentos o simplemente tedioso luego de repetirse y señala como con la aplicacion al menos traera la digitalizacion de procesos y el como muchos trabjos que le costaban tiempo y esfuerzo seran mas faciles con nuestro producto.
 
-Los usuarios no difrencian muy bien entre las dos secciones, confundiendolas constantement al momento de referirse a estas
+<img src="assets/CAPentrevistaapps.png" alt="Entrevista 2 Segmento 2">
 
-**Recomendación:**
+**Entrevistado(a):** Javier Landa
 
-Renombrar o cambiar la forma de etiquetar cada una de esas por ejemplos ("Cultivos pertenecientes a un campo" o "Campos de Cultivo")
+**Genero:** Masculino
 
-<span style="font-size: 19px; font-weight: normal;">Problema #03: Falta de tutoriales o guía para nuevos usuarios</span>
+**Edad:** 55 años
 
-**Severidad:** 2
+**Enlace de la entrevista (Drive):** [Enlace Entrevista 2](https://drive.google.com/file/d/1fjCNb1DV1eAWvgIRaIHvrII7yc1g-lOJ/view?usp=sharing)
 
-**Heuristica violada:** Ayuda y documentación
+**Resumen:** Este video presenta a Javier, un participante entrevistado previamente, mientras prueba la aplicación web "CultiApp" como parte del "segmento 2" de un proyecto final. La mayor parte del video es una demostración silenciosa de la aplicación, mostrando su "Panel de Control", la gestión de cultivos, los campos y las tareas. Esta grabación de pantalla sirve como contexto para la entrevista formal que comienza justo al final, donde el entrevistador, Sergio Landa, explica que el objetivo es evaluar la eficiencia de la aplicación y su valor comercial para un usuario que maneja una operación agrícola tecnificada.
 
-**Descripción:**
 
-No hay tutorial, guía ni sección de ayuda visible. Esto afecta la curva de aprendizaje, especialmente en usuarios no expertos
 
-**Recomendación:**
+## 5.3.3. Evaluaciones según heurísticas.
 
-Incluir un recorrido inicial con explicaciones breves, un botón de ayuda permanente o una sección de preguntas frecuentes
+## **Site o App a evaluar**
+**Nombre:** PlantE
 
-<span style="font-size: 19px; font-weight: normal;">Problema #04: Inconsistencia de los estados de los campos</span>
+*Objetivo:*  Detectar qué tan fácil o difícil resulta usar el sistema web de monitoreo y control de equipos de refrigeración, evaluándolo con las heurísticas de Nielsen para identificar fallas de usabilidad.
 
-**Severidad:** 3
+**Tareas a evaluar**
 
-**Heuristica violada:** Visibilidad del estado del sistema
+1. Ambigüedad en la terminología y las unidades de las temperaturas máximas.
+2. Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.
+3. La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".
+4. Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.
+5. Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación.
+6. Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de activos y alertas.
+7. Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.
+8. Confusión visual entre campos editables y no editables en la sección de información de usuario.
+9. Redundancia o falta de claridad en los filtros de la sección "My Service Requests".
 
-**Descripción:**
+**Problema Detectado**
 
-Los usuarios remarcan como lo estados de los campos pese a seguir una guia con los colores, algunos estan en ingles y otros en español, si bien son acorde a lo que se muestra, genera confusion 
+| *\#* | *Problema* | *Escala de severidad* | *Heurística/Principio violada(o)* |
+| :---- | :---- | :---- | :---- |
+| ***1*** | *Ambigüedad en la terminología y las unidades de las temperaturas máximas.* | *3* | ***Visibility of System Status** / **Consistency and Standards*** |
+| ***2*** | *Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.* | *2* | ***Visibility of System Status*** |
+| ***3*** | *La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".* | *3* | ***Error Prevention** / **Consistency and Standards*** |
+| ***4*** | *Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.* | *2* | ***Recognition Rather Than Recall** / **Aesthetic and Minimalist Design*** |
+| ***5*** | *Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación.* | *3* | ***Consistency and Standards** / **Match Between System and the Real World*** |
+| ***6*** | *Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de alertas.* | *3* | ***Recognition Rather Than Recall** / **Match Between System and the Real World*** |
+| ***7*** | *Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.* | *4* | ***Match Between System and the Real World*** |
+| ***8*** | *Confusión visual entre campos editables y no editables en la sección de información de usuario.* | *3* | ***Visibility of System Status** / **Aesthetic and Minimalist Design*** |
+| ***9*** | *Redundancia o falta de claridad en los filtros de la sección "My Service Requests".* | *2* | ***Aesthetic and Minimalist Design** / **Flexibility and Efficiency of Use*** |
 
-**Recomendación:**
+## **DESCRIPCIÓN DE PROBLEMAS:**
 
-Estandarizar todos los estados a un lenguaje u otro, ademas de usar tambien las mismas palabras para que siempre muestren la que quiere representar
+### **PROBLEMA \#1: Ambigüedad en la terminología y las unidades de las temperaturas máximas.**
 
-## 5.4. Video About-the-Product.
+---
+
+**Severidad: 3 Heurística violada: Visibility of System Status / Consistency and Standards**
+
+Problema: En el Dashboard, la sección superior derecha muestra "Max: 3.8°" y "Max: 4.3°". No hay una etiqueta que explique si estos son límites preconfigurados, los máximos históricos, o los máximos registrados en las últimas 24h. Esta falta de contexto clave impide al usuario entender el significado de estas métricas. Además, la unidad de temperatura usa ° en estos máximos, mientras que el promedio usa °C, mostrando una inconsistencia.
+
+Recomendación: Etiquetar claramente los valores, por ejemplo, "Límite Alto" o "Máximo Histórico". Unificar el símbolo de temperatura a °C en toda la interfaz.
+
+### **PROBLEMA \#2: Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.**
+
+---
+
+**Severidad: 2 Heurística violada: Visibility of System Status**
+
+Problema: El elemento del menú lateral activo ("Equipments" en su vista) se indica con un sutil color de fondo azul que podría no ser lo suficientemente visible o contrastante para algunos usuarios. Esto dificulta la confirmación instantánea de la ubicación actual del usuario en la aplicación.
+
+Recomendación: Reforzar la indicación del elemento activo. Sugerencia: Añadir un borde vertical (ej. una línea gruesa azul) al lado izquierdo del elemento seleccionado para un contraste más fuerte.
+
+### **PROBLEMA \#3: La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".**
+
+**Severidad: 3 Heurística violada: Error Prevention / Consistency and Standards**
+
+---
+
+Problema: En la tabla "Recent Alerts" del Dashboard, se ofrece la acción "Acknowledge (ACK)" para alertas que ya tienen un estado de "Resolved" o "Closed". Lógicamente, no se requiere o no debería ser posible "reconocer" una alerta que el sistema ya considera finalizada. Esto genera confusión e impulsa acciones innecesarias.
+
+Recomendación: Hacer que la columna ACTION sea contextual: debe desaparecer o cambiar a una opción como "View Log" o "View Details" cuando el Status sea finalizado.
+
+### **PROBLEMA \#4: Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.**
+
+---
+
+**Severidad: 2 Heurística violada: Recognition Rather Than Recall / Aesthetic and Minimalist Design**
+
+Problema: El texto "5 pontos" sobre el gráfico de temperatura es técnico o está mal traducido/etiquetado. El usuario no puede saber fácilmente si se refiere a 5 sensores, 5 días, o la granularidad de los datos. Esto obliga al usuario a recordar su significado.
+
+Recomendación: Utilizar una etiqueta clara y orientada al usuario, como "5 Sensores", "Granularidad" o el parámetro real que se esté filtrando.
+
+### **PROBLEMA \#5: Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación.**
+
+---
+
+**Severidad: 3 Heurística violada: Consistency and Standards / Match Between System and the Real World**
+
+Problema: En las vistas de listas de activos (Sites y Equipments), el botón azul global en la esquina superior derecha está etiquetado como "Site detail" o "Equipment detail". Este etiquetado sugiere que llevará al detalle de un elemento seleccionado, cuando lo más probable es que su función principal sea agregar un nuevo activo. Esto es inconsistente con el estándar de UX de usar verbos de acción.
+
+Recomendación: Cambiar la etiqueta del botón por un texto que indique la acción de creación, como "+ New Site" o "+ New Equipment". Si su función es realmente ver el detalle, esta acción debe estar en la fila del activo o deshabilitada si no hay selección.
+
+### **PROBLEMA \#6: Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de activos y alertas.**
+
+---
+
+**Severidad: 3 Heurística violada: Recognition Rather Than Recall / Match Between System and the Real World**
+
+Problema: La tabla de Alerts utiliza IDs del sistema como e1 (Equipment), s1 (Site) y t2 (Tenant). Estos IDs no son significativos para el usuario, obligándolo a recordar o consultar constantemente su significado. Esta abstracción aumenta la carga cognitiva y reduce la velocidad de comprensión del estado del sistema.
+
+Recomendación: Reemplazar los IDs en las vistas de lista con los nombres reales de los activos (mostrar "Minimarket San Miguel" en lugar de s1, y el "Model" del equipo en lugar de e1).
+
+### **PROBLEMA \#7: Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.**
+
+---
+
+**Severidad: 4 Heurística violada: Match Between System and the Real World**
+
+Problema: En la vista "Equipment detail", las fechas como 2025-09-21T14:10:00Z están en formato UTC. En un sistema de monitoreo, donde el tiempo es crítico, obligar al usuario a calcular la diferencia horaria manualmente para correlacionar eventos con la hora local es un error crítico que puede llevar a errores operacionales.
+
+Recomendación: Implementar la conversión automática de todas las marcas de tiempo a la zona horaria local del usuario y mostrarlas en un formato legible (ej. DD/MM/AAAA HH:MM:SS).
+
+### **PROBLEMA \#8: Confusión visual entre campos editables y no editables en la sección de información de usuario.**
+
+---
+
+**Severidad: 3 Heurística violada: Visibility of System Status / Aesthetic and Minimalist Design**
+
+Problema: En la sección "User information" (Admin), la información de solo lectura (ej. Email, Register Date, Plans) se presenta dentro de cajas de texto de color gris, que visualmente son demasiado similares a los campos editables (cajas blancas). Esto añade desorden visual y hace que el usuario se pregunte qué campos puede modificar y cuáles no.
+
+Recomendación: Los datos de sólo lectura deben mostrarse como texto plano (sin bordes ni sombreado de caja) para una clara diferenciación visual.
+
+### **PROBLEMA \#9: Redundancia o falta de claridad en los filtros de la sección "My Service Requests".**
+
+---
+
+**Severidad: 2 Heurística violada: Aesthetic and Minimalist Design / Flexibility and Efficiency of Use**
+
+Problema: En la sección "My Service Requests", los filtros están agrupados de forma redundante ("Filter by: ALL | Pending | Assigned | In progress | Done" y luego "ALL | Repair (Corrective) | Maintenance (Preventive)"). El doble uso de "ALL" es confuso. Además, el primer conjunto de filtros parece enfocarse en el Status, y el segundo en el Type, pero la repetición de "ALL" no es eficiente.
+
+Recomendación: Fusionar los filtros en un único conjunto que permita seleccionar una opción de Status Y una opción de Type, o unificar el botón "ALL" si es un reset general de ambos filtros.
+
+
+# 5.4. Video About-the-Product.
 
 En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About The Product –CultivApp". El video muestra en detalle las características principales de la aplicación, enfocándose en cómo cada funcionalidad ha sido diseñada para responder a las necesidades reales de los usuarios interesados en el cuidado de sus cultivos a mayor o menor escala.
-
 
 A lo largo del video, se presentan demostraciones visuales de la aplicación en funcionamiento, incluyendo flujos clave como la creracion de los campos, la creacion de los cultivos, la vinculacion de estos y la creacion de tareas.
 
@@ -2976,7 +3057,7 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 
 **Cuadro Representativo del Video**
 
-![Commits_Sprint_2](assets/Caputa_About-The-Product_Apps.png)
+![Commits_Sprint_2](/assets/Captura_About_The_Team_Apps.png)
 
 **Url del video:** https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing 
 
