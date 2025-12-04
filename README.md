@@ -16,7 +16,7 @@
    <br>
    <center><b>Periodo: 202520</b></center>
    <br>
-   <center><b>Codigo del curso: 1ASI0729</b></center>
+   <center><b>Codigo del curso: 1ASI0730</b></center>
 
    <br>
    <br>
@@ -2132,25 +2132,65 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 - Insight Report
 ![InsightR](assets/insightR.png)
 
+---  
+
 ## 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2.
 
-### 5.2.2.1. Sprint Planning 2
+En esta sección se detalla la planificación del Frontend Web Application de CultivApp.
 
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 2</th>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-10-12</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>11:40 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Virtual (Discord)</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Via Luna, Bruce</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Samuel Bonifacio<br>Jefferson Castro<br>Bruce Via<br>Estefano Solis<br>Sergio Landa</td>
+  </tr>
+  <tr>
+    <td>Sprint n – 2 Review Summary</td>
+    <td>Se completó el frontend en Vue (Dashboard, My Crops, My Fields, My Tasks y Community), routing, internacionalización con i18n, entre otros.</td>
+  </tr>
+  <tr>
+    <td>Sprint n – 2 Retrospective Summary</td>
+    <td>Positivo: organización de código correcta y contribuciones repartidas. </br> A mejorar: estandarizar commits y nombres de ramas. </br> Acción: aplicar Git Flow y buenas prácticas de Vue.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint n Goal </td>
+    <td>Desplegar la primera versión de Frontend Web Application utilizando el fake API JSON-Server para validar las primeras funcionalidades. </td>
+  </tr>
+  <tr>
+    <td>Sprint n Velocity</td>
+    <td>5 Story Points</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>5</td>
+  </tr>
+</table>
 
-| Elemento                        | Detalle                                                                                       |
-|----------------------------------|----------------------------------------------------------------------------------------------|
-| **Sprint**                      | 2 - Implementación de componentes, bounded context, db.json y enrutamiento de Frontend Web Application                 |
-| **Sprint Planning Background**   |                                                                                              |
-| **Fecha**                       | 9/10/2025                                                                                   |
-| **Hora**                        | 23:00 horas (GMT-5)                                                                          |
-| **Lugar**                       | Reunión virtual mediante Meet                                                              |
-| **Preparado por**               | [FruTech]                                                       |
-| **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Bruce Via, Sergio Landa, Estefano Solis ]                                                             |
-| **Sprint n-2 Review**           | Se creó el entorno del Frontend Web Application con Vue y Javascript. Se implementó la primera versión de db.json y confiuración de enrutamiento. |
-| **Sprint n-2 Retrospective**    | Se implementaron los componentes en el contexto de CultivApp usando DDD.      |
-| **Sprint Goal & User Stories**  |                                                                                              |
-| **Sprint 2 Velocity**           | 42 puntos                                                                                    |
-| **Sum of Story Points**         | 42 puntos                                                                                    |
+---
+
 
 #### Objetivo del Sprint
 Implementar los componentes principales de la aplicación, establecer el contexto delimitado (bounded context), configurar la base de datos inicial (db.json) y definir el enrutamiento para la navegación en la aplicación web frontend de CultivApp.
@@ -2740,7 +2780,6 @@ A continuación se presenta la evidencia de desarrollo del Sprint 4, ordenada se
 | 92a8d2c    | Enabled all ports in all context            | Estefano-Solis-C        | Nov 14, 2025  |
 | 82af78e    | Dockerfile                                  | Estefano-Solis-C        | Nov 14, 2025  |
 | ed54d60    | feat-updated-bakend                         | Serkekes2006            | Nov 14, 2025  |
-| f04a0be    | fixture dashboard 
 
 * Commits en Frontend: 
 
@@ -2787,7 +2826,7 @@ contexto.
 
 |Tag|HTTTP Verb|Endpoint|Summary|Operation ID|
 |---|----------|--------|-------|------------|
-| AgroApp | GET | / | CultivApp Logic | welcome |
+| CultivApp | GET | / | CultivApp Logic | welcome |
 
  **Community Recommendations Controller**
 
