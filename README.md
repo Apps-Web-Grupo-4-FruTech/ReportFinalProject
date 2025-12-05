@@ -3774,9 +3774,15 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 
 **Url del video:** https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing 
 
-## Conclusion
+## Conclusiones
 
 - El desarrollo de CultivApp representa mucho más que un logro técnico; es el resultado de un esfuerzo colaborativo y riguroso por acercar la tecnología a las necesidades reales del sector agrícola peruano. A lo largo del proyecto, el equipo demostró madurez al integrar la investigación profunda de los usuarios con una ejecución ágil, logrando transformar una problemática compleja en una solución digital accesible, funcional y bien estructurada. Este trabajo final no solo evidencia la solidez de la arquitectura y el código implementado, sino que destaca la capacidad del grupo para trabajar con visión estratégica y compromiso social, entregando un producto que tiene el potencial real de generar un impacto positivo y sostenible en la comunidad.
+
+- La adopción de la metodología Scrum fue determinante para el éxito del proyecto. Nos permitió organizar el flujo de trabajo en iteraciones cortas, detectar errores en etapas tempranas y asegurar que cada entrega parcial aportara valor real funcional antes de pasar a la siguiente fase.
+
+- Validar el diseño directamente con los agricultores transformó nuestra propuesta inicial. Entendimos que la simplicidad visual no es estética, sino funcional; priorizar una interfaz intuitiva redujo drásticamente la curva de aprendizaje y garantizó que la tecnología fuera una ayuda y no una barrera.
+
+- La comunicación fluida entre el frontend y el backend fue el mayor reto técnico y nuestra mayor victoria. Lograr una integración coherente mediante APIs bien documentadas aseguró la integridad de los datos y demostró la importancia de definir contratos de interfaz claros desde el inicio del desarrollo.
 ---
 
 ### Video About-the-Team
