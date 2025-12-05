@@ -151,6 +151,9 @@ Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió l
   </tbody>
 </table>
 
+![TB1-1](assets/commits-report/tb1.jpg)
+![TB1-2](assets/commits-report/tb1-2.jpg)
+
 **TP1**
 
 Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
@@ -185,6 +188,8 @@ Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió l
     </tr>
   </tbody>
 </table>
+
+![TP](assets/commits-report/tp.jpg)
 
 **TB2**
 
@@ -221,6 +226,8 @@ Para el desarrollo del informe perteneciente a la entrega del TB2, se dividió l
   </tbody>
 </table>
 
+![TB2](assets/commits-report/tb2.jpg)
+
 **TF**
 
 Para el desarrollo del informe perteneciente a la entrega del TF, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
@@ -255,6 +262,8 @@ Para el desarrollo del informe perteneciente a la entrega del TF, se dividió la
     </tr>
   </tbody>
 </table>
+
+![TF](assets/commits-report/tf.jpg)
 
 # Contenido
 
@@ -3451,7 +3460,7 @@ Ahora se evidenciara el despliegue de todas las secciones del proyecto
 
 >Url de Desppliegue del Frontend: https://frontend-frutech.vercel.app/ 
 
->Url de Desppliegue de la Landing Page:
+>Url de Desppliegue de la Landing Page: https://apps-web-grupo-4-frutech.github.io/Landing-Page/
 
 ### 5.2.4.8.Team Collaboration Insights during Sprint.
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
@@ -3765,14 +3774,9 @@ Este video no solo presenta el producto, sino que lo contextualiza como una solu
 
 **Url del video:** https://drive.google.com/file/d/1HbL1P0xfdrvprUTJO9YlcpjOW9l0H1Cg/view?usp=sharing 
 
-## Conclusiones
+## Conclusion
 
-- Gestión de Entorno y Colaboración Efectiva: La gestión del código fuente a través de GitHub ha sido un pilar para el avance del proyecto, facilitando la colaboración continua entre los miembros del equipo. La constante actividad, evidenciada por los commits de múltiples desarrolladores, demuestra una sinergia de trabajo y una plataforma de desarrollo bien establecida.
-
-- Avance Funcional y Desarrollo Ágil: El progreso reciente demuestra la efectividad del equipo en la integración de funcionalidades clave. Los commits de los últimos días indican avances significativos en módulos como:
-
-- Cohesión Técnica y Organización del Equipo: La integración de estas características, reflejada en los frecuentes merges de ramas de funcionalidad (como feature/fields y feature/crops) hacia una rama principal de desarrollo, sugiere un modelo de trabajo organizado. Este enfoque permite contribuciones en paralelo por parte del equipo, manteniendo la cohesión e integridad del proyecto para futuras iteraciones.
-- 
+- El desarrollo de CultivApp representa mucho más que un logro técnico; es el resultado de un esfuerzo colaborativo y riguroso por acercar la tecnología a las necesidades reales del sector agrícola peruano. A lo largo del proyecto, el equipo demostró madurez al integrar la investigación profunda de los usuarios con una ejecución ágil, logrando transformar una problemática compleja en una solución digital accesible, funcional y bien estructurada. Este trabajo final no solo evidencia la solidez de la arquitectura y el código implementado, sino que destaca la capacidad del grupo para trabajar con visión estratégica y compromiso social, entregando un producto que tiene el potencial real de generar un impacto positivo y sostenible en la comunidad.
 ---
 
 ### Video About-the-Team
@@ -3828,7 +3832,7 @@ https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page
 
 Despliegue de Landing Page:
 
-
+https://apps-web-grupo-4-frutech.github.io/Landing-Page/
 
 Repositorio de Github - CultivApp (FruTech) - Frontend:
 
