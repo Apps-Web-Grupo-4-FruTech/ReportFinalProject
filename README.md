@@ -3285,7 +3285,7 @@ Todo el código fue desarrollado siguiendo principios de arquitectura limpia, co
 * Bounded Context registrados en la base de datos
 <div align=center>
 
-![Bounded Context in Data Base](assets/BC_DB.png)
+![Bounded Context in Data Base](assets/Tables_DB.png)
 </div>
 
 * Bounded Context Field (Core) en la base de datos
@@ -3306,7 +3306,7 @@ Dentro de la ejecución de este sprint tambien se debio añadira y modificar par
 * Registro de usuario en el Frontend
 <div align=center>
 
-![Register in Frontend](assets/register_fend.png)
+![Register in Frontend](assets/new_reg.png)
 </div>
 
 * Capturas del Backend reestructurado y ejecutandose
@@ -3326,13 +3326,13 @@ A continuación se presenta la documentación de ambos servicios:
 
 **Backend en Rider**
 
-![RiderBackend](assets/riderBackend.png)
-![RiderBackend2](assets/riderBackend2.png)
+![RiderBackend](assets/BC_RIDER.png)
+![RiderBackend2](assets/DT_BC_RIDER.png)
 
 **Frontend en WebStorm**
 
-![WebStormFrontend](assets/webstormFrontend.png)
-![WebStormFrontend2](assets/webstormFrontend2.png)
+![WebStormFrontend](assets/bc_web.png)
+![WebStormFrontend2](assets/dt_bc_web.png)
 
 **API**
 
