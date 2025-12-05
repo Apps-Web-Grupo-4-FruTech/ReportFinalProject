@@ -263,7 +263,7 @@ Para el desarrollo del informe perteneciente a la entrega del TF, se dividió la
   </tbody>
 </table>
 
-![TF](assets/commits-report/tf.jpg)
+![TF](assets/Commits_report_tf.png)
 
 # Contenido
 
