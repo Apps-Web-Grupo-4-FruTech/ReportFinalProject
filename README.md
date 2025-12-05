@@ -3317,6 +3317,7 @@ Dentro de la ejecución de este sprint tambien se debio añadira y modificar par
 ![Backend Execution](assets/BEND_3.png)
 ![Backend Execution](assets/BEND_4.png)
 </div>
+
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Durante este Sprint se realizó la conexión de ambos servicios (Frontend y Backend) y se realizaron las pruebas unitarias para validar su funcionamiento.
