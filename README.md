@@ -715,7 +715,7 @@ Para validar nuestras suposiciones y profundizar en las necesidades reales de nu
 - *Inicio de la entrevista:* 0:15 min
 - *Duración:* 30:01 min
 - *Screenshot del cuadro de video:* ![Entrevista1](assets/interviews_screenshots/Interview_1.1.png)
-- *URL del video (Microsoft Stream):* [Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+- *URL del video (Google Drive):* [Entrevista 01](https://drive.google.com/file/d/1-mbqRhGOu-WmmgYshSOd4nyqkoY3nbnL/view?usp=drive_link)
 
 *Resumen:*
 
@@ -730,7 +730,7 @@ Para validar nuestras suposiciones y profundizar en las necesidades reales de nu
 - *Inicio de la entrevista:* 3:37 min
 - *Duración:* 30:01 min
 - *Screenshot del cuadro de video:* ![Entrevista2](assets/interviews_screenshots/Interview_2.1.png)
-- *URL del video (Microsoft Stream):* [Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+- *URL del video (Google Drive):* [Entrevista 02](https://drive.google.com/file/d/1-mbqRhGOu-WmmgYshSOd4nyqkoY3nbnL/view?usp=drive_link)
 
 *Resumen:*
 
@@ -745,7 +745,7 @@ Para validar nuestras suposiciones y profundizar en las necesidades reales de nu
 - *Inicio de la entrevista:* 8:14 min
 - *Duración:* 30:01 min
 - *Screenshot del cuadro de video:* ![Entrevista3](assets/interviews_screenshots/Interview_3.1.png)
-- *URL del video (Microsoft Stream):* [Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+- *URL del video (Google Drive):* [Entrevista 03](https://drive.google.com/file/d/1-mbqRhGOu-WmmgYshSOd4nyqkoY3nbnL/view?usp=drive_link)
 
 *Resumen:*
 
@@ -763,7 +763,7 @@ Alejandro, un joven aficionado a la agricultura y residente cerca de Lima, comen
 - *Inicio de la entrevista:* 12:03 min
 - *Duración:* 30:01 min
 - *Screenshot del cuadro de video:* ![Entrevista1](assets/interviews_screenshots/Interview_1.2.png)
-- *URL del video (Microsoft Stream):* [Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+- *URL del video (Google Drive):* [Entrevista 01](https://drive.google.com/file/d/1-mbqRhGOu-WmmgYshSOd4nyqkoY3nbnL/view?usp=drive_link)
 
 *Resumen:*
 
@@ -778,7 +778,7 @@ Alejandro, un joven aficionado a la agricultura y residente cerca de Lima, comen
 - *Inicio de la entrevista:* 18:35 min
 - *Duración:* 30:01 min
 - *Screenshot del cuadro de video:* ![Entrevista2](assets/interviews_screenshots/Interview_2.2.png)
-- *URL del video (Microsoft Stream):* [Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+- *URL del video (Google Drive):* [Entrevista 02](https://drive.google.com/file/d/1-mbqRhGOu-WmmgYshSOd4nyqkoY3nbnL/view?usp=drive_link)
 
 *Resumen:* Georgette Revolledo, de 35 años, administradora de las parcelas agrícolas de su familia, cultiva hortalizas de ciclo corto como lechugas, espinacas y fresas. Explica que el riego en sus parcelas es completamente manual y se decide basado en la experiencia y la observación directa en el campo, siendo su mayor costo operativo la mano de obra necesaria para esta supervisión. Considera que una solución para automatizar el riego le permitiría optimizar costos y tiempo, y le parece fundamental poder recibir alertas de humedad en su celular. En lugar de una gran inversión inicial, ve el modelo de suscripción mensual como una opción "mucho más adecuada y moderna".
 
@@ -792,7 +792,7 @@ Alejandro, un joven aficionado a la agricultura y residente cerca de Lima, comen
 - *Inicio de la entrevista:* 23:30
 - *Duración:* 30:01 min
 - *Screenshot del cuadro de video:* ![Entrevista3](assets/interviews_screenshots/Interview_3_2.png)
-- *URL del video (Microsoft Stream):* [Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313403_upc_edu_pe/EYJ9HNEKkORGu9bfnF3PP6QBGpWIi2ykmNP2pVXSh6mstw)
+- *URL del video (Google Drive):* [Entrevista 03](https://drive.google.com/file/d/1-mbqRhGOu-WmmgYshSOd4nyqkoY3nbnL/view?usp=drive_link)
 
 *Resumen:* Javier León, un agricultor de 50 años dedicado a la producción comercial en una extensión de aproximadamente 3,000 metros cuadrados en la que cultiva yuca, plátano, manzana, palta y algunos cítricos, explicó que actualmente controla el riego y los nutrientes basándose en la memoria, ajustando la frecuencia según el clima, y utilizando fertilizantes o abono cada 15 días o un mes. Para registrar la información recurre únicamente a su memoria o a una pizarra en el campo, lo que en ocasiones le genera problemas al olvidar fechas importantes de riego o fertilización. Entre las principales dificultades señaló la falta de un sistema confiable para llevar el control de sus labores agrícolas. Manifestó que le sería de gran utilidad recibir recomendaciones clasificadas por riesgo, generar reportes básicos de consumo de agua o rendimiento esperado, y contar con alertas preventivas que le recuerden tareas como riego, fertilización o fumigación. Indicó que estaría dispuesto a ingresar datos en la aplicación de forma interdiaria, valorando especialmente la inclusión de un calendario de tareas agrícolas. Finalmente, expresó que consideraría pagar una suscripción para acceder a reportes y recomendaciones avanzadas, ya que la tecnología le permitiría estar más ordenado y planificar mejor el manejo de sus cultivos.
 
@@ -2206,30 +2206,34 @@ En esta sección se detalla la reunion de planificación para iniciar con el des
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
-<table>
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit</th>
-    <th>Date</th>
- 
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Landing-Page</td>
-    <td>main</td>
-    <td>31de6c2</td>
-    <td>initial setup for landing page</td>
-    <td>2025-09-20</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Landing-Page</td>
-    <td>main</td>
-    <td>fddb888</td>
-    <td>feat: auth function</td>
-    <td>2025-10-7</td>
-  </tr>
-</table>
+|Commit ID| Author | Commit Message| Date|
+|---------|--------|---------------|-----|
+| 744b2a3 | samuelbonifacio015 | feat: completed auth functionality | 2025-10-07 |
+| c7a66d4 | samuelbonifacio015 | chore: debug for auth functionality | 2025-10-07 |
+| f0ea551 | samuelbonifacio015 | feat: testing register & login with alerts | 2025-10-07 |
+| fddb888 | samuelbonifacio015 | feat: auth function | 2025-10-07 |
+| 7f7ea0a | samuelbonifacio015 | fix: en lang improved | 2025-09-21 |
+| 2620a08 | samuelbonifacio015 | fix: arranged style overflow | 2025-09-21 |
+| f566e98 | JeffersonCastroPariona | Merge branch 'develop' | 2025-09-21 |
+| d46d4e6 | JeffersonCastroPariona | feat: save my changes lastest in landing | 2025-09-21 |
+| eb15b2a | JeffersonCastroPariona | feat: standarize the writing lang | 2025-09-21 |
+| 85b4f48 | JeffersonCastroPariona | Merge branch 'develop' | 2025-09-21 |
+| cc67c03 | JeffersonCastroPariona | feat: standarize the writing lang | 2025-09-21 |
+| 090adfc | JeffersonCastroPariona | Merge branch 'develop' | 2025-09-21 |
+| 02c29f2 | JeffersonCastroPariona | feat: charger images | 2025-09-21 |
+| 7f790b1 | JeffersonCastroPariona | feat: standarize the landing & artifacts language and styles | 2025-09-21 |
+| 81a8945 | samuelbonifacio015 | fix: fixed sections & syntax | 2025-09-20 |
+| cb28e86 | JeffersonCastroPariona | chore: add .gitignore to ignore .DS_Store | 2025-09-20 |
+| 59183d9 | JeffersonCastroPariona | feat: add design descriptions text and logotype startup | 2025-09-20 |
+| 42af56e | JeffersonCastroPariona | feat: add images folder and update index.html | 2025-09-20 |
+| 5eb6b3f | JeffersonCastroPariona | feat: add images folder and update index.html | 2025-09-20 |
+| 457c4a0 | samuelbonifacio015 | chore: SEO and Meta tags added | 2025-09-20 |
+| 626b448 | samuelbonifacio015 | feat: merged sections & responsive | 2025-09-20 |
+| c14157e | samuelbonifacio015 | chore: updated logo & index | 2025-09-20 |
+| 879b814 | samuelbonifacio015 | feat: added features & purchase sections | 2025-09-20 |
+| 6b06fef | samuelbonifacio015 | feat: added responsive hamburger menu | 2025-09-20 |
+| c911dca | samuelbonifacio015 | feat: merged initial setup | 2025-09-20 |
+| 31de6c2 | samuelbonifacio015 | feat: initial setup for landing page | 2025-09-20 |
 
 ---
 
@@ -2489,148 +2493,37 @@ En esta sección se detalla la planificación del Frontend Web Application de Cu
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-<table>
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit</th>
-    <th>Date</th>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>develop</td>
-    <td>3c7acf2</td>
-    <td>Update index.js</td>
-    <td>2025-10-10</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature_dashboard</td>
-    <td>29eae95</td>
-    <td>feature: final commit</td>
-    <td>2025-10-10</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>pre-final</td>
-    <td>2db80c7</td>
-    <td>commits: preview final changes</td>
-    <td>2025-10-09</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>develop</td>
-    <td>683228</td>
-    <td>Merge remote-tracking branch 'origin/main' into develop</td>
-    <td>2025-10-09</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/fields</td>
-    <td>c9cab99</td>
-    <td>Update db.json</td>
-    <td>2025-10-09</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/fields</td>
-    <td>41d8990</td>
-    <td>fixed db.json</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/fields</td>
-    <td>aeaa6f0</td>
-    <td>Merge remote-tracking branch 'origin/feature/fields' into develop</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>5167129</td>
-    <td>Merge remote-tracking branch 'origin/tasks&comunity' into develop</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/crops</td>
-    <td>e82e591</td>
-    <td>Merge remote-tracking branch 'origin/feature/crops' into develop</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature_dashboard</td>
-    <td>f04a0be</td>
-    <td>fixture dashboard</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/crops</td>
-    <td>fa78823</td>
-    <td>Add crop registration managment form</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>d1ebf4b</td>
-    <td>feat: community API response working</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>cf67542</td>
-    <td>feat: added community components</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>f6766dd</td>
-    <td>fix: update task handling</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>40b8f5d</td>
-    <td>fix: component lang & better comments</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>tasks&comunity</td>
-    <td>3c134a3</td>
-    <td>feat: added my-task component</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>feature/fields</td>
-    <td>245bee2</td>
-    <td>feature: Modified and improve fields</td>
-    <td>2025-10-08</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>main</td>
-    <td>c4bde32</td>
-    <td>First update</td>
-    <td>2025-10-07</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Frontend-FruTech</td>
-    <td>main</td>
-    <td>e41ab39</td>
-    <td>Initial commit</td>
-    <td>2025-09-14</td>
-  </tr>
-</table>
+- Commits del Frontend
+
+|Commit ID| Author | Commit Message| Date|
+|---------|--------|---------------|-----|
+|3c7acf2| Shukaritas| Update index.js| 2025/10/10|
+|29eae95| Shukaritas| feature: final commit| 2025/10/10|
+|2db80c7| Shukaritas| commits: preview final changes| 2025/10/09|
+|683228c| Shukaritas| Merge remote-tracking branch 'origin/main' into develop| 2025/10/09|
+|c9cab99| Shukaritas| Update db.json| 2025/10/09|
+|41d8990| Estefano-Solis-C| fixed db.json| 2025/10/08|
+|aeaa6f0| Estefano-Solis-C| Merge remote-tracking branch 'origin/feature/fields' into develop| 2025/10/08|
+|5167129| Estefano-Solis-C| Merge remote-tracking branch 'origin/tasks&comunity' into develop| 2025/10/08|
+|e82e591| Estefano-Solis-C| Merge remote-tracking branch 'origin/feature/crops' into develop| 2025/10/08|
+|f04a0be| Serkekes2006| fixture dashboard| 2025/10/08|
+|fa78823| JeffersonCastroPariona| Add crop registration managment form| 2025/10/08|
+|d1ebf4b| samuelbonifacio015| feat: community API response working| 2025/10/08|
+|cf67542| samuelbonifacio015| feat: added community components| 2025/10/08|
+|f6766dd| samuelbonifacio015| fix: update task handling| 2025/10/08|
+|40b8f5d| samuelbonifacio015| fix: component lang & better comments| 2025/10/08|
+|3c134a3| samuelbonifacio015| feat: added my-task component| 2025/10/08|
+|245bee2| Shukaritas| feature: Modified and improve fields| 2025/10/08|
+|c4bde32| Estefano-Solis-C| First update| 2025/10/07|
+|e41ab39| Estefano-Solis-C| Initial commit| 2025/09/14|
+
+- Commits de la Landing Page
+
+|Commit ID| Author | Commit Message| Date|
+|---------|--------|---------------|-----|
+|59f741f| samuelbonifacio015| chore: merged redirection link| 2025/10/10|
+|7976467| samuelbonifacio015| chroe: updated "Ir a CultivApp" to redirect to frontend| 2025/10/10|
+|d675419| samuelbonifacio015| feat: merged auth funcionality| 2025/10/09|
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -2717,7 +2610,15 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 
 <br>
 
+* Evidencia de commits en el Frontend
+
 <img src="assets/commits_sprint2.png" alt="Commits Sprint 2">
+
+<br>
+
+* Evidencia de commits en la Landing Page
+
+![Landing Page Evidence](assets/Landing_Page_Parcial.png)
 
 --- 
 
@@ -2927,106 +2828,49 @@ las funciones de diseño, codificación, validación y despliegue de la solució
 
 ### 5.2.3.4.	Development Evidence for Sprint Review.
 
-<table border="1">
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit</th>
-    <th>Date</th>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>c4a9b1f</td>
-    <td>feat(auth): Add user registration endpoint</td>
-    <td>2025-11-10</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>e2g8f5d</td>
-    <td>feat(auth): Implement login endpoint with JWT</td>
-    <td>2025-11-10</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>f9g1h2i</td>
-    <td>feat(auth): Create password recovery service</td>
-    <td>2025-11-11</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>h3i4j5k</td>
-    <td>feat(users): Add endpoint to edit user profile</td>
-    <td>2025-11-11</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>k6l7m8n</td>
-    <td>feat(crops): Create endpoint to register new crops</td>
-    <td>2025-11-12</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>m9n1o2p</td>
-    <td>feat(crops): Add delete crop endpoint</td>
-    <td>2025-11-12</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>a1b2c3d</td>
-    <td>feat(crops): Add update crop endpoint</td>
-    <td>2025-11-13</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>p3q4r5s</td>
-    <td>feat(fields): Create endpoint to register fields</td>
-    <td>2025-11-13</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>s6t7u8v</td>
-    <td>feat(fields): Add endpoint to publish a field</td>
-    <td>2025-11-13</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>b6c7d8e</td>
-    <td>feat(fields): Add endpoint to link crop to field</td>
-    <td>2025-11-14</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>v9w1x2y</td>
-    <td>feat(fields): Extend field model with additional data</td>
-    <td>2025-11-14</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>y3z4a5b</td>
-    <td>fix(auth): Add duplicate user validation on register</td>
-    <td>2025-11-15</td>
-  </tr>
-  <tr>
-    <td>Apps-Web-Grupo-4-FruTech/Backend-FruTech</td>
-    <td>main</td>
-    <td>e9f1a2b</td>
-    <td>feat(system): Add health check endpoint</td>
-    <td>2025-11-15</td>
-  </tr>
-</table>
+|Commit ID| Author | Commit Message| Date|
+|---------|--------|---------------|-----|
+|a022b6d| Shukaritas| feat: final pre develop| 2025/11/16|
+|eefbf08| Shukaritas| feat: pre-deploy| 2025/11/16|
+|06da246| Estefano-Solis-C| Disable forced port| 2025/11/16|
+|92a8d2c| Estefano-Solis-C| Enabled all ports in all context| 2025/11/16|
+|82af78e| Estefano-Solis-C| Dockerfile| 2025/11/16|
+|ed54d60| Serkekes2006| feat-updated-bakend| 2025/11/16|
+|fbf9d5e| Gaftherman| Final Update| 2025/11/15|
+|c125e4b| Gaftherman| Files Updated| 2025/11/15|
+|3c12701| Gaftherman| Files Updated| 2025/11/15|
+|152b483| Gaftherman| Merge branch 'Jefferson' into develop| 2025/11/15|
+|368cc81| Gaftherman| Updated files compatibilty| 2025/11/15|
+|294c145| Gaftherman| Merge branch 'feature/community' into develop| 2025/11/15|
+|6bcb3e8| Gaftherman| Delete idk| 2025/11/15|
+|c6ead0c| Gaftherman| Merge branch 'profileandupcomingtask' into develop| 2025/11/15|
+|b0fe82a| Gaftherman| Fixed commit message| 2025/11/15|
+|2b5cb7e| Gaftherman| Merge branch 'fields' into develop| 2025/11/15|
+|d58613e| Gaftherman| Deleting Unused Files| 2025/11/15|
+|7f3b65f| Gaftherman| Deleting Unused Files| 2025/11/15|
+|b5e2195| Gaftherman| Deleting Unused Files| 2025/11/15|
+|3c6128d| Gaftherman| Deleting Unused Files| 2025/11/15|
+|dd31074| Gaftherman| Deleting Unused Files| 2025/11/15|
+|8fd3532| Gaftherman| Deleteing unused files| 2025/11/15|
+|c615492| samuelbonifacio015| chore: name fix| 2025/11/15|
+|16ac9ac| samuelbonifacio015| feat: main program config| 2025/11/15|
+|b7d610a| samuelbonifacio015| feat: add CR QueryService| 2025/11/15|
+|d9b8418| samuelbonifacio015| feat: update CRController| 2025/11/15|
+|f723ba7| samuelbonifacio015| feat: add implement CR command service| 2025/11/15|
+|eb50473| samuelbonifacio015| fix: mminor fixes| 2025/11/15|
+|fdb4522| samuelbonifacio015| feat: add CR application/internal| 2025/11/15|
+|752db64| samuelbonifacio015| feat: add CR REST interfaces| 2025/11/15|
+|36025ed| samuelbonifacio015| feat: add CR infrastructure| 2025/11/15|
+|a3671db| samuelbonifacio015| feat: add CR repositories & services| 2025/11/15|
+|d9df421| samuelbonifacio015| feat: CR domain update| 2025/11/15|
+|4eab47b| JeffersonCastroPariona| Update Tasks JeffersonCastro| 2025/11/14|
+|aca777f| Gaftherman| feat: endpoint user and upcoming task| 2025/11/14|
+|01c7290| Shukaritas| feat: Fields and CropFields| 2025/11/14|
+|c0457f2| JeffersonCastroPariona| Tasks:JeffCastro| 2025/11/14|
+|371cd66| JeffersonCastroPariona| bounded_context:Tasks-JeffersonCastro| 2025/11/14|
+|3038219| JeffersonCastroPariona| tasksv1| 2025/11/14|
+|da16e71| Shukaritas| Feat: Shared Content & Bounded Context| 2025/11/11|
+|73a8d6f| Estefano-Solis-C| Initial commit| 2025/09/14|
 
 ### 5.2.3.5.	Execution Evidence for Sprint Review.
 
@@ -3090,7 +2934,7 @@ A continuación se detallan los pasos realizados y la evidencia correspondiente.
 <img src="assets/Deploy.jpeg" alt="Despliegue Completo">
 
 
-**Url des depliegue:** * pendiente url
+**Url del depliegue:** https://backend-frutech.onrender.com/swagger/index.html 
 
 ### 5.2.3.8.	Team Collaboration Insights during Sprint.
 
@@ -3314,17 +3158,165 @@ En esta sección se detalla la planificación de la fase final: Seguridad, Audit
 
 ### 5.2.4.4. Development Evidence for Sprint Review
 
-Commits en Backend: 
+* Commits en Backend: 
 
-
+|Commit ID| Author | Commit Message| Date|
+|---------|--------|---------------|-----|
+|9fa52d5| Shukaritas| feat: Updated Methods to Deploy| 2025/12/04|
+|5f0f67d| Estefano-Solis-C| feat: user bounded context added| 2025/12/04|
+|f8b05ad| JeffersonCastroPariona| git: add tasks| 2025/12/04|
+|349e102| samuelbonifacio015| feat: improve CR| 2025/12/04|
+|f6d798b| Serkekes2006| feed dashboard comit| 2025/12/03|
+|0b054b9| Shukaritas| feat: updating crop field methods to shared| 2025/12/03|
+|9767219| Shukaritas| feat: improved methods for frontend| 2025/12/03|
+|a022b6d| Shukaritas| feat: final pre develop| 2025/11/16|
+|eefbf08| Shukaritas| feat: pre-deploy| 2025/11/16|
+|06da246| Estefano-Solis-C| Disable forced port| 2025/11/16|
+|92a8d2c| Estefano-Solis-C| Enabled all ports in all context| 2025/11/16|
+|82af78e| Estefano-Solis-C| Dockerfile| 2025/11/16|
+|ed54d60| Serkekes2006| feat-updated-bakend| 2025/11/16|
+|fbf9d5e| Gaftherman| Final Update| 2025/11/15|
+|c125e4b| Gaftherman| Files Updated| 2025/11/15|
+|3c12701| Gaftherman| Files Updated| 2025/11/15|
+|152b483| Gaftherman| Merge branch 'Jefferson' into develop| 2025/11/15|
+|368cc81| Gaftherman| Updated files compatibilty| 2025/11/15|
+|294c145| Gaftherman| Merge branch 'feature/community' into develop| 2025/11/15|
+|6bcb3e8| Gaftherman| Delete idk| 2025/11/15|
+|c6ead0c| Gaftherman| Merge branch 'profileandupcomingtask' into develop| 2025/11/15|
+|b0fe82a| Gaftherman| Fixed commit message| 2025/11/15|
+|2b5cb7e| Gaftherman| Merge branch 'fields' into develop| 2025/11/15|
+|d58613e| Gaftherman| Deleting Unused Files| 2025/11/15|
+|7f3b65f| Gaftherman| Deleting Unused Files| 2025/11/15|
+|b5e2195| Gaftherman| Deleting Unused Files| 2025/11/15|
+|3c6128d| Gaftherman| Deleting Unused Files| 2025/11/15|
+|dd31074| Gaftherman| Deleting Unused Files| 2025/11/15|
+|8fd3532| Gaftherman| Deleteing unused files| 2025/11/15|
+|c615492| samuelbonifacio015| chore: name fix| 2025/11/15|
+|16ac9ac| samuelbonifacio015| feat: main program config| 2025/11/15|
+|b7d610a| samuelbonifacio015| feat: add CR QueryService| 2025/11/15|
+|d9b8418| samuelbonifacio015| feat: update CRController| 2025/11/15|
+|f723ba7| samuelbonifacio015| feat: add implement CR command service| 2025/11/15|
+|eb50473| samuelbonifacio015| fix: mminor fixes| 2025/11/15|
+|fdb4522| samuelbonifacio015| feat: add CR application/internal| 2025/11/15|
+|752db64| samuelbonifacio015| feat: add CR REST interfaces| 2025/11/15|
+|36025ed| samuelbonifacio015| feat: add CR infrastructure| 2025/11/15|
+|a3671db| samuelbonifacio015| feat: add CR repositories & services| 2025/11/15|
+|d9df421| samuelbonifacio015| feat: CR domain update| 2025/11/15|
+|4eab47b| JeffersonCastroPariona| Update Tasks JeffersonCastro| 2025/11/14|
+|aca777f| Gaftherman| feat: endpoint user and upcoming task| 2025/11/14|
+|01c7290| Shukaritas| feat: Fields and CropFields| 2025/11/14|
+|c0457f2| JeffersonCastroPariona| Tasks:JeffCastro| 2025/11/14|
+|371cd66| JeffersonCastroPariona| bounded_context:Tasks-JeffersonCastro| 2025/11/14|
+|3038219| JeffersonCastroPariona| tasksv1| 2025/11/14|
+|da16e71| Shukaritas| Feat: Shared Content & Bounded Context| 2025/11/11|
+|73a8d6f| Estefano-Solis-C| Initial commit| 2025/09/14|
 
 * Commits en Frontend: 
 
+|Commit ID| Author | Commit Message| Date|
+|---------|--------|---------------|-----|
+|182ee02| Shukaritas| Deployment Details| 2025/12/04|
+|2f23605| Shukaritas| commit: Deployment Methods| 2025/12/04|
+|06fec7c| Estefano-Solis-C| feat: implementation of new iam| 2025/12/04|
+|759559b| JeffersonCastroPariona| git: add: bc my-tasks| 2025/12/04|
+|add730f| samuelbonifacio015| feat: improve CR| 2025/12/04|
+|05147c4| Serkekes2006| feed comit| 2025/12/03|
+|5f47e18| Shukaritas| feat: login and profile management| 2025/12/03|
+|3c7acf2| Shukaritas| Update index.js| 2025/10/10|
+|29eae95| Shukaritas| feature: final commit| 2025/10/10|
+|2db80c7| Shukaritas| commits: preview final changes| 2025/10/09|
+|683228c| Shukaritas| Merge remote-tracking branch 'origin/main' into develop| 2025/10/09|
+|c9cab99| Shukaritas| Update db.json| 2025/10/09|
+|41d8990| Estefano-Solis-C| fixed db.json| 2025/10/08|
+|aeaa6f0| Estefano-Solis-C| Merge remote-tracking branch 'origin/feature/fields' into develop| 2025/10/08|
+|5167129| Estefano-Solis-C| Merge remote-tracking branch 'origin/tasks&comunity' into develop| 2025/10/08|
+|e82e591| Estefano-Solis-C| Merge remote-tracking branch 'origin/feature/crops' into develop| 2025/10/08|
+|f04a0be| Serkekes2006| fixture dashboard| 2025/10/08|
+|fa78823| JeffersonCastroPariona| Add crop registration managment form| 2025/10/08|
+|d1ebf4b| samuelbonifacio015| feat: community API response working| 2025/10/08|
+|cf67542| samuelbonifacio015| feat: added community components| 2025/10/08|
+|f6766dd| samuelbonifacio015| fix: update task handling| 2025/10/08|
+|40b8f5d| samuelbonifacio015| fix: component lang & better comments| 2025/10/08|
+|3c134a3| samuelbonifacio015| feat: added my-task component| 2025/10/08|
+|245bee2| Shukaritas| feature: Modified and improve fields| 2025/10/08|
+|c4bde32| Estefano-Solis-C| First update| 2025/10/07|
+|e41ab39| Estefano-Solis-C| Initial commit| 2025/09/14|
+
+* Commits en Lading Page:
+
+|Commit ID| Author | Commit Message| Date|
+|---------|--------|---------------|-----|
+|462483e| samuelbonifacio015| feat: merge video section & delete auth| 2025/12/04|
+|9cb7037| samuelbonifacio015| refactor: update frontend button & deleted auth| 2025/12/04|
+|7d2eddc| samuelbonifacio015| feat: add videos| 2025/12/04|
+| 744b2a3 | samuelbonifacio015 | feat: completed auth functionality | 2025-10-07 |
+| c7a66d4 | samuelbonifacio015 | chore: debug for auth functionality | 2025-10-07 |
+| f0ea551 | samuelbonifacio015 | feat: testing register & login with alerts | 2025-10-07 |
+| fddb888 | samuelbonifacio015 | feat: auth function | 2025-10-07 |
+| 7f7ea0a | samuelbonifacio015 | fix: en lang improved | 2025-09-21 |
+| 2620a08 | samuelbonifacio015 | fix: arranged style overflow | 2025-09-21 |
+| f566e98 | JeffersonCastroPariona | Merge branch 'develop' | 2025-09-21 |
+| d46d4e6 | JeffersonCastroPariona | feat: save my changes lastest in landing | 2025-09-21 |
+| eb15b2a | JeffersonCastroPariona | feat: standarize the writing lang | 2025-09-21 |
+| 85b4f48 | JeffersonCastroPariona | Merge branch 'develop' | 2025-09-21 |
+| cc67c03 | JeffersonCastroPariona | feat: standarize the writing lang | 2025-09-21 |
+| 090adfc | JeffersonCastroPariona | Merge branch 'develop' | 2025-09-21 |
+| 02c29f2 | JeffersonCastroPariona | feat: charger images | 2025-09-21 |
+| 7f790b1 | JeffersonCastroPariona | feat: standarize the landing & artifacts language and styles | 2025-09-21 |
+| 81a8945 | samuelbonifacio015 | fix: fixed sections & syntax | 2025-09-20 |
+| cb28e86 | JeffersonCastroPariona | chore: add .gitignore to ignore .DS_Store | 2025-09-20 |
+| 59183d9 | JeffersonCastroPariona | feat: add design descriptions text and logotype startup | 2025-09-20 |
+| 42af56e | JeffersonCastroPariona | feat: add images folder and update index.html | 2025-09-20 |
+| 5eb6b3f | JeffersonCastroPariona | feat: add images folder and update index.html | 2025-09-20 |
+| 457c4a0 | samuelbonifacio015 | chore: SEO and Meta tags added | 2025-09-20 |
+| 626b448 | samuelbonifacio015 | feat: merged sections & responsive | 2025-09-20 |
+| c14157e | samuelbonifacio015 | chore: updated logo & index | 2025-09-20 |
+| 879b814 | samuelbonifacio015 | feat: added features & purchase sections | 2025-09-20 |
+| 6b06fef | samuelbonifacio015 | feat: added responsive hamburger menu | 2025-09-20 |
+| c911dca | samuelbonifacio015 | feat: merged initial setup | 2025-09-20 |
+| 31de6c2 | samuelbonifacio015 | feat: initial setup for landing page | 2025-09-20 |
 
 ### 5.2.4.5.Execution Evidence for Sprint Review.
 
-* pendiente deployment
+Durante el Sprint 4, se logró un progreso significativo en la fusion e integracion del backend con el frontend usando los múltiples endpoints en Swagger que permiten la gestión de entidades clave como campos, cultivos y tareas.
 
+Todo el código fue desarrollado siguiendo principios de arquitectura limpia, con especial énfasis en la separación de capas y la persistencia adecuada de datos.
+
+* Bounded Context registrados en la base de datos
+<div align=center>
+
+![Bounded Context in Data Base](assets/BC_DB.png)
+</div>
+
+* Bounded Context Field (Core) en la base de datos
+<div align=center>
+
+![Bounded Context Field in Data Base](assets/BC_FIELD_DB.png)
+</div>
+
+Dentro de la ejecución de este sprint tambien se debio añadira y modificar partes del Frontend para que coincida con la logica de negocios establecidas en el inicio, como pueba de esto se añadieron 2 nuevas secciones, el "Log in" o "Iniciar sesion" y "Register" o "Registrarse" siendo partes fundamentales para la ejecucion correcta
+
+* Inicio de sesion en el Frontend
+<div align=center>
+
+![Log in in Frontend](assets/Login_FEND.png)
+</div>
+
+
+* Registro de usuario en el Frontend
+<div align=center>
+
+![Register in Frontend](assets/register_fend.png)
+</div>
+
+* Capturas del Backend reestructurado y ejecutandose
+<div align=center>
+
+![Backend Execution](assets/BEND_1.png)
+![Backend Execution](assets/BEND_2.png)
+![Backend Execution](assets/BEND_3.png)
+![Backend Execution](assets/BEND_4.png)
+</div>
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Durante este Sprint se realizó la conexión de ambos servicios (Frontend y Backend) y se realizaron las pruebas unitarias para validar su funcionamiento.
@@ -3348,7 +3340,74 @@ contexto.
 
 <br>
 
+* Gestión de Usuarios (Users)
 
+| HTTP Verb| Endpoint | Operation Id| Summary |
+|----------|----------|-------------|---------|
+| POST | /sign-up | SignUp | Creates a new user in the system. |
+| POST | /sign-in | SignIn | Authenticates a user and returns a basic session payload. |
+| GET | /{id} | GetUserById | Gets a user by id. |
+| PUT | /{id}/profile | UpdateProfile | Updates the profile of an existing user. |
+| PUT | /{id}/password | UpdatePassword | Updates a user's password. |
+| DELETE | /{id} | Delete | Deletes a user from the system. |
+
+* Recomendaciones de la Comunidad (Community Recommendation)
+
+| HTTP Verb| Endpoint | Operation Id| Summary |
+|----------|----------|-------------|---------|
+| GET | /{recommendationId} | GetCommunityRecommendationById | Get Community Recommendation By Id. |
+| GET | / | GetAllCommunityRecommendations | Get All Community Recommendations. |
+| POST | / | CreateCommunityRecommendation | Create Community Recommendation. |
+| PUT | /{id} | UpdateCommunityRecommendation | Update Community Recommendation. |
+| PATCH | /{id}/content | UpdateCommunityRecommendationContent | Update Community Recommendation Content. |
+
+* Gestión de Campos (Fields)
+
+| HTTP Verb| Endpoint | Operation Id| Summary |
+|----------|----------|-------------|---------|
+| POST | / | CreateField | Creates a new field and its associated ProgressHistory automatically. |
+| GET | /user/{userId} | GetFieldsByUserId | Gets all fields for a user. |
+| GET | /{id} | GetFieldById | Gets a field by ID. |
+
+* Cultivos en Campos (Crop Fields)
+
+| HTTP Verb| Endpoint | Operation Id| Summary |
+|----------|----------|-------------|---------|
+| POST | / | CreateCropField | Creates a new CropField associated with a Field. |
+| GET | / | GetAllCropFields | Gets all CropFields. |
+| GET | /{id} | GetCropFieldById | Gets a CropField by ID. |
+| GET | /field/{fieldId} | GetCropFieldByFieldId | Gets the CropField associated with a Field. |
+| GET | /user/{userId} | GetCropFieldsByUserId | Gets all CropFields associated with a specific user. |
+| PUT | /{id} | UpdateCropField | Updates attributes of a CropField. |
+| DELETE | /{id} | DeleteCropField | Soft-delete a CropField by ID. |
+
+* Historial de Progreso (Progress History)
+
+| HTTP Verb| Endpoint | Operation Id| Summary |
+|----------|----------|-------------|---------|
+| GET | / | GetAll | Gets all progress history records. |
+| GET | /{id} | GetById | Gets a progress history by its identifier. |
+| POST | / | Create | Creates a new progress history record. |
+| PUT | /{id} | Update | Updates a progress history record. |
+
+* Tareas (Tasks)
+
+| HTTP Verb| Endpoint | Operation Id| Summary |
+|----------|----------|-------------|---------|
+| GET | / | GetAllTasks | Gets all registered tasks. |
+| GET | /{id} | GetTaskById | Gets a specific task by its identifier. |
+| GET | /field/{fieldId} | GetTasksByField | Gets tasks associated with a specific field. |
+| GET | /user/{userId} | GetTasksByUserId | Gets all tasks associated with a specific user. |
+| GET | /user/{userId}/upcoming/{count} | GetUpcomingTasksByUser | Gets upcoming tasks for a user. |
+| POST | / | CreateTask | Creates a new task. |
+| PUT | /{id} | UpdateTask | Updates data of an existing task. |
+| DELETE | /{id} | DeleteTask | Deletes a task. |
+
+* Geolocalización (Location)
+
+| HTTP Verb| Endpoint | Operation Id| Summary |
+|----------|----------|-------------|---------|
+| GET | / | GetLocation | Gets the user's location based on their IP address. |
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
@@ -3364,12 +3423,48 @@ Archivos de configuracion clave
 
 * Dockerfile: Utilizado para construir la imagen personalizada de la aplicación y facilitar el despliegue en Render.
 
-* pendiente imagenes
+Ahora se evidenciara el despliegue de todas las secciones del proyecto
+
+* Despliegue de la base de datos realcional (MySQL) en TiDB
+
+<div align=center>
+
+![Deployed DB](assets/Despliegue_DB.png)
+![Deployed DB](assets/DETAIL_DB.png)
+</div>
+
+* Despliegue del Backend en Render
+
+![Deployed Backend](assets/Backend_Depsliegue.png)
+
+
+* Despliegue del Frontend en Vercel
+
+![Deployed Frontend](assets/Fronted_Deployed.png)
+
+* Despliegue de la Landing Page
+
+
+>Url de Desppliegue del Backend: https://backend-frutech.onrender.com/swagger/index.html 
+
+>Url de Desppliegue del Frontend: https://frontend-frutech.vercel.app/ 
+
+>Url de Desppliegue de la Landing Page:
 
 ### 5.2.4.8.Team Collaboration Insights during Sprint.
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
 
+* Colaboracion en el Backend
 
+![Backend Collaborators](assets/Backend_Graph.png)
+![Backend Collaborators](assets/Backend_Graph_Detail.png)
+
+* Colaboracion en el Frontend
+
+![Frontend Collaborators](assets/Frontend_Graph.png)
+![Frontend Collaborators](assets/Frontend_Graph_Detail.png)
+
+* Colaboracion en la Landing Page
 
 # 5.3. Validation Interviews.
 
@@ -3739,7 +3834,7 @@ https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
 
 Despliegue de Frontend:
 
-* pendiente
+https://frontend-frutech.vercel.app/
 
 Repositorio de Github - CultivApp (FruTech) - Backend:
 
@@ -3747,7 +3842,7 @@ https://github.com/Apps-Web-Grupo-4-FruTech/Backend-FruTech
 
 Despliegue de Backend:
 
-* pendiente
+https://backend-frutech.onrender.com/swagger/index.html
 
 Documento de Presentacion - FruTech:
 
