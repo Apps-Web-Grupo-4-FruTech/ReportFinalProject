@@ -2588,7 +2588,7 @@ recolección de feedback en tiempo real.
 - URL del repositorio: https://github.com/Apps-Web-Grupo-4-FruTech/Frontend-FruTech
 
 > URL del despliegue <br>
-> https://frontend-frutech-static.onrender.com/
+> https://frontend-frutech.vercel.app/
 
 **Responsable**
 
@@ -2934,7 +2934,7 @@ A continuación se detallan los pasos realizados y la evidencia correspondiente.
 <img src="assets/Deploy.jpeg" alt="Despliegue Completo">
 
 
-**Url del depliegue:** https://backend-frutech.onrender.com/swagger/index.html 
+**Url del depliegue:** https://backend-frutech.onrender.com/swagger/index.html  
 
 ### 5.2.3.8.	Team Collaboration Insights during Sprint.
 
@@ -3445,6 +3445,7 @@ Ahora se evidenciara el despliegue de todas las secciones del proyecto
 
 * Despliegue de la Landing Page
 
+![Deployed Frontend](assets/Landing_Despliegue.jpeg)
 
 >Url de Desppliegue del Backend: https://backend-frutech.onrender.com/swagger/index.html 
 
@@ -3827,7 +3828,7 @@ https://github.com/Apps-Web-Grupo-4-FruTech/Landing-Page
 
 Despliegue de Landing Page:
 
-https://apps-web-grupo-4-frutech.github.io/Landing-Page/
+
 
 Repositorio de Github - CultivApp (FruTech) - Frontend:
 
