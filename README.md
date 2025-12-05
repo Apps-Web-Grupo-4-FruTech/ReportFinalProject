@@ -2943,7 +2943,7 @@ A continuación se detallan los pasos realizados y la evidencia correspondiente.
 <img src="assets/Deploy.jpeg" alt="Despliegue Completo">
 
 
-**Url del depliegue:** https://backend-frutech.onrender.com/swagger/index.html  
+**Url del depliegue:** https://backend-frutech.onrender.com/swagger/index.html
 
 ### 5.2.3.8.	Team Collaboration Insights during Sprint.
 
@@ -3440,7 +3440,7 @@ Ahora se evidenciara el despliegue de todas las secciones del proyecto
 <div align=center>
 
 ![Deployed DB](assets/Despliegue_DB.png)
-![Deployed DB](assets/DETAIL_DB.png)
+![Deployed DB](assets/SQLeditor.jpeg)
 </div>
 
 * Despliegue del Backend en Render
@@ -3456,11 +3456,11 @@ Ahora se evidenciara el despliegue de todas las secciones del proyecto
 
 ![Deployed Frontend](assets/Landing_Despliegue.jpeg)
 
->Url de Desppliegue del Backend: https://backend-frutech.onrender.com/swagger/index.html 
+>Url de Despliegue del Backend: https://backend-frutech.onrender.com/swagger/index.html
 
->Url de Desppliegue del Frontend: https://frontend-frutech.vercel.app/ 
+>Url de Despliegue del Frontend: https://frontend-frutech.vercel.app/
 
->Url de Desppliegue de la Landing Page: https://apps-web-grupo-4-frutech.github.io/Landing-Page/
+>Url de Despliegue de la Landing Page: https://apps-web-grupo-4-frutech.github.io/Landing-Page/
 
 ### 5.2.4.8.Team Collaboration Insights during Sprint.
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
@@ -3476,7 +3476,7 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 ![Frontend Collaborators](assets/Frontend_Graph_Detail.png)
 
 * Colaboracion en la Landing Page
-
+![Frontend Collaborators](assets/ComitsLanding.png)
 # 5.3. Validation Interviews.
 
 ## 5.3.1. Diseño de Entrevistas.
