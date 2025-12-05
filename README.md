@@ -3312,7 +3312,7 @@ Dentro de la ejecución de este sprint tambien se debio añadira y modificar par
 * Capturas del Backend reestructurado y ejecutandose
 <div align=center>
 
-![Backend Execution](assets/BEND_1.png)
+![Backend Execution](assets/BEND_TOKEN.png)
 ![Backend Execution](assets/BEND_2.png)
 ![Backend Execution](assets/BEND_3.png)
 ![Backend Execution](assets/BEND_4.png)
